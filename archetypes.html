@@ -332,6 +332,7 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .fill-grid{align-items:stretch}
 .fill-grid > *{min-height:0}
 .hero-stage{display:grid;grid-template-columns:1.15fr .85fr;gap:16px}
+.season-summary-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:16px}
 .spotlight{
   padding:20px;
   border-radius:20px;
@@ -388,6 +389,14 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   font-size:22px;
   font-weight:800;
   line-height:1.05;
+}
+.arch-lead-card .deck-summary-tier-value{
+  font-size:17px;
+  line-height:1.15;
+}
+.arch-lead-card .deck-summary-tier-value a{
+  color:var(--text);
+  text-decoration:none;
 }
 .deck-summary-topline{
   display:grid;
@@ -485,6 +494,12 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 }
 .deck-summary-media.split img + img{
   border-left:1px solid rgba(255,255,255,.16);
+}
+.arch-summary-media img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
 }
 .deck-summary-trend-head{
   display:flex;
@@ -662,6 +677,128 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   font-size:12px;
 }
 .meta-strip{display:grid;gap:10px}
+.summary-side-stack{display:grid;gap:10px}
+.summary-glance-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  margin-top:12px;
+}
+.summary-glance-card{
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:16px;
+  padding:14px;
+  min-width:0;
+}
+.summary-glance-card .label{
+  font-size:11px;
+  color:var(--muted);
+  font-weight:700;
+  letter-spacing:.04em;
+  margin-bottom:8px;
+}
+.summary-glance-card .value{
+  font-size:18px;
+  font-weight:800;
+  line-height:1.2;
+}
+.summary-glance-card .note{
+  font-size:12px;
+  color:var(--muted);
+  margin-top:8px;
+  line-height:1.45;
+}
+.summary-glance-card .value a{
+  color:var(--text);
+  text-decoration:none;
+}
+.summary-week-rail{
+  display:grid;
+  gap:6px;
+  margin-top:14px;
+}
+.summary-week-head,
+.summary-week-row{
+  display:grid;
+  grid-template-columns:84px minmax(0,1fr) 76px 84px;
+  gap:10px;
+  align-items:center;
+}
+.summary-week-head{
+  padding:0 10px 2px;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700;
+}
+.summary-week-row{
+  padding:9px 10px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.06);
+  background:rgba(255,255,255,.03);
+}
+.summary-week-row.latest{
+  border-color:rgba(124,199,255,.22);
+  background:rgba(124,199,255,.08);
+}
+.summary-week-week{
+  font-size:12px;
+  font-weight:700;
+  white-space:nowrap;
+}
+.summary-week-deck{
+  min-width:0;
+  font-size:13px;
+  font-weight:700;
+}
+.summary-week-deck a{
+  color:var(--text);
+  text-decoration:none;
+}
+.summary-week-deck a:hover{color:var(--accent)}
+.summary-week-metric{
+  font-size:12px;
+  font-weight:700;
+  color:var(--text);
+  text-align:right;
+  white-space:nowrap;
+}
+.summary-week-metric.top3{color:var(--muted)}
+.summary-latest-card{
+  background:
+    radial-gradient(circle at top right, rgba(124,199,255,.18), transparent 42%),
+    linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.015));
+  border:1px solid rgba(124,199,255,.20);
+  border-radius:18px;
+  padding:16px;
+}
+.summary-latest-card .cap{
+  font-size:11px;
+  color:var(--accent);
+  font-weight:700;
+  letter-spacing:.05em;
+  margin-bottom:8px;
+}
+.summary-latest-card .big{
+  font-size:26px;
+  font-weight:800;
+  line-height:1.15;
+}
+.summary-latest-card .big a{
+  color:var(--text);
+  text-decoration:none;
+}
+.summary-latest-card .meta{margin-top:10px}
+.summary-latest-card .note{
+  margin-top:10px;
+  font-size:12px;
+  color:var(--muted);
+}
+.summary-insight-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
 .mini-card,.kpi{
   background:rgba(255,255,255,.03);
   border:1px solid rgba(255,255,255,.07);
@@ -692,6 +829,57 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .table th,.table td{padding:10px 8px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;vertical-align:top}
 .table th{color:var(--muted);font-weight:600;font-size:12px}
 .table tr:hover td{background:rgba(255,255,255,.025)}
+.deck-cards-wrap{
+  overflow:hidden;
+  padding-right:0;
+}
+.deck-cards-grid{
+  gap:10px;
+  height:100%;
+  min-height:0;
+  align-items:stretch;
+}
+.deck-cards-grid .panel{
+  padding:0;
+  height:100%;
+  min-height:0;
+}
+.deck-cards-grid .panel-head{padding:8px 10px 2px}
+.deck-cards-grid .section-title{font-size:15px;margin-bottom:0}
+.deck-cards-grid .table-wrap{
+  overflow-y:auto;
+  overflow-x:hidden;
+  padding-right:0;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+.deck-cards-grid .table-wrap::-webkit-scrollbar{display:none}
+.deck-cards-grid .table{font-size:11px}
+.deck-cards-grid .table th,
+.deck-cards-grid .table td{
+  padding:5px 6px;
+  line-height:1.15;
+}
+.deck-cards-grid .table th{font-size:10px}
+.deck-cards-grid .table thead th{
+  position:sticky;
+  top:0;
+  z-index:1;
+  background:linear-gradient(180deg,rgba(16,26,49,.98),rgba(23,36,67,.94));
+}
+.deck-cards-grid .table td:nth-child(2),
+.deck-cards-grid .table td:nth-child(3),
+.deck-cards-grid .table th:nth-child(2),
+.deck-cards-grid .table th:nth-child(3){
+  white-space:nowrap;
+  width:58px;
+}
+#meta-tier .table-wrap{
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+  padding-right:0;
+}
+#meta-tier .table-wrap::-webkit-scrollbar{display:none}
 .table-tier{table-layout:fixed}
 .table-tier th:nth-child(1),.table-tier td:nth-child(1){width:72px}
 .table-tier th:nth-child(3),.table-tier td:nth-child(3),
@@ -921,7 +1109,7 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .tier-stack-media.split{
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:2px;
+  gap:1px;
   background:rgba(255,255,255,.16);
 }
 .tier-stack-media::after{
@@ -945,13 +1133,14 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   filter:saturate(1.08) contrast(1.04) brightness(.9);
 }
 .tier-stack-media.split img{
-  transform:scale(1.08);
+  object-position:center 16%;
+  transform:scale(1.46);
 }
 .tier-stack-media.split img + img{
   border-left:1px solid rgba(255,255,255,.18);
 }
 .tier-stack-link:hover .tier-stack-media.split img{
-  transform:scale(1.12);
+  transform:scale(1.52);
 }
 .tier-stack-name{
   min-width:0;
@@ -1134,6 +1323,127 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   opacity:.54;
 }
 .trend-controls{display:grid;grid-template-rows:auto 1fr;gap:4px;flex:1;min-height:92px}
+.arch-breakdown-layout{
+  display:grid;
+  grid-template-columns:260px minmax(0,1fr);
+  gap:12px;
+  flex:1;
+  min-height:0;
+}
+.arch-breakdown-side{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  padding:10px;
+  min-height:0;
+}
+.arch-breakdown-list{
+  display:grid;
+  gap:8px;
+  min-height:0;
+  overflow:auto;
+  padding-right:2px;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+.arch-breakdown-list::-webkit-scrollbar{display:none}
+.arch-breakdown-item{
+  display:grid;
+  grid-template-columns:88px minmax(0,1fr);
+  gap:10px;
+  align-items:center;
+  padding:8px 9px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(255,255,255,.03);
+  color:var(--text);
+  text-align:left;
+  cursor:pointer;
+  min-width:0;
+}
+.arch-breakdown-item.active{
+  border-color:rgba(124,199,255,.22);
+  background:rgba(124,199,255,.08);
+}
+.arch-breakdown-item.inactive{
+  opacity:.52;
+}
+.arch-breakdown-thumb{
+  min-width:0;
+  aspect-ratio:16 / 7;
+}
+.arch-breakdown-fallback{
+  font-size:11px;
+  color:var(--muted);
+  font-weight:700;
+}
+.arch-breakdown-copy{
+  display:grid;
+  gap:4px;
+  min-width:0;
+}
+.arch-breakdown-name{
+  font-size:13px;
+  font-weight:800;
+  line-height:1.15;
+}
+.arch-breakdown-share{
+  font-size:11px;
+  color:var(--muted);
+  font-weight:700;
+}
+.arch-breakdown-chart{
+  display:flex;
+  flex-direction:column;
+  gap:1px;
+  padding:8px 10px;
+  min-height:0;
+}
+.arch-breakdown-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+.arch-breakdown-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.arch-breakdown-chart-wrap{
+  position:relative;
+  flex:1;
+  min-height:300px;
+}
+.arch-breakdown-chart-wrap svg{
+  width:100%;
+  height:100%;
+  display:block;
+}
+.arch-breakdown-legend{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:6px;
+  margin-top:8px;
+}
+.arch-breakdown-legend-item{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  min-width:0;
+  padding:5px 8px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(255,255,255,.03);
+  font-size:11px;
+  font-weight:700;
+  color:var(--text);
+}
+.arch-breakdown-legend-item .trend-label{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
 .trend-select-actions{display:flex;justify-content:flex-end;align-items:flex-start;margin-bottom:0}
 .trend-select-reset{
   border:none;
@@ -1243,7 +1553,21 @@ select,.search,input[type="date"],input[type="number"],input[type="text"]{
   padding:10px 12px;
   min-width:0;
   font-size:14px;
+  font-weight:600;
   width:100%;
+}
+select{
+  color:#f4f8ff;
+}
+select option,
+select optgroup{
+  color:#0b1730;
+  background:#ffffff;
+  font-weight:600;
+}
+select option:checked{
+  color:#ffffff;
+  background:#2b6fcc;
 }
 .field{display:grid;gap:6px}
 .field-label{font-size:12px;color:var(--muted);font-weight:600}
@@ -1335,7 +1659,7 @@ select,.search,input[type="date"],input[type="number"],input[type="text"]{
 .chart-panel .svg-wrap{flex:1;min-height:0;display:flex}
 .chart-panel svg{width:100%;height:100%}
 @media (max-width:1100px){
-  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side{grid-template-columns:1fr}
+  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend{grid-template-columns:1fr}
   .trend-legend{grid-template-columns:repeat(2,minmax(0,1fr))}
   .card-summary-hero{grid-template-columns:1fr}
   .card-summary-right{grid-template-rows:auto auto}
@@ -1344,6 +1668,7 @@ select,.search,input[type="date"],input[type="number"],input[type="text"]{
   .deck-summary-left{grid-template-rows:auto minmax(0,1fr)}
   .deck-summary-topline{grid-template-columns:1fr}
   .deck-summary-trend-head{align-items:flex-start;flex-direction:column}
+  .summary-week-head,.summary-week-row{grid-template-columns:72px minmax(0,1fr) 68px 76px}
   .card-summary-media{justify-self:start}
   .sidebar{position:fixed;z-index:20}
   .main{
@@ -1405,7 +1730,7 @@ select,.search,input[type="date"],input[type="number"],input[type="text"]{
       <div class="page-scroller" id="pageBody"></div>
     </main>
   </div>
-  <script src="data.js?v=700c7c5b7fe7"></script>
+  <script src="data.js?v=2569d9adfcd8"></script>
   <script>
 const VISUAL_MAP = {"ドラパルトex":{"tokens":[{"text":"ド","class":"dragon"}]},"ドラパルトex系":{"tokens":[{"text":"ド","class":"dragon"}]},"ドラパルトex / バシャーモex":{"tokens":[{"text":"ド","class":"dragon"},{"text":"バ","class":"fire"}]},"ドラパルトex / ノココッチex":{"tokens":[{"text":"ド","class":"dragon"},{"text":"ノ","class":"normal"}]},"メガルカリオex":{"tokens":[{"text":"ル","class":"steel"}]},"メガルカリオex系":{"tokens":[{"text":"ル","class":"steel"}]},"タケルライコex":{"tokens":[{"text":"雷","class":"electric"}]},"たねex系":{"tokens":[{"text":"種","class":"neutral"}]},"Nのゾロアークex":{"tokens":[{"text":"N","class":"dark"}]},"Nのゾロアークex系":{"tokens":[{"text":"N","class":"dark"}]},"フーディン":{"tokens":[{"text":"フ","class":"psychic"}]},"フーディン系":{"tokens":[{"text":"フ","class":"psychic"}]},"シロナのガブリアスex":{"tokens":[{"text":"ガ","class":"dragon"}]},"シロナのガブリアスex系":{"tokens":[{"text":"ガ","class":"dragon"}]},"メガゲッコウガex":{"tokens":[{"text":"ゲ","class":"water"}]},"ゲッコウガex系":{"tokens":[{"text":"ゲ","class":"water"}]},"ロケット団のミュウツーex":{"tokens":[{"text":"ミ","class":"psychic"}]},"ロケット団のミュウツーex系":{"tokens":[{"text":"ミ","class":"psychic"}]},"オリーヴァex":{"tokens":[{"text":"草","class":"grass"}]},"草系":{"tokens":[{"text":"草","class":"grass"}]},"シェイミ":{"tokens":[{"text":"シ","class":"grass"}]},"コダック":{"tokens":[{"text":"コ","class":"water"}]},"マシマシラ":{"tokens":[{"text":"マ","class":"psychic"}]},"ジャミングタワー":{"tokens":[{"text":"塔","class":"stadium"}]},"ロケット団の監視塔":{"tokens":[{"text":"塔","class":"stadium"}]},"ロック闘エネルギー":{"tokens":[{"text":"闘","class":"energy"}]},"その他草":{"tokens":[{"text":"草","class":"type"}]},"その他（同アーキタイプ内）":{"tokens":[{"text":"他","class":"group"}]}};
 const CARD_IMAGE_LOOKUP = {"ゲッコウガex":"https://www.pokemon-card.com/assets/images/card_images/large/SV5a/045621_P_GEKKOUGAEX.jpg","イイネイヌ":"https://www.pokemon-card.com/assets/images/card_images/large/SV6/045852_P_IINEINU.jpg","ヤドキング":"https://www.pokemon-card.com/assets/images/card_images/large/SV7/045978_P_YADOKINGU.jpg","ソウブレイズex":"https://www.pokemon-card.com/assets/images/card_images/large/SVLS/046189_P_SOUBUREIZUEX.jpg","カミッチュ":"https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046670_P_KAMITCHIXYU.jpg","Nのゾロアークex":"https://www.pokemon-card.com/assets/images/card_images/large/SV9/047069_P_NNOZOROAKUEX.jpg","ドラパルトex":"https://www.pokemon-card.com/assets/images/card_images/large/SV8a/047142_P_DORAPARUTOEX.jpg","マリィのオーロンゲex":"https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047259_P_MARIINOORONGEEX.jpg","ダイゴのメタグロスex":"https://www.pokemon-card.com/assets/images/card_images/large/SVOD/047278_P_DAIGONOMETAGUROSUEX.jpg","シロナのガブリアスex":"https://www.pokemon-card.com/assets/images/card_images/large/SV9a/047339_P_SHIRONANOGABURIASUEX.jpg","オリーヴァex":"https://www.pokemon-card.com/assets/images/card_images/large/SV10/047405_P_ORIVUAEX.jpg","メガフシギバナex":"https://www.pokemon-card.com/assets/images/card_images/large/M1L/047736_P_MFUSHIGIBANAEX.jpg","メガルカリオex":"https://www.pokemon-card.com/assets/images/card_images/large/M1L/047762_P_MRUKARIOEX.jpg","メガアブソルex":"https://www.pokemon-card.com/assets/images/card_images/large/M1L/047771_P_MABUSORUEX.jpg","フーディン":"https://www.pokemon-card.com/assets/images/card_images/large/M1S/047834_P_FUDEIN.jpg","ロケット団のドンカラス":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048625_P_ROKETTODANNODONKARASU.jpg","活力の森":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048704_T_KATSURIXYOKUNOMORI.jpg","イワパレス":"https://www.pokemon-card.com/assets/images/card_images/large/MC/048762_P_IWAPARESU.jpg","オーガポン みどりのめんex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/048798_P_OGAPONMIDORINOMENEX.jpg","オーガポン いどのめんex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/048940_P_OGAPONIDONOMENEX.jpg","ロケット団のミュウツーex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049006_P_ROKETTODANNOMIXYUUTSUEX.jpg","メタング":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049213_P_METANGU.jpg","タケルライコex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049270_P_TAKERURAIKOEX.jpg","リーリエのピッピex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049521_P_RIRIENOPIPPIEX.jpg","ゲノセクトex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049546_P_GENOSEKUTOEX.jpg","メガスターミーex":"https://www.pokemon-card.com/assets/images/card_images/large/M3/049654_P_MSUTAMIEX.jpg","テレパス超エネルギー":"https://www.pokemon-card.com/assets/images/card_images/large/M3/049712_E_TEREPASUCHIXYOUENERUGI.jpg","スピアーex":"https://www.pokemon-card.com/assets/images/card_images/large/M4/050087_P_SUPIAEX.jpg","ケロマツ":"https://www.pokemon-card.com/assets/images/card_images/large/M4/050104_P_KEROMATSU.jpg","メガゲッコウガex":"https://www.pokemon-card.com/assets/images/card_images/large/M4/050106_P_MGEKKOUGAEX.jpg","?????ex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049228_P_GENOSEKUTOEX.jpg","????":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049024_P_YOMAWARU.jpg","???????ex":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048558_P_MYUKIMENOKOEX.jpg","??????ex":"https://www.pokemon-card.com/assets/images/card_images/large/M1S/047847_P_MGARURAEX.jpg","?????":"https://www.pokemon-card.com/assets/images/card_images/large/SV6a/046047_P_YONOWARU.jpg","シェイミ":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048534_P_SHIEIMI.jpg","コダック":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/049959_P_KODAKKU.jpg","ロケット団の監視塔":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048711_T_ROKETTODANNOKANSHITOU.jpg","マシマシラ":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048603_P_MASHIMASHIRA.jpg","ジャミングタワー":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/049982_T_JIXYAMINGUTAWA.jpg","ロック闘エネルギー":"https://www.pokemon-card.com/assets/images/card_images/large/M3/049713_EN_ROKKUTOUENERUGI.jpg","ズボミー":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/049845_P_SUBOMI.jpg"};
@@ -1436,8 +1761,7 @@ const PAGE_SECTIONS = {
   ],
   archetypes: [
     {id:"arch-summary", label:"アーキタイプ要約"},
-    {id:"arch-breakdown", label:"派生内訳 / 週次推移"},
-    {id:"arch-cards", label:"採用カード"},
+    {id:"arch-breakdown", label:"デッキタイプ比較"},
   ],
   decks: [
     {id:"deck-summary", label:"デッキ要約"},
@@ -1664,6 +1988,39 @@ function toggleMetaTrendCardSelection(name, allNames){
 }
 function resetMetaTrendCardSelection(allNames){
   saveMetaTrendCardSelection(defaultMetaTrendCards(allNames));
+  renderPage({preserveScroll:true});
+}
+function archBreakdownSelectionKey(archName){
+  return `archetypes_breakdown_${archName || ""}`;
+}
+function defaultArchBreakdownDecks(names){
+  return names.slice(0, Math.min(6, names.length));
+}
+function archBreakdownSelection(archName, names){
+  try {
+    const parsed = JSON.parse(localStorage.getItem(archBreakdownSelectionKey(archName)) || "null");
+    if (!Array.isArray(parsed)) return defaultArchBreakdownDecks(names);
+    const allowed = new Set(names);
+    const filtered = parsed.filter(name => allowed.has(name));
+    return filtered.length ? filtered : defaultArchBreakdownDecks(names);
+  } catch {
+    return defaultArchBreakdownDecks(names);
+  }
+}
+function saveArchBreakdownSelection(archName, names){
+  localStorage.setItem(archBreakdownSelectionKey(archName), JSON.stringify(names));
+}
+function toggleArchBreakdownSelection(archName, name, allNames){
+  const selected = archBreakdownSelection(archName, allNames);
+  const next = selected.includes(name)
+    ? selected.filter(item => item !== name)
+    : [...selected, name];
+  const ordered = allNames.filter(item => next.includes(item));
+  saveArchBreakdownSelection(archName, ordered.length ? ordered : [name]);
+  renderPage({preserveScroll:true});
+}
+function resetArchBreakdownSelection(archName, allNames){
+  saveArchBreakdownSelection(archName, defaultArchBreakdownDecks(allNames));
   renderPage({preserveScroll:true});
 }
 function moverVisibleCount(){
@@ -2253,6 +2610,30 @@ function tiersFromUsage(stats){
   });
   return buckets.filter(bucket => bucket.items.length);
 }
+function cardCategoryMap(){
+  return DATA.card_categories || {};
+}
+function isAceSpecCard(name){
+  const raw = String(name || "").trim();
+  if (!raw) return false;
+  return raw.includes("(ACE SPEC)");
+}
+function stripAceSpecSuffix(name){
+  return String(name || "").replace(/\s*\(ACE SPEC\)\s*/g, "").trim();
+}
+function deckCardGroup(category, name){
+  if (isAceSpecCard(name)) return "acespec";
+  const raw = String(category || "").trim();
+  if (raw === "ポケモン") return "pokemon";
+  if (raw === "エネルギー") return "energy";
+  return "trainer";
+}
+function deckCardGroupLabel(group){
+  if (group === "pokemon") return "ポケモン";
+  if (group === "acespec") return "ACESPEC";
+  if (group === "energy") return "エネルギー";
+  return "トレーナーズ";
+}
 function topCardsForDeck(name, weeks=currentWeeks()){
   const totals = {};
   let deckTotal = 0;
@@ -2270,6 +2651,8 @@ function topCardsForDeck(name, weeks=currentWeeks()){
   return Object.values(totals)
     .map(item => ({
       ...item,
+      category: String(cardCategoryMap()[item.name] || ""),
+      group: deckCardGroup(cardCategoryMap()[item.name] || "", item.name),
       rate: deckTotal ? item.used / deckTotal * 100 : 0,
       avgCopies: item.used ? item.copies / item.used : 0,
     }))
@@ -2525,10 +2908,8 @@ function drawMultiLine(svgId, lines, key){
     return;
   }
   const rows = scopedLines[0].rows;
-  const wrapWidth = Math.round(wrap?.clientWidth || 0);
-  const wrapHeight = Math.round(wrap?.clientHeight || 0);
-  const W = Math.max(760, wrapWidth || 0);
-  const H = Math.max(320, wrapHeight || 0);
+  const W = 760;
+  const H = 320;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
   const left = 42, top = 12, right = 18, bottom = 30;
   const cw = W - left - right;
@@ -2558,6 +2939,84 @@ function drawMultiLine(svgId, lines, key){
       out += `<circle cx="${xpoints[index]}" cy="${y(value)}" r="2.7" fill="${fill}" stroke="${stroke}" stroke-width="1.4"/>`;
       out += `<circle class="trend-point-hit" cx="${xpoints[index]}" cy="${y(value)}" r="9" fill="transparent" data-name="${escapeHtml(line.name)}" data-label="${escapeHtml(row.label)}" data-value="${value.toFixed(1)}"/>`;
     });
+  });
+  svg.innerHTML = out;
+  if (!wrap) return;
+  let tip = qs(".trend-hover-tip", wrap);
+  if (!tip){
+    tip = document.createElement("div");
+    tip.className = "trend-hover-tip";
+    wrap.appendChild(tip);
+  }
+  qsa(".trend-point-hit", svg).forEach(hit => {
+    hit.addEventListener("mouseenter", event => {
+      const node = event.currentTarget;
+      tip.innerHTML = `<div class="trend-hover-name">${node.dataset.name || ""}</div><div class="trend-hover-meta">${node.dataset.label || ""} ${node.dataset.value || "0.0"}%</div>`;
+      tip.style.display = "grid";
+      requestAnimationFrame(() => placeTrendTipAtNode(tip, wrap, svg, node));
+    });
+    hit.addEventListener("mousemove", event => {
+      const node = event.currentTarget;
+      placeTrendTipAtNode(tip, wrap, svg, node);
+    });
+    hit.addEventListener("mouseleave", () => {
+      tip.style.display = "none";
+    });
+  });
+}
+function drawStackedArea(svgId, lines, key){
+  const svg = qs(`#${svgId}`);
+  if (!svg) return;
+  const wrap = svg.parentElement;
+  const scopedLines = lines
+    .map(line => ({...line, rows: (() => {
+      const scoped = scopedSeries(line.series || []);
+      return scoped.length ? scoped : (line.series || []);
+    })()}))
+    .filter(line => line.rows.length);
+  if (!scopedLines.length){
+    svg.innerHTML = "";
+    return;
+  }
+  const rows = scopedLines[0].rows;
+  const W = 760;
+  const H = 320;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const left = 42, top = 12, right = 18, bottom = 30;
+  const cw = W - left - right;
+  const ch = H - top - bottom;
+  const totals = rows.map((_, index) => scopedLines.reduce((sum, line) => sum + Number(line.rows[index]?.[key] || 0), 0));
+  const max = Math.max(10, ...totals);
+  const xpoints = rows.map((_, index) => rows.length === 1 ? left + cw / 2 : left + (cw / (rows.length - 1)) * index);
+  const y = value => top + ch - (value / max) * ch;
+  let out = "";
+  for (let i = 0; i <= 4; i += 1){
+    const yy = top + (ch / 4) * i;
+    const val = (max - (max / 4) * i).toFixed(0);
+    out += `<line x1="${left}" y1="${yy}" x2="${W - right}" y2="${yy}" stroke="rgba(255,255,255,.08)"/>`;
+    out += `<text x="${left - 8}" y="${yy + 4}" text-anchor="end" font-size="11" fill="#aab7d3">${val}%</text>`;
+  }
+  rows.forEach((row, index) => {
+    const label = `${row.label}${row.stable ? "" : "*"}`;
+    out += `<text x="${xpoints[index]}" y="${H - 10}" text-anchor="middle" font-size="11" fill="#aab7d3">${label}</text>`;
+  });
+  let lower = Array(rows.length).fill(0);
+  scopedLines.forEach(line => {
+    const valuesForLine = line.rows.map(row => Number(row[key] || 0));
+    const upper = valuesForLine.map((value, index) => lower[index] + value);
+    const topPath = upper.map((value, index) => `${index === 0 ? "M" : "L"} ${xpoints[index]} ${y(value)}`).join(" ");
+    const bottomPath = lower.map((value, index) => `${xpoints[index]} ${y(value)}`).reverse().join(" L ");
+    out += `<path d="${topPath} L ${bottomPath} Z" fill="${line.color}" fill-opacity=".18" stroke="none"/>`;
+    out += `<polyline fill="none" stroke="${line.color}" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity=".95" points="${upper.map((value, index) => `${xpoints[index]},${y(value)}`).join(" ")}"/>`;
+    line.rows.forEach((row, index) => {
+      const rawValue = valuesForLine[index];
+      const stackedValue = upper[index];
+      const fill = row?.stable ? line.color : "rgba(9,17,31,.95)";
+      const stroke = row?.stable ? line.color : "#ffd166";
+      out += `<circle cx="${xpoints[index]}" cy="${y(stackedValue)}" r="2.7" fill="${fill}" stroke="${stroke}" stroke-width="1.4"/>`;
+      out += `<circle class="trend-point-hit" cx="${xpoints[index]}" cy="${y(stackedValue)}" r="9" fill="transparent" data-name="${escapeHtml(line.name)}" data-label="${escapeHtml(row.label)}" data-value="${rawValue.toFixed(1)}"/>`;
+    });
+    lower = upper;
   });
   svg.innerHTML = out;
   if (!wrap) return;
@@ -2799,6 +3258,10 @@ function tierStatDisplay(label, value, tone, ratio=1){
 }
 function formatTierDeckNameHtml(name){
   const text = String(name || "");
+  const otherIndex = text.indexOf("その他");
+  if (otherIndex > 0){
+    return `${escapeHtml(text.slice(0, otherIndex))}<span class="tier-stack-name-line">${escapeHtml(text.slice(otherIndex))}</span>`;
+  }
   const slashIndex = text.indexOf(" / ");
   if (slashIndex >= 0){
     return `${escapeHtml(text.slice(0, slashIndex))}<span class="tier-stack-name-line">${escapeHtml(text.slice(slashIndex))}</span>`;
@@ -2811,6 +3274,10 @@ function formatTierDeckNameHtml(name){
 }
 function formatTierDeckNameHtmlV2(name){
   const text = String(name || "");
+  const otherIndex = text.indexOf("その他");
+  if (otherIndex > 0){
+    return `${escapeHtml(text.slice(0, otherIndex))}<span class="tier-stack-name-line">${escapeHtml(text.slice(otherIndex))}</span>`;
+  }
   const slashIndex = text.indexOf(" / ");
   if (slashIndex >= 0){
     return `${escapeHtml(text.slice(0, slashIndex))}<span class="tier-stack-name-line">${escapeHtml(text.slice(slashIndex))}</span>`;
@@ -3140,6 +3607,34 @@ function renderIndex(){
   const metaLeader = metaCards[0];
   const metaSwing = metaLeader ? deltaAcrossSelected(weekSeriesCard(metaLeader.name), "rate") : 0;
   const top3Share = decks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
+  const seasonFlow = currentWeeks().map(week => {
+    const weeklyDecks = aggregateDeckStats([week]);
+    const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
+    const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
+    return {
+      week,
+      label: DATA.week_labels[week] || week,
+      stable: !!weekEntry(week).totals.stable,
+      leader: weeklyLeader.name || "-",
+      usage: Number(weeklyLeader.usage || 0),
+      gap: Number(weeklyGap || 0),
+      top3: weeklyDecks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0),
+    };
+  });
+  const seasonOpen = seasonFlow[0] || {label:"-", stable:true, leader:"-", usage:0, gap:0, top3:0};
+  const seasonLatest = seasonFlow[seasonFlow.length - 1] || seasonOpen;
+  const latestWeek = seasonLatest.week || "";
+  const latestDecks = latestWeek ? aggregateDeckStats([latestWeek]) : [];
+  const latestLeader = latestDecks[0] || leader;
+  const latestLeaderGap = latestDecks.length > 1 ? latestLeader.usage - latestDecks[1].usage : Number(latestLeader.usage || 0);
+  const latestTop3Share = latestDecks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
+  const latestHighEff = [...latestDecks].sort((a, b) => (b.win - b.usage) - (a.win - a.usage))[0] || highEff;
+  const latestMetaCards = latestWeek ? aggregateCardStats([latestWeek], DATA.meta_card_names || []) : metaCards;
+  const latestMetaLeader = latestMetaCards[0] || metaLeader;
+  const latestMetaDelta = latestMetaLeader ? adjacentWeekDelta(weekSeriesCard(latestMetaLeader.name), "rate") : metaSwing;
+  const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
+  const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
+  const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
   qs("#pageTitle").textContent = PAGE_TITLES.index;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile("index")}">環境全体</a>`;
 
@@ -3314,6 +3809,34 @@ function renderIndexV2(){
   const metaLeader = metaCards[0] || null;
   const metaSwing = metaLeader ? deltaAcrossSelected(weekSeriesCard(metaLeader.name), "rate") : 0;
   const top3Share = decks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
+  const seasonFlow = currentWeeks().map(week => {
+    const weeklyDecks = aggregateDeckStats([week]);
+    const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
+    const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
+    return {
+      week,
+      label: DATA.week_labels[week] || week,
+      stable: !!weekEntry(week).totals.stable,
+      leader: weeklyLeader.name || "-",
+      usage: Number(weeklyLeader.usage || 0),
+      gap: Number(weeklyGap || 0),
+      top3: weeklyDecks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0),
+    };
+  });
+  const seasonOpen = seasonFlow[0] || {label:"-", stable:true, leader:"-", usage:0, gap:0, top3:0};
+  const seasonLatest = seasonFlow[seasonFlow.length - 1] || seasonOpen;
+  const latestWeek = seasonLatest.week || "";
+  const latestDecks = latestWeek ? aggregateDeckStats([latestWeek]) : [];
+  const latestLeader = latestDecks[0] || leader;
+  const latestLeaderGap = latestDecks.length > 1 ? latestLeader.usage - latestDecks[1].usage : Number(latestLeader.usage || 0);
+  const latestTop3Share = latestDecks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
+  const latestHighEff = [...latestDecks].sort((a, b) => (b.win - b.usage) - (a.win - a.usage))[0] || highEff;
+  const latestMetaCards = latestWeek ? aggregateCardStats([latestWeek], DATA.meta_card_names || []) : metaCards;
+  const latestMetaLeader = latestMetaCards[0] || metaLeader;
+  const latestMetaDelta = latestMetaLeader ? adjacentWeekDelta(weekSeriesCard(latestMetaLeader.name), "rate") : metaSwing;
+  const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
+  const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
+  const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
 
   qs("#pageTitle").textContent = PAGE_TITLES.index;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile("index")}">環境全体</a>`;
@@ -3372,28 +3895,65 @@ function renderIndexV2(){
       "meta-overview",
       "",
       "環境サマリー",
-      "直近の環境の中心と効率感を、画面でまとめて確認します。",
+      "シーズン全体の流れから、最新週で何が起きているかをまとめて確認します。",
       `
-        ${selectedWeekNote()}
-        ${qualityNote()}
-        <div class="hero-stage">
-          <div class="spotlight">
+        <div class="season-summary-grid">
+          <div class="panel panel-scroll">
             <div class="title-line">
-              <div class="headline">環境の中心: ${renderLinked("deck", leader?.name || "-")}</div>
-              ${tooltipIcon("使用率、TOP4シェア、優勝シェアをまとめて見たときに、いま軸になっているデッキです。", "left")}
+              <div class="section-title">シーズンの流れ</div>
+              ${tooltipIcon("各週の中心デッキと上位集中度を並べて、シーズン全体の流れを見ます。末尾の * は参考値週です。", "left")}
             </div>
-            <div class="meta">
-              <span class="stat-chip">使用率 ${fmtPct(leader?.usage)}</span>
-              <span class="stat-chip">B4 ${fmtPct(leader?.b4)}</span>
-              <span class="stat-chip">優勝シェア ${fmtPct(leader?.win)}</span>
-              <span class="stat-chip">1位 / 2位差 ${fmtSigned(leaderGap)}</span>
-              <span class="stat-chip">TOP3合計 ${fmtPct(top3Share)}</span>
+            <div class="summary-glance-grid">
+              <div class="summary-glance-card">
+                <div class="label">通期の主役</div>
+                <div class="value">${renderLinked("deck", leader?.name || "-")}</div>
+                <div class="note">使用率 ${fmtPct(leader?.usage)} / TOP3合計 ${fmtPct(top3Share)}</div>
+              </div>
+              <div class="summary-glance-card">
+                <div class="label">序盤の中心</div>
+                <div class="value">${renderLinked("deck", seasonOpen.leader || "-")}</div>
+                <div class="note">${weekDisplay(seasonOpen)} / 使用率 ${fmtPct(seasonOpen.usage)} / 1位差 ${fmtSigned(seasonOpen.gap)}</div>
+              </div>
+              <div class="summary-glance-card">
+                <div class="label">最新週の中心</div>
+                <div class="value">${renderLinked("deck", seasonLatest.leader || "-")}</div>
+                <div class="note">${weekDisplay(seasonLatest)} / 使用率 ${fmtPct(seasonLatest.usage)} / TOP3合計 ${fmtPct(seasonLatest.top3)}</div>
+              </div>
+            </div>
+            <div class="summary-week-rail">
+              <div class="summary-week-head">
+                <div>週</div>
+                <div>中心デッキ</div>
+                <div style="text-align:right">使用率</div>
+                <div style="text-align:right">TOP3合計</div>
+              </div>
+              ${seasonFlow.map((item, index) => `
+                <div class="summary-week-row ${index === seasonFlow.length - 1 ? "latest" : ""}">
+                  <div class="summary-week-week">${escapeHtml(weekDisplay(item))}</div>
+                  <div class="summary-week-deck">${renderLinked("deck", item.leader || "-")}</div>
+                  <div class="summary-week-metric">${fmtPct(item.usage)}</div>
+                  <div class="summary-week-metric top3">${fmtPct(item.top3)}</div>
+                </div>
+              `).join("")}
             </div>
           </div>
-          <div class="meta-strip">
-            <div class="mini-card"><div class="cap">効率が高いデッキ</div><div class="big">${renderLinked("deck", highEff?.name || "-")}</div><div class="subnote">優勝率 ${fmtPct(highEff?.win_rate)}</div></div>
-            <div class="mini-card"><div class="cap">上昇中</div><div class="big">${renderLinked("deck", rising?.name || "-")}</div><div class="subnote"><span class="delta-up">${fmtSigned(rising?.delta || 0)}</span></div></div>
-            <div class="mini-card"><div class="cap">主軸メタカード</div><div class="big">${renderLinked("card", metaLeader?.name || "-")}</div><div class="subnote">採用率 ${fmtPct(metaLeader?.rate || 0)} / 期間差 ${fmtSigned(metaSwing)}</div></div>
+          <div class="summary-side-stack">
+            <div class="summary-latest-card">
+              <div class="cap">最新週のトレンド ${escapeHtml(weekDisplay(seasonLatest))}</div>
+              <div class="big">${renderLinked("deck", latestLeader?.name || "-")}</div>
+              <div class="meta">
+                <span class="stat-chip">使用率 ${fmtPct(latestLeader?.usage)}</span>
+                <span class="stat-chip">1位差 ${fmtSigned(latestLeaderGap)}</span>
+                <span class="stat-chip">TOP3合計 ${fmtPct(latestTop3Share)}</span>
+              </div>
+              <div class="note">TOP3合計は序盤比 ${fmtSigned(seasonLatest.top3 - seasonOpen.top3)} / ${escapeHtml(leaderTurnover)}</div>
+            </div>
+            <div class="summary-insight-grid">
+              <div class="mini-card"><div class="cap">前週比 上昇</div><div class="big">${renderLinked("deck", rising?.name || "-")}</div><div class="subnote"><span class="delta-up">${fmtSigned(rising?.delta || 0)}</span></div></div>
+              <div class="mini-card"><div class="cap">前週比 下降</div><div class="big">${renderLinked("deck", fallingRows[0]?.name || "-")}</div><div class="subnote"><span class="delta-down">${fmtSigned(fallingRows[0]?.delta || 0)}</span></div></div>
+              <div class="mini-card"><div class="cap">勝ち切り性能</div><div class="big">${renderLinked("deck", latestHighEff?.name || "-")}</div><div class="subnote">優勝率 ${fmtPct(latestHighEff?.win_rate)}</div></div>
+              <div class="mini-card"><div class="cap">主軸メタカード</div><div class="big">${renderLinked("card", latestMetaLeader?.name || "-")}</div><div class="subnote">採用率 ${fmtPct(latestMetaLeader?.rate || 0)} / 前週比 ${fmtSigned(latestMetaDelta)}</div></div>
+            </div>
           </div>
         </div>`
     ),
@@ -3468,10 +4028,21 @@ function renderArchetypes(){
   const archetypes = aggregateArchetypeStats();
   const names = archetypes.map(item => item.name);
   const selected = currentSelection("arch", names);
-  const summary = archetypes.find(item => item.name === selected) || {usage:0, b4:0, win:0, count:0};
+  const summary = archetypes.find(item => item.name === selected) || {usage:0, b4:0, win:0, top4_rate:0, win_rate:0, count:0};
   const series = weekSeriesArchetype(selected);
-  const breakdown = breakdownWithinArchetype(selected).slice(0, 14);
-  const cards = topCardsForArchetype(selected).slice(0, 18);
+  const breakdown = archetypeBreakdownRows(selected);
+  const leadDeckName = breakdown[0]?.name || "-";
+  const trendLines = archetypeTrendLines(series);
+  const recentDelta = adjacentWeekDelta(series, "usage");
+  const deckTypeNames = breakdown.map(item => item.name);
+  const selectedDeckTypes = archBreakdownSelection(selected, deckTypeNames);
+  const breakdownLines = breakdown
+    .map((item, index) => ({
+      name: item.name,
+      color: usageTrendPalette(index),
+      series: weekSeriesArchetypeDeckShare(selected, item.name).map(row => ({...row, value:Number(row.share || 0)})),
+    }))
+    .filter(line => selectedDeckTypes.includes(line.name));
   qs("#pageTitle").textContent = PAGE_TITLES.archetypes;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile("index")}">環境全体</a><span class="sep">/</span><a href="${pageFile("archetypes")}">アーキタイプ分析</a><span class="sep">/</span><span>${renderName(selected)}</span>`;
   const sections = [
@@ -3479,49 +4050,120 @@ function renderArchetypes(){
       "arch-summary",
       "",
       "アーキタイプ要約",
-      "選んだアーキタイプに応じて、下の分析内容がすべて連動します。",
+      "アーキタイプを選び、中心デッキ・主要指標・週次推移をまとめて確認できます。",
       `
-        ${selectedWeekNote()}
-        <div class="panel panel-scroll deck-summary-panel">
-          <div class="section-title">アーキタイプ選択</div>
-          <select id="archSelect">${names.map(name => `<option ${name === selected ? "selected" : ""}>${escapeHtml(name)}</option>`).join("")}</select>
-          <div class="chips">
-            <span class="chip">使用率 ${fmtPct(summary.usage)}</span>
-            <span class="chip">B4 ${fmtPct(summary.b4)}</span>
-            <span class="chip">優勝シェア ${fmtPct(summary.win)}</span>
+        <div class="deck-summary-toolbar card-summary-toolbar">
+          <div class="field-grid two">
+            <div class="field">
+              <label class="field-label">アーキタイプ</label>
+              <select id="archSelect">${names.map(name => `<option ${name === selected ? "selected" : ""}>${escapeHtml(name)}</option>`).join("")}</select>
+            </div>
           </div>
         </div>
-        <div class="grid four fill-grid">
-          ${kpiCard("使用率", fmtPct(summary.usage), "選択期間内の全デッキに対する比率です。")}
-          ${kpiCard("B4シェア", fmtPct(summary.b4), "上位進出に占める比率です。")}
-          ${kpiCard("優勝シェア", fmtPct(summary.win), "優勝デッキに占める比率です。")}
-          ${kpiCard("直近変化", fmtSigned(deltaAcrossSelected(series, "usage")), "安定週ベースの使用率差分です。")}
+        <div class="panel panel-scroll deck-summary-panel">
+          <div class="deck-summary-hero-layout">
+            <div class="deck-summary-left">
+              <div class="deck-summary-tier-card arch-lead-card">
+                <div class="deck-summary-tier-label">中心デッキ</div>
+                <div class="deck-summary-tier-value">${renderLinked("deck", leadDeckName)}</div>
+              </div>
+              ${archetypeSummaryMediaHtml(selected)}
+            </div>
+            <div class="card-summary-right">
+              <div class="deck-summary-topline">
+                <div class="deck-summary-metric-card usage">
+                  <div class="deck-summary-metric-main">
+                    <span class="tier-stat-icon usage">${metricIconSvg("usage")}</span>
+                    <div class="deck-summary-metric-value-row">
+                      <div class="deck-summary-metric-value">${fmtPct(summary.usage)}</div>
+                      ${tooltipIcon("選択期間内の全デッキに対する、このアーキタイプの使用比率です。", "left")}
+                    </div>
+                  </div>
+                </div>
+                <div class="deck-summary-metric-card top4">
+                  <div class="deck-summary-metric-main">
+                    <span class="tier-stat-icon top4">${metricIconSvg("top4")}</span>
+                    <div class="deck-summary-metric-value-row">
+                      <div class="deck-summary-metric-value">${fmtPct(summary.top4_rate)}</div>
+                      ${tooltipIcon("このアーキタイプの出場数に対して、TOP4に入った比率です。", "left")}
+                    </div>
+                  </div>
+                  <div class="deck-summary-metric-sub top4">TOP4シェア率 ${fmtPct(summary.b4)}</div>
+                </div>
+                <div class="deck-summary-metric-card win">
+                  <div class="deck-summary-metric-main">
+                    <span class="tier-stat-icon win">${metricIconSvg("win")}</span>
+                    <div class="deck-summary-metric-value-row">
+                      <div class="deck-summary-metric-value">${fmtPct(summary.win_rate)}</div>
+                      ${tooltipIcon("このアーキタイプの出場数に対して、優勝した比率です。", "left")}
+                    </div>
+                  </div>
+                  <div class="deck-summary-metric-sub win">優勝シェア率 ${fmtPct(summary.win)}</div>
+                </div>
+              </div>
+              <div class="card-summary-trend-box deck-summary-trend-box-panel">
+                <div class="deck-summary-trend-head">
+                  <div class="deck-summary-trend-head-main">
+                    <div class="deck-summary-trend-title">週次推移</div>
+                    ${tooltipIcon("使用率・TOP4シェア率・優勝シェア率を週ごとに表示します。プロットにカーソルを合わせると数値を表示します。参考週には * が付きます。", "left")}
+                  </div>
+                  <div class="deck-summary-delta-note">使用率の直近変化 ${fmtSigned(recentDelta)}</div>
+                </div>
+                <div class="svg-wrap">
+                  <svg id="archTrend" viewBox="0 0 760 260" width="100%" height="100%"></svg>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        ${auxDetail("参考: アーキタイプ順位", tablePanel("アーキタイプ順位", "", `<table class="table"><thead><tr><th>#</th><th>アーキタイプ</th><th>使用率</th><th>優勝シェア</th></tr></thead><tbody>${archetypes.map((item, index) => `<tr><td>${index + 1}</td><td>${renderLinked("arch", item.name)}</td><td>${fmtPct(item.usage)}</td><td>${fmtPct(item.win)}</td></tr>`).join("")}</tbody></table>`))}
       `
     ),
     screenSection(
       "arch-breakdown",
       "",
-      "派生内訳 / 週次推移",
-      "派生デッキの構成比と週次トレンドを同じ画面で確認します。",
+      "デッキタイプ比較",
+      "アーキタイプ内の各デッキタイプが、週ごとにどう入れ替わっているかを比較します。",
       `
-        <div class="grid two fill-grid">
-          ${tablePanel(`${renderName(selected)} の派生内訳`, "同じアーキタイプの中で、どの派生デッキが選ばれているかを見ます。", `<table class="table"><thead><tr><th>#</th><th>デッキ</th><th>構成比</th><th>優勝シェア</th></tr></thead><tbody>${breakdown.map((item, index) => `<tr><td>${index + 1}</td><td>${renderLinked("deck", item.name)}</td><td>${fmtPct(item.share)}</td><td>${fmtPct(item.winshare)}</td></tr>`).join("")}</tbody></table>`)}
-          ${chartPanel(`${renderName(selected)} の週別使用率`, "参考週には * が付きます。", "archTrend")}
+        <div class="arch-breakdown-layout">
+          <div class="panel panel-scroll arch-breakdown-side">
+            <div class="panel-head">
+              <div class="section-title">デッキタイプ</div>
+              ${tooltipIcon("左のデッキタイプを押すと、右の週次比較グラフに重ねて表示する対象を切り替えられます。", "left")}
+            </div>
+            <div class="arch-breakdown-list">
+              ${breakdown.map((item, index) => archetypeBreakdownItemHtml(item, index, selectedDeckTypes.includes(item.name))).join("")}
+            </div>
+          </div>
+          <div class="panel panel-scroll arch-breakdown-chart">
+            <div class="panel-head arch-breakdown-head">
+              <div class="section-title">週次比較グラフ</div>
+              <div class="arch-breakdown-actions">
+                ${tooltipIcon("アーキタイプ内での各デッキタイプの構成比を、週ごとの積み上げ面グラフで表示します。参考週には * が付きます。", "left")}
+                <button type="button" class="trend-select-reset" id="archBreakdownReset">初期表示に戻す</button>
+              </div>
+            </div>
+            <div class="arch-breakdown-chart-wrap">
+              <svg id="archBreakdownTrend" viewBox="0 0 760 320" width="100%" height="100%"></svg>
+            </div>
+            <div class="arch-breakdown-legend">
+              ${breakdownLines.map(line => `<div class="arch-breakdown-legend-item"><span class="trend-dot" style="background:${line.color}"></span><span class="trend-label">${escapeHtml(line.name)}</span></div>`).join("")}
+            </div>
+          </div>
         </div>`
-    ),
-    screenSection(
-      "arch-cards",
-      "",
-      "採用カード",
-      "そのアーキタイプでよく使われるカードと平均採用枚数を見ます。",
-      tablePanel(`${renderName(selected)} の採用カード TOP18`, "", `<table class="table"><thead><tr><th>#</th><th>カード</th><th>採用率</th><th>平均枚数</th></tr></thead><tbody>${cards.map((item, index) => `<tr><td>${index + 1}</td><td>${renderLinked("card", item.name)}</td><td>${fmtPct(item.rate)}</td><td>${item.avgCopies.toFixed(2)}</td></tr>`).join("")}</tbody></table>`)
     ),
   ];
   qs("#pageBody").innerHTML = sections.join("");
-  qs("#archSelect").addEventListener("change", event => setSelection("arch", event.target.value));
-  drawLine("archTrend", series, "usage");
+  qs("#archSelect")?.addEventListener("change", event => setSelection("arch", event.target.value));
+  qsa("[data-arch-breakdown-deck]").forEach(button => {
+    button.addEventListener("click", event => {
+      const name = event.currentTarget.getAttribute("data-arch-breakdown-deck") || "";
+      if (!name) return;
+      toggleArchBreakdownSelection(selected, name, deckTypeNames);
+    });
+  });
+  qs("#archBreakdownReset")?.addEventListener("click", () => resetArchBreakdownSelection(selected, deckTypeNames));
+  drawMultiLine("archTrend", trendLines, "value");
+  drawStackedArea("archBreakdownTrend", breakdownLines, "value");
 }
 function deckTierLabel(name, deckStats=aggregateDeckStats()){
   for (const bucket of tiersFromUsage(deckStats)){
@@ -3535,6 +4177,60 @@ function deckTrendLines(series){
     {name:"TOP4シェア率", color:"#ffd166", series:series.map(row => ({...row, value:Number(row.b4 || 0)}))},
     {name:"優勝シェア率", color:"#8cf0b2", series:series.map(row => ({...row, value:Number(row.win || 0)}))},
   ];
+}
+function archetypeTrendLines(series){
+  return [
+    {name:"使用率", color:"#7cc7ff", series:series.map(row => ({...row, value:Number(row.usage || 0)}))},
+    {name:"TOP4シェア率", color:"#ffd166", series:series.map(row => ({...row, value:Number(row.b4 || 0)}))},
+    {name:"優勝シェア率", color:"#8cf0b2", series:series.map(row => ({...row, value:Number(row.win || 0)}))},
+  ];
+}
+function archetypeLeadDeck(name){
+  return breakdownWithinArchetype(name)[0]?.name || "";
+}
+function archetypeSummaryMediaHtml(name){
+  const leadDeck = archetypeLeadDeck(name);
+  const primaryImage = leadDeck ? (tierDeckImages(leadDeck)[0] || null) : null;
+  if (primaryImage?.src){
+    return `<div class="card-summary-media deck-summary-media arch-summary-media"><img src="${escapeHtml(primaryImage.src)}" alt="" loading="lazy"></div>`;
+  }
+  return `<div class="card-summary-media deck-summary-media arch-summary-media"><div class="deck-summary-fallback">画像なし</div></div>`;
+}
+function weekSeriesArchetypeDeckShare(archetypeName, deckName){
+  return weekKeys().map(week => {
+    const entry = weekEntry(week);
+    const archetypeRaw = entry.archetypes[archetypeName] || [0, 0, 0];
+    const deckRaw = entry.decks[deckName] || [0, 0, 0, ""];
+    const archetypeCount = Number(archetypeRaw[0] || 0);
+    const deckCount = deckRaw[3] === archetypeName ? Number(deckRaw[0] || 0) : 0;
+    return {
+      week,
+      label: DATA.week_labels[week],
+      stable: !!entry.totals.stable,
+      share: archetypeCount ? deckCount / archetypeCount * 100 : 0,
+    };
+  });
+}
+function archetypeBreakdownRows(name, weeks=currentWeeks()){
+  return breakdownWithinArchetype(name, weeks).map(item => ({
+    ...item,
+    delta: adjacentWeekDelta(weekSeriesArchetypeDeckShare(name, item.name), "share"),
+  }));
+}
+function archetypeBreakdownItemHtml(item, index, active){
+  const images = tierDeckImages(item.name);
+  const stateClass = active ? "active" : "inactive";
+  return `
+    <button type="button" class="arch-breakdown-item ${stateClass}" data-arch-breakdown-deck="${escapeHtml(item.name)}">
+      <span class="arch-breakdown-thumb tier-stack-media${images.length > 1 ? " split" : ""}">
+        ${images.length ? images.map(image => `<img src="${escapeHtml(image.src)}" alt="" loading="lazy">`).join("") : `<span class="arch-breakdown-fallback">画像なし</span>`}
+      </span>
+      <span class="arch-breakdown-copy">
+        <span class="arch-breakdown-name">${formatTierDeckNameHtmlV2(item.name)}</span>
+        <span class="arch-breakdown-share">構成比 ${fmtPct(item.share)}</span>
+      </span>
+    </button>
+  `;
 }
 function deckSummaryMediaHtml(name){
   const images = tierDeckImages(name);
@@ -3554,10 +4250,17 @@ function renderDecks(){
   const activeDeckName = deckOptions.includes(selected) ? selected : (deckOptions[0] || names[0] || "");
   const deck = decks.find(item => item.name === activeDeckName) || {name:activeDeckName, usage:0, b4:0, win:0, top4_rate:0, win_rate:0, archetype:selectedArchetype || "-"};
   const series = weekSeriesDeck(activeDeckName);
-  const cards = topCardsForDeck(activeDeckName).slice(0, 20);
+  const cards = topCardsForDeck(activeDeckName)
+    .map((item, index) => ({...item, rank:index + 1}));
+  const cardGroups = ["pokemon", "trainer", "acespec", "energy"].map(group => ({
+    key: group,
+    label: deckCardGroupLabel(group),
+    items: cards.filter(item => item.group === group),
+  }));
   const recentDelta = adjacentWeekDelta(series, "usage");
   const tierLabel = deckTierLabel(activeDeckName, decks);
   const trendLines = deckTrendLines(series);
+  const deckCardsPanelsHtml = `<div class="grid four deck-cards-grid">${cardGroups.map(group => tablePanel(group.label, "", `<table class="table"><thead><tr><th>カード</th><th>採用率</th><th>平均枚数</th></tr></thead><tbody>${group.items.length ? group.items.map(item => `<tr><td><a href="${linkFor("card", item.name)}">${renderName(stripAceSpecSuffix(item.name))}</a></td><td>${Math.round(Number(item.rate || 0))}%</td><td>${Number(item.avgCopies || 0).toFixed(1)}</td></tr>`).join("") : `<tr><td colspan="3" class="muted">該当なし</td></tr>`}</tbody></table>`)).join("")}</div>`;
   qs("#pageTitle").textContent = PAGE_TITLES.decks;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile("index")}">環境全体</a><span class="sep">/</span><a href="${pageFile("decks")}">デッキ分析</a><span class="sep">/</span><span>${renderName(activeDeckName)}</span>`;
   const sections = [
@@ -3650,6 +4353,13 @@ function renderDecks(){
     ),
   ];
   qs("#pageBody").innerHTML = sections.join("");
+  const deckCardsHead = qs("#deck-cards > .view-shell > .view-stage > .panel > .panel-head");
+  if (deckCardsHead) deckCardsHead.remove();
+  const deckCardsWrap = qs("#deck-cards .table-wrap");
+  if (deckCardsWrap){
+    deckCardsWrap.classList.add("deck-cards-wrap");
+    deckCardsWrap.innerHTML = deckCardsPanelsHtml;
+  }
   qs("#deckSummaryArchetype")?.addEventListener("change", event => {
     const nextArchetype = String(event.currentTarget.value || "").trim();
     const nextDeck = decks.find(item => item.archetype === nextArchetype)?.name || names[0] || "";
