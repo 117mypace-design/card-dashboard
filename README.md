@@ -185,6 +185,7 @@ Tier表、カード分析、メタカード表示などで使います。
   2. レポート生成
   3. ダッシュボード再生成
   4. 更新差分の自動 commit / push
+  5. `site_fullperiod` の GitHub Pages 自動公開
 
   を行います。
 
@@ -194,21 +195,26 @@ Tier表、カード分析、メタカード表示などで使います。
 - `.gitignore`
   ローカル専用の `.venv` や `_vendor_lib` などを Git に載せないための設定です。
 
+- `connect_github_remote.bat`
+  GitHub のリポジトリ URL を設定し、`main` ブランチを push するための補助バッチです。
+
 ### GitHub で使い始める手順
 
-この作業フォルダは、現時点ではまだ Git 管理されていません。  
+この作業フォルダは、すでに Git 初期化と初回コミットが済んでいます。  
 そのため、GitHub 自動更新を有効にするには次の作業が必要です。
 
-1. このフォルダを Git リポジトリとして初期化する
-2. GitHub 上にリポジトリを作る
-3. このフォルダを GitHub に push する
-4. GitHub の Actions を有効化する
+1. GitHub 上に空のリポジトリを作る
+2. `connect_github_remote.bat` を実行して、そのリポジトリ URL を設定する
+3. `main` ブランチを GitHub に push する
+4. GitHub の `Settings > Pages` で `Source = GitHub Actions` を有効化する
+5. GitHub の `Actions` を有効化する
 
 ### 自動更新の内容
 
 - 毎日 09:15 JST に自動実行
 - GitHub の Actions 画面から手動実行も可能
 - 手動実行時は「大会データ取得あり / なし」を選べます
+- 更新後の `site_fullperiod` は GitHub Pages に自動デプロイされます
 
 ### GitHub に commit されるもの
 
