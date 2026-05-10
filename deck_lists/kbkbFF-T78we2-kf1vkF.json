@@ -1,0 +1,128 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48435",
+    "name": "メガルカリオex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48613",
+    "name": "リオル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46518",
+    "name": "リオル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47240",
+    "name": "ノココッチex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48483",
+    "name": "ノココッチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47086",
+    "name": "ノコッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46790",
+    "name": "ノコッチ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49959",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47791",
+    "name": "パワープロテイン",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "47202",
+    "name": "マキシマムベルト(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "42900",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48078",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "50159",
+    "name": "AZの安らぎ",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46661",
+    "name": "グラビティーマウンテン",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45513",
+    "name": "基本闘エネルギー",
+    "count": 6
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49713",
+    "name": "ロック闘エネルギー",
+    "count": 3
+  }
+]

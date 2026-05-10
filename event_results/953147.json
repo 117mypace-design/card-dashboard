@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-29 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "大分県",
+    "shopId": 14692,
+    "shopName": "TSUTAYA光吉店",
+    "zipCode": 8701132,
+    "address": "大分県大分市光吉610",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0012211995",
+      "name": "arakane",
+      "rank": 1,
+      "point": 100,
+      "area": "大分県",
+      "deck_id": "S3UpUy-vkJUEq-Rp2pyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079343039",
+      "name": "さーきゃす",
+      "rank": 2,
+      "point": 75,
+      "area": "大分県",
+      "deck_id": "3pXy2X-iZ8VGT-RpyUyS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065425068",
+      "name": "Ry",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "Li9Qnn-hUNOOO-9ngLnH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0018047820",
+      "name": "ぃか",
+      "rank": 3,
+      "point": 50,
+      "area": "大分県",
+      "deck_id": "3Up2y2-RzdgKU-pyMRSM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069888177",
+      "name": "ヤドンのしっぽ",
+      "rank": 5,
+      "point": 25,
+      "area": "大分県",
+      "deck_id": "kbVFkF-8Nl0gP-k5VwFw"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085740903",
+      "name": "リン",
+      "rank": 5,
+      "point": 25,
+      "area": "大分県",
+      "deck_id": "KK84c4-Zzvj67-8GYccc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070381054",
+      "name": "赤保留",
+      "rank": 5,
+      "point": 25,
+      "area": "大分県",
+      "deck_id": "FFb5F5-GSeByi-kdFk1k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0017875413",
+      "name": "M氏",
+      "rank": 5,
+      "point": 25,
+      "area": "大分県",
+      "deck_id": "gH9HgL-FHIq3R-gngN6n"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0040606332",
+      "name": "PG",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "2XypER-O6XHVG-yS2p3y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0091121048",
+      "name": "モエルーワ",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "4DcD88-uKxLrJ-xG844a"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089669895",
+      "name": "chico",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "FvvF5w-uBn7mU-F5bkkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089986055",
+      "name": "もっらー",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "pUy2Sp-erSPdn-SyRpyX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0017603614",
+      "name": "シバ",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "LgnLnQ-dCQffP-ni9LQH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062077394",
+      "name": "オッタル",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "cc4884-NChN91-4Gca8D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049208463",
+      "name": "［ゆっきー］",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "8ac84G-l497TW-xcc4x8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043951675",
+      "name": "こうせつ",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "LLnH9g-jvIP4h-N6ngnQ"
+    }
+  ],
+  "total": 16
+}

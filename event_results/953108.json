@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-06 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "岐阜県",
+    "shopId": 20033,
+    "shopName": "宝島　岐阜本店",
+    "zipCode": 5016103,
+    "address": "岐阜県岐阜市柳津町蓮池5丁目1番1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0007640265",
+      "name": "あやたか",
+      "rank": 1,
+      "point": 100,
+      "area": "岐阜県",
+      "deck_id": "8YGKY8-wTd9K2-8Dacc4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058795127",
+      "name": "ふく",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "RypyRy-rBfZZ0-ppSMRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042951326",
+      "name": "アスカ",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "ySMpES-tqIYRj-ySRpRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069875195",
+      "name": "ぷれたか",
+      "rank": 3,
+      "point": 50,
+      "area": "岐阜県",
+      "deck_id": "9Qggng-Ce5289-ngQQLL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044300034",
+      "name": "ぎし",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "SRpSXy-8urBRH-SEppyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072518182",
+      "name": "あっち♪",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "cGxc8D-rCWlBt-Y4xa8Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011177120",
+      "name": "ぴてぅ",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "gPQg6g-EMxN6u-Qngn9n"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078424241",
+      "name": "うじまっちゃ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "b5FbV1-nEpdkH-vFFFvk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067333631",
+      "name": "タクミ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "8Y8KGY-xi9fV1-YDccDx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0097757713",
+      "name": "けんごっち",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "nggQng-hu4pOl-HNLN9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071559478",
+      "name": "こけしフルスイング",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "ggNnLn-IyMxh6-QgQ9gg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061038749",
+      "name": "よつば",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "bFFkvk-JpPGCa-vbbFfv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014702262",
+      "name": "銀のヒロ",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "gn6QNQ-HcO94r-9ngLHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058945731",
+      "name": "蒼",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "vbF5kF-GdCv3x-VF1vFb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061703355",
+      "name": "ST",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "fkkvFb-DyNllj-FFFwbv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010202184",
+      "name": "しゅか",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": null
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46188",
+    "name": "カルボウ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48359",
+    "name": "カルボウ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47124",
+    "name": "ソウブレイズex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47862",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47759",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47760",
+    "name": "ソルロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46744",
+    "name": "モグリュー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48360",
+    "name": "ソウブレイズ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48295",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46197",
+    "name": "パーフェクトミキサー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50171",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47208",
+    "name": "ゼイユ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48418",
+    "name": "ひふきやろう",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49421",
+    "name": "クセロシキのたくらみ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "50073",
+    "name": "ピュール",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48323",
+    "name": "基本炎エネルギー",
+    "count": 8
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "23275",
+    "name": "基本闘エネルギー",
+    "count": 8
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47218",
+    "name": "ミストエネルギー",
+    "count": 2
+  }
+]

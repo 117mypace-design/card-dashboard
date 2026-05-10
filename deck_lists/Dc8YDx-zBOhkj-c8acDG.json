@@ -1,0 +1,92 @@
+[
+  {
+    "category": "ポケモン",
+    "name": "チラーミィ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "チラチーノex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "ダンバル",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "メタング",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "メタグロス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "ゲノセクトex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "メガガルーラex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "name": "ゼイユ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "リーリエの決心",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "name": "ミアレシティ",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本鋼エネルギー",
+    "count": 25
+  },
+  {
+    "category": "エネルギー",
+    "name": "イグニッションエネルギー",
+    "count": 1
+  }
+]

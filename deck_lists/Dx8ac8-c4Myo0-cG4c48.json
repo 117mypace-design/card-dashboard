@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46855",
+    "name": "カジッチュ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46856",
+    "name": "カミッチュ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46868",
+    "name": "トサキント",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46869",
+    "name": "アズマオウ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46853",
+    "name": "サルノリ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46854",
+    "name": "バチンキー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45701",
+    "name": "ゴリランダー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49728",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49744",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46859",
+    "name": "シガロコ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46860",
+    "name": "ベラカス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50152",
+    "name": "ミネズミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46958",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46959",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50069",
+    "name": "せいなるはい",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49578",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49579",
+    "name": "ブレイブバングル",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49586",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "38062",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46975",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46976",
+    "name": "スグリ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49980",
+    "name": "からておうの稽古",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "42070",
+    "name": "ジャッジマン",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46987",
+    "name": "お祭り会場",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42944",
+    "name": "基本草エネルギー",
+    "count": 5
+  }
+]

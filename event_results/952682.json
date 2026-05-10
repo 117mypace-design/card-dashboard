@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:45:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "秋田県",
+    "shopId": 20078,
+    "shopName": "鹿角ラボ",
+    "zipCode": 185201,
+    "address": "秋田県鹿角市花輪字新田町11-4　多目的ホール",
+    "venue": "道の駅かづのあんとらあ　多目的ホール",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0011888220",
+      "name": "ナヲイ",
+      "rank": 1,
+      "point": 100,
+      "area": "岩手県",
+      "deck_id": "kfFF5b-K6lLOo-5vFVVF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072627970",
+      "name": "リンゴ",
+      "rank": 2,
+      "point": 75,
+      "area": "秋田県",
+      "deck_id": "bfVFF5-FDXOxU-k1vkkd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012181104",
+      "name": "福原愛一郎",
+      "rank": 3,
+      "point": 50,
+      "area": "青森県",
+      "deck_id": "M2URpp-Qr2vqf-2yyppX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000044222",
+      "name": "こしあん",
+      "rank": 3,
+      "point": 50,
+      "area": "青森県",
+      "deck_id": "PN9gnH-ILOKu7-ngNPHN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075593368",
+      "name": "せいとも",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "4accD8-hWR07H-DxGDYY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092926389",
+      "name": "ひなどり",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "fbFF5F-K4mhlD-5kkVFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094838675",
+      "name": "つばくろう",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "p2yy2y-YnOJQk-XR2pXM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068110343",
+      "name": "一",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "9NQnnN-MlxDnG-NnNHgg"
+    }
+  ],
+  "total": 8
+}

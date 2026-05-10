@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-25 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "和歌山県",
+    "shopId": 14743,
+    "shopName": "BOOKOFF和歌山国体道路店",
+    "zipCode": 6410007,
+    "address": "和歌山県和歌山市小雑賀725",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0054417742",
+      "name": "マグロ丼",
+      "rank": 1,
+      "point": 100,
+      "area": "和歌山県",
+      "deck_id": "4cYKGD-CFxxHC-848ccY"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055264642",
+      "name": "ZAQ",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "p2ySpX-cNSmE4-RyyXR2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036004014",
+      "name": "ぐっち",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "dF55bk-CBkCeM-FVvffk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0025820333",
+      "name": "いわもっちゃん",
+      "rank": 3,
+      "point": 50,
+      "area": "和歌山県",
+      "deck_id": "D4cK8D-wtUDPF-G8Kx84"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075498957",
+      "name": "よいちろう",
+      "rank": 5,
+      "point": 25,
+      "area": "和歌山県",
+      "deck_id": "DDcDca-OEzZXY-48488G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012108811",
+      "name": "adn",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "ininHg-2MviXO-9QNgNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012533385",
+      "name": "山ちゃん@激流杯",
+      "rank": 5,
+      "point": 25,
+      "area": "和歌山県",
+      "deck_id": "fFfFFk-xT1iIJ-vkFFwb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072926837",
+      "name": "つな",
+      "rank": 5,
+      "point": 25,
+      "area": "和歌山県",
+      "deck_id": "nQngQ9-YP6dbC-NgHnNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080537070",
+      "name": "キサラ",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "S2y3Xy-eh94ne-MXpypR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029022498",
+      "name": "うきょう",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "FfFkkF-NjRo2o-wkb5fF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003623655",
+      "name": "ねぎさん",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "X23RpR-PS2IbW-UyypXX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075927112",
+      "name": "えのん",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "5fVkdb-I0weRh-FkfdVf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0028761981",
+      "name": "ケンちゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "yyXpy3-ufRGQi-SppyRX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0029936335",
+      "name": "かいせー",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "vfvFFf-JYe0Wo-kFkFdb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075822835",
+      "name": "タケ",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "gNgnQn-2ibKk6-LgN9iL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087622623",
+      "name": "プレーン",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "QgNnnn-yCoB6x-6N9NHN"
+    }
+  ],
+  "total": 16
+}

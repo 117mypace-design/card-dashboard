@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "静岡県",
+    "shopId": 19920,
+    "shopName": "トレカステーション佐鳴台店",
+    "zipCode": 4328061,
+    "address": "静岡県浜松市中央区入野町621-1 　TSUTAYA佐鳴台店２F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0000035783",
+      "name": "こリ",
+      "rank": 1,
+      "point": 100,
+      "area": "静岡県",
+      "deck_id": "MpUp2S-XlF4J8-RRRMyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011976262",
+      "name": "ともや",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "FFVwkV-lEBY86-5FfkVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029016828",
+      "name": "マキ",
+      "rank": 3,
+      "point": 50,
+      "area": "静岡県",
+      "deck_id": "f5VkdV-PDlI1T-kkkbkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000001551",
+      "name": "でいとな",
+      "rank": 3,
+      "point": 50,
+      "area": "静岡県",
+      "deck_id": "d5Fk5v-DUf8u4-15FFkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084857451",
+      "name": "おじいさん",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "gnLinn-LxV4vk-Ng9NnH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037036571",
+      "name": "オーエン",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "HngQLn-vlgzx5-LgngQ9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071504962",
+      "name": "りしゅねこ",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "V5kVFV-x2mYSn-FVbfFV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0041123214",
+      "name": "けいーま",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "c4JD8K-aj2wyD-GKJccx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000164360",
+      "name": "つかぴょん",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "x48xY4-uPmgSz-cca8G8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004182005",
+      "name": "えぬえぬ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "XMMSyM-5vj8c5-py2R2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079275077",
+      "name": "ゆーろ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "nNgLH9-T5v9Et-LHLLng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028322793",
+      "name": "ノブァ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "QHnN9n-mcjFvM-LiLPLg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030141818",
+      "name": "いけお",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "NLgHHP-VLSPRa-9PNgLn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011991371",
+      "name": "だい",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "RpEMMp-uQ3kQn-yypM2R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074461798",
+      "name": "くまさん。",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "MySMXy-K4CT9B-MRp2Mp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055111418",
+      "name": "かっぱ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "5kF1kF-nkBN1F-kFVbV1"
+    }
+  ],
+  "total": 16
+}

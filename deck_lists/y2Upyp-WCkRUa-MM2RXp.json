@@ -1,0 +1,128 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47474",
+    "name": "ロケット団のポリゴン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47475",
+    "name": "ロケット団のポリゴン2",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47476",
+    "name": "ロケット団のポリゴンZ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49163",
+    "name": "ロケット団のヤミカラス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48624",
+    "name": "ロケット団のヤミカラス",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48625",
+    "name": "ロケット団のドンカラス",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47415",
+    "name": "ロケット団のフリーザー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47483",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "37333",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "40843",
+    "name": "ハイパーボール",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45931",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46437",
+    "name": "ミラクルインカム(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47488",
+    "name": "ロケット団のランス",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47487",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47485",
+    "name": "ロケット団のアポロ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47484",
+    "name": "ロケット団のアテナ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47486",
+    "name": "ロケット団のサカキ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47490",
+    "name": "ロケット団のファクトリー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47491",
+    "name": "ロケット団エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47708",
+    "name": "イグニッションエネルギー",
+    "count": 4
+  }
+]

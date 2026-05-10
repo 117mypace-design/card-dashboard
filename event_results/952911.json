@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 18937,
+    "shopName": "BOOKOFFPLUS　アミューあつぎ店",
+    "zipCode": 2430018,
+    "address": "神奈川県厚木市中町2-12-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0000239891",
+      "name": "ましゅまろ⭐︎",
+      "rank": 1,
+      "point": 100,
+      "area": "神奈川県",
+      "deck_id": "gN6ngQ-b4OJgT-9NP9HL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078148143",
+      "name": "Tkt",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "pM22UR-R5wWwz-yXySXM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079122832",
+      "name": "ナグ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "pMpM3p-gowb1K-M2yRMp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085820182",
+      "name": "チーカマ",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "wFdVkF-rJMXil-Fvb55b"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035893536",
+      "name": "るひ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "FFFkVw-X3WA1K-VVFbd5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092756548",
+      "name": "えーじ",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "Vbvkkv-xDoBya-1FV5Vv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036082155",
+      "name": "れいや",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "6HnggQ-M4KP6R-LL9LQL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065744994",
+      "name": "まー",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "9ggngn-Hvq6PM-HN6LLQ"
+    }
+  ],
+  "total": 8
+}

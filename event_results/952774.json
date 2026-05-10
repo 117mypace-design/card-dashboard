@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "東京都",
+    "shopId": 12711,
+    "shopName": "カードショップ竜星のPAO　立川店",
+    "zipCode": 1900012,
+    "address": "東京都立川市曙町2-11-2　フロム中武5F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0043777705",
+      "name": "宝",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "kbbfkV-WY3cR8-FkkvfV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079526997",
+      "name": "Bon",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "8cccaD-MQ4nPQ-DGJD8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070974973",
+      "name": "むらっきー",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "3XyXpM-DWzYW5-pyEpyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076246285",
+      "name": "まざいマン",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "pXy3Xy-UJbzDe-XM2RXy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085095894",
+      "name": "セイユウ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": null
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063225514",
+      "name": "ある",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "dkbfVw-6N4adT-kfkF1F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036627194",
+      "name": "さけ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "gngPgn-VVckvR-nL9N9i"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005921681",
+      "name": "フェニックス山田",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "ngNLNL-TLCmtO-69g6nn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099826183",
+      "name": "肉まんおばけ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "J8DxaD-F6hhOB-x8GK8c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073183866",
+      "name": "バクマン",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "884xKG-jvUzw2-KxxcD4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100025312",
+      "name": "ほし",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "XSpyXR-vAY63v-MpXMRS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081702323",
+      "name": "たにー",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "nHN9Nn-Y3kfDF-9L9ngH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0009809567",
+      "name": "モロ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "6nLQLN-n90Qfn-Q9nNgH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000370594",
+      "name": "わせ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "FFk51k-1tZXFG-fvk5bV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011414775",
+      "name": "たろ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "nNHggg-uRFkqN-9QnNLN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067928642",
+      "name": "ヒデヤ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "Fkd1df-ZTg9ir-VbFkFV"
+    }
+  ],
+  "total": 16
+}

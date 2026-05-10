@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 14790,
+    "shopName": "BOOKOFFSUPERBAZAARノースポート・モール店",
+    "zipCode": 2240003,
+    "address": "神奈川県横浜市都筑区中川中央1-25-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0037240961",
+      "name": "DJコダック",
+      "rank": 1,
+      "point": 100,
+      "area": "神奈川県",
+      "deck_id": "vkFkFf-Jww7O3-5bFvVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071946748",
+      "name": "TAIGA",
+      "rank": 2,
+      "point": 75,
+      "area": "神奈川県",
+      "deck_id": "MyRyMy-8rmu4K-RUX3py"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0096299960",
+      "name": "そー",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "kb1k5F-eKoVWP-5VFkFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010804429",
+      "name": "いもフライ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "pyEpSS-Lv4FNZ-XppRUy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006224789",
+      "name": "とろっぴー",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "S2SMRX-ZZ8mXg-M32pyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009329935",
+      "name": "リック",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "x8DDcx-PcHvjg-YK8Gcc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073872894",
+      "name": "リンゴトースト",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "QiNLnn-CHSoBn-9Ngn6N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011119924",
+      "name": "エバンス",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "3yyp2X-mXoHVE-RSypyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078183647",
+      "name": "まー",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "Vkbwwv-kN5bix-f1FVFV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084502908",
+      "name": "あるふぅー",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "pyMXyU-yEMvcM-3MSMR2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064946256",
+      "name": "しゅが",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "kkfkb1-CSEPwV-kVFFbd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039012780",
+      "name": "kamito",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "8Dc8xD-4QAVpg-Kx8YxG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0101495358",
+      "name": "まぬりがさ",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "nQngLn-A5uaqF-L9gPg6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0093639347",
+      "name": "ありは",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "3ypUXp-I58YaI-2yRppy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076183140",
+      "name": "はっしー",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "kwVfvb-IxSEMj-fFffkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032161463",
+      "name": "タケ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "9ggNHg-8OHdWu-gnPLgn"
+    }
+  ],
+  "total": 16
+}

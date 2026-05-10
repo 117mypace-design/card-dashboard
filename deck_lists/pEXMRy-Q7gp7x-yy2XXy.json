@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45770",
+    "name": "ドラメシヤ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45771",
+    "name": "ドロンチ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45862",
+    "name": "ドラパルトex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45746",
+    "name": "マシマシラ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46662",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48354",
+    "name": "ファイヤー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47235",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46324",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46058",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45209",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49601",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47900",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "47104",
+    "name": "タケシのスカウト",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47796",
+    "name": "危ない廃墟",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49463",
+    "name": "基本超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49460",
+    "name": "基本炎エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49465",
+    "name": "基本悪エネルギー",
+    "count": 2
+  }
+]

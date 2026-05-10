@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45172",
+    "name": "マリル",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46209",
+    "name": "マリルリ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48582",
+    "name": "リーリエのピッピex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46248",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45707",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46283",
+    "name": "ダークボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42245",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49601",
+    "name": "ポケパッド",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "35135",
+    "name": "エネルギーつけかえ",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "47101",
+    "name": "リーリエのしんじゅ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49586",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "38821",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "42070",
+    "name": "ジャッジマン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46970",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46989",
+    "name": "ゼロの大空洞",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "41144",
+    "name": "基本草エネルギー",
+    "count": 6
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "41148",
+    "name": "基本超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 4
+  }
+]

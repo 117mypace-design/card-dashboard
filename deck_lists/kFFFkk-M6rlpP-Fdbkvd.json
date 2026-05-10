@@ -1,0 +1,158 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45199",
+    "name": "タケルライコex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45707",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47847",
+    "name": "メガガルーラex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46248",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46409",
+    "name": "コライドン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48554",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47264",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46195",
+    "name": "テラスタルオーブ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45785",
+    "name": "むしとりセット",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46028",
+    "name": "ガラスのラッパ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42763",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42714",
+    "name": "エネルギーつけかえ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46222",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "43825",
+    "name": "ポケモンキャッチャー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46442",
+    "name": "シアノ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46201",
+    "name": "アカマツ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46826",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49608",
+    "name": "ジャッジマン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47270",
+    "name": "ボスの指令",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46041",
+    "name": "ゼロの大空洞",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42782",
+    "name": "基本雷エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42784",
+    "name": "基本闘エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42779",
+    "name": "基本草エネルギー",
+    "count": 8
+  }
+]

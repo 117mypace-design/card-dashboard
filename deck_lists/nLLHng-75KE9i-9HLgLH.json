@@ -1,0 +1,188 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47236",
+    "name": "マンムーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47053",
+    "name": "イノムー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47226",
+    "name": "ウリムー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46470",
+    "name": "バシャーモex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47412",
+    "name": "ワカシャモ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47411",
+    "name": "アチャモ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48457",
+    "name": "フーディン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47833",
+    "name": "ユンゲラー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47832",
+    "name": "ケーシィ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45738",
+    "name": "ケーシィ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47177",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46008",
+    "name": "ギギギアル",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48467",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "41913",
+    "name": "ハイパーボール",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48468",
+    "name": "ふしぎなアメ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "1114",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48253",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48694",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "39232",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46826",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48514",
+    "name": "バトルコロシアム",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46848",
+    "name": "レガシーエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49713",
+    "name": "ロック闘エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "31832",
+    "name": "基本闘エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "32002",
+    "name": "基本闘エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "5",
+    "name": "基本超エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "31077",
+    "name": "基本炎エネルギー",
+    "count": 1
+  }
+]

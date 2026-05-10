@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "佐賀県",
+    "shopId": 15271,
+    "shopName": "ブックオフプラス佐賀南部バイパス店",
+    "zipCode": 8400023,
+    "address": "佐賀県佐賀市本庄町袋297",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0063771813",
+      "name": "ゆうま",
+      "rank": 1,
+      "point": 100,
+      "area": "佐賀県",
+      "deck_id": "G4a8aa-awlvhI-xc4Dc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054108626",
+      "name": "しょご",
+      "rank": 2,
+      "point": 75,
+      "area": "佐賀県",
+      "deck_id": "RyypEX-nGokMo-RyXMMp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042978044",
+      "name": "卵焼き",
+      "rank": 3,
+      "point": 50,
+      "area": "佐賀県",
+      "deck_id": "yUEpXS-SKiDfg-2MypSR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077333733",
+      "name": "ルル",
+      "rank": 3,
+      "point": 50,
+      "area": "佐賀県",
+      "deck_id": "6gQNii-mJKZjP-Lgn9Qn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0022870032",
+      "name": "じん",
+      "rank": 5,
+      "point": 25,
+      "area": "長崎県",
+      "deck_id": "J84DGc-K54lKt-xD4D88"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077257806",
+      "name": "アッキー",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "pp2yXM-fzibND-X2RXpR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0029455476",
+      "name": "ワタリ",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "pUMp2p-9HGEoa-XRy2yM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000023656",
+      "name": "トミー",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "HLnLPL-2YCY0z-Ng9gng"
+    }
+  ],
+  "total": 8
+}

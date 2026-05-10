@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-08 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "京都府",
+    "shopId": 11037,
+    "shopName": "GIRAFULL京都店",
+    "zipCode": 6008211,
+    "address": "京都府京都市下京区真苧屋町195　福井ビル2F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0056791996",
+      "name": "ゴリゴリくん",
+      "rank": 1,
+      "point": 100,
+      "area": "京都府",
+      "deck_id": "22ySyM-FWRmJI-2EpRpp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007352041",
+      "name": "みなも",
+      "rank": 2,
+      "point": 75,
+      "area": "京都府",
+      "deck_id": "FbkFvF-KIUyOw-Ff51kb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076650600",
+      "name": "ざむ",
+      "rank": 3,
+      "point": 50,
+      "area": "京都府",
+      "deck_id": "Fk5F1F-xfCzkH-f5fvb1"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063306569",
+      "name": "たかし",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "8G884J-XRhRdG-ccaDJY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035826521",
+      "name": "ちゃ〜はん",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "yEypRE-bbfBD7-22XpRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014302112",
+      "name": "イナ",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "RE2pp2-VOO6Eh-2pMUyM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0011642756",
+      "name": "カノア",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "cxJGYc-W2Lcmr-8xxcY4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036796045",
+      "name": "ぺんてぃ",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "DcDcaa-ngd0mt-4c8G8a"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036918186",
+      "name": "伊吹",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "F5F1kv-8AwFYH-5FbVFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030346837",
+      "name": "Mackey",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "py2yyE-Siab9q-pMSERX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082936693",
+      "name": "こっしー",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "FfbVw1-ya0J1Q-5VFkVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060173782",
+      "name": "ひるー",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "bFVFF5-gKl6fZ-V1V5kb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079718024",
+      "name": "たかまさ",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "Dcxx8G-ywkUk3-cJxcD8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028832520",
+      "name": "ぴよ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "51kF1F-QPTGvw-1kb1Fk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054463125",
+      "name": "ソラユウ",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "kbkVk5-k2qp5R-vvFFvF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067591648",
+      "name": "ハタ",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "FbkwFV-nWO9P8-fvkdfd"
+    }
+  ],
+  "total": 16
+}

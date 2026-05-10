@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "茨城県",
+    "shopId": 10571,
+    "shopName": "WonderGOO PLUS つくば店",
+    "zipCode": 3050817,
+    "address": "茨城県つくば市研究学園7丁目54-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0092997961",
+      "name": "やまなみ",
+      "rank": 1,
+      "point": 100,
+      "area": "茨城県",
+      "deck_id": "5b5FF5-EcHVDr-5kdkbF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036636431",
+      "name": "フレスカ",
+      "rank": 2,
+      "point": 75,
+      "area": "茨城県",
+      "deck_id": "5Fkwff-VEic7m-kkwbfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075679701",
+      "name": "めろ",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "vkFbk5-gOFYMv-VFkFV5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008148618",
+      "name": "ふく",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "bkFFFF-g5bpuV-k5f5bF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037239745",
+      "name": "あっと@",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "kf5vFk-JlH2rl-VbdFfV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057963909",
+      "name": "SUGI",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "SpEpRp-EVjYP0-Mpyy32"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035334086",
+      "name": "まろん",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "ER2ppp-UhYkId-p22y2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055107648",
+      "name": "舞茸",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "LgngHH-GFFHh6-nN9ggQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0017678234",
+      "name": "たくや",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "cccxx8-rH2CzF-4cx44G"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037434539",
+      "name": "かつん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "bk5kkf-talAKJ-F55fkF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037502793",
+      "name": "モッさん",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "kkVFkb-NQqkr7-5Ff5f5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029787867",
+      "name": "ねりす",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "nNLnnH-pMhD3l-H9gnLg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003673795",
+      "name": "エンドウ",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "H9nnLn-QX6cRR-gHg9ng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001630055",
+      "name": "〆鯖",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "Rpp2pR-M7Yy9d-X2RySy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083736760",
+      "name": "みけスフィ",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "fV5dFb-RlrH3G-VfbkFv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028944557",
+      "name": "若餅丸",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "MRMMXp-gxmacR-pySy2p"
+    }
+  ],
+  "total": 16
+}

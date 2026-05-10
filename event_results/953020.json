@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "奈良県",
+    "shopId": 18169,
+    "shopName": "BOOKOFF奈良法華寺店",
+    "zipCode": 6308001,
+    "address": "奈良県奈良市法華寺町226",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0090185340",
+      "name": "たけ",
+      "rank": 1,
+      "point": 100,
+      "area": "奈良県",
+      "deck_id": "9ngnP9-OVYFpL-nHngNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000223063",
+      "name": "カブ",
+      "rank": 2,
+      "point": 75,
+      "area": "奈良県",
+      "deck_id": "nH9n6L-t9h8u3-9gLigH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035218986",
+      "name": "大ちゃん",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "gn9g9L-CHWrxu-LL9LQH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0010580903",
+      "name": "マールド",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "iHn6gL-9g6ndV-9LngLQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042113797",
+      "name": "吉田",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "VfkVkk-eWgrSC-FfFbV5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0096755349",
+      "name": "ベクトル",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "xGYcx4-ndnCbo-888c4J"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073444383",
+      "name": "T",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "kkkFFd-gt09AO-w5v5Vb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007050710",
+      "name": "RYO",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "yRyMM2-yb0UGK-S2Sppp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039181877",
+      "name": "Alice",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "ngL99g-cXjmIW-LHLLLn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007949706",
+      "name": "キシチニ",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "gLggHH-X4TqgO-9Nnngn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087980181",
+      "name": "りり",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "HgnLLH-XmUUaT-HnHQ9N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029310173",
+      "name": "やまだ",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "LHN9LL-gyc8mQ-nng6NL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035777133",
+      "name": "ゲルニカ",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "JKGxGc-J9iDCJ-48c8c8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026545709",
+      "name": "のおと",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "VFkk1F-WKcHho-f5b55V"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0015584418",
+      "name": "アダムスファミリー",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "XRUM2y-9wPFCD-yppyM2"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067411739",
+      "name": "睡歌",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "5bVFFF-zxXIAf-kFfkV5"
+    }
+  ],
+  "total": 16
+}

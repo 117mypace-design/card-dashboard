@@ -1,0 +1,146 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49270",
+    "name": "タケルライコex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45707",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49524",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47041",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46372",
+    "name": "パオジアン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47847",
+    "name": "メガガルーラex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45556",
+    "name": "テツノイサハex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36955",
+    "name": "エネルギーつけかえ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44011",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46579",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "41090",
+    "name": "ジャッジマン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "42900",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45562",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46442",
+    "name": "シアノ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47148",
+    "name": "アカマツ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46989",
+    "name": "ゼロの大空洞",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42944",
+    "name": "基本草エネルギー",
+    "count": 8
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40489",
+    "name": "基本闘エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "4105",
+    "name": "基本雷エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "41946",
+    "name": "基本超エネルギー",
+    "count": 2
+  }
+]

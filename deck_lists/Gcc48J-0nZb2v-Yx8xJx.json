@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46189",
+    "name": "ソウブレイズex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46188",
+    "name": "カルボウ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47760",
+    "name": "ソルロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47759",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45256",
+    "name": "モグリュー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42694",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47496",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45784",
+    "name": "ポケモン回収サイクロン(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "40999",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45788",
+    "name": "ゼイユ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46039",
+    "name": "ブライア",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46041",
+    "name": "ゼロの大空洞",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46117",
+    "name": "基本炎エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "37747",
+    "name": "基本闘エネルギー",
+    "count": 13
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45288",
+    "name": "ミストエネルギー",
+    "count": 2
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-26 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "三重県",
+    "shopId": 20082,
+    "shopName": "三洋堂書店 星川店",
+    "zipCode": 5110912,
+    "address": "三重県桑名市大字星川字十二899番地",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0029669350",
+      "name": "みーさん",
+      "rank": 1,
+      "point": 100,
+      "area": "三重県",
+      "deck_id": "vd5b5k-GdtF1Y-w1kFfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027369816",
+      "name": "てんごく",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "xJD884-OBhlOU-c88YGD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071371694",
+      "name": "さと",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "yRXyM2-cZefon-SUMyUp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073435833",
+      "name": "もっち",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "xGJx88-xQ5SNg-G4cc8x"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061196216",
+      "name": "TOMMY",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "nHQgNi-P4i5l0-gnnH9g"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0047900549",
+      "name": "よぞら",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "FfFbFk-Zc2uKT-kfFb5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043574317",
+      "name": "こーくん",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "F5k5vk-bBR5Fv-VVbff5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075474906",
+      "name": "かすてら",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "SXyp2y-NJAn3T-ypRyMR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034490729",
+      "name": "タンタンメン",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "5vdbwV-mCB271-kvbFFk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0017871891",
+      "name": "もりもりきのこ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "axcGGc-G4Ohjd-Da8J84"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060290502",
+      "name": "りっくぱぱ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "nnnnNH-D2Tj7O-n9ngNQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073521446",
+      "name": "おにぎり",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "kkbVFv-NFF1xb-Fk55vf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071735643",
+      "name": "くろろ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "NHnnNg-ILH2dK-nQgQg9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000479684",
+      "name": "王様",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "H9Lggn-e3LpJU-QNgLn9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0007471166",
+      "name": "たかき",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "5vFkk5-bXJwf0-kVVkbw"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077577700",
+      "name": "といつ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "NnQn69-vKI8Fq-LHgnnN"
+    }
+  ],
+  "total": 16
+}

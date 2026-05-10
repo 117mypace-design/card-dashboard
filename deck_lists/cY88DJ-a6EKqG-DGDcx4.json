@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49240",
+    "name": "ジュラルドン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48644",
+    "name": "ブリジュラスex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49185",
+    "name": "Nのゾロア",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49186",
+    "name": "Nのゾロアークex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48249",
+    "name": "マシマシラ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46766",
+    "name": "モモワロウex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50037",
+    "name": "ジーランス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49404",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48253",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49411",
+    "name": "アオキの手際",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49421",
+    "name": "クセロシキのたくらみ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49585",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47489",
+    "name": "ロケット団の監視塔",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49466",
+    "name": "基本鋼エネルギー",
+    "count": 10
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49465",
+    "name": "基本悪エネルギー",
+    "count": 2
+  }
+]

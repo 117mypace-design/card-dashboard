@@ -1,0 +1,128 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46360",
+    "name": "カルボウ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46189",
+    "name": "ソウブレイズex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47760",
+    "name": "ソルロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47759",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45931",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48414",
+    "name": "ヒートバーナー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46197",
+    "name": "パーフェクトミキサー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "45788",
+    "name": "ゼイユ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48304",
+    "name": "リーリエの決心",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48281",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "46104",
+    "name": "スグリ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45791",
+    "name": "ジャミングタワー",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46117",
+    "name": "基本炎エネルギー",
+    "count": 6
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46121",
+    "name": "基本闘エネルギー",
+    "count": 11
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45288",
+    "name": "ミストエネルギー",
+    "count": 3
+  }
+]

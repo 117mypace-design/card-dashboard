@@ -1,0 +1,224 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47143",
+    "name": "タケルライコex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46681",
+    "name": "オーガポン みどりのめんex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46324",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48475",
+    "name": "メガガルーラex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47246",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45869",
+    "name": "オーガポン いどのめんex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49478",
+    "name": "テツノイサハex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49077",
+    "name": "テツノカシラex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50081",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50004",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49946",
+    "name": "ホーホー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46133",
+    "name": "ヨルノズク",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46014",
+    "name": "タケルライコ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46409",
+    "name": "コライドン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49872",
+    "name": "パオジアン",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47193",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47198",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48671",
+    "name": "ガラスのラッパ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "34908",
+    "name": "エネルギーつけかえ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46957",
+    "name": "テラスタルオーブ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49567",
+    "name": "エネルギー転送",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49601",
+    "name": "ポケパッド",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48239",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49374",
+    "name": "プレシャスキャリー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46970",
+    "name": "アカマツ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "46626",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46650",
+    "name": "シアノ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47989",
+    "name": "Nの筋書き",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47526",
+    "name": "ロケット団のラムダ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46989",
+    "name": "ゼロの大空洞",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "28775",
+    "name": "基本草エネルギー",
+    "count": 6
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "27668",
+    "name": "基本雷エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "27283",
+    "name": "基本闘エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "28792",
+    "name": "基本超エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "28409",
+    "name": "基本水エネルギー",
+    "count": 1
+  }
+]

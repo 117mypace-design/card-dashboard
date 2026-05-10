@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 14790,
+    "shopName": "BOOKOFFSUPERBAZAARノースポート・モール店",
+    "zipCode": 2240003,
+    "address": "神奈川県横浜市都筑区中川中央1-25-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0090627813",
+      "name": "にょろろ",
+      "rank": 1,
+      "point": 100,
+      "area": "神奈川県",
+      "deck_id": "8cxxGY-xtIHOk-YYaacD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054880263",
+      "name": "ミラン",
+      "rank": 2,
+      "point": 75,
+      "area": "神奈川県",
+      "deck_id": "Pgn9QQ-rAmiWG-gPNLnL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0034566239",
+      "name": "とぅるーえんど",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "VFVFkv-HvoJqP-kbfFvb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085962437",
+      "name": "ぱすかる",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "8GDDG8-TUlh0p-G8cxxD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0092674851",
+      "name": "ピタゴラ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "11VVkf-q3YX3P-kVk5Fb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0080089612",
+      "name": "あゆむ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "VbFvFf-leNjAO-kVV11V"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0097434524",
+      "name": "キテレツ斉",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "ppy3yy-YWjbzN-SRpXRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037152592",
+      "name": "ハチマキバンギラス",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "vVkV5F-IXIz8U-fFkVbV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036789159",
+      "name": "ひでじ",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "MSyRM2-l0Tndt-XpSpX2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065439849",
+      "name": "なお。",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "NL9gLn-WHW2Z0-NnHNNn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0069874217",
+      "name": "KK",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "Gc84cc-ytR6Ol-DxKxxG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035779832",
+      "name": "運命の一劇",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "fVFFbk-VHdI13-vF5FF1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063839571",
+      "name": "こばーん",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "fb5kFV-OASOtF-Fk5ffv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0091065977",
+      "name": "カミッチュ",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "R2MpUy-4SwTRZ-XyMRpy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0098254479",
+      "name": "こたろう",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "4cD4a8-SdTV5t-YDx8cG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0102098426",
+      "name": "********************",
+      "rank": 9,
+      "point": 15,
+      "area": null,
+      "deck_id": "9NnHng-Thr89X-HHgQLN"
+    }
+  ],
+  "total": 16
+}

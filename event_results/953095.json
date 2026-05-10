@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "兵庫県",
+    "shopId": 18928,
+    "shopName": "トレカショップ竜のしっぽ　姫路店",
+    "zipCode": 6700927,
+    "address": "兵庫県姫路市駅前町254 4姫路駅前ビル２F-B",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0079584867",
+      "name": "なずな",
+      "rank": 1,
+      "point": 100,
+      "area": "兵庫県",
+      "deck_id": "RyMXMp-SaoRL3-RSypEU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0066131254",
+      "name": "たろ",
+      "rank": 2,
+      "point": 75,
+      "area": "兵庫県",
+      "deck_id": "py2SRR-nGVxqz-yp22yp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0056418330",
+      "name": "くろ",
+      "rank": 3,
+      "point": 50,
+      "area": "兵庫県",
+      "deck_id": "LP9NNQ-NRh2fU-ngggHQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073917502",
+      "name": "NAOTO",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "KGY8cc-xInHr1-8Yc84Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083717938",
+      "name": "バスしょー",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "ypppS3-ECevkO-ER2XSp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008115533",
+      "name": "ダイコン",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "ffkdvk-oz6KAY-F5bVfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067028980",
+      "name": "ゆーかん",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "Yc8c8c-8ZDxxc-88DYGx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061578221",
+      "name": "コウ",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "FfbkVk-W28IpM-vwfFfv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080851170",
+      "name": "もん",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "SpMpS2-KTCpol-XUpRyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072561247",
+      "name": "はぶ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "48cDc8-YeHQcR-8acGDx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069607952",
+      "name": "かめ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "YG8cGD-jckUmW-48cccc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064594086",
+      "name": "MK",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "gHgn9Q-OMFIot-ggNg9g"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070861462",
+      "name": "あ・らん",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "DKGxcY-z1dkHq-8c8c8x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020195513",
+      "name": "アスカ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "gnNgPN-3aqOzW-Pnng9H"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074864065",
+      "name": "ばた",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "vffkFk-XY8twq-kbF51k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040146959",
+      "name": "かず182",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "S2pyRX-gwwax9-pMyyp2"
+    }
+  ],
+  "total": 16
+}

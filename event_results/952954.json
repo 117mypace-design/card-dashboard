@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-17 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 13:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 20:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 10931,
+    "shopName": "トレカショップ　スキップ玉出店",
+    "zipCode": 5590007,
+    "address": "大阪府大阪市住之江区粉浜西1-4-3　エバーグリーン住吉2F",
+    "venue": "トレカショップ　スキップ内",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0035977001",
+      "name": "くろまる",
+      "rank": 1,
+      "point": 100,
+      "area": "大阪府",
+      "deck_id": "f5VkfF-uqZvB4-bkkbkF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0101441753",
+      "name": "こんち",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "pRSyMX-NeHkQe-RRXURM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069908978",
+      "name": "かおるくん",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "9gLnLN-9ChUU4-NgPng9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072600869",
+      "name": "みはく",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "V5VvFb-D6PDSk-kfk1fF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073074078",
+      "name": "たかしはら",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "n9QLQL-YKbiVk-P9NL6g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0025398535",
+      "name": "ラッセル",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "dkF1vf-MLUg1c-fkkVbb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036975167",
+      "name": "さもっしー",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "cGKaxK-KBemBG-GYx8DD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0032238042",
+      "name": "たっか",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "fFbdf5-d6Up8J-k1kFVk"
+    }
+  ],
+  "total": 8
+}

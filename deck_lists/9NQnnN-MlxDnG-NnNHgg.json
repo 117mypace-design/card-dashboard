@@ -1,0 +1,102 @@
+[
+  {
+    "category": "ポケモン",
+    "name": "メタグロス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "メタング",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "name": "ダンバル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "name": "ヒードラン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ゲノセクトex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "ロケット団のガルーラex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "ロケット団のフリーザー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "なかよしポフィン",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "エネルギーリサイクル",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "プレシャスキャリー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本鋼エネルギー",
+    "count": 19
+  }
+]

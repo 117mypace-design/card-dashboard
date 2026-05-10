@@ -1,0 +1,75 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 18876,
+    "shopName": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店",
+    "zipCode": 5730005,
+    "address": "大阪府枚方市池之宮1-2-50",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0039503112",
+      "name": "ファイン",
+      "rank": 1,
+      "point": 100,
+      "area": "兵庫県",
+      "deck_id": "ypSRyR-tvFoF8-pXSp2X"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072086452",
+      "name": "やみ",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "KGxcDK-7r3jLg-c88Ycc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084698612",
+      "name": "タマネギ",
+      "rank": 3,
+      "point": 50,
+      "area": "兵庫県",
+      "deck_id": "pySM2p-oRNGnx-M3XpR2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036806373",
+      "name": "はやってい",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "LQniPN-IiPDwB-9gQnH9"
+    }
+  ],
+  "total": 4
+}

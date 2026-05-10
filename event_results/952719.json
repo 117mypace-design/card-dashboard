@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-22 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "茨城県",
+    "shopId": 12654,
+    "shopName": "カードショップ裁龍",
+    "zipCode": 3060004,
+    "address": "茨城県古河市雷電町１－１８",
+    "venue": "茨城県古河市雷電町1-18\nあかやまＪＯＹショッピングセンター2階",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0085530528",
+      "name": "あまてらす",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "MyXXpR-WPC4YO-MyR2py"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010948079",
+      "name": "べーやん",
+      "rank": 2,
+      "point": 75,
+      "area": "埼玉県",
+      "deck_id": "84cGDK-jbpBrY-848c8D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002888107",
+      "name": "ジェイソン村田",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "Jc8Y8G-bW5tpt-ccc88D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011983754",
+      "name": "たろう",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "NnLnn9-UtVKgF-L9QnLg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0017284002",
+      "name": "どとっくす",
+      "rank": 5,
+      "point": 25,
+      "area": "栃木県",
+      "deck_id": "Y8xG8J-FQLB6W-cGD8xD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065043750",
+      "name": "ヨコヤマ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "bkkkFF-QMyZGQ-VVwkfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0048050759",
+      "name": "しるきぃ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "XyyypM-cuCc74-pyXpXR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003184398",
+      "name": "雅",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "Vbfkkf-4xozzI-vbfkVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0047658448",
+      "name": "R",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "YGK848-pkNFS9-KDx8xc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071855578",
+      "name": "ハル",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "yyRMXy-8X7l85-pXypyy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0000622358",
+      "name": "せいや",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "ppyEy2-FzhQc5-pXyRRX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0034440151",
+      "name": "ラッセル",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": null
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079703882",
+      "name": "大知",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "88GcDD-Wr3NiU-4D88cG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0045222960",
+      "name": "もちもち",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "n9nHLL-yBTCLt-LgLNQN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080895000",
+      "name": "ヲー",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "8cJ8K8-DTqBqx-8GDx8D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039777935",
+      "name": "たけまる",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "f5VfFb-Ty521c-5FkVkw"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46189",
+    "name": "ソウブレイズex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46188",
+    "name": "カルボウ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46360",
+    "name": "カルボウ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47760",
+    "name": "ソルロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49789",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46910",
+    "name": "モグリュー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47862",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "30628",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48439",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46197",
+    "name": "パーフェクトミキサー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49586",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46977",
+    "name": "ゼイユ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "37976",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "2",
+    "name": "基本炎エネルギー",
+    "count": 7
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "30968",
+    "name": "基本闘エネルギー",
+    "count": 11
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46992",
+    "name": "ミストエネルギー",
+    "count": 3
+  }
+]

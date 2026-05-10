@@ -1,0 +1,62 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47814",
+    "name": "メガユキノオーex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47813",
+    "name": "ユキカブリ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47812",
+    "name": "カイオーガ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49976",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49977",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46220",
+    "name": "プレシャスキャリー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49411",
+    "name": "アオキの手際",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48701",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47858",
+    "name": "なみのりビーチ",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42946",
+    "name": "基本水エネルギー",
+    "count": 32
+  }
+]

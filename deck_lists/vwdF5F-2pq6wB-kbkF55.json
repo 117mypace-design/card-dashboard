@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45978",
+    "name": "ヤドキング",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45977",
+    "name": "ヤドン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50035",
+    "name": "ヤドン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45922",
+    "name": "キュレム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50143",
+    "name": "メタグロス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46402",
+    "name": "コノヨザル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46247",
+    "name": "ムチュール",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50172",
+    "name": "メガガルーラex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49028",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49003",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49007",
+    "name": "トゲピー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49009",
+    "name": "トゲキッス",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48299",
+    "name": "ワンダーパッチ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49379",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49371",
+    "name": "ふしぎなアメ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49372",
+    "name": "プライムキャッチャー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49414",
+    "name": "暗号マニアの解読",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45939",
+    "name": "夜のアカデミー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49463",
+    "name": "基本超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49454",
+    "name": "ブーメランエネルギー",
+    "count": 1
+  }
+]

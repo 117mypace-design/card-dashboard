@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛媛県",
+    "shopId": 11295,
+    "shopName": "トレカショップ　ファンクス",
+    "zipCode": 7920023,
+    "address": "愛媛県新居浜市繁本町5番31号　第3越智ビル1階",
+    "venue": "JR新居浜駅から徒歩15分。\n新居浜市役所から徒歩5分。",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0010691546",
+      "name": "えびきん",
+      "rank": 1,
+      "point": 100,
+      "area": "愛媛県",
+      "deck_id": "Rp2p2M-Q3S6c7-UMyyyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020641047",
+      "name": "じりつくん",
+      "rank": 2,
+      "point": 75,
+      "area": "愛媛県",
+      "deck_id": "v5FVfd-wD2Zf4-kFFkvb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0038763232",
+      "name": "ツツイ",
+      "rank": 3,
+      "point": 50,
+      "area": "香川県",
+      "deck_id": "dFkV5F-v0y0Eg-kdkbV5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061603590",
+      "name": "たまさぶろう",
+      "rank": 3,
+      "point": 50,
+      "area": "愛媛県",
+      "deck_id": "8DGcxc-GWppp7-x4c8D4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083899883",
+      "name": "ぶいすりー",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "5Fvb5k-0UHPqX-kbFVvV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027366161",
+      "name": "まーと",
+      "rank": 5,
+      "point": 25,
+      "area": "香川県",
+      "deck_id": "xc4YG8-yKviJz-4848x4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090572845",
+      "name": "りょーかな",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "LLLg9n-UGyxSy-NgHLng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020457109",
+      "name": "さっちー",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "4GDcKx-MyjErj-ccG888"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086687364",
+      "name": "ayu",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "n9HgHN-rRrWj5-ngLPLL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087708628",
+      "name": "芽亜",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "88cxc8-pImZCW-4xaG8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000254933",
+      "name": "あすみ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "NnHLgn-7SfDok-gg9N9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037205546",
+      "name": "ネコナベ",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "SpEyyS-FDIr24-ypXREp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068952965",
+      "name": "すーちゃんママ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "RXy2Mp-ekPmvH-M2XMy3"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036387759",
+      "name": "おもち",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "5V5b1k-a1w7Xo-VVFF1k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031307857",
+      "name": "Tomo",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "5FfbFw-XJ6YY7-kVkFFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026931775",
+      "name": "db_",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "84DGcc-XK1cEE-8GcxDY"
+    }
+  ],
+  "total": 16
+}

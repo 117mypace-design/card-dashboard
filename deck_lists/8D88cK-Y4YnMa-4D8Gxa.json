@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45517",
+    "name": "ドーミラー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45175",
+    "name": "ドータクン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49960",
+    "name": "ユキワラシ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46699",
+    "name": "ユキメノコ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48903",
+    "name": "オニゴーリ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49984",
+    "name": "メガユキメノコex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49524",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48603",
+    "name": "マシマシラ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46849",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48272",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48298",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49601",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "43034",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45563",
+    "name": "セイジ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "45681",
+    "name": "ゴヨウ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46330",
+    "name": "サーファー",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49434",
+    "name": "トウコ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48711",
+    "name": "ロケット団の監視塔",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42950",
+    "name": "基本悪エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42946",
+    "name": "基本水エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49457",
+    "name": "レガシーエネルギー",
+    "count": 1
+  }
+]

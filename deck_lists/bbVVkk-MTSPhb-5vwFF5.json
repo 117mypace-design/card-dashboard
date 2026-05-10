@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47847",
+    "name": "メガガルーラex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48582",
+    "name": "リーリエのピッピex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46711",
+    "name": "オーガポン いどのめんex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45707",
+    "name": "オーガポン みどりのめんex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48597",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45233",
+    "name": "テツノイサハex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50004",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47143",
+    "name": "タケルライコex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46500",
+    "name": "カプ・コケコex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46260",
+    "name": "ナゲツケサル",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47727",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42020",
+    "name": "エネルギーつけかえ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47729",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48316",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "45281",
+    "name": "ヒーローマント(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46442",
+    "name": "シアノ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "42422",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46826",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48706",
+    "name": "ゼロの大空洞",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42944",
+    "name": "基本草エネルギー",
+    "count": 7
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42948",
+    "name": "基本超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42946",
+    "name": "基本水エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42947",
+    "name": "基本雷エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42949",
+    "name": "基本闘エネルギー",
+    "count": 2
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47503",
+    "name": "ロケット団のワナイダー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49849",
+    "name": "ロケット団のタマンチュラ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49864",
+    "name": "ロケット団のフリーザー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49900",
+    "name": "ロケット団のミミッキュ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49921",
+    "name": "ロケット団のニューラ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49977",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "41334",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46959",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49976",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48274",
+    "name": "プライムキャッチャー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49575",
+    "name": "ポケモンキャッチャー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47523",
+    "name": "ロケット団のアテナ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47527",
+    "name": "ロケット団のランス",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48254",
+    "name": "ロケット団のサカキ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49586",
+    "name": "リーリエの決心",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49459",
+    "name": "基本草エネルギー",
+    "count": 8
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49458",
+    "name": "ロケット団エネルギー",
+    "count": 3
+  }
+]

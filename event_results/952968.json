@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "高知県",
+    "shopId": 18175,
+    "shopName": "TSUTAYA土佐道路店",
+    "zipCode": 7808050,
+    "address": "高知県高知市鴨部3-24-17",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0064622055",
+      "name": "まつ",
+      "rank": 1,
+      "point": 100,
+      "area": "高知県",
+      "deck_id": "VFFVV5-EmJbZz-vbkfVf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005598210",
+      "name": "ゆう",
+      "rank": 2,
+      "point": 75,
+      "area": "高知県",
+      "deck_id": "yyXyRp-3I5vpf-MSMppy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033785376",
+      "name": "レン",
+      "rank": 3,
+      "point": 50,
+      "area": "高知県",
+      "deck_id": "V1bkFf-SCTphF-VFvVf1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065137170",
+      "name": "ゆづ",
+      "rank": 3,
+      "point": 50,
+      "area": "高知県",
+      "deck_id": "VFkbFf-r7Lltf-bVkbFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037202453",
+      "name": "ぎもよ",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "DG8xx8-v9hlpz-DK8c8J"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082626116",
+      "name": "にしもと",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "ypXpM3-ElVTMo-XRSUyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067485134",
+      "name": "なつき",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "15kbfk-gph6jC-FFFvkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058096389",
+      "name": "にわとり",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "XypM2X-8EVV7X-ypUEpR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0039711281",
+      "name": "下戸",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "Ffb1VV-LGD33c-kkFfVF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075096243",
+      "name": "みのる",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "gNgH9N-gb8yk5-nggnQN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101111173",
+      "name": "あんみかん",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "ypXpU2-UHvHpZ-pyRMpU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081906824",
+      "name": "あのときの半田",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "bfFkkf-eVFC9b-bVfwkF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0089433681",
+      "name": "ウサギ首領",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "LHNgnL-AaIc3w-6N6g9N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006398556",
+      "name": "リョウ",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "K48GxJ-HG2cog-xcc8D8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084716668",
+      "name": "おもち",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "JGJDDc-ZoefXu-8xKxDD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082925185",
+      "name": "Yowa",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "FfVwbw-1VJ9Ri-kkVfwV"
+    }
+  ],
+  "total": 16
+}

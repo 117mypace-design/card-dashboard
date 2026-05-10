@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-02 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "京都府",
+    "shopId": 11037,
+    "shopName": "GIRAFULL京都店",
+    "zipCode": 6008211,
+    "address": "京都府京都市下京区真苧屋町195　福井ビル2F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0031439358",
+      "name": "ケイタ",
+      "rank": 1,
+      "point": 100,
+      "area": "京都府",
+      "deck_id": "Qnggng-EXcbBG-LLHLL9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011147767",
+      "name": "りょう",
+      "rank": 2,
+      "point": 75,
+      "area": "滋賀県",
+      "deck_id": "bFVFfF-EYrPEM-FkkFvk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082899196",
+      "name": "カントリ",
+      "rank": 3,
+      "point": 50,
+      "area": "京都府",
+      "deck_id": "kvv5V5-3kIhbB-bvFFVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031452959",
+      "name": "とーんB",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "SMXRyp-3YXL54-SMppS3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081423974",
+      "name": "さんしょ",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "QQNN99-mWAROa-Qinggn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078401897",
+      "name": "たけおで〜す。",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "n9ggNQ-8SZ0xk-gn9inH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030804386",
+      "name": "のらのこ",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "UR2pyy-zKnnFE-MSEppy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000041319",
+      "name": "くりお",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "c8DYc8-ojazRk-Y8GYcK"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089134533",
+      "name": "ﾀｸｹｲ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "8K8JKD-mYVPdB-aDG4cc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006778974",
+      "name": "こうさか",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "pSpypy-MfhcAe-RMyppy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037813271",
+      "name": "くう",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "gQgNnn-qkgIAw-LLnNN9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019295882",
+      "name": "pa-pa",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "ccaJDc-TC7j8g-Y8c8Gc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030175949",
+      "name": "でんぷん",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "8JYxcK-r8tVH8-J4GaD8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082231512",
+      "name": "X-Links",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "gQQggP-ZYkmpw-9PQnng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003723678",
+      "name": "ななふらっと",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "9QngNg-XMCvfJ-g99ggn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008138875",
+      "name": "ジュピター",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "ggn99Q-oCXbxY-HNnQLn"
+    }
+  ],
+  "total": 16
+}

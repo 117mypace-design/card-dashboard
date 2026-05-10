@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "沖縄県",
+    "shopId": 18230,
+    "shopName": "カードスタジアム小禄店",
+    "zipCode": 9010156,
+    "address": "沖縄県那覇市田原１－３－１",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0075406147",
+      "name": "だだだ",
+      "rank": 1,
+      "point": 100,
+      "area": "沖縄県",
+      "deck_id": "9ngHQg-OX5Ya0-iQLNgH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0089811568",
+      "name": "ゆき",
+      "rank": 2,
+      "point": 75,
+      "area": "沖縄県",
+      "deck_id": "y2pUR2-dFkbzt-p2yMyX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0001316180",
+      "name": "こーぎー",
+      "rank": 3,
+      "point": 50,
+      "area": "沖縄県",
+      "deck_id": "3yMp2S-AmhoLY-pMXM2R"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063083695",
+      "name": "MATA44",
+      "rank": 3,
+      "point": 50,
+      "area": "沖縄県",
+      "deck_id": "5V5Vvb-2MLfkg-fFfkFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071272201",
+      "name": "せっとん",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "YcaGDJ-3vwPF5-448c4x"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0088765217",
+      "name": "SHI-JI",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "ppXpyS-KAYZ7t-RRXyMR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0023139503",
+      "name": "たば",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "y3RSMX-cwoSzx-ppX2Sp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006251194",
+      "name": "Hikaru",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "YcxaYc-43lKkb-cG8GDY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0051596994",
+      "name": "SIKI",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "F5Vdkf-ykcw4J-kkkVbb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043593891",
+      "name": "あかたく",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "6NLNgL-vww7db-nL9QNg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0096366190",
+      "name": "エケコ",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "igN9Ln-E0alxJ-HHgQiL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085738494",
+      "name": "もんちー",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "pSyyM3-fvMRiY-2ypRMX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0017441108",
+      "name": "まっぴー",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "kvkVbF-7FhZZB-vVvFvf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011690467",
+      "name": "とうや",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "cD4488-zuWFaM-xYGx8G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080885302",
+      "name": "いぶ",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "NL9gLL-XhDh6J-Lg6HnQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0031489959",
+      "name": "おお",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "fV5VbF-2TW1pm-vkFVVk"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 20:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "埼玉県",
+    "shopId": 14214,
+    "shopName": "竜星のPAO　大宮店",
+    "zipCode": 3300802,
+    "address": "埼玉県さいたま市大宮区宮町2-28-29あじせんビル地下一階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0077446705",
+      "name": "ノック",
+      "rank": 1,
+      "point": 100,
+      "area": "埼玉県",
+      "deck_id": "MpyMXR-2KmxH2-E2UpM2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054862577",
+      "name": "エリック",
+      "rank": 2,
+      "point": 75,
+      "area": "埼玉県",
+      "deck_id": "yypypU-3iVXWJ-XyR2M3"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0005085468",
+      "name": "おた",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "LHHQ9n-tuoUUY-HPHggg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031349358",
+      "name": "がさきんぐ",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "2y22Rp-b8O4O0-pp222M"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0059748216",
+      "name": "スギヤマ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "g9HgL9-x8WHvp-HLQngH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068693967",
+      "name": "えも",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "nNHLHN-XqnZyT-ngi69H"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001993732",
+      "name": "ゲンタ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "LHNnnN-0HvLbH-Qg9HLL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072629938",
+      "name": "ふろう",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "b1kfVf-lW5qqi-F551FV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006028242",
+      "name": "しょうたろう",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "Vbbf5F-bKy0Ao-F5v5kb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060741019",
+      "name": "k",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "HHgHNg-guFLh4-9HgHLn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036407426",
+      "name": "いぐそん",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "gNHngN-PNDz7N-NnLNH9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030799840",
+      "name": "ぴ",
+      "rank": 9,
+      "point": 15,
+      "area": "群馬県",
+      "deck_id": "2yM2py-QvH73G-yRpyMM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085429233",
+      "name": "じじ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "pXyMSM-jtz43b-XR2pyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0066718390",
+      "name": "まっつー",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "96LQnQ-bjSU66-PngH9L"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009936074",
+      "name": "ジョルノ・ジョバァーナ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "5VFbww-VFHXFB-F5kvFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002799300",
+      "name": "いと",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "D88GY8-kGkX3v-4GxDcx"
+    }
+  ],
+  "total": 16
+}

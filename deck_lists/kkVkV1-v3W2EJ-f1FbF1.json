@@ -1,0 +1,224 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48222",
+    "name": "モノズ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48054",
+    "name": "モノズ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48223",
+    "name": "ジヘッド",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46656",
+    "name": "サザンドラex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47847",
+    "name": "メガガルーラex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47773",
+    "name": "イベルタル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46069",
+    "name": "モモワロウex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45914",
+    "name": "モモワロウex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45628",
+    "name": "ガチグマ アカツキex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46248",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46324",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46765",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46056",
+    "name": "イイネイヌex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50067",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47041",
+    "name": "リーリエのピッピex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45849",
+    "name": "マシマシラ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46247",
+    "name": "ムチュール",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49976",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46435",
+    "name": "スクランブルスイッチ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45834",
+    "name": "ふしぎなアメ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48299",
+    "name": "ワンダーパッチ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46660",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "45932",
+    "name": "くさりもち",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46442",
+    "name": "シアノ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "45284",
+    "name": "暗号マニアの解読",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "37976",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47148",
+    "name": "アカマツ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49708",
+    "name": "メイのはげまし",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "36639",
+    "name": "ジャッジマン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47104",
+    "name": "タケシのスカウト",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46041",
+    "name": "ゼロの大空洞",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48419",
+    "name": "バトルコロシアム",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "44962",
+    "name": "基本超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "44971",
+    "name": "基本悪エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "44974",
+    "name": "基本鋼エネルギー",
+    "count": 2
+  }
+]

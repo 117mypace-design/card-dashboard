@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48425",
+    "name": "リオル",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48614",
+    "name": "メガルカリオex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49790",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49789",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48554",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46752",
+    "name": "オーガポン いしずえのめんex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42768",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42399",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48438",
+    "name": "パワープロテイン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49380",
+    "name": "ポケモン回収サイクロン(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49404",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "38821",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49431",
+    "name": "ゼイユ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "45562",
+    "name": "暗号マニアの解読",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48705",
+    "name": "グラビティーマウンテン",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49713",
+    "name": "ロック闘エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40489",
+    "name": "基本闘エネルギー",
+    "count": 9
+  }
+]

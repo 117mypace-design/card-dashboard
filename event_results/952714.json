@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-21 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "埼玉県",
+    "shopId": 12998,
+    "shopName": "Wonder GOO　入間店",
+    "zipCode": 3580013,
+    "address": "埼玉県入間市上藤沢387-2",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0003336971",
+      "name": "オギ",
+      "rank": 1,
+      "point": 100,
+      "area": "埼玉県",
+      "deck_id": "MpXRMy-33YLoU-yXXppy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052327245",
+      "name": "T",
+      "rank": 2,
+      "point": 75,
+      "area": "埼玉県",
+      "deck_id": "kbFwfk-px4gla-FVdf55"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078183962",
+      "name": "ハムカツ",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "nnQLgg-7kYkhn-gNni9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067196403",
+      "name": "うめ",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "ggn9gN-NSHy7y-nHNnLL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077144429",
+      "name": "しょう",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "kVFVfb-oEqFDD-5FFkfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003811610",
+      "name": "ゆうき",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "FkkfVf-PaFeB5-bFvkFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042689155",
+      "name": "のり",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "kFFw1b-7mfoO6-vFkkfk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030422898",
+      "name": "みなみ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "kFb1VV-kF7BvH-vkFFfk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100583254",
+      "name": "ぜんまし",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "URXpyp-0D3pmC-MMyyMM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0094264881",
+      "name": "高木さん",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "H99Lnn-NI8lry-nggN6L"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006136994",
+      "name": "だんご",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "LQiNgn-8ll37P-99NiNn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055855020",
+      "name": "おじ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "9Lgngn-cdffPt-9HNnni"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081304411",
+      "name": "えの",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "8cxx8G-IBj4QY-cDJ4aK"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072874895",
+      "name": "まなまな",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "w5fFkw-8GX16L-kkkbfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038325865",
+      "name": "なえとる",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "FVF1kf-Pdyr7Y-Vwbkvf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012314078",
+      "name": "スコ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "fwVbFk-YROLZ5-kkkFVF"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46535",
+    "name": "ドーミラー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45175",
+    "name": "ドータクン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49960",
+    "name": "ユキワラシ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45724",
+    "name": "ユキメノコ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49984",
+    "name": "メガユキメノコex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45849",
+    "name": "マシマシラ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49956",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49197",
+    "name": "イベルタル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46938",
+    "name": "シャリタツ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45610",
+    "name": "キリンリキ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45560",
+    "name": "リキキリンex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46058",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46324",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46067",
+    "name": "モモワロウex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49003",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45689",
+    "name": "ガチグマ アカツキex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45403",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44011",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48316",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49404",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46101",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49434",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46841",
+    "name": "お祭り会場",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49465",
+    "name": "基本悪エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49463",
+    "name": "基本超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49461",
+    "name": "基本水エネルギー",
+    "count": 2
+  }
+]

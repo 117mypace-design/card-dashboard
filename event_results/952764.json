@@ -1,0 +1,111 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "東京都",
+    "shopId": 10459,
+    "shopName": "フルコンプ　PLAYERS CENTER　八王子本店",
+    "zipCode": 1920083,
+    "address": "東京都八王子市旭町7-1 豊栄第一ビル3階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0090147944",
+      "name": "晋作",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "kFVVVv-XBmHx5-f5dFFb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012433856",
+      "name": "わい",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "LggLnH-nVLlvj-i9gQN6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073015758",
+      "name": "みゃんまー",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "f5kkVV-AX7d6W-kkbFkf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084834085",
+      "name": "ヤユッピー",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "NgLnLg-NnWzld-Qggn9g"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055858393",
+      "name": "K",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "1F5fkf-5xDV7U-Fk5kbV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0000582140",
+      "name": "キキョウ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "yyXR2M-hxcC5v-MpE3yX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071389042",
+      "name": "キム",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "NNgn9L-Omjqrw-9nQLnN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074774908",
+      "name": "taki",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "Dc84xD-Bldhcb-x4Gc8a"
+    }
+  ],
+  "total": 8
+}

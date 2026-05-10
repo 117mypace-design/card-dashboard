@@ -1,0 +1,104 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48613",
+    "name": "リオル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48614",
+    "name": "メガルカリオex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48250",
+    "name": "マクノシタ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47758",
+    "name": "ハリテヤマ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49088",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49087",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "28662",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47791",
+    "name": "パワープロテイン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49379",
+    "name": "ポケモンいれかえ",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49407",
+    "name": "マキシマムベルト(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49427",
+    "name": "ジャッジマン",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48711",
+    "name": "ロケット団の監視塔",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49464",
+    "name": "基本闘エネルギー",
+    "count": 13
+  }
+]

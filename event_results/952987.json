@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-26 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 14773,
+    "shopName": "ドラゴンスター日本橋3号店",
+    "zipCode": 5560012,
+    "address": "大阪府大阪市浪速区敷津東2-1-5",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0081899746",
+      "name": "かん",
+      "rank": 1,
+      "point": 100,
+      "area": "大阪府",
+      "deck_id": "ccDG48-1ZW6CX-Gc8GcK"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055846288",
+      "name": "りー、",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "HNQnnn-BZT2W0-Qg9nNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004040367",
+      "name": "みー",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "gQHn9g-qPcpiJ-LnNgg9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086170271",
+      "name": "ふとう",
+      "rank": 3,
+      "point": 50,
+      "area": "和歌山県",
+      "deck_id": "Dc8Y8c-FXBMAK-cDGcGD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070840526",
+      "name": "さらや",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "RpyX2y-RCnImd-MMXRSS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083332177",
+      "name": "てんめい",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "yMSRpy-41nr9d-pX2XXy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003787612",
+      "name": "ICH",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "gLN99n-lgpxyh-9QgnnL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074327182",
+      "name": "シュウ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "G8caD8-t9KAYg-88cG8Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001307045",
+      "name": "ﾏﾕﾀﾛｽ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "2RpX3R-eCkiIG-pyXyMp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0042298320",
+      "name": "たくまーち",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "6N6ng9-H65vxQ-NQNnLQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070693410",
+      "name": "アラッター",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "S2M3Sy-UQMPil-yyXyRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037362056",
+      "name": "もゆる",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "88GcGD-vG4W9b-c4ccD4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036215030",
+      "name": "プニゴン",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "URSXyS-TuyXeh-yp2yyX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007799967",
+      "name": "田中 爆",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "SyR3pp-lGuErJ-RXpMMy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077479969",
+      "name": "ハヤト",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "FFbkbk-RlqaeG-VkFdkf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0006512240",
+      "name": "MasaCha",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "xcxDc8-ue5KL6-GccG8D"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48582",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48317",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47664",
+    "name": "ブルンゲルex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49987",
+    "name": "メガディアンシーex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45895",
+    "name": "ヨノワール",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47663",
+    "name": "プルリル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48204",
+    "name": "プルリル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46725",
+    "name": "ヨマワル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45893",
+    "name": "ヨマワル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46726",
+    "name": "サマヨール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "35141",
+    "name": "ふしぎなアメ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45931",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48299",
+    "name": "ワンダーパッチ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49399",
+    "name": "力の砂時計",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46825",
+    "name": "アクロマの執念",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47707",
+    "name": "トウコ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47859",
+    "name": "ミステリーガーデン",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "5",
+    "name": "基本超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48515",
+    "name": "イグニッションエネルギー",
+    "count": 2
+  }
+]

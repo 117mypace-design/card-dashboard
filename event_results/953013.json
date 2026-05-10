@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-11 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "広島県",
+    "shopId": 18961,
+    "shopName": "GIRAFULL 広島ドンキ店",
+    "zipCode": 7300034,
+    "address": "広島県広島市中区新天地5-3 ドン・キホーテ広島八丁堀店5F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0001513279",
+      "name": "のんある",
+      "rank": 1,
+      "point": 100,
+      "area": "広島県",
+      "deck_id": "DGDDcc-MraGr7-4x8c88"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0095791315",
+      "name": "ホロ",
+      "rank": 2,
+      "point": 75,
+      "area": "広島県",
+      "deck_id": "MR2p2X-yLfbTD-pUyypy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014114876",
+      "name": "カリン",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "FF5Fb5-O705rS-Fkk1vF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054890309",
+      "name": "ゆーた",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "kvvFFf-THR0ZQ-F5kfVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086010904",
+      "name": "ゆうココ",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "XpR2yy-9nMgxb-ESRypS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010023174",
+      "name": "ゆりじゃろ",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "x8Y844-nuQAT1-KxccDG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069616042",
+      "name": "山本",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "L9QHin-63PVZl-QgngnN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004802138",
+      "name": "フーバー",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "JG8Gc8-uR454B-Gcc4c4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028383239",
+      "name": "みずき",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "GYx8xc-13ykgh-4Y8acK"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044994000",
+      "name": "てばさき",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "2Ey2Xp-3V85a4-pUyRMM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072554700",
+      "name": "ならえま",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "SMyMME-4PDOfy-ppR2yy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085238781",
+      "name": "こいほー♪( ´θ｀)ノ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "g9nLin-jyYG7C-g9HLLH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0097730736",
+      "name": "ヒノキ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "JGKcG8-PQHXpx-c88c8D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049104963",
+      "name": "やまちゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "bFwVk1-DZk9eN-f5b5Fk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041367618",
+      "name": "まさきち",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "RMppMM-HJQEv6-S3y2Uy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012638729",
+      "name": "おいも",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "FvVdVb-XBvgEB-5fkFFk"
+    }
+  ],
+  "total": 16
+}

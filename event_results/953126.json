@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "沖縄県",
+    "shopId": 18230,
+    "shopName": "カードスタジアム小禄店",
+    "zipCode": 9010156,
+    "address": "沖縄県那覇市田原１－３－１",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0002592301",
+      "name": "くま",
+      "rank": 1,
+      "point": 100,
+      "area": "沖縄県",
+      "deck_id": "9QggQH-GvByBm-QQggHn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043584464",
+      "name": "えいす",
+      "rank": 2,
+      "point": 75,
+      "area": "沖縄県",
+      "deck_id": "JcDG8D-k82H9H-xxc8a8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062859314",
+      "name": "らほつ",
+      "rank": 3,
+      "point": 50,
+      "area": "沖縄県",
+      "deck_id": "kFkbk5-ZRLejN-dfFF5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041201862",
+      "name": "りょうちゃん",
+      "rank": 3,
+      "point": 50,
+      "area": "沖縄県",
+      "deck_id": "9HgHgN-7hNvUd-innPnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032700709",
+      "name": "ゆう",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "FvFbkb-22h10K-kfV5FV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002987174",
+      "name": "チキンコンソメスープ",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "pMMpyy-1r9pM2-SEpRp2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077535557",
+      "name": "やまこう",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "x8Ga84-md7PVM-4xJc8c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078347874",
+      "name": "きよはる",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "cY8DDG-1WI3cQ-8cc484"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036636037",
+      "name": "とりかい",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "8YY4GG-l8z2dP-8Dcccc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014176638",
+      "name": "いっとむ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "kfFFvV-SJkETr-5kkb5F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078191163",
+      "name": "みやさと",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "k5FFvb-O7xKVp-FfV5Vk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070054905",
+      "name": "ヤミキャラス",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "nggQg9-UyeWSj-PgHnQ9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080456597",
+      "name": "GGG",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "9H9HHn-akfthc-gNnLHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061400797",
+      "name": "あすた",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "FV5kvk-ZdzwT0-kFFFbF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030876509",
+      "name": "くまたろう",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "Q9QQHg-7yaeeG-gLPgnH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0049431607",
+      "name": "かつれん",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "RMRp2y-eDURpI-yyEp2p"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "山口県",
+    "shopId": 13098,
+    "shopName": "【CARDBOX】下関店",
+    "zipCode": 7500025,
+    "address": "山口県下関市竹崎町4丁目4-8　シーモール専門店街4階404号",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0012962820",
+      "name": "ぶーこ",
+      "rank": 1,
+      "point": 100,
+      "area": "山口県",
+      "deck_id": "n9gQHi-RbUltF-QgngnN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071867065",
+      "name": "リムル",
+      "rank": 2,
+      "point": 75,
+      "area": "山口県",
+      "deck_id": "5FFkF5-xztkAw-Fvwbkf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001895317",
+      "name": "しらたき",
+      "rank": 3,
+      "point": 50,
+      "area": "山口県",
+      "deck_id": "FkbVfv-nKM6QV-fFv5fk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036097487",
+      "name": "じゅん",
+      "rank": 3,
+      "point": 50,
+      "area": "山口県",
+      "deck_id": "5kvbFF-ke2C2y-F5VkVF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087506556",
+      "name": "ブライト・ノア",
+      "rank": 5,
+      "point": 25,
+      "area": "山口県",
+      "deck_id": "JDc8GK-BrUUZk-G8ccYc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069587735",
+      "name": "ぷりん",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "gng6Hn-0RNX0M-LQng9N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000857471",
+      "name": "たつや",
+      "rank": 5,
+      "point": 25,
+      "area": "山口県",
+      "deck_id": "cxcGcY-qcxCkc-Y8YD8x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0059047229",
+      "name": "イサキ",
+      "rank": 5,
+      "point": 25,
+      "area": "山口県",
+      "deck_id": "HHgiNn-57kfVP-n9ggQH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077838621",
+      "name": "をかし",
+      "rank": 9,
+      "point": 15,
+      "area": "沖縄県",
+      "deck_id": "NQQHLi-RkW1Tk-nQg9Hg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101046439",
+      "name": "くにモト",
+      "rank": 9,
+      "point": 15,
+      "area": "山口県",
+      "deck_id": "pSMyEp-ng6516-ySRMyX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068573458",
+      "name": "ヌメヌメデント",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "Qgn6g9-2UGBbN-ngNnLn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0040072081",
+      "name": "グリス",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "9gggL9-q1HyJj-LHnQnH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081239878",
+      "name": "タイ",
+      "rank": 9,
+      "point": 15,
+      "area": "山口県",
+      "deck_id": "FbV5fv-r5Kiph-vwkwFw"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078538539",
+      "name": "関あじ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "QHgLQH-84qZvG-g9gQng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005755192",
+      "name": "ユウボー",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "UppXSM-WuR7qq-ypSRM3"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054678415",
+      "name": "アミーゴ55",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "LHNPng-KY7yHS-9gQgQn"
+    }
+  ],
+  "total": 16
+}

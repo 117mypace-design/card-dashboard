@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47068",
+    "name": "Nのゾロア",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47069",
+    "name": "Nのゾロアークex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47082",
+    "name": "Nのレシラム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48651",
+    "name": "Nのゼクロム",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47023",
+    "name": "Nのダルマッカ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47024",
+    "name": "Nのヒヒダルマ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48550",
+    "name": "Nのヒヒダルマ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45914",
+    "name": "モモワロウex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46662",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48249",
+    "name": "マシマシラ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45316",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46812",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47097",
+    "name": "Nのポイントアップ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45209",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "46815",
+    "name": "くさりもち",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "45281",
+    "name": "ヒーローマント(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "43840",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "46442",
+    "name": "シアノ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47707",
+    "name": "トウコ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "45935",
+    "name": "アンズの秘技",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47105",
+    "name": "Nの城",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48284",
+    "name": "基本悪エネルギー",
+    "count": 8
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "category": "ポケモン",
+    "name": "フーディン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "ユンゲラー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "name": "ケーシィ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "name": "ノココッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "ノコッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "ゲノセクト",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "ふしぎなアメ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "スペシャルレッドカード",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "name": "せいなるはい",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "改造ハンマー",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "name": "ふうせん",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "name": "ヒカリ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "トウコ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "name": "バトルコロシアム",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "name": "リッチエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "name": "テレパス超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本超エネルギー",
+    "count": 2
+  }
+]

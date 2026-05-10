@@ -1,0 +1,110 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "50155",
+    "name": "チラチーノex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50154",
+    "name": "チラーミィ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49212",
+    "name": "ダンバル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49213",
+    "name": "メタング",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50143",
+    "name": "メタグロス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49228",
+    "name": "ゲノセクトex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48466",
+    "name": "メガガルーラex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50067",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42399",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48467",
+    "name": "なかよしポフィン",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49374",
+    "name": "プレシャスキャリー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49391",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50068",
+    "name": "エネルギーリサイクル",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49450",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48712",
+    "name": "ロケット団のファクトリー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "24331",
+    "name": "基本鋼エネルギー",
+    "count": 15
+  }
+]

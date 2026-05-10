@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 18425,
+    "shopName": "青馬堂本店",
+    "zipCode": 2300001,
+    "address": "神奈川県横浜市鶴見区矢向6-12-11",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0010655333",
+      "name": "バシラ",
+      "rank": 1,
+      "point": 100,
+      "area": "神奈川県",
+      "deck_id": "88c4GY-MYhJki-44cc8K"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077096650",
+      "name": "にわか",
+      "rank": 2,
+      "point": 75,
+      "area": "神奈川県",
+      "deck_id": "yp2SX2-y4UFdn-yp2RSp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078074589",
+      "name": "つぶつぶ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "QNn9gn-z9HaQe-NLNHgL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003269572",
+      "name": "オベリスクの巨神兵",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "nLNLQg-vcC2XR-HngHn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074797655",
+      "name": "たか",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "FbF55F-JHTZR5-vkffFd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079329943",
+      "name": "よつわん",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "yX3Syp-di3TKr-SMRpS2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0048797117",
+      "name": "九蓮",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "y2pRyp-J1Pm7O-XpyyM2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0025474293",
+      "name": "しゃむ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "xGcxDG-AfKdED-D88aD8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037080277",
+      "name": "ヤッスー",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "9gHgL6-oFZZJ6-Q9gnHn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030752142",
+      "name": "むぅ",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "ffk5Fb-dkYDzd-fFVVbF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0091896227",
+      "name": "あおさん",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "pyXpy2-t2GSp1-R2MMpp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085209318",
+      "name": "レブロン",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "acGaDc-gAnXMH-8c88cD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063326561",
+      "name": "オシリスの天空竜",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "pyX32y-or2E1g-pRpXUS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060567138",
+      "name": "カンクーン",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "Rppy2p-e2xhyq-pyMypM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054889374",
+      "name": "でりぃと",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "J8D88x-0T8DGm-Gx8cc4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0021855348",
+      "name": "五月七日",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "FbFVF5-tMn4ma-vkk1F5"
+    }
+  ],
+  "total": 16
+}

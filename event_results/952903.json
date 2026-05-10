@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-18 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "新潟県",
+    "shopId": 15243,
+    "shopName": "トイニティ長岡E・PLAZA店",
+    "zipCode": 9400048,
+    "address": "新潟県長岡市台町2丁目4-56",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0028172651",
+      "name": "わさ",
+      "rank": 1,
+      "point": 100,
+      "area": "新潟県",
+      "deck_id": "inHgn9-AkhTj3-QgLgH6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073040419",
+      "name": "カルノフ",
+      "rank": 2,
+      "point": 75,
+      "area": "新潟県",
+      "deck_id": "b1VkV5-RnBj8A-FV1fkF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061210910",
+      "name": "Chan2shi",
+      "rank": 3,
+      "point": 50,
+      "area": "新潟県",
+      "deck_id": "ppyMUM-3YboRl-22MyRS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031664921",
+      "name": "ギシヤマ",
+      "rank": 3,
+      "point": 50,
+      "area": "新潟県",
+      "deck_id": "MRSyE2-07F6DS-MyMpRy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0040683090",
+      "name": "ズシマ",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "848xxG-yCL3Uc-J8DcG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031493088",
+      "name": "ユンケル",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "RMM2py-3NSfVY-yppE22"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078589962",
+      "name": "バリぃ",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "FVf1dk-lHRuIF-5FFvbV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092886182",
+      "name": "こな",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "FkVkb5-Q8rhcv-1f1FVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009064706",
+      "name": "ちひろ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "PLNg9n-zdOTlH-PNgnHn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069048928",
+      "name": "KID",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "8JxaGx-HZHhtF-xccD48"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076644771",
+      "name": "と〜か",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "yp2MM2-hnQLyJ-RpyMyU"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054424212",
+      "name": "そちゃ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "g9LgHH-dfF8rE-i9nnQL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0051499121",
+      "name": "もの",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "2R2pSy-2tKJ38-Ey2MMX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064096971",
+      "name": "NICK",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "22MSpp-xSlvEO-UMX2Ry"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031556998",
+      "name": "池ポチャ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "py2Uyy-URU9oi-MpMERX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065881806",
+      "name": "けろ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "MEy2RX-FKk3o3-MyRypp"
+    }
+  ],
+  "total": 16
+}

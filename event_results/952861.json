@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 19004,
+    "shopName": "BOOKOFF イオン本牧店",
+    "zipCode": 2310821,
+    "address": "神奈川県横浜市中区本牧原7-1　イオン本牧 5F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0024170240",
+      "name": "pochinger",
+      "rank": 1,
+      "point": 100,
+      "area": "神奈川県",
+      "deck_id": "fVbvvF-o2OnCp-vFFkkw"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001535969",
+      "name": "コロ助",
+      "rank": 2,
+      "point": 75,
+      "area": "神奈川県",
+      "deck_id": "LgNHgQ-mk1xMo-LN9nnn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082208088",
+      "name": "あやしし",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "yXREMy-gxk80W-Sppppp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064019763",
+      "name": "ぐさ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "GxcY48-BkdYHr-x8YcDY"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0089311147",
+      "name": "蒼太",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "VFVfkf-ao8vAc-f55kvb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063194957",
+      "name": "bamboo",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "4DKx8G-FxgdzZ-4Dc484"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076485875",
+      "name": "ヤバチャ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "bVwkvF-jAlLhy-fFbFfV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0031857565",
+      "name": "なすやん",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "9LQHHL-dj6JeZ-NLNn9g"
+    }
+  ],
+  "total": 8
+}

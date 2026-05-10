@@ -1,0 +1,146 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45755",
+    "name": "イイネイヌ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49088",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49087",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50038",
+    "name": "カメテテ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49675",
+    "name": "ガメノデス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46746",
+    "name": "ガチグマ アカツキ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "32278",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "37334",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49370",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49368",
+    "name": "パワープロテイン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "32283",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "37667",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "37976",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "45789",
+    "name": "ハッサク",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49706",
+    "name": "タラゴン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46173",
+    "name": "ハイダイ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48419",
+    "name": "バトルコロシアム",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45792",
+    "name": "レガシーエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "34621",
+    "name": "基本闘エネルギー",
+    "count": 10
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "27552",
+    "name": "プリズムエネルギー",
+    "count": 3
+  }
+]

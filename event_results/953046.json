@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "徳島県",
+    "shopId": 13041,
+    "shopName": "ビデオ100　徳島藍住店",
+    "zipCode": 7711220,
+    "address": "徳島県板野郡藍住町東中富字朏傍示51-5",
+    "venue": "対戦席数：112席",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0087663987",
+      "name": "ごんてぃー",
+      "rank": 1,
+      "point": 100,
+      "area": "香川県",
+      "deck_id": "LngPgn-mhiWo5-6H9QLP"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064309260",
+      "name": "リク",
+      "rank": 2,
+      "point": 75,
+      "area": "徳島県",
+      "deck_id": "Gx4Y88-7g5drr-cax4xJ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036995002",
+      "name": "マツケン",
+      "rank": 3,
+      "point": 50,
+      "area": "徳島県",
+      "deck_id": "Vkkk5F-oUoM4T-d1V1Vb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004865384",
+      "name": "モジャ",
+      "rank": 3,
+      "point": 50,
+      "area": "徳島県",
+      "deck_id": "yRUyXX-E3CGPB-2pSMyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075619941",
+      "name": "ねんまく",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "4cG844-lau3LF-xYJaYx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0034155693",
+      "name": "ランラン",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "a8K4Yc-mJRPmA-Gx88cG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035799452",
+      "name": "さかな",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "4xa8JG-oEpVjO-8x8c88"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043511701",
+      "name": "ベリ子",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "884G4x-kHr7zC-8axx8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065608320",
+      "name": "オガバリー",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "L9Nigg-U9o0tE-ngHHn6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073401971",
+      "name": "スケッチ",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "KY4JGY-cTN2zG-Jcx8xc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039573579",
+      "name": "るくすれい",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "9Lggni-U9mxfT-NnnnHH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071583037",
+      "name": "美馬77%",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "kb15VF-ccCagc-kV1F5F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070018264",
+      "name": "TAKA",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "VFb5wV-Y8SWOx-FFd5Fk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007777682",
+      "name": "いくさん",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "PHnH6L-OCU7i2-gng9gP"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004931995",
+      "name": "ヤドン",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "8cG4K8-jTNeqY-8cKDxD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0053894290",
+      "name": "そぼろ丼",
+      "rank": 9,
+      "point": 15,
+      "area": "徳島県",
+      "deck_id": "Vb1Fkk-SADPQp-Fkkd5k"
+    }
+  ],
+  "total": 16
+}

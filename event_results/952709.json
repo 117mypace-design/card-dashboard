@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:40:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 16:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "群馬県",
+    "shopId": 13025,
+    "shopName": "Duel Stade Ganryu　高崎店",
+    "zipCode": 3700042,
+    "address": "群馬県高崎市貝沢町463",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0032493214",
+      "name": "joker",
+      "rank": 1,
+      "point": 100,
+      "area": "群馬県",
+      "deck_id": "fVwFFF-WA4rfg-FbvFVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090311778",
+      "name": "ほっこりだいこん",
+      "rank": 2,
+      "point": 75,
+      "area": "群馬県",
+      "deck_id": "xc48DY-Z4VRdo-cx4GxD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036973110",
+      "name": "へりうむ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "Xp3Xyp-BKfDHA-RpMUXM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019691949",
+      "name": "かるび",
+      "rank": 3,
+      "point": 50,
+      "area": "群馬県",
+      "deck_id": "ggLHHN-FzL3LZ-ngN9L9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037167194",
+      "name": "96猫",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "kFfbfV-5iLbN7-k5FkVb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078284537",
+      "name": "HIRO",
+      "rank": 5,
+      "point": 25,
+      "area": "群馬県",
+      "deck_id": "xc8xD4-vS324X-G8Dx88"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007198465",
+      "name": "密林",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "pMpyRM-r3SNKl-2MpRX3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061660346",
+      "name": "シンゴジラ",
+      "rank": 5,
+      "point": 25,
+      "area": "群馬県",
+      "deck_id": "96NgHg-qxRDy1-LHngLN"
+    }
+  ],
+  "total": 8
+}

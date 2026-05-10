@@ -1,0 +1,140 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49078",
+    "name": "ウリムー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48364",
+    "name": "イノムー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49080",
+    "name": "マンムーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49290",
+    "name": "ノコッチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46791",
+    "name": "ノココッチ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47411",
+    "name": "アチャモ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47412",
+    "name": "ワカシャモ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46470",
+    "name": "バシャーモex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46008",
+    "name": "ギギギアル",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49371",
+    "name": "ふしぎなアメ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49376",
+    "name": "ポケギア3.0",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49379",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46825",
+    "name": "アクロマの執念",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48304",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49429",
+    "name": "スグリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49434",
+    "name": "トウコ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46040",
+    "name": "偉大な大樹(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48710",
+    "name": "夜の鉱山",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47904",
+    "name": "基本炎エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47908",
+    "name": "基本闘エネルギー",
+    "count": 6
+  }
+]

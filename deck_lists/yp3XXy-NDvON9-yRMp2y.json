@@ -1,0 +1,176 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49959",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50023",
+    "name": "イーブイ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49282",
+    "name": "イーブイex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49484",
+    "name": "ブースターex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49015",
+    "name": "ニンフィアex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48754",
+    "name": "リーフィアex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49524",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48940",
+    "name": "オーガポン いどのめんex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49946",
+    "name": "ホーホー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49947",
+    "name": "ヨルノズク",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49973",
+    "name": "スピンロトム",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50033",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45875",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47282",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46960",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48674",
+    "name": "テラスタルオーブ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48687",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49396",
+    "name": "きらめく結晶(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "42253",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48448",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47148",
+    "name": "アカマツ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49980",
+    "name": "からておうの稽古",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48706",
+    "name": "ゼロの大空洞",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49459",
+    "name": "基本草エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49462",
+    "name": "基本雷エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49460",
+    "name": "基本炎エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49461",
+    "name": "基本水エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49463",
+    "name": "基本超エネルギー",
+    "count": 3
+  }
+]

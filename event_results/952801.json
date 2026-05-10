@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "千葉県",
+    "shopId": 10553,
+    "shopName": "トーナメントセンターバトロコ　柏駅前",
+    "zipCode": 2770005,
+    "address": "千葉県柏市柏1-2-31 新星堂カルチェ4階",
+    "venue": "277-0005\n\n千葉県\n柏市柏1-2-31 新星堂カルチェ4階",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0054647523",
+      "name": "アサウミ",
+      "rank": 1,
+      "point": 100,
+      "area": "千葉県",
+      "deck_id": "xxGD88-zZx15R-D4c4K8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043102482",
+      "name": "あおとう",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "ig9LQN-SlkSkj-nL9LLH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0014291782",
+      "name": "パオーン",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "kFVbdF-peyAzK-kkk5Vf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034260050",
+      "name": "たまごのおとど",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "nHLNLg-1cj8oW-gH9Lnn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077914008",
+      "name": "ピロール",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "LgL9nN-dLTkOS-nL6LHH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0088781563",
+      "name": "れんかのん",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "xD884G-cagCRA-xaY8Jc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007144400",
+      "name": "すなぎも",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "FkkFFV-FrTZSd-5k5bbF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043400371",
+      "name": "ひよこ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "SMMXMp-QCTGzH-y2MEMR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000955841",
+      "name": "osebasu",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "MRSpMX-6N55eE-yp22y2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069177224",
+      "name": "KOUZI",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "K44xaa-U2WCyd-8GxxDc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062010324",
+      "name": "まさい",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "w5F5kv-akjDnc-kkVb5V"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012936708",
+      "name": "たろう",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "xx4xD8-jpn2j5-D4GKc4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055637444",
+      "name": "D.K.",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "HnnnLL-wVRbno-9gLNQP"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0012503764",
+      "name": "コウ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "yXp22y-ZARUaj-MRppRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036654969",
+      "name": "ようすけ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "f5kkV5-FPCRAI-FFvkVb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0058754706",
+      "name": "ジャロ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "cGDx88-6BedMJ-888DG8"
+    }
+  ],
+  "total": 16
+}

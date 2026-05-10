@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "鹿児島県",
+    "shopId": 12760,
+    "shopName": "カードショップ彩々 鹿児島店",
+    "zipCode": 8900056,
+    "address": "鹿児島県鹿児島市下荒田2丁目7-14　久木留ビル2階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0001450022",
+      "name": "ホフマン",
+      "rank": 1,
+      "point": 100,
+      "area": "鹿児島県",
+      "deck_id": "5bkdkk-wZWGZP-kF5F5d"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0074060669",
+      "name": "ショウ",
+      "rank": 2,
+      "point": 75,
+      "area": "鹿児島県",
+      "deck_id": "gnHngH-2U5i1G-9Qg9iL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069795488",
+      "name": "オクサン",
+      "rank": 3,
+      "point": 50,
+      "area": "鹿児島県",
+      "deck_id": "bVv5vd-W0fwnX-FkfF5k"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0102419412",
+      "name": "くるけん",
+      "rank": 3,
+      "point": 50,
+      "area": "鹿児島県",
+      "deck_id": "REy2pX-ROBith-yMXpM2"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0011582771",
+      "name": "ひかる",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "GcJ848-o6JmED-8c4D4x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064089704",
+      "name": "まぁちゃん",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "k5VkbF-0i5lU4-FFVVFv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0048137384",
+      "name": "TAKE",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "SSpRy2-ManaUL-ppp32S"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0012659441",
+      "name": "あまいろ",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "vFfb5v-kQWTFb-Fkk5vF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064498102",
+      "name": "おがわ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "pyyRpy-5qJDOM-R23SXp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083262652",
+      "name": "AO",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "xDccc8-yV5H1L-84x8GY"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070091984",
+      "name": "ヤマミチ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "bvFf5V-M2Y0JR-fkFV5w"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079547967",
+      "name": "はるきち",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "fkVFFF-Fj9DEi-FfVv5b"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0024878087",
+      "name": "とも",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "xxxY4K-eV7gPg-G4ccc8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054353741",
+      "name": "ごんぱん",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "H9L9Qg-5uXi5b-gnPQgQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075131603",
+      "name": "ラパス",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "ySp2py-ExmaJy-RpMSpE"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077708986",
+      "name": "ブラッキー",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "F5bkff-DYmOpm-fFvFk5"
+    }
+  ],
+  "total": 16
+}

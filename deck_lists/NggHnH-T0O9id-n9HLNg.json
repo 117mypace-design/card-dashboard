@@ -1,0 +1,128 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48552",
+    "name": "カルボウ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47124",
+    "name": "ソウブレイズex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47760",
+    "name": "ソルロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47759",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45256",
+    "name": "モグリュー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47548",
+    "name": "ビクティニ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48636",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48439",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46983",
+    "name": "ブライア",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48281",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49431",
+    "name": "ゼイユ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49433",
+    "name": "探検家の先導",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46117",
+    "name": "基本炎エネルギー",
+    "count": 7
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "31229",
+    "name": "基本闘エネルギー",
+    "count": 11
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46992",
+    "name": "ミストエネルギー",
+    "count": 1
+  }
+]

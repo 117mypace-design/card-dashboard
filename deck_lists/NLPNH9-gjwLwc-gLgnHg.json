@@ -1,0 +1,102 @@
+[
+  {
+    "category": "ポケモン",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "イイネイヌ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "name": "カメテテ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ガメノデス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ガチグマ アカツキ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "リーリエの決心",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "name": "ゼイユ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "タラゴン",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本闘エネルギー",
+    "count": 9
+  },
+  {
+    "category": "エネルギー",
+    "name": "プリズムエネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "name": "レガシーエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本悪エネルギー",
+    "count": 1
+  }
+]

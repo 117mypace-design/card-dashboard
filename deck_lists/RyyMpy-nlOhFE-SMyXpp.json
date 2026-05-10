@@ -1,0 +1,176 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47310",
+    "name": "ヒビキのヒノアラシ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47311",
+    "name": "ヒビキのマグマラシ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47312",
+    "name": "ヒビキのバクフーン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46662",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45770",
+    "name": "ドラメシヤ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45771",
+    "name": "ドロンチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46352",
+    "name": "ビクティニ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47367",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45209",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47098",
+    "name": "とりかえチケット",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49371",
+    "name": "ふしぎなアメ",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49405",
+    "name": "ブレイブバングル",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48696",
+    "name": "ヒビキの冒険",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48701",
+    "name": "ロケット団のラムダ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46599",
+    "name": "からておうの稽古",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49428",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48705",
+    "name": "グラビティーマウンテン",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48419",
+    "name": "バトルコロシアム",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49460",
+    "name": "基本炎エネルギー",
+    "count": 5
+  }
+]

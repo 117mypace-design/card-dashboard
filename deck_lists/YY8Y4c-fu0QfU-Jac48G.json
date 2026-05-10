@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48457",
+    "name": "フーディン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47833",
+    "name": "ユンゲラー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46718",
+    "name": "ケーシィ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49088",
+    "name": "ソルロック",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47759",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47367",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48439",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48467",
+    "name": "なかよしポフィン",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48468",
+    "name": "ふしぎなアメ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46660",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45874",
+    "name": "改造ハンマー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "28661",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46803",
+    "name": "つりざおMAX(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48253",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48512",
+    "name": "ヒカリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45535",
+    "name": "マツバの確信",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "41096",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48514",
+    "name": "バトルコロシアム",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "44962",
+    "name": "基本超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45655",
+    "name": "基本闘エネルギー",
+    "count": 6
+  }
+]

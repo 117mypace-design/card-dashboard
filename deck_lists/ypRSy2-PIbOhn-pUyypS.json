@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48425",
+    "name": "リオル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47762",
+    "name": "メガルカリオex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49088",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47759",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47757",
+    "name": "マクノシタ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47758",
+    "name": "ハリテヤマ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "41333",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48438",
+    "name": "パワープロテイン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48508",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48162",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49407",
+    "name": "マキシマムベルト(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "44704",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "45128",
+    "name": "ジャッジマン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49443",
+    "name": "マツバの確信",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49414",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48705",
+    "name": "グラビティーマウンテン",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48710",
+    "name": "夜の鉱山",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49464",
+    "name": "基本闘エネルギー",
+    "count": 10
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49713",
+    "name": "ロック闘エネルギー",
+    "count": 2
+  }
+]

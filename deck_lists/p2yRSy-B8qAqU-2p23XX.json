@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49882",
+    "name": "ナンジャモのズピカ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48579",
+    "name": "ナンジャモのハラバリーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49883",
+    "name": "ナンジャモのカイデン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49884",
+    "name": "ナンジャモのタイカイデン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48950",
+    "name": "ナンジャモのビリリダマ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46785",
+    "name": "タケルライコex",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46803",
+    "name": "つりざおMAX(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "40835",
+    "name": "エネルギー転送",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47701",
+    "name": "エネルギー回収",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48675",
+    "name": "なかよしポフィン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49354",
+    "name": "エネルギーつけかえ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "42422",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48692",
+    "name": "カナリィ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48707",
+    "name": "ハッコウシティ",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47906",
+    "name": "基本雷エネルギー",
+    "count": 12
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47908",
+    "name": "基本闘エネルギー",
+    "count": 2
+  }
+]

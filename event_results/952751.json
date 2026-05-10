@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-02 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "栃木県",
+    "shopId": 12652,
+    "shopName": "トーナメントセンターバトロコ　小山駅前",
+    "zipCode": 3230023,
+    "address": "栃木県小山市中央町3－7－1　ロブレ２F　TSUTAYA店内",
+    "venue": "受付開始はイベント開始時間の30分前から\n（シティリーグなど一部例外有）",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0080666837",
+      "name": "ゴプ",
+      "rank": 1,
+      "point": 100,
+      "area": "神奈川県",
+      "deck_id": "8K8cxc-JCf4HS-4G8DY8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031865766",
+      "name": "マスカット",
+      "rank": 2,
+      "point": 75,
+      "area": "栃木県",
+      "deck_id": "EyMSyM-MAkcFF-SppRXE"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078158593",
+      "name": "チャビン",
+      "rank": 3,
+      "point": 50,
+      "area": "栃木県",
+      "deck_id": "9giQng-23lAke-LPNLNn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0057383084",
+      "name": "伊勢丹",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "xxGYc8-LrpYRw-cDxGcc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0030251753",
+      "name": "ケイ",
+      "rank": 5,
+      "point": 25,
+      "area": "栃木県",
+      "deck_id": "8aYccc-Z7ig4k-Y8Gcc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0088708450",
+      "name": "ゆう",
+      "rank": 5,
+      "point": 25,
+      "area": "栃木県",
+      "deck_id": "V5Vfkw-L5LZ5v-bF1vFv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057098201",
+      "name": "春菊",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "EXMyp2-VfU2Y2-ypRpy2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062983301",
+      "name": "狂乱のエルドラド",
+      "rank": 5,
+      "point": 25,
+      "area": "栃木県",
+      "deck_id": "nPHgLn-catAaI-NQ9gLQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086601124",
+      "name": "RANA",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "1vFFb5-657uxz-kkVFVf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0091209483",
+      "name": "サコック",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "aK88cc-Je75v5-8cYG4D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099528182",
+      "name": "らしー",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "bvkFVF-qZTURS-vkFvfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084755638",
+      "name": "おかゆ",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "Gx8xcK-XuHf7j-YcJ88x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011183318",
+      "name": "ひじり",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "nNHQPn-XpAWGr-gg9ggg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070963296",
+      "name": "蓮華王院 本堂",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "yS3ESp-pYgEMx-MpSMXR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030358795",
+      "name": "Mira.*",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "cYG8c8-AbBht3-c4xD84"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054396388",
+      "name": "つきしょー",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "6Q9gnL-5E4i9K-LHNngL"
+    }
+  ],
+  "total": 16
+}

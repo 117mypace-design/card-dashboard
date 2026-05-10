@@ -1,0 +1,90 @@
+name: Update Dashboard
+
+on:
+  workflow_dispatch:
+    inputs:
+      fetch_data:
+        description: "大会データ取得も含めて更新する"
+        required: true
+        type: boolean
+        default: true
+  schedule:
+    # JST 09:15
+    - cron: "15 0 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dashboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Fetch event ids and deck lists
+        if: ${{ github.event_name == 'schedule' || inputs.fetch_data }}
+        run: |
+          python find_events_v2.py
+          python fetch_results_s4.py
+
+      - name: Generate report
+        run: python generate_report_local_alltrend.py
+
+      - name: Resolve latest fullperiod json
+        id: latest
+        shell: python
+        run: |
+          from pathlib import Path
+          import os
+          reports = sorted(Path("reports").glob("*_fullperiod.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+          if not reports:
+              raise SystemExit("No reports/*_fullperiod.json found")
+          latest = reports[0].as_posix()
+          print(f"Latest JSON: {latest}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"data_json={latest}\n")
+
+      - name: Build dashboard site
+        run: python build_dashboard_multipage_fullperiod_styled.py "${{ steps.latest.outputs.data_json }}" "site_fullperiod"
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            deck_lists \
+            event_results \
+            reports \
+            site_fullperiod \
+            events.csv \
+            event_ids_*.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: auto update data and dashboard"
+          git push
+

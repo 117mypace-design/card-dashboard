@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "奈良県",
+    "shopId": 18169,
+    "shopName": "BOOKOFF奈良法華寺店",
+    "zipCode": 6308001,
+    "address": "奈良県奈良市法華寺町226",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0038959879",
+      "name": "五十嵐",
+      "rank": 1,
+      "point": 100,
+      "area": "奈良県",
+      "deck_id": "kkVfFv-MvGQEd-dFkbvb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087592359",
+      "name": "Nakaba",
+      "rank": 2,
+      "point": 75,
+      "area": "奈良県",
+      "deck_id": "bfVfFk-UlvSFV-5f1V1k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030676305",
+      "name": "もそそそ",
+      "rank": 3,
+      "point": 50,
+      "area": "兵庫県",
+      "deck_id": "LHgg9L-bduJ8C-PnNgNL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000382722",
+      "name": "ゆいなパパ",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "fbkkVk-5PoDSh-fFf5fv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101159175",
+      "name": "マルコシアス",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "bbVVkV-mdjYEf-kFVf15"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092491083",
+      "name": "りゅうや",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "5VVffk-ImXS9Q-bwbkFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004411965",
+      "name": "カズ",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "xY88Yc-SdyTuA-Dc8DYG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065934513",
+      "name": "KATA",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "8G84xa-a2tQAJ-cxDc8K"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052582912",
+      "name": "AN",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "88Gxx4-ZagqCa-c8Y8cD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087253320",
+      "name": "つきしゅう",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "df5Fkk-43y6uY-kbfVVf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0057990156",
+      "name": "つよし",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "g9HnPL-nQYY1V-nLNNgN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090790791",
+      "name": "なあたあ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "pXUpyS-kXDCvu-MMppRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089944981",
+      "name": "ベッチさん",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "pyRpMp-etdVaa-pM22XS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006009623",
+      "name": "ミルフィーユ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "D88448-1VAEBx-x4c8GG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078138546",
+      "name": "あわのバーニングダーク",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "yy3XXR-ZvpyXf-yyMpSp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019062907",
+      "name": "わー",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "MEp2yX-7wFGpK-RyMppM"
+    }
+  ],
+  "total": 16
+}

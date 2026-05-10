@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48656",
+    "name": "ドラパルトex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45771",
+    "name": "ドロンチ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48654",
+    "name": "ドラメシヤ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46896",
+    "name": "ヨノワール",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45894",
+    "name": "サマヨール",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48594",
+    "name": "ヨマワル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48533",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48249",
+    "name": "マシマシラ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48636",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49829",
+    "name": "ヨルノズク",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49828",
+    "name": "ホーホー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47172",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "35922",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36401",
+    "name": "ふしぎなアメ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48316",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48253",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "37976",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49708",
+    "name": "メイのはげまし",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47796",
+    "name": "危ない廃墟",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "28363",
+    "name": "基本超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "31225",
+    "name": "基本炎エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "31288",
+    "name": "基本悪エネルギー",
+    "count": 1
+  }
+]

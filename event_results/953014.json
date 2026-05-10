@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-11 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "三重県",
+    "shopId": 20082,
+    "shopName": "三洋堂書店 星川店",
+    "zipCode": 5110912,
+    "address": "三重県桑名市大字星川字十二899番地",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0097727945",
+      "name": "ニキ",
+      "rank": 1,
+      "point": 100,
+      "area": "三重県",
+      "deck_id": "FFVwkV-lEBY86-5FfkVb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083748426",
+      "name": "のぽん",
+      "rank": 2,
+      "point": 75,
+      "area": "三重県",
+      "deck_id": "cax888-0qyzU9-cGx4Dx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044714055",
+      "name": "ごとけー",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "c4G8xx-4byxXP-x8caxG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083071122",
+      "name": "yasutake",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "L96gLn-X9O9Kk-gnLnnH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075623474",
+      "name": "名無し",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "bFkkbd-tpiSdS-VFvVF5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063193204",
+      "name": "だいこんまる",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "HgPngL-J8KJob-LgQH9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037399078",
+      "name": "maru",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "g9gnnN-NTEfE4-9HLngN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085370092",
+      "name": "すのこ",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "c44cYc-0fz6JU-8xcc8G"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063518935",
+      "name": "ラグ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "ppp2XR-OMwLhH-SyMXyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078989405",
+      "name": "まっつー",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "4x4DGc-jnpHpA-8Dcx4c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0066940016",
+      "name": "ハル",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "S3ppyy-gYAR2K-RXy2SM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0021032873",
+      "name": "くっさー",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "Ln9gQL-c6XwCV-gnPH9H"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071930392",
+      "name": "はんぎょんそく",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "JG4Kxc-89lEYP-8cxcD8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089195035",
+      "name": "ゆう",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "inLnH9-Q9CRfS-LggHHH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072731684",
+      "name": "Azaka",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "8c4x8x-FOL7En-GD88Jc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049060021",
+      "name": "じょうた",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "kVF5fv-T1qS90-1VFFbk"
+    }
+  ],
+  "total": 16
+}

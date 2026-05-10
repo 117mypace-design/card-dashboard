@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-02 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "岩手県",
+    "shopId": 19890,
+    "shopName": "ポケ堂北上店",
+    "zipCode": 248511,
+    "address": "岩手県北上市本通り2-2-1　さくら野百貨店４F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0039510682",
+      "name": "ナリ",
+      "rank": 1,
+      "point": 100,
+      "area": "岩手県",
+      "deck_id": "PnQggP-RoUbrN-NnQLn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031735100",
+      "name": "ゲッシルイ",
+      "rank": 2,
+      "point": 75,
+      "area": "岩手県",
+      "deck_id": "FkkbFV-ECrtyr-FFdFbv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0086300322",
+      "name": "桜金造",
+      "rank": 3,
+      "point": 50,
+      "area": "秋田県",
+      "deck_id": "gng9Pn-EtLJTU-gLLgQN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067001880",
+      "name": "リコ",
+      "rank": 3,
+      "point": 50,
+      "area": "岩手県",
+      "deck_id": "FFFV1v-MORkp2-FbkFFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042251161",
+      "name": "ヂダ",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "ngnH9g-5CoYvg-QL6gLn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090886618",
+      "name": "アロコン",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "ppMRp2-UrwXrm-2Syyyy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071931483",
+      "name": "むよー",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "NnnQng-a67gwQ-nNLgQ9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075045933",
+      "name": "かふ",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "ypSppy-o5w4YV-pRppM3"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099391269",
+      "name": "チョコビ",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "FFkbFv-iOFk39-VVkVkb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085407330",
+      "name": "こっぴ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "cca8Dc-3NHDJK-YYx8Gc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001474174",
+      "name": "774",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "88cGc8-wFCGMV-x8DcDY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085327645",
+      "name": "みてい",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "FVb5Fk-RzWQoC-Fvkf1b"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075492197",
+      "name": "ミュウ",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "D8xacD-KD0kZK-8Gc8YY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070078383",
+      "name": "あしかが",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "ngg9n6-LwfKfb-nQQHQL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0103710507",
+      "name": "Washington(ワシントン)",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "ffFk5F-MIhRgQ-kfbfvV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028674760",
+      "name": "スズカ/42KA",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "bkfVvV-N733uA-VFkk5F"
+    }
+  ],
+  "total": 16
+}

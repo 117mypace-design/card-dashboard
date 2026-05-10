@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "熊本県",
+    "shopId": 13181,
+    "shopName": "遊ING　熊本上通り店",
+    "zipCode": 8600845,
+    "address": "熊本県熊本市中央区上通町6-15　T-FOURビル4F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0076984891",
+      "name": "おが",
+      "rank": 1,
+      "point": 100,
+      "area": "埼玉県",
+      "deck_id": "2ypRSX-XmVTCk-yMpXMM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004886208",
+      "name": "カイコロ",
+      "rank": 2,
+      "point": 75,
+      "area": "熊本県",
+      "deck_id": "ngPiLN-jrqLNE-QH9Qgg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042156132",
+      "name": "とーる",
+      "rank": 3,
+      "point": 50,
+      "area": "熊本県",
+      "deck_id": "Fkkv1f-93Bdv4-Ffvbvk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003798658",
+      "name": "林瑠奈",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "kk1VvF-b1yiqI-F5kFvb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012359202",
+      "name": "はちな",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "pyXXyR-58tRJ4-ySpU2S"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075025111",
+      "name": "けんけん",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "n9QgQg-wSpJg2-QN9g6n"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070165076",
+      "name": "りょくちゃ",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "k5VVVF-RW70FG-bFFvFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0053913371",
+      "name": "シャルラ",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "nPQg9g-Y7k5wD-N6HgNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0066996130",
+      "name": "アキラ",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "kVb5k5-5YdZzA-kvvvFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071693275",
+      "name": "ゆうさん",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "n9L6g6-JIru9Y-nQgggn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082353360",
+      "name": "tenpa",
+      "rank": 9,
+      "point": 15,
+      "area": "大分県",
+      "deck_id": "ignHgL-5S2VME-9gQHNQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008460222",
+      "name": "ビリビリ熊猫",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "MpSEXy-6Dt692-2p2SRX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0030633409",
+      "name": "サトシ",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "nLg9gg-FWbu3X-6nQgH9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080179623",
+      "name": "ハル",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "b1Fk5w-KpoItj-vFFVbv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0030347513",
+      "name": "くろーばー",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "1FFb1k-wSQ3dQ-FFvkvv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005186189",
+      "name": "なー",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "VFkvvF-Ai51Or-vfVkFb"
+    }
+  ],
+  "total": 16
+}

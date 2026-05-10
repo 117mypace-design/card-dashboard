@@ -1,0 +1,176 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48614",
+    "name": "メガルカリオex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48613",
+    "name": "リオル",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47847",
+    "name": "メガガルーラex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47760",
+    "name": "ソルロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47759",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49028",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47862",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49003",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49074",
+    "name": "マシマシラ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46588",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46812",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47701",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48508",
+    "name": "ポケモンいれかえ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49376",
+    "name": "ポケギア3.0",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49403",
+    "name": "ヒーローマント(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46626",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "46826",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47104",
+    "name": "タケシのスカウト",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49429",
+    "name": "スグリ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "50159",
+    "name": "AZの安らぎ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45638",
+    "name": "公民館",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46121",
+    "name": "基本闘エネルギー",
+    "count": 8
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49463",
+    "name": "基本超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49465",
+    "name": "基本悪エネルギー",
+    "count": 2
+  }
+]

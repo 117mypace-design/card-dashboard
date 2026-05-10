@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-29 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "鹿児島県",
+    "shopId": 18403,
+    "shopName": "カードショップ＠ほ～む。鹿児島店",
+    "zipCode": 8900008,
+    "address": "鹿児島県鹿児島市伊敷2-15-15　伊敷ハイツ2-B",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0031021399",
+      "name": "よし",
+      "rank": 1,
+      "point": 100,
+      "area": "鹿児島県",
+      "deck_id": "2EUpXp-bNlPr0-MUXyyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057355678",
+      "name": "mララ",
+      "rank": 2,
+      "point": 75,
+      "area": "鹿児島県",
+      "deck_id": "wkFFkF-H7M5Ui-bFk55v"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0024179957",
+      "name": "ヒラッチ",
+      "rank": 3,
+      "point": 50,
+      "area": "宮崎県",
+      "deck_id": "gPnLnH-DKD5X5-PnLgg9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0038082012",
+      "name": "みやさと",
+      "rank": 3,
+      "point": 50,
+      "area": "鹿児島県",
+      "deck_id": "ngQgL9-WpwOCy-Hn69Lg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057762366",
+      "name": "ヤツハタ",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "NnnnHn-NfOR9I-Hn9iNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100200597",
+      "name": "ハッピー成大",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "Ja4cxD-LUEYQH-8DGGc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071638207",
+      "name": "はなぽん。",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "UM2pMS-oaHoAX-URy3yX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036648489",
+      "name": "サキ",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "i9iHnH-Mr0cYT-Nnnnng"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055274643",
+      "name": "キャップ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "444cxD-wSgwRn-G88484"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057355094",
+      "name": "メガネ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "8D88cK-Y4YnMa-4D8Gxa"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012608018",
+      "name": "月歌",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "5Fvbk5-chvQk5-kF1VFw"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090413771",
+      "name": "ティース",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "ERpE3y-zJ3wtQ-S2Ryyp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0026811840",
+      "name": "aran",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "x8K48Y-IuQoVk-cacJG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089695984",
+      "name": "ダダン",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "ig9nnP-hlBXIT-6gH9nn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072827006",
+      "name": "360",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "ngLing-XpZWuP-69gLH9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030015043",
+      "name": "ひつじ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "LniQgi-GYYbLj-HgQ9n9"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "千葉県",
+    "shopId": 10553,
+    "shopName": "トーナメントセンターバトロコ　柏駅前",
+    "zipCode": 2770005,
+    "address": "千葉県柏市柏1-2-31 新星堂カルチェ4階",
+    "venue": "277-0005\n\n千葉県\n柏市柏1-2-31 新星堂カルチェ4階",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0002954943",
+      "name": "ねぎ",
+      "rank": 1,
+      "point": 100,
+      "area": "埼玉県",
+      "deck_id": "XpySyp-EIxJZy-pXUMR2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012226384",
+      "name": "ウリ",
+      "rank": 2,
+      "point": 75,
+      "area": "千葉県",
+      "deck_id": "Ryyppy-78i4ZG-2SMpyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034992210",
+      "name": "びっくぼ",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "Fk5Vb5-xJVxBO-5FF55k"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0003083307",
+      "name": "だっちゃん",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "VwvfkF-63BZua-Vff5kb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036566927",
+      "name": "ビーチボーイ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "kFvdV5-78zHyG-FFF5fb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049424261",
+      "name": "まるまる",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "nQQgHg-0F7hi3-gg9gg6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058093533",
+      "name": "ろーせー",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "V5vfFb-nSp0MK-kV5fFb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011726096",
+      "name": "ポンさん",
+      "rank": 5,
+      "point": 25,
+      "area": "群馬県",
+      "deck_id": "nPgNLH-rOxXHH-QggLH9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076843086",
+      "name": "ゆーきち",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "VwFF1k-5W0OpS-5vb55k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003034178",
+      "name": "けんじゃ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "gN9Qng-aSWqDH-gH9gHL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094703238",
+      "name": "びん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "HgHngg-27WHwo-N99NnQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044269678",
+      "name": "ひらら",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "FFbF5k-28UbCu-55FkvF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075300331",
+      "name": "はわい",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "G48884-MSbLuV-cKcc8x"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0013742029",
+      "name": "ますらお",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "Fkffvv-tMyIyB-5fFbFF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044536855",
+      "name": "ぺいも",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "vFFk5F-3MiiCZ-vkFk5b"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002272092",
+      "name": "ケンシロウ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "fFFvFk-wHcI21-wFF51b"
+    }
+  ],
+  "total": 16
+}

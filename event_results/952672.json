@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "青森県",
+    "shopId": 13054,
+    "shopName": "バトロコミニ十和田店",
+    "zipCode": 340032,
+    "address": "青森県十和田市東四番町5-2",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0077566214",
+      "name": "りゅうせい",
+      "rank": 1,
+      "point": 100,
+      "area": "青森県",
+      "deck_id": "Myyyyy-iH1MKK-S2pRMp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068717717",
+      "name": "みなりん",
+      "rank": 2,
+      "point": 75,
+      "area": "青森県",
+      "deck_id": "Jx844c-IIfCAt-4axcG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079879336",
+      "name": "にしき",
+      "rank": 3,
+      "point": 50,
+      "area": "青森県",
+      "deck_id": "3MR2UM-vCxTW0-M2yppy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0091299448",
+      "name": "じゃにっと",
+      "rank": 3,
+      "point": 50,
+      "area": "青森県",
+      "deck_id": "Fk5kkF-M52eMX-1vVdbk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007102550",
+      "name": "下北半島",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "Lggni9-XBt1A7-gLgPnH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058147511",
+      "name": "kei",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "gNnnHL-UB6edP-9PHH9g"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0101395986",
+      "name": "オーシャン",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "LNNnLL-Q7zO3R-H9gnPN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086356794",
+      "name": "ヤドクイーン",
+      "rank": 5,
+      "point": 25,
+      "area": "青森県",
+      "deck_id": "RpEpMy-OgyuZV-yUMp22"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041184840",
+      "name": "basutaka",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "8x88ac-C5PzHK-8G4c8Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002412021",
+      "name": "ゆうり",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "bFVVF5-uRVtM3-k5kkwf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0021296561",
+      "name": "おさかな",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "yMppyX-PJQZNE-M2XpRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007677580",
+      "name": "せつか",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "fFwFF5-2nADet-kFV5bk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044057303",
+      "name": "もこ",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "pMy3yM-hCRSNI-2Mpp2R"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0079776051",
+      "name": "アオト",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "k55bkF-GrZjrH-dFVFFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099683971",
+      "name": "まくら",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "n9LgHN-EKlirz-QgQ9nL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086752491",
+      "name": "なはちゃ",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "HNgn9Q-ZF5UI0-HLHNng"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 19938,
+    "shopName": "トレカショップ竜のしっぽ　布施店",
+    "zipCode": 5770056,
+    "address": "大阪府東大阪市長堂１丁目２−１  A+FUSEビル ３階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0043234411",
+      "name": "かべ",
+      "rank": 1,
+      "point": 100,
+      "area": "兵庫県",
+      "deck_id": "gHngnQ-Kf5lyv-9gignQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075614014",
+      "name": "けん",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "SSppEX-CDam4m-ypypSR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065030497",
+      "name": "よだれ",
+      "rank": 3,
+      "point": 50,
+      "area": "兵庫県",
+      "deck_id": "nnigNL-h4Ri83-HgQn9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005202391",
+      "name": "ペカ山",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "nggHn9-lPT0aq-nH9nng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010779992",
+      "name": "haro",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "iQg9nn-MruefD-g6gLiQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0080119728",
+      "name": "むずむずかふん",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "Fdbfkv-YWQeIN-fv5kkF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0051936060",
+      "name": "たっくん",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "R2pSy2-dFBMZR-ES2ppS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028519364",
+      "name": "サラー",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "HNg9PQ-mGCvUJ-Q6Lngg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043180567",
+      "name": "サボ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "cD8Yc4-2DcZ3Z-8G8cKc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013585945",
+      "name": "nana",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "88cY88-zNMIak-4cGG8Y"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070958526",
+      "name": "キング",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "FvkFFv-An3aHe-Fbfv5v"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075575492",
+      "name": "イッキ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "K4c8xc-oo1b9O-8D4G8Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101626893",
+      "name": "みつい",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "vFvf5k-90VvQ1-F5Vfkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081074752",
+      "name": "Pinky",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "QNg9gi-61ht1E-QnggHQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071445966",
+      "name": "スカーレット",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "nQLgHn-wYOexv-9ngNnQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035755959",
+      "name": "マックス",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "cD88Y4-NAJBnX-Dc88GY"
+    }
+  ],
+  "total": 16
+}

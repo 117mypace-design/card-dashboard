@@ -1,0 +1,146 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45199",
+    "name": "タケルライコex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48539",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46248",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46409",
+    "name": "コライドン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46014",
+    "name": "タケルライコ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48674",
+    "name": "テラスタルオーブ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49383",
+    "name": "むしとりセット",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46221",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47354",
+    "name": "ポケモンキャッチャー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47885",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36955",
+    "name": "エネルギーつけかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47701",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "45933",
+    "name": "力の砂時計",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49412",
+    "name": "アカマツ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49608",
+    "name": "ジャッジマン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42779",
+    "name": "基本草エネルギー",
+    "count": 11
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42784",
+    "name": "基本闘エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42782",
+    "name": "基本雷エネルギー",
+    "count": 4
+  }
+]

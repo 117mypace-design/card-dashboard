@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47411",
+    "name": "アチャモ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47412",
+    "name": "ワカシャモ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47505",
+    "name": "バシャーモ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46470",
+    "name": "バシャーモex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47078",
+    "name": "タツベイ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47079",
+    "name": "コモルー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47080",
+    "name": "ボーマンダex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48533",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46782",
+    "name": "シャリタツ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46765",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48554",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47282",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46808",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45931",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46589",
+    "name": "ふしぎなアメ",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48485",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "45212",
+    "name": "マキシマムベルト(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46205",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46970",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48078",
+    "name": "トウコ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47708",
+    "name": "イグニッションエネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46117",
+    "name": "基本炎エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46118",
+    "name": "基本水エネルギー",
+    "count": 3
+  }
+]

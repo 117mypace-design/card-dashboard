@@ -1,0 +1,104 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49654",
+    "name": "メガスターミーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49653",
+    "name": "ヒトデマン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48558",
+    "name": "メガユキメノコex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46699",
+    "name": "ユキメノコ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48557",
+    "name": "ユキワラシ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49376",
+    "name": "ポケギア3.0",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48300",
+    "name": "ヒーローマント(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49430",
+    "name": "セイジ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47899",
+    "name": "ミツルの思いやり",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46607",
+    "name": "ゴヨウ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47858",
+    "name": "なみのりビーチ",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47905",
+    "name": "基本水エネルギー",
+    "count": 7
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49452",
+    "name": "イグニッションエネルギー",
+    "count": 3
+  }
+]

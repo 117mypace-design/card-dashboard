@@ -1,0 +1,116 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49920",
+    "name": "ロケット団のドンカラス",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47510",
+    "name": "ロケット団のヤミカラス",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49864",
+    "name": "ロケット団のフリーザー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36839",
+    "name": "ポケギア3.0",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45799",
+    "name": "ロトりぼう",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46437",
+    "name": "ミラクルインカム(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46660",
+    "name": "夜のタンカ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49977",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48441",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48510",
+    "name": "パンクメット",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47524",
+    "name": "ロケット団のアポロ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47526",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47527",
+    "name": "ロケット団のランス",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47532",
+    "name": "ロケット団のアテナ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47533",
+    "name": "ロケット団のサカキ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47490",
+    "name": "ロケット団のファクトリー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47491",
+    "name": "ロケット団エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48515",
+    "name": "イグニッションエネルギー",
+    "count": 4
+  }
+]

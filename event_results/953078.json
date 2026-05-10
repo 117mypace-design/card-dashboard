@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-29 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "高知県",
+    "shopId": 15212,
+    "shopName": "カードショップ楓",
+    "zipCode": 7819529,
+    "address": "高知県高知市九反田2-1　高知市文化プラザかるぽーと　9階『第2学習室』",
+    "venue": "※外部会場での開催となります。来場される際はご注意くださいませ。",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0061803222",
+      "name": "シェリ",
+      "rank": 1,
+      "point": 100,
+      "area": "高知県",
+      "deck_id": "acx8K4-CD55ni-884Gc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0088814975",
+      "name": "キットモカット",
+      "rank": 2,
+      "point": 75,
+      "area": "高知県",
+      "deck_id": "6LQngg-m9iOrw-nN9nLH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010583131",
+      "name": "ちくわ",
+      "rank": 3,
+      "point": 50,
+      "area": "香川県",
+      "deck_id": "Nnn6gg-JwOia8-9PnHPH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085649057",
+      "name": "ねくさす",
+      "rank": 3,
+      "point": 50,
+      "area": "高知県",
+      "deck_id": "ni696L-DzjqE6-ngnHgH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064055437",
+      "name": "よつぎ",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "py2yXp-j3klXf-Xp3RMy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031272094",
+      "name": "Sペイ",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "Fkwk1k-r26i9N-kb5dV5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073908298",
+      "name": "バート",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "6Hgn69-Un5RWE-ggnnnL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061006722",
+      "name": "だいちゃん",
+      "rank": 5,
+      "point": 25,
+      "area": "高知県",
+      "deck_id": "cD48Ka-5V6zXd-GxY88K"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0081844027",
+      "name": "ジュベリー",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "y2py3p-9UYnw8-yMRMp3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026299761",
+      "name": "minami",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "2MyyUU-UR9gqk-RMU2py"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0015917520",
+      "name": "シキ",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "gnggHn-t5zCDt-gn96nN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041214596",
+      "name": "たむちょん",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "fFFkkw-UkCWWu-5kvvb5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014382468",
+      "name": "たこす",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "gLin9n-IpFqtS-LiQHgL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003098415",
+      "name": "トゥン",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "Qn6NgH-PHmvTh-n9gnng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101071189",
+      "name": "kuro",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "8Gc4KD-4XmXl6-J8Ycc4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060867939",
+      "name": "どん",
+      "rank": 9,
+      "point": 15,
+      "area": "高知県",
+      "deck_id": "k5bVwF-MVH7ix-kkFkFk"
+    }
+  ],
+  "total": 16
+}

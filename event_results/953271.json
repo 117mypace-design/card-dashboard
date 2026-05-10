@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 13:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "宮崎県",
+    "shopId": 12181,
+    "shopName": "CARDSHOPラリアット！",
+    "zipCode": 8800001,
+    "address": "宮崎県宮崎市橘通西3－10－32 　宮崎ナナイロ西館３Ｆ",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0078584293",
+      "name": "つぶぐみ",
+      "rank": 1,
+      "point": 100,
+      "area": "宮崎県",
+      "deck_id": "GcxK4Y-hm8aHe-c8c4xc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072900558",
+      "name": "kamikoto",
+      "rank": 2,
+      "point": 75,
+      "area": "宮崎県",
+      "deck_id": "cccxGG-Fi4HF1-4848cD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033243409",
+      "name": "トマト",
+      "rank": 3,
+      "point": 50,
+      "area": "宮崎県",
+      "deck_id": "ggHng9-q3cn7q-gNHnHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038875539",
+      "name": "ケイスケ",
+      "rank": 3,
+      "point": 50,
+      "area": "宮崎県",
+      "deck_id": "Gxc84G-Wqk3K2-Dc8x88"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0039931533",
+      "name": "ぶたちゃん",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "M22Rpp-NR6KGB-ypp2pM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081429677",
+      "name": "シロー",
+      "rank": 5,
+      "point": 25,
+      "area": "宮崎県",
+      "deck_id": "gHnNHN-8n6fPn-gnNQL9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060710105",
+      "name": "かりーやん",
+      "rank": 5,
+      "point": 25,
+      "area": "宮崎県",
+      "deck_id": "S2pES2-AOSOZV-pp22yR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064190471",
+      "name": "きょうへい",
+      "rank": 5,
+      "point": 25,
+      "area": "宮崎県",
+      "deck_id": "bfFfF5-qEbtMg-kVFFkk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065485873",
+      "name": "ゆうじ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "PH9gni-CKewkA-ggnHn6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065486762",
+      "name": "りんと",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "GK48G8-0dXnpW-cx4c4D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079475260",
+      "name": "カゲツ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "XppyXy-Xq7rAi-y2ypRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072370414",
+      "name": "シン",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "Sp2R32-GzHrZ8-ypRMpy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036494129",
+      "name": "みーぽけ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "bVf5FF-a0JSky-5Vkk5f"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044310956",
+      "name": "タカハシ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "4YGccc-gVRTxC-c84cc8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0056638367",
+      "name": "ミカヅキ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "yyyEMR-qJXatJ-RpppES"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014111389",
+      "name": "レイト",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "8844Jc-l0xjiG-Gcccx8"
+    }
+  ],
+  "total": 16
+}

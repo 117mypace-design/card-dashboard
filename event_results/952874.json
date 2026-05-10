@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-24 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 10495,
+    "shopName": "【CARDBOX】青馬堂矢向店",
+    "zipCode": 2300001,
+    "address": "神奈川県横浜市鶴見区矢向5-8-42",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0076202894",
+      "name": "さりー　",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "LgnNHg-ohIQc7-inHn9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039239545",
+      "name": "もつ",
+      "rank": 2,
+      "point": 75,
+      "area": "神奈川県",
+      "deck_id": "D88Y8D-PPIxLB-DcGxx8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064878373",
+      "name": "ノアパパ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "fkFFfk-9Z1QLm-kfFFbb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031749611",
+      "name": "なす",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "gNQnN9-MB8dy4-NgngnH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061456192",
+      "name": "しいふうど",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "1FbkF5-MvlkiP-f5FFkV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087595037",
+      "name": "Ryota",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "yXXEMp-CzggIU-RSyXyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020875002",
+      "name": "まさお",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "gni9L9-ZDHOof-gN6nNN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033414094",
+      "name": "たむむ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "fdwvff-koKHAX-b1VkkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079751852",
+      "name": "森盛り",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "cK84Ga-fZAbxk-GDcx8x"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037310004",
+      "name": "ときちゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "yyERXy-OxvQUJ-XXypyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063537026",
+      "name": "こもらん",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "nNnH9L-YvReDf-N9gnNL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062746948",
+      "name": "エイスケ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "RXSM3M-aRNNSU-Xpyyyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035702243",
+      "name": "かつどん",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "MU2XMy-RYfQJY-ypyRX2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0056673029",
+      "name": "こう",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "fwVV1f-fvYkIZ-5bkkFv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087816077",
+      "name": "やもり",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "DG8caD-OmAeCh-48D8cJ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032231517",
+      "name": "天渚",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "QgngNH-uHHAr9-9NLn69"
+    }
+  ],
+  "total": 16
+}

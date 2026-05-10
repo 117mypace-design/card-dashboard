@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-29 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福井県",
+    "shopId": 11393,
+    "shopName": "【CARDBOX】Super KaBoS 二の宮本店",
+    "zipCode": 9100015,
+    "address": "福井県福井市二の宮5丁目18-8",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0004237983",
+      "name": "RYO",
+      "rank": 1,
+      "point": 100,
+      "area": "石川県",
+      "deck_id": "F5kbv5-Qt7y5J-VkwkvF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042964049",
+      "name": "なかちよ",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "n9Qgng-gINac0-nPQLgH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084819729",
+      "name": "かにみそ",
+      "rank": 3,
+      "point": 50,
+      "area": "福井県",
+      "deck_id": "R22yMU-93SD3w-ppUyUp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036412062",
+      "name": "つっつ",
+      "rank": 3,
+      "point": 50,
+      "area": "福井県",
+      "deck_id": "c4D4ac-ciAZuQ-a84G88"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068641364",
+      "name": "のっち",
+      "rank": 5,
+      "point": 25,
+      "area": "石川県",
+      "deck_id": "YJG48a-A2Qdhh-cKcx8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068855170",
+      "name": "僕チワワ",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "y3M2pp-kg0UZ2-2yypRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029690062",
+      "name": "ハーレン",
+      "rank": 5,
+      "point": 25,
+      "area": "福井県",
+      "deck_id": "nLnNHg-xazFEO-9nggL6"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0042619901",
+      "name": "リーリエ高杉",
+      "rank": 5,
+      "point": 25,
+      "area": "石川県",
+      "deck_id": "yR3Upp-tNaAEJ-X2yRyS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063395668",
+      "name": "そいや",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "K8cKG4-2t3EcS-8DxccK"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037278052",
+      "name": "ちーず",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "aD8c8G-YM1SkA-D48c8J"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043043970",
+      "name": "リョピ",
+      "rank": 9,
+      "point": 15,
+      "area": "富山県",
+      "deck_id": "LQniHL-8kuu3b-PnLgQ9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079586522",
+      "name": "こば",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "x8ac88-PEQXcC-YcGxJ4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067908482",
+      "name": "さすけ",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "y2ERp2-duQYou-XE3pyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036866931",
+      "name": "クロ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "Dx88c8-uuTtUu-4a8Ga4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061156672",
+      "name": "がわじ",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "D88D8a-mhyNl9-c488G8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071630388",
+      "name": "アズ",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "FV1bwF-iBaY14-5Fvvkk"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48625",
+    "name": "ロケット団のドンカラス",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49163",
+    "name": "ロケット団のヤミカラス",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47474",
+    "name": "ロケット団のポリゴン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47475",
+    "name": "ロケット団のポリゴン2",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48556",
+    "name": "ロケット団のフリーザー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49601",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48682",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45799",
+    "name": "ロトりぼう",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46437",
+    "name": "ミラクルインカム(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49449",
+    "name": "ロケット団のサカキ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49451",
+    "name": "ロケット団のランス",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49447",
+    "name": "ロケット団のアテナ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49448",
+    "name": "ロケット団のアポロ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49450",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48712",
+    "name": "ロケット団のファクトリー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49458",
+    "name": "ロケット団エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49452",
+    "name": "イグニッションエネルギー",
+    "count": 4
+  }
+]

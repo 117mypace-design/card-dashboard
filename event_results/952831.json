@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-27 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 13:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 19:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "東京都",
+    "shopId": 18442,
+    "shopName": "ドラゴンスター秋葉原駅前店",
+    "zipCode": 1010021,
+    "address": "東京都千代田区外神田1-18-18　BiTO AKIBA PLAZA 6F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0044008196",
+      "name": "チャンユウ",
+      "rank": 1,
+      "point": 100,
+      "area": "埼玉県",
+      "deck_id": "ngLQQ9-PBqr7y-QgHnn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058063978",
+      "name": "カイ",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "n9Qgng-gINac0-nPQLgH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029561452",
+      "name": "しゅんしゅん",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "gHngn9-4iSPrm-Qnnn9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071124791",
+      "name": "ベラ",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "Dx8acJ-Uhu5eX-4J8cYG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0081006858",
+      "name": "さっすん",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "Y48cJ8-xCRoAm-c48aYG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082842240",
+      "name": "アユ",
+      "rank": 5,
+      "point": 25,
+      "area": "沖縄県",
+      "deck_id": "gPL9nH-3bzqzj-nngnNH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0047926424",
+      "name": "こへ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "G88GG4-3YiUuN-Yx88cD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013446222",
+      "name": "isakoma",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "84xxc8-V6bvFm-cGJ8Gc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068823164",
+      "name": "staring",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "Ry2yyy-I3btCj-3ypX2R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094126350",
+      "name": "しゅーた",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "kVddk5-kbXUjf-FFb1vF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0103226431",
+      "name": "とうか",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "LggNQ9-D9Ja45-9nnnHL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087899832",
+      "name": "ぬぬ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "RpUySy-YGWCNe-p2UySy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065875517",
+      "name": "da1",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "U2XRRy-AcDHSG-Xy3py2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086168919",
+      "name": "とまあき",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "gPgnH9-b1SyVM-P9HPnL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000015444",
+      "name": "Sendai",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "Dc88GD-TUKEfQ-8Y4G8x"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063425662",
+      "name": "うぃっち",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "Gcc488-jBcm7U-848Jc8"
+    }
+  ],
+  "total": 16
+}

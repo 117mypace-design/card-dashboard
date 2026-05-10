@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "宮城県",
+    "shopId": 12096,
+    "shopName": "シーガル　仙台駅前店",
+    "zipCode": 9800021,
+    "address": "宮城県仙台市青葉区中央3丁目6-1　仙台TRビル地下１階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0073531795",
+      "name": "やまか",
+      "rank": 1,
+      "point": 100,
+      "area": "宮城県",
+      "deck_id": "kbVVbk-iV1HVG-FfF5FF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043522499",
+      "name": "コスモ",
+      "rank": 2,
+      "point": 75,
+      "area": "宮城県",
+      "deck_id": "2pRMpp-55mv1Q-2EX2py"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0023006461",
+      "name": "コロコロ",
+      "rank": 3,
+      "point": 50,
+      "area": "宮城県",
+      "deck_id": "n9N9nn-NjjHLM-LLQggH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002431684",
+      "name": "カズ",
+      "rank": 3,
+      "point": 50,
+      "area": "宮城県",
+      "deck_id": "p23pMX-9x6tu6-XyMypR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072178993",
+      "name": "みとま顔ルンバ",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "JKcc44-3jB3vn-x8GGc8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078202874",
+      "name": "PandRA",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "Ff1bff-FxMQt6-k5FkFk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072550021",
+      "name": "enuo",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "ggH9gN-dv3Wre-nHLPgg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038988725",
+      "name": "ゆめ",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "XSRyX2-UBOv7h-RyppSy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055331962",
+      "name": "あき",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "NL9Pgn-M88SVw-QnnQHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011152921",
+      "name": "ちゃんえり",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "gggPQ9-Pvfcmc-ginLHH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061251274",
+      "name": "すぎもん",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "MRUppy-IiG973-32Xp2M"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078200052",
+      "name": "TAKE",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "nNNggn-ldrxqw-gLNHn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081717981",
+      "name": "いわし",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "cc8xGc-PNM47c-c4D4K4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028280965",
+      "name": "わか",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "c8xDcG-oUNjbr-ccx4c8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061684960",
+      "name": "ぴぴあん",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "Mppy2p-76ryhT-22RMRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090064043",
+      "name": "ど",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "H9gggn-Eo42IU-HnNHgn"
+    }
+  ],
+  "total": 16
+}

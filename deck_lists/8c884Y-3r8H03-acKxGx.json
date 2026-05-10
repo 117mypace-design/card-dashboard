@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49653",
+    "name": "ヒトデマン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50062",
+    "name": "メガスターミーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48557",
+    "name": "ユキワラシ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46699",
+    "name": "ユキメノコ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49984",
+    "name": "メガユキメノコex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48249",
+    "name": "マシマシラ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49197",
+    "name": "イベルタル",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48675",
+    "name": "なかよしポフィン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48295",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49355",
+    "name": "エネルギー転送",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48687",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48697",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48694",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46823",
+    "name": "アオキの手際",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47899",
+    "name": "ミツルの思いやり",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "45285",
+    "name": "セイジ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47796",
+    "name": "危ない廃墟",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47905",
+    "name": "基本水エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48284",
+    "name": "基本悪エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49457",
+    "name": "レガシーエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48713",
+    "name": "イグニッションエネルギー",
+    "count": 1
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48599",
+    "name": "ホップのボクレー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48600",
+    "name": "ホップのオーロット",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48658",
+    "name": "ホップのカビゴン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48645",
+    "name": "ホップのザシアンex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48317",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48582",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45628",
+    "name": "ガチグマ アカツキex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48636",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48554",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49601",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47282",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49382",
+    "name": "ホップのバッグ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48682",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48298",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49602",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49406",
+    "name": "ホップのこだわりハチマキ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48304",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49450",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47288",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48708",
+    "name": "ハロンタウン",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47218",
+    "name": "ミストエネルギー",
+    "count": 4
+  }
+]

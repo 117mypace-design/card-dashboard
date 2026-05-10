@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48539",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47801",
+    "name": "メガニウム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47800",
+    "name": "ベイリーフ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48732",
+    "name": "チコリータ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46162",
+    "name": "ヨルノズク",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46015",
+    "name": "ホーホー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49973",
+    "name": "スピンロトム",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46195",
+    "name": "テラスタルオーブ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45875",
+    "name": "なかよしポフィン",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45785",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36955",
+    "name": "エネルギーつけかえ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49352",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "32283",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "43300",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45683",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46063",
+    "name": "クセロシキのたくらみ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50076",
+    "name": "活力の森",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46041",
+    "name": "ゼロの大空洞",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "24324",
+    "name": "基本草エネルギー",
+    "count": 11
+  }
+]

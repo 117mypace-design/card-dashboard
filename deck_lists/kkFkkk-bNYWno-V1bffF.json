@@ -1,0 +1,182 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48646",
+    "name": "ミニリュウ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48647",
+    "name": "ハクリュー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48648",
+    "name": "メガカイリューex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47411",
+    "name": "アチャモ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47412",
+    "name": "ワカシャモ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46470",
+    "name": "バシャーモex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49185",
+    "name": "Nのゾロア",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49186",
+    "name": "Nのゾロアークex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49653",
+    "name": "ヒトデマン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49654",
+    "name": "メガスターミーex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48533",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48657",
+    "name": "シャリタツ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48534",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49371",
+    "name": "ふしぎなアメ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49708",
+    "name": "メイのはげまし",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48419",
+    "name": "バトルコロシアム",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47906",
+    "name": "基本雷エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47905",
+    "name": "基本水エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47904",
+    "name": "基本炎エネルギー",
+    "count": 1
+  }
+]

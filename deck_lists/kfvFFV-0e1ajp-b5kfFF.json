@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47381",
+    "name": "シロナのガブリアスex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49792",
+    "name": "シロナのガバイト",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49791",
+    "name": "シロナのフカマル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47366",
+    "name": "シロナのロズレイド",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49725",
+    "name": "シロナのロゼリア",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49968",
+    "name": "シロナのミカルゲ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48554",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48316",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48439",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49398",
+    "name": "シロナのパワーウエイト",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "44704",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49434",
+    "name": "トウコ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46330",
+    "name": "サーファー",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49713",
+    "name": "ロック闘エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42949",
+    "name": "基本闘エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45217",
+    "name": "ネオアッパーエネルギー",
+    "count": 1
+  }
+]

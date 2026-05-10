@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48390",
+    "name": "キバニア",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48391",
+    "name": "メガサメハダーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48396",
+    "name": "エレズン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48397",
+    "name": "ストリンダー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46410",
+    "name": "モノズ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46411",
+    "name": "ジヘッド",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46412",
+    "name": "サザンドラex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49207",
+    "name": "モモワロウex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49074",
+    "name": "マシマシラ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49976",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49371",
+    "name": "ふしぎなアメ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49356",
+    "name": "エネルギーリサイクル",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48694",
+    "name": "トウコ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47796",
+    "name": "危ない廃墟",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48284",
+    "name": "基本悪エネルギー",
+    "count": 9
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48307",
+    "name": "基本超エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47910",
+    "name": "基本鋼エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45217",
+    "name": "ネオアッパーエネルギー",
+    "count": 1
+  }
+]

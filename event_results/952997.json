@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "滋賀県",
+    "shopId": 10877,
+    "shopName": "ゲームプラザ元気302",
+    "zipCode": 5200241,
+    "address": "滋賀県大津市今堅田2丁目40-25",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0073498102",
+      "name": "ココ",
+      "rank": 1,
+      "point": 100,
+      "area": "滋賀県",
+      "deck_id": "Lnn9nQ-kPa0yn-HgHNLg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011206381",
+      "name": "U",
+      "rank": 2,
+      "point": 75,
+      "area": "兵庫県",
+      "deck_id": "gQnH9P-HAvxFm-6ngHgn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031174736",
+      "name": "桐灰はるはる",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "5Fv1Ff-ncDLyQ-vkFfkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000472531",
+      "name": "めこ",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "p2y2Rp-FO6O6A-yE23MR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027266597",
+      "name": "ナカトモ",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "gQNn9P-wJJFT7-HLnHgn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035863117",
+      "name": "ちく",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "Rpp2S2-07enPY-XpRypp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076337589",
+      "name": "うすしお",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "kffFF1-j5zKb7-f1Fbk5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014639328",
+      "name": "トリガー",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "9LgnnH-AxecA2-QgingH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029391149",
+      "name": "さとし",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "pXSRyR-08x4c1-yMX3My"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076395628",
+      "name": "るる",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "3ppypS-nAcQyi-Xpy3R2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080076168",
+      "name": "オガポン",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "D8c8GG-ZKyAOF-8cD8Ka"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037421221",
+      "name": "もあごき",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "QHggn6-6pgAaK-NN99gN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035345246",
+      "name": "サメ",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "LHgn9H-vpCRPf-QPggnQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005290174",
+      "name": "すたん",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "8cYGDD-Db3vrV-4cxcac"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0045335516",
+      "name": "やまたく",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "wFV1Fk-iEExDw-FFv5Vb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044902144",
+      "name": "べやん",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "c8GJDK-c2h0Pp-Yc4xD4"
+    }
+  ],
+  "total": 16
+}

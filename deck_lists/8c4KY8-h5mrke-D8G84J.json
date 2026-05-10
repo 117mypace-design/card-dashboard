@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49240",
+    "name": "ジュラルドン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48644",
+    "name": "ブリジュラスex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48403",
+    "name": "ブリジュラス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48633",
+    "name": "Nのゾロア",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48634",
+    "name": "Nのゾロアークex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45180",
+    "name": "ジーランス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49207",
+    "name": "モモワロウex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47779",
+    "name": "メガクチートex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45833",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47885",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49376",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49380",
+    "name": "ポケモン回収サイクロン(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48279",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47898",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47900",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46442",
+    "name": "シアノ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46599",
+    "name": "からておうの稽古",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48243",
+    "name": "クラウン",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47489",
+    "name": "ロケット団の監視塔",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47910",
+    "name": "基本鋼エネルギー",
+    "count": 10
+  }
+]

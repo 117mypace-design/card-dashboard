@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "東京都",
+    "shopId": 19827,
+    "shopName": "BOOKOFF SUPER BAZAAR 西友大森店",
+    "zipCode": 1400013,
+    "address": "東京都品川区南大井6-27-25　西友大森3F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0002940498",
+      "name": "あきた丸",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "G4x4c4-ZgTtI4-8G4Dcc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067195659",
+      "name": "uzuuuu",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "b5FVFF-u9nBru-vkV5Fv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0016946398",
+      "name": "コーヒー",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "g9ngHg-z5l9WZ-nHgiLH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0080725079",
+      "name": "りあ",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "v5bFFb-RKWCr6-k5fFFv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001947034",
+      "name": "MOTORON",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "gP9nnP-9lUvMd-ngiHQg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070429686",
+      "name": "Takumi",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "y2pSyR-xSFTzd-S22pyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076498251",
+      "name": "こーひー",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "USyypy-dYCxBc-pR2pMX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087729058",
+      "name": "かつたろう",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "bk5FvF-W3PFKo-FVvkk1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000837468",
+      "name": "ヤノケン",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "FbkV55-V6hPt4-VFkVFd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078047455",
+      "name": "えいと",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "pEpyyp-bFNFhi-Rpy2yM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0097049852",
+      "name": "おったー",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "p2yRSy-B8qAqU-2p23XX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0018584668",
+      "name": "ニュクス",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "8Gccxc-6PEXev-caccY4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074207897",
+      "name": "ひとつめ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "yySMpp-qwfTRQ-p2RMMp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0056567548",
+      "name": "へるてぃ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "2pXpy2-lpRi04-R2yy2M"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064189299",
+      "name": "おみく",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "SpMpyp-XLD3hY-R2ppSS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037609207",
+      "name": "noa",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "UMMppy-y4T1RH-2RRMp2"
+    }
+  ],
+  "total": 16
+}

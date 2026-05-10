@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-29 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "熊本県",
+    "shopId": 13181,
+    "shopName": "遊ING　熊本上通り店",
+    "zipCode": 8600845,
+    "address": "熊本県熊本市中央区上通町6-15　T-FOURビル4F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0000115568",
+      "name": "ライキー3156",
+      "rank": 1,
+      "point": 100,
+      "area": "福岡県",
+      "deck_id": "2pp2yR-Ch6vke-yU32Ey"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029290541",
+      "name": "ロペ",
+      "rank": 2,
+      "point": 75,
+      "area": "沖縄県",
+      "deck_id": "3yRSy2-rkE5fD-y2Sppp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078706367",
+      "name": "may",
+      "rank": 3,
+      "point": 50,
+      "area": "熊本県",
+      "deck_id": "bwwFFk-9mX3pN-5Vk5F5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0098669367",
+      "name": "タッツ",
+      "rank": 3,
+      "point": 50,
+      "area": "熊本県",
+      "deck_id": "bFf1kF-OC2l3E-kVkfw5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071002022",
+      "name": "ぽち",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "Gax8cx-1XrjXr-8G84D4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0000487021",
+      "name": "けんけん",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "kF5bkw-ydEBoD-kFfk1b"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009502264",
+      "name": "りょ根性",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "pyMy3p-C3pvf2-MR2pS2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086668105",
+      "name": "キュー",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "9iHLnL-brpBYd-gnnNng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010745715",
+      "name": "よし",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "x4aGK8-8d8RAL-Kc8xc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057354611",
+      "name": "おへそ3回転",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "c8c844-FwdtpD-GKKKYc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0098540501",
+      "name": "とらっぷ",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "22yppy-49yqYu-ypMpRR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052858165",
+      "name": "Santa",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "M2My2p-aGhwX0-yEUURp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076501672",
+      "name": "ぽふぃんちゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "ySXpR2-zDUn8D-pypUyy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0000372495",
+      "name": "さざなみ",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "ggHn96-Zdbbyc-6N9nQn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020093419",
+      "name": "ふりあ",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "5VkFFk-w634kY-VFwFbk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073578000",
+      "name": "tkc",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "RE3ypy-PC8GjM-pypSp2"
+    }
+  ],
+  "total": 16
+}

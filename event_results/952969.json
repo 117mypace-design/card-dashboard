@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "香川県",
+    "shopId": 12116,
+    "shopName": "竜星の嵐　高松店",
+    "zipCode": 7618056,
+    "address": "香川県高松市上天神町562-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0058760185",
+      "name": "りょうちゃん",
+      "rank": 1,
+      "point": 100,
+      "area": "香川県",
+      "deck_id": "Mp3py2-bYZRlG-2ypRRX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054339925",
+      "name": "てんしま",
+      "rank": 2,
+      "point": 75,
+      "area": "徳島県",
+      "deck_id": "4GD4KD-HD8xOK-xx8c8K"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0059487609",
+      "name": "ゆいと",
+      "rank": 3,
+      "point": 50,
+      "area": "香川県",
+      "deck_id": "RpXM3y-SnIr6y-ppyXRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010582512",
+      "name": "Ryo",
+      "rank": 3,
+      "point": 50,
+      "area": "香川県",
+      "deck_id": "caccD4-QkeX74-J88GxY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026886932",
+      "name": "くりだいまー",
+      "rank": 5,
+      "point": 25,
+      "area": "香川県",
+      "deck_id": "5fVFbk-7bzGcF-wkkV1k"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0059061461",
+      "name": "ゆんぬ",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "ypRpXp-3JUIZi-SyXpyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000285498",
+      "name": "りゅう",
+      "rank": 5,
+      "point": 25,
+      "area": "香川県",
+      "deck_id": "fVkdfF-ChBVay-dFkVbw"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099005171",
+      "name": "ハビット",
+      "rank": 5,
+      "point": 25,
+      "area": "徳島県",
+      "deck_id": "Uyppyy-Z3jTnA-SXpRyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079499266",
+      "name": "いおり",
+      "rank": 9,
+      "point": 15,
+      "area": "香川県",
+      "deck_id": "SXMMXp-6UKXVQ-MRyypp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049027541",
+      "name": "ルカ",
+      "rank": 9,
+      "point": 15,
+      "area": "香川県",
+      "deck_id": "MyMSMR-xZ26Zi-yyXRp3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002507655",
+      "name": "式",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "My3ypX-FOe0hJ-2MyRyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083614024",
+      "name": "かい",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "XUpXXy-7dUZtd-R2pypp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0094377572",
+      "name": "rikuto",
+      "rank": 9,
+      "point": 15,
+      "area": "香川県",
+      "deck_id": "FvFkkF-5zCchB-FFbVfk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035696009",
+      "name": "みっきい",
+      "rank": 9,
+      "point": 15,
+      "area": "香川県",
+      "deck_id": "vVF5FF-UrtwQA-vkbkkf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057776978",
+      "name": "ジョジョ",
+      "rank": 9,
+      "point": 15,
+      "area": "香川県",
+      "deck_id": "wbkfkF-ciXF3v-kVVVFd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068140852",
+      "name": "しらと",
+      "rank": 9,
+      "point": 15,
+      "area": "香川県",
+      "deck_id": "LnnNnn-xFIDd4-6H9NgN"
+    }
+  ],
+  "total": 16
+}

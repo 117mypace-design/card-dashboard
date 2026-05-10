@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-06 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "北海道",
+    "shopId": 14799,
+    "shopName": "バトロコミニ苫小牧バイパス店",
+    "zipCode": 591261,
+    "address": "北海道苫小牧市ときわ町6-23-30",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0019317775",
+      "name": "キタキツネ",
+      "rank": 1,
+      "point": 100,
+      "area": "北海道",
+      "deck_id": "QH9Lng-LeS16j-gPQ9gg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057659642",
+      "name": "レオテト",
+      "rank": 2,
+      "point": 75,
+      "area": "北海道",
+      "deck_id": "y2ER3p-QfpgeC-pM2RSp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058846821",
+      "name": "りっくん",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "vkVkwF-p5YMxR-VfbFfv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083099672",
+      "name": "みそまる",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "5bvVkF-GeeoUq-dkkbFF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036723719",
+      "name": "はじめん",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "ggggng-59TmZt-Q9Q99Q"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0103175883",
+      "name": "ちくわ",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "gLgQQn-LJSv4G-Lggi99"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036108693",
+      "name": "バズ",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "G8x44x-Mi7r9M-c84xYc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028128843",
+      "name": "CIA(しあ)",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "SyySpR-JIpSGR-MypM2y"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0000879048",
+      "name": "白",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "H69nNQ-MamPMG-ggHgPL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0058513350",
+      "name": "ishi_Rock",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "3SXSRp-y4pjw6-yypMMX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026864499",
+      "name": "あひる",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "vkfwFk-LFrSTQ-Fkk5bv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040777342",
+      "name": "ポイ造",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "MXppES-ep1DLL-RpyRSS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037819198",
+      "name": "オニマロ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "HgNiQn-fi5ZTk-ngn9QH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0042244286",
+      "name": "ハギぴ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "pypMMX-lxKS1t-SRSRRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0018093472",
+      "name": "SHOGO",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "nQggQg-CQPqfR-QHLH9n"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0042250160",
+      "name": "てや",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "vFbFvd-eNEJNH-bFkkfF"
+    }
+  ],
+  "total": 16
+}

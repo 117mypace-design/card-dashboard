@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-18 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:05:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "東京都",
+    "shopId": 14660,
+    "shopName": "Card Secret",
+    "zipCode": 1700013,
+    "address": "東京都豊島区東池袋1-23-9 THE KINDAI 10 IKEBUKURO 4階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0003689253",
+      "name": "わっくん",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "xaGccD-brbV5H-cDY8x8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0001371103",
+      "name": "かじ",
+      "rank": 2,
+      "point": 75,
+      "area": "埼玉県",
+      "deck_id": "ffbFVF-y1Hrzg-fVkbV1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081417113",
+      "name": "ニシカワ",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "ng99Hi-ZjpS9X-g9QLgN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073326292",
+      "name": "キャモン",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "kbVk1F-ZYYakW-FFfvk1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0093708399",
+      "name": "かぶ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "kkbfVF-jtY68a-5vdFvf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075918684",
+      "name": "暁雀",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "x848DG-N0UHyY-acxDJx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064953197",
+      "name": "ぺとぱんち",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "MXEEXp-bqVWO1-XSXRyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099992716",
+      "name": "ホシタニ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "8aDcGc-hHP4ir-xac8Yx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082021698",
+      "name": "ひとなみ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "8cGc4D-gTFZk5-acxcDx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086480130",
+      "name": "パチ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "fbkkFV-nhkb9j-bdw5kf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095373175",
+      "name": "アリザイ(alizsci)",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "kbfkVF-l6eIvd-VfFF1d"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004262194",
+      "name": "Worldwide Wyatt ",
+      "rank": 9,
+      "point": 15,
+      "area": "富山県",
+      "deck_id": "ypyMME-LyDBOA-MXyXRE"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063346732",
+      "name": "はむはむ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "nNgnig-ZCGt1N-99gNLg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000019213",
+      "name": "クラ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "nQLLgN-2C9hiD-9ig9Pi"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094353420",
+      "name": "ショウタ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "yRpyyX-63TPCK-pEMMRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000413031",
+      "name": "やまだ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "XpXpSp-e4762J-2RyMEy"
+    }
+  ],
+  "total": 16
+}

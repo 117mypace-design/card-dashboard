@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-18 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "岩手県",
+    "shopId": 19890,
+    "shopName": "ポケ堂北上店",
+    "zipCode": 248511,
+    "address": "岩手県北上市本通り2-2-1　さくら野百貨店４F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0024464426",
+      "name": "サノサン",
+      "rank": 1,
+      "point": 100,
+      "area": "秋田県",
+      "deck_id": "yypyp3-t2ORI3-2RMXSE"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075732273",
+      "name": "かえでぃー",
+      "rank": 2,
+      "point": 75,
+      "area": "秋田県",
+      "deck_id": "4cx8G8-1LaJ7a-4J888c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0028870117",
+      "name": "すー",
+      "rank": 3,
+      "point": 50,
+      "area": "岩手県",
+      "deck_id": "2MppUy-SY4Iqn-py2R3U"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058667967",
+      "name": "笹崎",
+      "rank": 3,
+      "point": 50,
+      "area": "岩手県",
+      "deck_id": "nQLHgn-d8FxuK-NP9Ngi"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037378660",
+      "name": "FUJI",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "RUXRyM-eofGRm-EyMp2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076326813",
+      "name": "りょ",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "fVVkdF-j9FLeF-kvb5FF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049252620",
+      "name": "半月",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "5dFkdF-XEKqRj-VkVbFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029741003",
+      "name": "こー",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "c8cDG4-aCuQ2V-x48DxG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078040559",
+      "name": "わかか",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "ngQLgP-AIIFei-HPgn9L"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0069059212",
+      "name": "なす",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "fkFF5V-d3jVcK-bvbVkf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031396989",
+      "name": "モデ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "M2MSSU-KJUoxd-pypp2R"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064081672",
+      "name": "りゅーせー",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "Ga8xcY-fm8Xgi-cxcK44"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054650066",
+      "name": "音々",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "8YcJcY-Phkmwd-GcJxD4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089893388",
+      "name": "ぐのひと@越後天然水",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "2ySppy-gKW64h-pERUSM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0023439876",
+      "name": "YDK",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "8D8cxY-nS30Wp-YJ4aG8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064822293",
+      "name": "オノンクス",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "bk51f1-EYAhr0-FkfkFV"
+    }
+  ],
+  "total": 16
+}

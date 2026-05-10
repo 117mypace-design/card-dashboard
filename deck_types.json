@@ -1,0 +1,398 @@
+{
+  "archetypes": [
+    {
+      "name": "ドラパルトex系",
+      "required": [{"card": "ドラパルトex", "min_count": 2}]
+    },
+    {
+      "name": "草系",
+      "required": [
+        {"card": "活力の森", "min_count": 2},
+        {"card": "基本草エネルギー", "min_count": 4}
+      ]
+    },
+    {
+      "name": "たねex系",
+      "required": [
+        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "アカマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "メガルカリオex系",
+      "required": [{"card": "メガルカリオex", "min_count": 1}]
+    },
+    {
+      "name": "Nのゾロアークex系",
+      "required": [{"card": "Nのゾロアークex", "min_count": 2}]
+    },
+    {
+      "name": "シロナのガブリアスex系",
+      "required": [{"card": "シロナのガブリアスex", "min_count": 2}]
+    },
+    {
+      "name": "ロケット団のミュウツーex系",
+      "required": [{"card": "ロケット団のミュウツーex", "min_count": 2}]
+    },
+    {
+      "name": "マリィのオーロンゲex系",
+      "required": [{"card": "マリィのオーロンゲex", "min_count": 2}]
+    },
+    {
+      "name": "ゲッコウガex系",
+      "required": [{"card": "ケロマツ", "min_count": 2}]
+    },
+    {
+      "name": "ソウブレイズex系",
+      "required": [{"card": "ソウブレイズex", "min_count": 2}]
+    },
+    {
+      "name": "鋼系",
+      "required": [{"card": "ゲノセクトex", "min_count": 2}]
+    },
+    {
+      "name": "メガスターミーex系",
+      "required": [{"card": "メガスターミーex", "min_count": 2}]
+    },
+    {
+      "name": "フーディン系",
+      "required": [
+        {"card": "フーディン", "min_count": 2},
+        {"card": "ユンゲラー", "min_count": 2},
+        {"card": "ケーシィ",   "min_count": 2}
+      ]
+    },
+    {
+      "name": "イワパレス系",
+      "required": [{"card": "イワパレス", "min_count": 2}]
+    },
+    {
+      "name": "ロケット団のドンカラス系",
+      "required": [{"card": "ロケット団のドンカラス", "min_count": 2}]
+    },
+    {
+      "name": "イイネイヌ系",
+      "required": [{"card": "イイネイヌ", "min_count": 2}]
+    },
+    {
+      "name": "ヤドキング系",
+      "required": [
+        {"card": "ヤドキング", "min_count": 2},
+        {"card": "キュレム", "min_count": 1}
+      ]
+    },
+    {
+      "name": "おまつりおんど系",
+      "required": [{"card": "カミッチュ", "min_count": 2}]
+    },
+    {
+      "name": "超系",
+      "required": [{"card": "テレパス超エネルギー", "min_count": 3}]
+    }
+  ],
+  "deck_types": [
+    {
+      "name": "ドラパルト / バシャーモ",
+      "archetype": "ドラパルトex系",
+      "required": [
+        {"card": "ドラパルトex", "min_count": 2},
+        {"card": "バシャーモex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ドラパルト / メガガルーラ",
+      "archetype": "ドラパルトex系",
+      "required": [
+        {"card": "ドラパルトex",   "min_count": 2},
+        {"card": "メガガルーラex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ドラパルト / ノココッチ",
+      "archetype": "ドラパルトex系",
+      "required": [
+        {"card": "ドラパルトex", "min_count": 2},
+        {"card": "ノココッチex",   "min_count": 1}
+      ]
+    },
+    {
+      "name": "ドラパルト / ヨノワール",
+      "archetype": "ドラパルトex系",
+      "required": [
+        {"card": "ドラパルトex", "min_count": 2},
+        {"card": "ヨノワール", "min_count": 1},
+        {"card": "ヨマワル", "min_count": 1}
+      ]
+    },
+    {
+      "name": "ドラパルトその他",
+      "archetype": "ドラパルトex系",
+      "required": [
+        {"card": "ドラパルトex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "オリーヴァ",
+      "archetype": "草系",
+      "required": [
+        {"card": "オリーヴァex",              "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "活力の森",          "min_count": 2},
+        {"card": "基本草エネルギー", "min_count": 4}
+      ]
+    },
+    {
+      "name": "スピアー",
+      "archetype": "草系",
+      "required": [
+        {"card": "スピアーex",   "min_count": 2},
+        {"card": "活力の森",          "min_count": 2},
+        {"card": "基本草エネルギー", "min_count": 4}
+      ]
+    },
+    {
+      "name": "メガフシギバナ",
+      "archetype": "草系",
+      "required": [
+        {"card": "メガフシギバナex",          "min_count": 2},
+        {"card": "活力の森",          "min_count": 2},
+        {"card": "基本草エネルギー", "min_count": 4}
+      ]
+    },
+    {
+      "name": "草その他",
+      "archetype": "草系",
+      "required": [
+        {"card": "活力の森",          "min_count": 2},
+        {"card": "基本草エネルギー", "min_count": 4}
+      ]
+    },
+    {
+      "name": "タケルライコ",
+      "archetype": "たねex系",
+      "required": [
+        {"card": "タケルライコex",            "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "アカマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "オーガポンバレット",
+      "archetype": "たねex系",
+      "required": [
+        {"card": "オーガポン いどのめんex",   "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "アカマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "メガアブソル",
+      "archetype": "たねex系",
+      "required": [
+        {"card": "メガアブソルex", "min_count": 2},
+        {"card": "基本悪エネルギー", "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "アカマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ピッピポン",
+      "archetype": "たねex系",
+      "required": [
+        {"card": "リーリエのピッピex", "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "アカマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "たねexその他",
+      "archetype": "たねex系",
+      "required": [
+        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "アカマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "メガルカリオ",
+      "archetype": "メガルカリオex系",
+      "required": [
+        {"card": "メガルカリオex", "min_count": 1}
+      ]
+    },
+    {
+      "name": "Nのゾロアーク",
+      "archetype": "Nのゾロアークex系",
+      "required": [
+        {"card": "Nのゾロアークex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "シロナのガブリアス",
+      "archetype": "シロナのガブリアスex系",
+      "required": [
+        {"card": "シロナのガブリアスex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ロケット団のミュウツー",
+      "archetype": "ロケット団のミュウツーex系",
+      "required": [
+        {"card": "ロケット団のミュウツーex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "マリィのオーロンゲ",
+      "archetype": "マリィのオーロンゲex系",
+      "required": [
+        {"card": "マリィのオーロンゲex", "min_count": 2}
+      ]
+    },
+   {
+      "name": "ゲッコウガ / ヨノワール",
+      "archetype": "ゲッコウガex系",
+      "required": [
+        {"card": "ゲッコウガex", "min_count": 2},
+        {"card": "ヨマワル",   "min_count": 2},
+        {"card": "ケロマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "メガゲッコウガ",
+      "archetype": "ゲッコウガex系",
+      "required": [
+        {"card": "メガゲッコウガex", "min_count": 1},
+        {"card": "ケロマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ゲッコウガexその他",
+      "archetype": "ゲッコウガex系",
+      "required": [
+        {"card": "ケロマツ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ソウブレイズ",
+      "archetype": "ソウブレイズex系",
+      "required": [
+        {"card": "ソウブレイズex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ダイゴのメタグロス",
+      "archetype": "ゲノセクトex系",
+      "required": [
+        {"card": "ダイゴのメタグロスex", "min_count": 2},
+        {"card": "ゲノセクトex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "メタングバレット",
+      "archetype": "ゲノセクトex系",
+      "required": [
+        {"card": "メタング", "min_count": 2},
+        {"card": "ゲノセクトex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "鋼その他",
+      "archetype": "ゲノセクトex系",
+      "required": [
+        {"card": "ゲノセクトex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "メガスターミー / メガユキメノコ",
+      "archetype": "メガスターミーex系",
+      "required": [
+        {"card": "メガスターミーex",  "min_count": 2},
+        {"card": "メガユキメノコex",  "min_count": 2}
+      ]
+    },
+    {
+      "name": "メガスターミーその他",
+      "archetype": "メガスターミーex系",
+      "required": [
+        {"card": "メガスターミーex", "min_count": 2}
+      ]
+    },
+    {
+      "name": "フーディン",
+      "archetype": "フーディン系",
+      "required": [
+        {"card": "フーディン", "min_count": 2},
+        {"card": "ユンゲラー", "min_count": 2},
+        {"card": "ケーシィ",   "min_count": 2}
+      ]
+    },
+    {
+      "name": "イワパレス",
+      "archetype": "イワパレス系",
+      "required": [
+        {"card": "イワパレス", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ロケット団のドンカラス",
+      "archetype": "ロケット団のドンカラス系",
+      "required": [
+        {"card": "ロケット団のドンカラス", "min_count": 2}
+      ]
+    },
+    {
+      "name": "イイネイヌ",
+      "archetype": "イイネイヌ系",
+      "required": [
+        {"card": "イイネイヌ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ヤドキング",
+      "archetype": "ヤドキング系",
+      "required": [
+        {"card": "ヤドキング",  "min_count": 2},
+        {"card": "キュレム",  "min_count": 1}
+      ]
+    },
+    {
+      "name": "おまつりおんど",
+      "archetype": "おまつりおんど系",
+      "required": [
+        {"card": "カミッチュ", "min_count": 2}
+      ]
+    },
+    {
+      "name": "ディアンシー",
+      "archetype": "超系",
+      "required": [
+        {"card": "テレパス超エネルギー", "min_count": 3},
+        {"card": "メガディアンシーex",  "min_count": 2}
+      ]
+    },
+    {
+      "name": "ブルンゲル",
+      "archetype": "超系",
+      "required": [
+        {"card": "テレパス超エネルギー", "min_count": 3},
+        {"card": "ブルンゲルex",  "min_count": 2}
+      ]
+    },
+    {
+      "name": "ピクシー",
+      "archetype": "超系",
+      "required": [
+        {"card": "テレパス超エネルギー", "min_count": 3},
+        {"card": "メガピクシーex",  "min_count": 2}
+      ]
+    },
+    {
+      "name": "超その他",
+      "archetype": "超系",
+      "required": [
+        {"card": "テレパス超エネルギー", "min_count": 3}
+      ]
+    }
+  ],
+  "fallback_archetype": "その他",
+  "fallback_deck_type": "その他"
+}

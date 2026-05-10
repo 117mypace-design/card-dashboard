@@ -1,0 +1,158 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "50104",
+    "name": "ケロマツ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50105",
+    "name": "ゲコガシラ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50106",
+    "name": "メガゲッコウガex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45678",
+    "name": "ゲッコウガex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49290",
+    "name": "ノコッチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46791",
+    "name": "ノココッチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47240",
+    "name": "ノココッチex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50067",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50004",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49959",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48467",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49976",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48468",
+    "name": "ふしぎなアメ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49352",
+    "name": "エネルギー回収",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48441",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48078",
+    "name": "トウコ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "42900",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "50159",
+    "name": "AZの安らぎ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47858",
+    "name": "なみのりビーチ",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40486",
+    "name": "基本水エネルギー",
+    "count": 7
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45217",
+    "name": "ネオアッパーエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48515",
+    "name": "イグニッションエネルギー",
+    "count": 2
+  }
+]

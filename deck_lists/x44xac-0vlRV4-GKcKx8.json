@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45977",
+    "name": "ヤドン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45978",
+    "name": "ヤドキング",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49074",
+    "name": "マシマシラ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48533",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50143",
+    "name": "メタグロス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45922",
+    "name": "キュレム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49037",
+    "name": "デスカーン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49265",
+    "name": "シャリタツ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46402",
+    "name": "コノヨザル",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "34914",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48299",
+    "name": "ワンダーパッチ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49380",
+    "name": "ポケモン回収サイクロン(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49404",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49412",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49414",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49428",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49707",
+    "name": "ピュール",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45939",
+    "name": "夜のアカデミー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49463",
+    "name": "基本超エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49465",
+    "name": "基本悪エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 3
+  }
+]

@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 19850,
+    "shopName": "GIRAFULLなんば店",
+    "zipCode": 5420075,
+    "address": "大阪府大阪市中央区難波千日前13-13 　難波KHビル",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0008415424",
+      "name": "めづ",
+      "rank": 1,
+      "point": 100,
+      "area": "大阪府",
+      "deck_id": "DcG88c-gguzVr-84D4cc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000565400",
+      "name": "あねもね！",
+      "rank": 2,
+      "point": 75,
+      "area": "兵庫県",
+      "deck_id": "84888Y-8lnbpK-4cK8cG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072916959",
+      "name": "x_naru",
+      "rank": 3,
+      "point": 50,
+      "area": "兵庫県",
+      "deck_id": "88c8Dc-2q0f7H-Y8GG8J"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076296303",
+      "name": "uya",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "5VkFvb-Zztz6k-FkvkVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007085987",
+      "name": "みーやん",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "QH9ggN-A6n9fz-gLnPgN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065064371",
+      "name": "くぼっち",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "kfFv5f-LTHLyV-dVFvFb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0074096804",
+      "name": "ちゅーあん",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "9LgnHH-SzQRF7-nHnLQg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085729865",
+      "name": "ゆっけ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "pypySp-Ez5HHK-MXySRp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036835959",
+      "name": "ほげ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "ccDGY4-jtCUby-8JccGK"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0029153594",
+      "name": "だいふく",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "ngQLn9-DgVcAO-QggnPi"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081666490",
+      "name": "Lawine*(ﾗｳﾞｨｰﾈ)",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "gN9gnn-SDgVoQ-nngLQ9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004960302",
+      "name": "イマニー",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "GxJc8Y-HrVFa4-YDcc44"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000030777",
+      "name": "ゆうケン",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "2yURSy-rIE10W-XpyMpp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075662602",
+      "name": "さんてん",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "cc8GYD-uBiYnN-88DYcY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071294799",
+      "name": "カレー",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "Spp2XE-OhYOCn-yyMR2S"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0059365200",
+      "name": "れい",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "FbbkFV-nMBNHB-dkFVvF"
+    }
+  ],
+  "total": 16
+}

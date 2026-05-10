@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "岩手県",
+    "shopId": 19776,
+    "shopName": "トーナメントセンターバトロコ　盛岡大通",
+    "zipCode": 200022,
+    "address": "岩手県盛岡市大通3丁目1-24　第3菱和ビル3F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0031550677",
+      "name": "ムーさん",
+      "rank": 1,
+      "point": 100,
+      "area": "岩手県",
+      "deck_id": "vb11fF-EhPwyh-kkFv5V"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041269248",
+      "name": "チカ",
+      "rank": 2,
+      "point": 75,
+      "area": "三重県",
+      "deck_id": "FbV5wk-9fUwi8-FFkfd5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075376817",
+      "name": "稲垣",
+      "rank": 3,
+      "point": 50,
+      "area": "秋田県",
+      "deck_id": "KxG8cx-UJbgCh-c8G4c4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0010908547",
+      "name": "ユース",
+      "rank": 3,
+      "point": 50,
+      "area": "岩手県",
+      "deck_id": "fkVvVb-uDAMtt-FkF5vk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011904702",
+      "name": "アルルゥ",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "kVdfVv-UEt3cp-bk5Fdv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0074523708",
+      "name": "オッティ",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "DGaD8x-Ol4OIU-cGxx48"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0031626862",
+      "name": "エルク",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "XpEypp-A0Lzw5-XSyRpp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064887317",
+      "name": "ろめ。",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "bVk1wf-yPqmiO-VkbFV5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065199460",
+      "name": "プレイヤー",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "SyRpMX-DNnQXh-232ppS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041242238",
+      "name": "ストレ",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "VwVF51-ATrUQ5-v5Ffkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069547719",
+      "name": "おろし",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "gnQH9i-mnCQ5N-nHLgNL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082867023",
+      "name": "秘密にしてあげる",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "Fd555k-bneld3-bkbwVF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087941021",
+      "name": "hayate",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "FfVwb5-WAN02N-kd5FvV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065235168",
+      "name": "やすき",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "8KGc8D-JVz6iG-DcJ4Dx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0030011465",
+      "name": "ぱん",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "4Kcx8x-6CH1Yi-8ccK8G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043611375",
+      "name": "くろワッサン",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "NH6HLg-87yCvO-9nnHgg"
+    }
+  ],
+  "total": 16
+}

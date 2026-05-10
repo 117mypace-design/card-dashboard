@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福岡県",
+    "shopId": 12076,
+    "shopName": "オレタン福岡天神店",
+    "zipCode": 8100001,
+    "address": "福岡県福岡市中央区天神3丁目2-22河村天神荘ビル3F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0000044884",
+      "name": "ラスカル",
+      "rank": 1,
+      "point": 100,
+      "area": "福岡県",
+      "deck_id": "bVvfFk-0ZZkYj-FF1vVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073354440",
+      "name": "漆黒のカブトムシ",
+      "rank": 2,
+      "point": 75,
+      "area": "福岡県",
+      "deck_id": "v1FFk1-uzWlbk-vFbfFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028516293",
+      "name": "ふる",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "9nnn9g-CpQytL-HHQgNn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037840091",
+      "name": "はるまめ",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "FkbbFF-dqXiHf-Fvdf5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082340074",
+      "name": "にっぱー",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "5Fwffk-zaJk4o-vbFkFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095357223",
+      "name": "SKY",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "fvFFbF-VRFOV7-F1kVkf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043565698",
+      "name": "akito",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "8Y8G88-fRRMCm-8cxDKc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011161369",
+      "name": "あばれない君",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "LgHinQ-JJDCKm-gHgQ9N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003078222",
+      "name": "Ｂ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "kFkbkF-zQINWw-fkFFvb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100649820",
+      "name": "はむだよ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "9gPnn9-7vur3e-HgnQLL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063090570",
+      "name": "はるw",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "48YGcc-vo5V75-Y4G88c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089066605",
+      "name": "ポテチ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "xKxG8J-lEBINy-4D8xc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090195813",
+      "name": "たけち",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "JD8xcc-vkAa94-YYY8GG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014150450",
+      "name": "タニシ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "pRppM3-hCFpvm-XyRMpS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012401097",
+      "name": "ゆうまよ",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "G8ccDY-g70c9x-DGcDDc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001772243",
+      "name": "シロシ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "NnnLig-lppujM-gQH9gN"
+    }
+  ],
+  "total": 16
+}

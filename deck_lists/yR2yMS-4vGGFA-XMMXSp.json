@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49262",
+    "name": "ドラメシヤ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49263",
+    "name": "ドロンチ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49264",
+    "name": "ドラパルトex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49024",
+    "name": "ヨマワル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48595",
+    "name": "サマヨール",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48596",
+    "name": "ヨノワール",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48533",
+    "name": "スボミー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49074",
+    "name": "マシマシラ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49371",
+    "name": "ふしぎなアメ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49412",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49708",
+    "name": "メイのはげまし",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49450",
+    "name": "ロケット団のラムダ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48711",
+    "name": "ロケット団の監視塔",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47214",
+    "name": "ジャミングタワー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47904",
+    "name": "基本炎エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48307",
+    "name": "基本超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48284",
+    "name": "基本悪エネルギー",
+    "count": 2
+  }
+]

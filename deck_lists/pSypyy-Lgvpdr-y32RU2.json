@@ -1,0 +1,50 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47813",
+    "name": "ユキカブリ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47814",
+    "name": "メガユキノオーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48462",
+    "name": "メガユキノオーex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47812",
+    "name": "カイオーガ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49411",
+    "name": "アオキの手際",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47905",
+    "name": "基本水エネルギー",
+    "count": 39
+  }
+]

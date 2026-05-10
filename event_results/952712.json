@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "埼玉県",
+    "shopId": 13186,
+    "shopName": "トレカショップKCC",
+    "zipCode": 3440067,
+    "address": "埼玉県春日部市中央1丁目9番地4号 高元ビル3階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0062048415",
+      "name": "かつまる",
+      "rank": 1,
+      "point": 100,
+      "area": "埼玉県",
+      "deck_id": "Jcxx48-4EfVOq-c8GaD8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028411567",
+      "name": "乾",
+      "rank": 2,
+      "point": 75,
+      "area": "埼玉県",
+      "deck_id": "G8DDc8-38kfkP-cYcGc8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0088215127",
+      "name": "ルナ姫@S15",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "xcc8aD-oFZZtX-8YG8xJ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020179717",
+      "name": "冷やし担々麺",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "fwFVvf-jXQqyM-bvkFbk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070938142",
+      "name": "ます",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "FfFb5w-1ghIR5-kkkbkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063247068",
+      "name": "25",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "RRpppp-UU0bcN-XX2yXy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0060900320",
+      "name": "やじろ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "X3yXRM-JiOy1Z-y2yyMp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054969092",
+      "name": "オロチ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "D848Dc-93DmRL-8cYGDc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043317761",
+      "name": "スタークロノス山本",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "gNQLgi-8Wa65Z-ng9gnN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073422750",
+      "name": "もち",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "XyMyyR-9SeOgL-323XXp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028578954",
+      "name": "こど",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "gLn9HN-krx2UF-gN9Ngn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013013008",
+      "name": "ニシーゴ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "D8c84J-5Rrko4-Gc8cDY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011860567",
+      "name": "ねゆ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "g96ngL-IfMcPm-N69HHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011009472",
+      "name": "おさか",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "LnNggn-gKzUo4-ni9Ngn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084473961",
+      "name": "Glim",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "4ccx8D-5fX0D0-8K8GYD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000127516",
+      "name": "ぴえろ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "cDKcG8-ErCelK-8cDcca"
+    }
+  ],
+  "total": 16
+}

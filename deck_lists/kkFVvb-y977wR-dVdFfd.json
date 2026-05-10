@@ -1,0 +1,97 @@
+[
+  {
+    "category": "ポケモン",
+    "name": "カルボウ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "name": "ソウブレイズex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "モグリュー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "パーフェクトミキサー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "なかよしポフィン",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "アイリスの闘志",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "name": "ジャッジマン",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "name": "プリズムタワー",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "name": "バトルコロシアム",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本炎エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本闘エネルギー",
+    "count": 16
+  }
+]

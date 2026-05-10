@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "50143",
+    "name": "メタグロス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45264",
+    "name": "メタング",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50141",
+    "name": "ダンバル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45767",
+    "name": "ヒードラン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49243",
+    "name": "ホップのザシアンex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48641",
+    "name": "ゲノセクトex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47172",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "40836",
+    "name": "エネルギーリサイクル",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49405",
+    "name": "ブレイブバングル",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48253",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47104",
+    "name": "タケシのスカウト",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "50160",
+    "name": "ジプソ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49413",
+    "name": "アセロラのいたずら",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47910",
+    "name": "基本鋼エネルギー",
+    "count": 16
+  }
+]

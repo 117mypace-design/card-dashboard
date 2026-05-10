@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47388",
+    "name": "シロナのガブリアスex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49910",
+    "name": "シロナのガバイト",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49909",
+    "name": "シロナのフカマル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47366",
+    "name": "シロナのロズレイド",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49843",
+    "name": "シロナのロゼリア",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49968",
+    "name": "シロナのミカルゲ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46958",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48439",
+    "name": "ファイトゴング",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "25252",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46960",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "47355",
+    "name": "シロナのパワーウエイト",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49586",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49585",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49584",
+    "name": "ジャッジマン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48245",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46292",
+    "name": "ルチアのアピール",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49713",
+    "name": "ロック闘エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49464",
+    "name": "基本闘エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45217",
+    "name": "ネオアッパーエネルギー",
+    "count": 1
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-02 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "長崎県",
+    "shopId": 13125,
+    "shopName": "ゲームセンターRX",
+    "zipCode": 8115203,
+    "address": "長崎県壱岐市石田町筒城東触1837-1",
+    "venue": "民宿 宝来荘で開催します。\n郷ノ浦港、芦辺港から車で約20分。\n印通寺港から車で５分。\n壱岐空港からは目の前です。\n宝来荘に前泊、後泊の方は送迎ありです！\n\nお問い合わせはこちら↓\nhttps://liff.line.me/1645278921-kWRPP32q/?accountId=755opdty",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0085369708",
+      "name": "ai",
+      "rank": 1,
+      "point": 100,
+      "area": "長崎県",
+      "deck_id": "kFFFVk-bkk37e-fvf1bF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000436979",
+      "name": "しろ",
+      "rank": 2,
+      "point": 75,
+      "area": "神奈川県",
+      "deck_id": "pMM2RR-zM5YEE-pppySM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0003873102",
+      "name": "骨皮",
+      "rank": 3,
+      "point": 50,
+      "area": "長崎県",
+      "deck_id": "cGxYD8-Nhpt8I-8Gccx4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027848335",
+      "name": "ウルフ",
+      "rank": 3,
+      "point": 50,
+      "area": "長崎県",
+      "deck_id": "DcY48G-wqr3AW-88YcG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036217773",
+      "name": "じてんしゃ",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "yypp2S-nWHBXD-2XMXpR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000641696",
+      "name": "kume",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "VVFfvF-trPhVX-k5bkVw"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001245338",
+      "name": ".あしゅ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "ggnHgH-vl3ylH-nLNQ9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040440226",
+      "name": "にゃんかけ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "x8cGGc-ZV0pAk-8xc48x"
+    }
+  ],
+  "total": 8
+}

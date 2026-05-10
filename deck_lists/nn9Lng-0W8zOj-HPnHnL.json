@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45978",
+    "name": "ヤドキング",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45977",
+    "name": "ヤドン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46247",
+    "name": "ムチュール",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45922",
+    "name": "キュレム",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46402",
+    "name": "コノヨザル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47413",
+    "name": "バシャーモ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48597",
+    "name": "ラティアスex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48582",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49987",
+    "name": "メガディアンシーex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47663",
+    "name": "プルリル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49684",
+    "name": "ドラピオン",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48299",
+    "name": "ワンダーパッチ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49399",
+    "name": "力の砂時計",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46608",
+    "name": "ジャッジマン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48694",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49414",
+    "name": "暗号マニアの解読",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45939",
+    "name": "夜のアカデミー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46120",
+    "name": "基本超エネルギー",
+    "count": 6
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 4
+  }
+]

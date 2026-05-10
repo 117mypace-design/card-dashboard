@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "北海道",
+    "shopId": 18904,
+    "shopName": "トーナメントセンターバトロコ　旭川駅前",
+    "zipCode": 700031,
+    "address": "北海道旭川市１条通８丁目１０８　フィール旭川　４階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0031984319",
+      "name": "マツタケ",
+      "rank": 1,
+      "point": 100,
+      "area": "北海道",
+      "deck_id": "NNHL9n-SQThvP-gLnQgn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083646793",
+      "name": "くるりくら",
+      "rank": 2,
+      "point": 75,
+      "area": "北海道",
+      "deck_id": "KG4c4x-L7QlTZ-cca4D8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036453663",
+      "name": "ていく",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "9ggLLN-TC9rWC-nLgnNH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049428838",
+      "name": "クロスファイヤー",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "J8cc44-hC2j7e-Gxc4KG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0023630228",
+      "name": "ヒカル",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "VFbfkf-4vBczJ-Fbk5kV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071426875",
+      "name": "トッシー",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "V1FkfF-UxhvEO-5FFkb5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0053135962",
+      "name": "白うさぎ",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "a4ccxD-8agwEg-YcG8c4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0027930966",
+      "name": "カブトムシ",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "ccc4K8-80vHNS-GYx4cx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078417715",
+      "name": "セリカ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "3SX2yp-Xvhlfm-R2yypS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072320116",
+      "name": "もくを",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "VFvwkw-wXVCjv-5FbvF5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054527564",
+      "name": "マリモ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "gHLnHH-wGrc8H-g9N6gn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099893389",
+      "name": "Kei",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "VdFbFf-q6vQa7-kF5b5f"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049172036",
+      "name": "じよん",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "V5bFb5-0kHknr-FFkk5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086741488",
+      "name": "かなう",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "MRy2yp-aDu1Dg-pppM2S"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073121857",
+      "name": "ゼオ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "4D84xY-a146uT-cxaccG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037016670",
+      "name": "ジュン",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "HPgn9Q-kjRMm0-gPgnHg"
+    }
+  ],
+  "total": 16
+}

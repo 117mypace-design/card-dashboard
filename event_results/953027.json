@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:20:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "三重県",
+    "shopId": 12232,
+    "shopName": "【CARDBOX】津店",
+    "zipCode": 5140061,
+    "address": "三重県津市一身田上津部田字口の坪115-1　本の王国文化センター前店内",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0041224025",
+      "name": "teru",
+      "rank": 1,
+      "point": 100,
+      "area": "三重県",
+      "deck_id": "cKx4cc-V0iTup-8c48DG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064022105",
+      "name": "田中",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "bfVvfV-kMCYG8-kFv5bV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0097714356",
+      "name": "ゆたろ",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "pRyppM-ceO0aO-pp2My3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030914322",
+      "name": "ぱんな",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "cYcx88-nwc7PV-8G4x8G"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072460784",
+      "name": "よちょ",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "kkb5FF-izpAhe-vkVF51"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078392458",
+      "name": "ユータロー",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "PLnHQL-jpnzUG-gnn9LH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031142337",
+      "name": "13",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "Yc8Yxc-f2OnQe-4ccG48"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000221375",
+      "name": "イケダ",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "axYK8D-RIF6Zx-48Gxcx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043367115",
+      "name": "くろにゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "dVbv5k-GfLAuT-1vFVFF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0000018223",
+      "name": "27缶",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "cc888G-2AFdlU-x4cDc4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0012399071",
+      "name": "ぜっとん",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "y2My2p-c9a9wl-yM3SRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000361077",
+      "name": "そわそわ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "VkkVk5-yO5fCR-kbbFVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032866229",
+      "name": "ひっくろー",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "MMMSpy-PHtE1l-RyyMy2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012255612",
+      "name": "だいふく",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "FV5bk5-CDUZjz-kkVFvF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072567254",
+      "name": "ヤコビアン",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "FwVvkd-C4vmTS-Vkf5bf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029327159",
+      "name": "ハヤシ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "f5k5V5-yi2WMM-FFbFFk"
+    }
+  ],
+  "total": 16
+}

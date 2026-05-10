@@ -1,0 +1,146 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45845",
+    "name": "カミッチュ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45702",
+    "name": "カジッチュ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46854",
+    "name": "バチンキー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46667",
+    "name": "サルノリ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46869",
+    "name": "アズマオウ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46868",
+    "name": "トサキント",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49956",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50152",
+    "name": "ミネズミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48467",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46811",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48441",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "50039",
+    "name": "ブレイブバングル",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "41096",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48512",
+    "name": "ヒカリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45864",
+    "name": "スグリ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49980",
+    "name": "からておうの稽古",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46841",
+    "name": "お祭り会場",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "41753",
+    "name": "基本草エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49711",
+    "name": "グロウ草エネルギー",
+    "count": 1
+  }
+]

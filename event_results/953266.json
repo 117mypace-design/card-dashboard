@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-22 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 16:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "広島県",
+    "shopId": 12095,
+    "shopName": "【CARDBOX】カードボックス　福山店",
+    "zipCode": 7200077,
+    "address": "広島県福山市南本庄町1丁目10－23",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0004615297",
+      "name": "ごっつ。",
+      "rank": 1,
+      "point": 100,
+      "area": "広島県",
+      "deck_id": "ngnNnn-gXMenE-9ngnN9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002063382",
+      "name": "ミコト",
+      "rank": 2,
+      "point": 75,
+      "area": "広島県",
+      "deck_id": "8c8DcJ-czE1mE-D8cx8G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095675350",
+      "name": "こっぷ",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "pMMXMR-96EQtF-XyRypR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067273566",
+      "name": "まっく",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "JGx8Yc-lFhJJt-8xGDx8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0057643982",
+      "name": "日光浴",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "nQLggn-A4f2u2-nni9QN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043329472",
+      "name": "おいも",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "FkbVkk-9M1w35-kFvffV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037493927",
+      "name": "d",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "ac88ax-bLtLCw-cGDxa8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035973726",
+      "name": "あっきー",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "yypXMM-3gM6Ol-M2yXRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062878203",
+      "name": "あめだま",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "V1bkFf-SCTphF-VFvVf1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0056484197",
+      "name": "pe@ch",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "M3pyRy-cowrpd-EySXpX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078618561",
+      "name": "だるま",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "SMyy2E-JPTvpy-3RpXMy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0039073361",
+      "name": "あーか",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "Xpypyy-LKcA9X-RSyXMX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061302495",
+      "name": "萎えとるえーすけ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "fFFkkF-AgT7kw-FVFVbk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035971061",
+      "name": "きょーしょー",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "88DYDc-CX9Yck-8xGxYc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065908514",
+      "name": "ひーろー",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "R3XpyX-Z1vPDJ-RyRpyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081817690",
+      "name": "サキ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "pRUS2y-XkVmqI-UpyyyX"
+    }
+  ],
+  "total": 16
+}

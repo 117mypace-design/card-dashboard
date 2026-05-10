@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "長崎県",
+    "shopId": 12242,
+    "shopName": "遊ING浜町店",
+    "zipCode": 8500853,
+    "address": "長崎県長崎市浜町2-33",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0084287447",
+      "name": "あっちょ",
+      "rank": 1,
+      "point": 100,
+      "area": "長崎県",
+      "deck_id": "gLNggn-3gB21L-nQnn9N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082742485",
+      "name": "未来",
+      "rank": 2,
+      "point": 75,
+      "area": "長崎県",
+      "deck_id": "RSyXyp-qyCWYP-ySEpSU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070186293",
+      "name": "ソイ",
+      "rank": 3,
+      "point": 50,
+      "area": "長崎県",
+      "deck_id": "yppMSy-jbhKN9-RpUp22"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077550576",
+      "name": "おのD",
+      "rank": 3,
+      "point": 50,
+      "area": "長崎県",
+      "deck_id": "cKDKcG-tOe4Xd-xYG8YD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076476404",
+      "name": "くわ",
+      "rank": 5,
+      "point": 25,
+      "area": "長崎県",
+      "deck_id": "XRSSEy-zZk9I3-XXpypM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029214895",
+      "name": "ばれっと",
+      "rank": 5,
+      "point": 25,
+      "area": "佐賀県",
+      "deck_id": "c4xccD-GKjbKH-Jx8YG4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0079352972",
+      "name": "りょう",
+      "rank": 5,
+      "point": 25,
+      "area": "長崎県",
+      "deck_id": "RpySpS-qPJbvF-XpSyyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029099706",
+      "name": "ＰＥ∀ＣＥ",
+      "rank": 5,
+      "point": 25,
+      "area": "長崎県",
+      "deck_id": "XppXRR-T8S0XM-pySpyy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078945531",
+      "name": "ケーシィ",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "nLggQN-ZRE00V-L6n6H9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065462519",
+      "name": "ジュン",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "p2MypR-tIgQU3-U2SppS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032797345",
+      "name": "ピースくん",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "ccYDGD-bSYtna-x8xKc4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036085091",
+      "name": "Mar.",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "gQLNgg-GwYKAX-HgnH9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084828055",
+      "name": "紅ショウガ",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "PnQggP-RoUbrN-NnQLn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081515303",
+      "name": "ばんき",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "FFbVkd-eAl0vv-Fkf5vF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049437917",
+      "name": "しのび",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "pRy2Ey-f4USvU-pESXp2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0097983826",
+      "name": "さくら",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "giQHQn-wWzcZX-LN9ngg"
+    }
+  ],
+  "total": 16
+}

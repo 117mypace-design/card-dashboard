@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 18876,
+    "shopName": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店",
+    "zipCode": 5730005,
+    "address": "大阪府枚方市池之宮1-2-50",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0007229178",
+      "name": "ささしま",
+      "rank": 1,
+      "point": 100,
+      "area": "大阪府",
+      "deck_id": "YY8GJx-aWvGcS-cxD4cY"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0038110856",
+      "name": "keso",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "c4xY8D-j36xmI-cYG84c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000129271",
+      "name": "じょか",
+      "rank": 3,
+      "point": 50,
+      "area": "京都府",
+      "deck_id": "yMMpRX-IVSK4M-pXMXRy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0041015977",
+      "name": "やぶ",
+      "rank": 3,
+      "point": 50,
+      "area": "奈良県",
+      "deck_id": "pRypRp-AkDEGg-yMpM2X"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071199489",
+      "name": "がーく",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "Vfkbwf-INa3a9-vFVkVf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006504005",
+      "name": "鈴井",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "2R2pyS-h7IiTX-XpMMM2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095113964",
+      "name": "seiju",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "Mp2ppS-McJbXX-yXR22y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019011406",
+      "name": "レリーフ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "4YaxGa-bE7Yah-8xcc8D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083848999",
+      "name": "u-39",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "88cxGG-76XvR4-DGDYxx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007900567",
+      "name": "マタボー",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "EpyyER-dKCFz9-XMyyXp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007711332",
+      "name": "雪解けに",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "v5kVvb-ucBjCx-fdFvfF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079634470",
+      "name": "ken",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "VwVFFk-C4vA1p-fvkbFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101461597",
+      "name": "すももいぬ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "M2RpEX-v1vo88-yRpX2R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001780398",
+      "name": "Rapid Strike",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "gNnNQN-9jOvSO-9LHnnN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089232576",
+      "name": "TeacH",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "D8cGD8-cHe46o-xDaxDD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061347236",
+      "name": "痛ビショップ",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "HNg6gL-fqHtFJ-9ggnNg"
+    }
+  ],
+  "total": 16
+}

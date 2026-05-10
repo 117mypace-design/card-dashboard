@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "茨城県",
+    "shopId": 12739,
+    "shopName": "ブックエースTSUTAYA　勝田東石川店",
+    "zipCode": 3120052,
+    "address": "茨城県ひたちなか市東石川3614-1　ヨークタウンひたちなか内",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0042697828",
+      "name": "びっ！",
+      "rank": 1,
+      "point": 100,
+      "area": "茨城県",
+      "deck_id": "VVFbfv-ZGd1i1-fkF5bw"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012180978",
+      "name": "おおくぼ",
+      "rank": 2,
+      "point": 75,
+      "area": "茨城県",
+      "deck_id": "LLn9Hn-n9lPlX-6LngNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012307700",
+      "name": "ゾス！！",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "Fff5VV-4N3JZ6-FVkbkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083233009",
+      "name": "ikiron",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "8cxD84-bxKm7i-cGG8cD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060222462",
+      "name": "マーモット",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "pEpyXR-ISCg9v-yM3XpX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0056853052",
+      "name": "マッショブーン",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "GxaxGc-09Zr8N-x884KD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000033354",
+      "name": "ワカマツ",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "QLLg6N-CEcrGy-gn96nN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0016152881",
+      "name": "ミヤ",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "8G8D84-41y6I3-ccYccG"
+    }
+  ],
+  "total": 8
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "宮崎県",
+    "shopId": 11379,
+    "shopName": "カードショップ＠ほ～む。宮崎店",
+    "zipCode": 8800844,
+    "address": "宮崎県宮崎市柳丸町153-1 パティオ柳丸C棟2-2",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0066900225",
+      "name": "シカマル",
+      "rank": 1,
+      "point": 100,
+      "area": "宮崎県",
+      "deck_id": "n9L6g6-JIru9Y-nQgggn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000307189",
+      "name": "キム",
+      "rank": 2,
+      "point": 75,
+      "area": "熊本県",
+      "deck_id": "pR2ySR-MRtghb-pypRpy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0096933358",
+      "name": "たかーどん",
+      "rank": 3,
+      "point": 50,
+      "area": "宮崎県",
+      "deck_id": "gnHgNN-ABZpmy-gQggg9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0012424520",
+      "name": "へぐリン",
+      "rank": 3,
+      "point": 50,
+      "area": "宮崎県",
+      "deck_id": "ggn9n9-m2gBAb-nNggQL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037006589",
+      "name": "ヤマ",
+      "rank": 5,
+      "point": 25,
+      "area": "宮崎県",
+      "deck_id": "pSyypS-QeARBC-yRypSS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011769486",
+      "name": "トーマ",
+      "rank": 5,
+      "point": 25,
+      "area": "宮崎県",
+      "deck_id": "UpyMSp-Q3OWGd-pypXRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084234595",
+      "name": "そうそう0813",
+      "rank": 5,
+      "point": 25,
+      "area": "宮崎県",
+      "deck_id": "ggnL9N-XqhyJM-HQNnQn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067181913",
+      "name": "やす",
+      "rank": 5,
+      "point": 25,
+      "area": "宮崎県",
+      "deck_id": "1VFkFf-t6CTvJ-bvkFVf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082067924",
+      "name": "ツチニン",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "9LQngn-ubudp5-nggnn6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0048534396",
+      "name": "カナト",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "9gLgNQ-1T8naW-NgQNPn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032340215",
+      "name": "いーちゃん！",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "bvFFFk-S409e7-fFFbvk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0097890441",
+      "name": "まっさ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "5Fkk5F-ctUVXx-vkkdbv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008338114",
+      "name": "マール",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "NQ9LgH-HQhTWQ-ggnnNn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0102187302",
+      "name": "K",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "yS2pMy-oBnRKS-pyyMRX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011734747",
+      "name": "ヒダカ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "QLnQH9-jDf8Mx-Lgg9Qn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068876555",
+      "name": "ハル",
+      "rank": 9,
+      "point": 15,
+      "area": "宮崎県",
+      "deck_id": "RpXSpS-cHvAlS-ppMyyX"
+    }
+  ],
+  "total": 16
+}

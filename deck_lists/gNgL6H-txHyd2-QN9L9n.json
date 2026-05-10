@@ -1,0 +1,116 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47761",
+    "name": "リオル",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47762",
+    "name": "メガルカリオex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49088",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49087",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45369",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45372",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45931",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47791",
+    "name": "パワープロテイン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47792",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49376",
+    "name": "ポケギア3.0",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46809",
+    "name": "プライムキャッチャー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "47618",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "45387",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47900",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47707",
+    "name": "トウコ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "47899",
+    "name": "ミツルの思いやり",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46446",
+    "name": "グラビティーマウンテン",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45655",
+    "name": "基本闘エネルギー",
+    "count": 11
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-25 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福岡県",
+    "shopId": 19987,
+    "shopName": "BOOKOFFイオンモール大牟田店",
+    "zipCode": 8360037,
+    "address": "福岡県大牟田市岬町3-4",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0031886512",
+      "name": "神猫",
+      "rank": 1,
+      "point": 100,
+      "area": "福岡県",
+      "deck_id": "dFVk55-zMP4Nx-b5dVvk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029453058",
+      "name": "どん",
+      "rank": 2,
+      "point": 75,
+      "area": "福岡県",
+      "deck_id": "M2RyRp-543lBg-p2ESSy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089427909",
+      "name": "ユウ",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "Ffkkkb-bk0cu1-V5bv55"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004862819",
+      "name": "芋KENピー",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "dFFbdk-cu8xSv-55fvkk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055247979",
+      "name": "山川みかん",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "b5VV5V-G8e9VN-VkF5kF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034415221",
+      "name": "おーこく",
+      "rank": 5,
+      "point": 25,
+      "area": "佐賀県",
+      "deck_id": "H9LnQg-2JtXnE-nQgnnQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065379099",
+      "name": "テラ",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "x8Y4c4-JVjwXM-Y8DGca"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087258202",
+      "name": "ごうりん",
+      "rank": 5,
+      "point": 25,
+      "area": "佐賀県",
+      "deck_id": "gQLHg9-OKXna7-nngHHQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062006037",
+      "name": "よした",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "8K8cD4-21mQXz-Y84Gc8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036757693",
+      "name": "えうぷふ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "kV5fk5-M7eVN2-bfFkfv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0063493544",
+      "name": "とむお",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "2XyMy2-JODhzC-XyRpXX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012300017",
+      "name": "つなこ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "QHHngn-4dHU8J-n9ggnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036004755",
+      "name": "つき",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "99gPnL-9uow8Y-NHQn9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087317804",
+      "name": "しば",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "NLQngn-HrfbBU-iHnN9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000468930",
+      "name": "やぶれかぶれJAPAN",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "Fbf5k5-lT6N5R-FFkkkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003667079",
+      "name": "なかぬちゃんGX",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "2SyR3p-6FlIyf-pyppp2"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46481",
+    "name": "ヤドン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45978",
+    "name": "ヤドキング",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46662",
+    "name": "スボミー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45922",
+    "name": "キュレム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46402",
+    "name": "コノヨザル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48798",
+    "name": "オーガポン みどりのめんex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47177",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49521",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50143",
+    "name": "メタグロス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46089",
+    "name": "なかよしポフィン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46219",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45931",
+    "name": "夜のタンカ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49354",
+    "name": "エネルギーつけかえ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "47618",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49443",
+    "name": "マツバの確信",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46829",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "40307",
+    "name": "ボスの指令",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45939",
+    "name": "夜のアカデミー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46120",
+    "name": "基本超エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46116",
+    "name": "基本草エネルギー",
+    "count": 5
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "category": "ポケモン",
+    "name": "リオル",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "メガルカリオex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "マクノシタ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ハリテヤマ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "パワープロテイン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケモンいれかえ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケギア3.0",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "name": "マキシマムベルト(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "name": "ジャッジマン",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "name": "ロケット団の監視塔",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本闘エネルギー",
+    "count": 11
+  }
+]

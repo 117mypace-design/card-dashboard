@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-09 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "奈良県",
+    "shopId": 18169,
+    "shopName": "BOOKOFF奈良法華寺店",
+    "zipCode": 6308001,
+    "address": "奈良県奈良市法華寺町226",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0077694766",
+      "name": "テツノメタル",
+      "rank": 1,
+      "point": 100,
+      "area": "兵庫県",
+      "deck_id": "9igggH-hYiJmN-96HnLL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071236290",
+      "name": "テルスケ",
+      "rank": 2,
+      "point": 75,
+      "area": "奈良県",
+      "deck_id": "GDcK4c-L3QmgI-88aG4c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067238062",
+      "name": "N",
+      "rank": 3,
+      "point": 50,
+      "area": "京都府",
+      "deck_id": "8xxcac-iptg0c-844G8a"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036277915",
+      "name": "まーちゃん",
+      "rank": 3,
+      "point": 50,
+      "area": "兵庫県",
+      "deck_id": "cc88Gc-MZ3JDR-x4acDc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074028326",
+      "name": "あるてぃあ",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "cKcD4G-dhAwig-ccx84c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074545027",
+      "name": "ケイ",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "g9gNHL-lIEuZT-innnLg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003632206",
+      "name": "ベクシル",
+      "rank": 5,
+      "point": 25,
+      "area": "和歌山県",
+      "deck_id": "HngNHg-4hjASN-N96PPg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078732085",
+      "name": "タプ",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "bkVVdk-09zR1R-k5kFkF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037083449",
+      "name": "わんぱち",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "GcKxx4-tcwLEb-cY8cxx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081276969",
+      "name": "ぎゅうたん",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": null
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037173472",
+      "name": "じょぶず",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "bFFkdF-BJieTh-wvF15F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0016807563",
+      "name": "alike",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "cYDJc8-vdinYb-Y4G8cD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007169036",
+      "name": "ピアニスト",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "vw5bkF-oxFrft-VbkFk1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057437556",
+      "name": "ポカリ",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "5kFfwF-IXK2q3-d5bFVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077880000",
+      "name": "トモッキー",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "DcGcD8-5cufy4-D48x4a"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0029072291",
+      "name": "テトラ",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "a8KKcc-DnoRBI-48cGax"
+    }
+  ],
+  "total": 16
+}

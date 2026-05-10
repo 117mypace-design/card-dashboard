@@ -1,0 +1,158 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49729",
+    "name": "イシズマイ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47368",
+    "name": "イワパレス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47924",
+    "name": "ヒトモシ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47925",
+    "name": "ランプラー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45712",
+    "name": "シャンデラ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47336",
+    "name": "ヒビキのウソッキー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49959",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47367",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47426",
+    "name": "ロケット団のサンダー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48467",
+    "name": "なかよしポフィン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36839",
+    "name": "ポケギア3.0",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45782",
+    "name": "おはやし笛",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46437",
+    "name": "ミラクルインカム(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "45786",
+    "name": "ハンディサーキュレーター",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48441",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48448",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "50028",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "46063",
+    "name": "クセロシキのたくらみ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48521",
+    "name": "ヒカリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45688",
+    "name": "スイレンのお世話",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46060",
+    "name": "アクロマの執念",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48514",
+    "name": "バトルコロシアム",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "32363",
+    "name": "基本炎エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "32367",
+    "name": "基本闘エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49713",
+    "name": "ロック闘エネルギー",
+    "count": 3
+  }
+]

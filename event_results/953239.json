@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "北海道",
+    "shopId": 14799,
+    "shopName": "バトロコミニ苫小牧バイパス店",
+    "zipCode": 591261,
+    "address": "北海道苫小牧市ときわ町6-23-30",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0076981225",
+      "name": "セツ",
+      "rank": 1,
+      "point": 100,
+      "area": "北海道",
+      "deck_id": "n69iNH-OBDYvF-HLgLgL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0074156924",
+      "name": "ポン助",
+      "rank": 2,
+      "point": 75,
+      "area": "北海道",
+      "deck_id": "gnHHn9-CSF1bF-LnHHgQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079222103",
+      "name": "ユッキー",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "FkF1bv-XY05Q1-kv5FFV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038122433",
+      "name": "てん",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "L9ngHH-Erv4vq-gnnHPn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073014803",
+      "name": "リョウスケ",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "9gnHgg-nMHTKi-ngQnnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035918657",
+      "name": "Moku@むろじむ",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "ppp2EM-oxDBo1-SppSyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008313634",
+      "name": "ダニエル",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "yyM2pX-a5t6PZ-RyM3p2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007572911",
+      "name": "ときたまご",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "8444Gx-1nhFMe-8cGDcc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0086919654",
+      "name": "River-Ta",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "J44x84-oH5Vk5-GcccJx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060219952",
+      "name": "ともちょ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "5kkVFk-BcXTKO-bvFw5k"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076488519",
+      "name": "むんさん",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "nHgH9Q-b2LZ4u-gnHnHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075673064",
+      "name": "すば",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "xG44x4-BMEYv5-x88c8c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061420238",
+      "name": "たらゆ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "5Fb1kf-txevE2-FFk5F5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0015627810",
+      "name": "たこまる",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "Fv515k-DSy520-FVk1bF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002871143",
+      "name": "かりめろ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "484Gc4-yahZ1S-84xxcD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082192394",
+      "name": "はやたく",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "a4G844-IdhcQG-cx4GYc"
+    }
+  ],
+  "total": 16
+}

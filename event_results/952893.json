@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福井県",
+    "shopId": 11393,
+    "shopName": "【CARDBOX】Super KaBoS 二の宮本店",
+    "zipCode": 9100015,
+    "address": "福井県福井市二の宮5丁目18-8",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0001890727",
+      "name": "ふいちゃん",
+      "rank": 1,
+      "point": 100,
+      "area": "富山県",
+      "deck_id": "g9igng-YPAD00-PLniHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0005129557",
+      "name": "コン",
+      "rank": 2,
+      "point": 75,
+      "area": "福井県",
+      "deck_id": "FkkvFb-3fgNH6-5vfVV5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060329550",
+      "name": "バレット",
+      "rank": 3,
+      "point": 50,
+      "area": "福井県",
+      "deck_id": "n9nLHg-f12ytQ-NgHgnL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036187601",
+      "name": "Hi,ピルソー",
+      "rank": 3,
+      "point": 50,
+      "area": "福井県",
+      "deck_id": "FbFVvd-ON1DJU-kVfk5d"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0086260899",
+      "name": "とまと",
+      "rank": 5,
+      "point": 25,
+      "area": "福井県",
+      "deck_id": "2pyRpy-jS8wih-pEyyMM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065148431",
+      "name": "ワイ｡",
+      "rank": 5,
+      "point": 25,
+      "area": "福井県",
+      "deck_id": "ypyE2p-6ziyiD-MppyRX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075370552",
+      "name": "ToRa",
+      "rank": 5,
+      "point": 25,
+      "area": "福井県",
+      "deck_id": "84Gc8D-vmUK2T-c8D4ac"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062890443",
+      "name": "アママイコ",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "VVFVkb-naHTwj-Vf5kFv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084349480",
+      "name": "よめ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "gNLH69-glvteY-QHHLLn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082365105",
+      "name": "たいむ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "vFF5kF-nwoWhx-5wVkVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086469463",
+      "name": "もちやん",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "yS3MXR-tDBDvx-SppM2y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027989623",
+      "name": "テラ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "gn9LLQ-QGxjaz-nggggH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044312037",
+      "name": "たなか",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "X2yRp2-xEA3og-MMRy2M"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070065828",
+      "name": "SUKU",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "pMXMSS-m9aMJm-RpyMy2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095183983",
+      "name": "りゅう",
+      "rank": 9,
+      "point": 15,
+      "area": "富山県",
+      "deck_id": "ccca8G-R1qZZU-c488ax"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086012793",
+      "name": "絵フォト",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "nnQnLg-54yMuu-gHgL9N"
+    }
+  ],
+  "total": 16
+}

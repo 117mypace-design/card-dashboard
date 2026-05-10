@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "岡山県",
+    "shopId": 11203,
+    "shopName": "【CARDBOX】玉島店",
+    "zipCode": 7100253,
+    "address": "岡山県倉敷市新倉敷駅前4-28",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0078165995",
+      "name": "むつあき",
+      "rank": 1,
+      "point": 100,
+      "area": "岡山県",
+      "deck_id": "yyXERp-ltOatJ-RyXXyX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0028418496",
+      "name": "わこう",
+      "rank": 2,
+      "point": 75,
+      "area": "岡山県",
+      "deck_id": "SR2MU2-q5CaUZ-UypypR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0093947406",
+      "name": "とんかつ",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "55vfvk-IRf0XC-kvFFFb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0100031959",
+      "name": "すずたろう",
+      "rank": 3,
+      "point": 50,
+      "area": "岡山県",
+      "deck_id": "HnQ9ig-jIdHFE-LnHgng"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072884379",
+      "name": "フェル",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "cac48c-4XpJGh-8888G4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027738445",
+      "name": "ヨハンナ",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "HggH9n-vvXj56-n9NLnP"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065626667",
+      "name": "ぽーくまん",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "SSMpEM-Kfrrf9-2yXRpp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043813706",
+      "name": "コバ",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "bkkwFf-i0JmU8-FFk55k"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0093947765",
+      "name": "かがみ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "gnn9L9-eF89HI-gnHHHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078710227",
+      "name": "出汁",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "k5wFkV-kOcbCz-bbfV5F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041518616",
+      "name": "まんじゅう岡山エク自主大会開催予定！",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "FFVffk-TN1Wut-bk1kk5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013489858",
+      "name": "ken",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "R2pSyU-t22YBw-RpRppp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036802447",
+      "name": "まえどん",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "4YcD8G-nAEiU1-c8cY4x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035887663",
+      "name": "アル",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "Ey2XX2-Rh54rS-MR2pyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037921732",
+      "name": "エム",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "cGcYcY-wfbE2f-c8J44D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044049371",
+      "name": "しん",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "ggggQi-c6TTXN-gn9HgQ"
+    }
+  ],
+  "total": 16
+}

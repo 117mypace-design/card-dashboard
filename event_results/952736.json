@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "茨城県",
+    "shopId": 12158,
+    "shopName": "トーナメントセンターバトロコ　水戸駅前",
+    "zipCode": 3100015,
+    "address": "茨城県水戸市宮町2-2-31　三友ビルディング4階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0008822112",
+      "name": "Chris",
+      "rank": 1,
+      "point": 100,
+      "area": "茨城県",
+      "deck_id": "yypypp-1mYtjb-Mp2MMR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067389384",
+      "name": "からあげ",
+      "rank": 2,
+      "point": 75,
+      "area": "茨城県",
+      "deck_id": "1kFkF5-w3Emxv-bvfFVv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013751647",
+      "name": "kina.*",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "QnngLg-X5h93d-Hn9QHH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0004248312",
+      "name": "あんでぃ",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "Xy32Xp-fEmwmV-pyyM2R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067420751",
+      "name": "いちじょう",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "8Gc8xc-icaQ39-x4Jx84"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085269392",
+      "name": "ながれぼし",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "F5kFFk-8GVU0e-V1kk5b"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0098566510",
+      "name": "あさ",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "84cc48-1RiMAy-4cY8G8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003778656",
+      "name": "うっちー",
+      "rank": 5,
+      "point": 25,
+      "area": "栃木県",
+      "deck_id": "DGc4c8-hQea8j-8YccxD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019643744",
+      "name": "Sunny_smiles",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "yMUMMR-WVzQ4S-MMpp2X"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0062134444",
+      "name": "くろ",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "dwkVk5-BP5grn-b5FFkv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079270397",
+      "name": "ひろと",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "VVV5kb-PeOeoR-bFk5Vk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079849995",
+      "name": "レジパルト",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "UMMyM3-yDLOKr-Myy2Rp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055200451",
+      "name": "はち",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "nLgHn9-l5aLFg-Lg9nNL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002321985",
+      "name": "あくにゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "kF5dbV-nJui5M-fF5VkF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0049324899",
+      "name": "ふくねこ",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "MypyMX-DVyYeY-X2pM2R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012559855",
+      "name": "ウルドン",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "n9gQLN-dWBqb5-nLgQHn"
+    }
+  ],
+  "total": 16
+}

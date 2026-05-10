@@ -1,0 +1,158 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48014",
+    "name": "ミジュマル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48015",
+    "name": "フタチマル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48016",
+    "name": "ダイケンキ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48737",
+    "name": "ヤンヤンマ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48525",
+    "name": "メガヤンマex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48661",
+    "name": "スピンロトム",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47086",
+    "name": "ノコッチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46790",
+    "name": "ノコッチ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46791",
+    "name": "ノココッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47240",
+    "name": "ノココッチex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "28662",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48669",
+    "name": "エネルギーリサイクル",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "28663",
+    "name": "ふしぎなアメ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "43840",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48245",
+    "name": "トウコ",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48419",
+    "name": "バトルコロシアム",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47214",
+    "name": "ジャミングタワー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "33190",
+    "name": "基本草エネルギー",
+    "count": 7
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "27065",
+    "name": "基本水エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48515",
+    "name": "イグニッションエネルギー",
+    "count": 2
+  }
+]

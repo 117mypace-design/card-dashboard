@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46773",
+    "name": "ジュラルドン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46266",
+    "name": "ブリジュラスex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48403",
+    "name": "ブリジュラス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47779",
+    "name": "メガクチートex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47177",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49290",
+    "name": "ノコッチ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48483",
+    "name": "ノココッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49291",
+    "name": "ノココッチex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48661",
+    "name": "スピンロトム",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47282",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47198",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47900",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "50160",
+    "name": "ジプソ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "40139",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46608",
+    "name": "ジャッジマン",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47214",
+    "name": "ジャミングタワー",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50164",
+    "name": "プリズムタワー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "33225",
+    "name": "基本鋼エネルギー",
+    "count": 10
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-22 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛知県",
+    "shopId": 13080,
+    "shopName": "宝島　長久手店",
+    "zipCode": 4801176,
+    "address": "愛知県長久手市香桶101",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0036611692",
+      "name": "まさ",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "ggnnnQ-Ybb3dI-Ng9niN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054206726",
+      "name": "ツカJr.",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "Hg9iPn-7TVl9d-gLnHnN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0007517101",
+      "name": "トヨナガタクトのエギ",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "nLgQgn-wexIMA-NPn9L9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067265297",
+      "name": "ラムニク",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "5fbFbk-7D9ZoY-kkfkVk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0080133847",
+      "name": "たけむう",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "f1FVkv-y7LE89-dVkbVk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0031576507",
+      "name": "崖ライオン",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "8cDGcJ-Y2Wq7g-a8D8c8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029917996",
+      "name": "ササキ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "yXyypy-d3WEeU-2RMppM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095094737",
+      "name": "Nagi",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "nNHgnn-2EiCI8-gg9i9P"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080900748",
+      "name": "青魚",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "LgnLP9-qVX14Z-HNQnnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101703855",
+      "name": "もかのすけ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "Pngngg-qJXRDX-nnNg9g"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0096479858",
+      "name": "デモン",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "gnnnQ9-NOrFYA-nLNgHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069233610",
+      "name": "みつば",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "kfFfvF-JeMBWi-kbkF55"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0079297497",
+      "name": "halfたこ焼き",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "8x8D8c-Y8pxDM-x88GcK"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035849593",
+      "name": "あ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "wFvFk1-iEMdDU-f5VFkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100034109",
+      "name": "********************",
+      "rank": 9,
+      "point": 15,
+      "area": null,
+      "deck_id": "Gc4c88-dzGqcP-GDJcG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069035744",
+      "name": "ねむ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "KDx48G-2ge1T4-8c8cD4"
+    }
+  ],
+  "total": 16
+}

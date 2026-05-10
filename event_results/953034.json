@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:20:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "広島県",
+    "shopId": 14687,
+    "shopName": "BOOKOFFSUPERBAZAAR54号広島八木店",
+    "zipCode": 7310101,
+    "address": "広島県広島市安佐南区八木2-16-5",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0026897642",
+      "name": "ぬぅ",
+      "rank": 1,
+      "point": 100,
+      "area": "鳥取県",
+      "deck_id": "FdfV5F-Art0yG-kVkbkk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090018468",
+      "name": "ネコさん",
+      "rank": 2,
+      "point": 75,
+      "area": "広島県",
+      "deck_id": "NggQH9-7FM6oo-LHLngn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0046134109",
+      "name": "すずたろう",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "Vkkbvk-evGPv5-VvFFk5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054637511",
+      "name": "やっさん",
+      "rank": 3,
+      "point": 50,
+      "area": "山口県",
+      "deck_id": "x48Y4c-DJp6OV-GYDx8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003425701",
+      "name": "胆石☆取太郎",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "pMXpyy-MItm8R-REy32p"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0000089557",
+      "name": "ハム",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "xcD44G-DF5tkV-Dx8Ga4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083386097",
+      "name": "ユーカリ",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "LgL99H-8X2qoc-9HNLnn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064208943",
+      "name": "でぃー",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "2XXMyy-MBt5QD-R2XpyR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054283259",
+      "name": "ぐっちー",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "ccxcJx-hCFNIC-Y8Ga48"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0069433599",
+      "name": "ふじ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "Dx4488-duW6NX-aYc8Gx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065921744",
+      "name": "フー",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "gQLgQg-zuVtdu-gnLLH9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070840380",
+      "name": "カズー",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "yRMyyM-jN0Uww-p2M2pM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0091371337",
+      "name": "テリーマン",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "YJx4c4-cXd5M8-G8xxcc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083658426",
+      "name": "カルマル",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "gnQnLg-3QRC8u-Ni9HHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0053187318",
+      "name": "るー",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "GxaGc8-gBx5Qm-Y48c4c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028976114",
+      "name": "はちくま",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "cx4Ja4-UqMjj0-axG4x8"
+    }
+  ],
+  "total": 16
+}

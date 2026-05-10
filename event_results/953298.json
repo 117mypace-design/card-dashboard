@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛知県",
+    "shopId": 14746,
+    "shopName": "BOOKOFF SUPER BAZAAR 248号西友岡崎店",
+    "zipCode": 4440840,
+    "address": "愛知県岡崎市戸崎町越舞2-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0037205669",
+      "name": "こずみ",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "SyR2Xp-29e1XH-ppEy2y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001824162",
+      "name": "ぐれな",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "D4cYcc-LyE79c-c8Y4G4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069825819",
+      "name": "みやきしめん",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "UpSpS2-u9u5wo-XMERyp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035774501",
+      "name": "じる",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "FvF1kv-oVibUU-bkFb1k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054218617",
+      "name": "ルカ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "FkFfvd-40KTWi-5kvbF5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027254415",
+      "name": "やっさん",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "fFv5bd-wrGhOB-vdFkFv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069822300",
+      "name": "よういち",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "y2yyy2-LMEUUT-RypppU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082690308",
+      "name": "タケノコ定食",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "pX22pX-LH5R94-RyyySy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082450885",
+      "name": "ヒトシ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "Qng9nP-HtNt2S-ggNgH9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073464464",
+      "name": "ニノ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "V5VwvF-Q9g5ZR-ffbvkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0050973789",
+      "name": "もんど",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "5VwvFk-Z8gogu-FV51Vb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032167627",
+      "name": "いっちー",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "QHLQgP-N6XR5L-gNgg9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081391035",
+      "name": "とんぼ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "9HLngg-Oewm6R-LQL6LL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082279154",
+      "name": "まっつん",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "x44Y8G-6bGCEO-cD88cx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079582438",
+      "name": "いろは",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "S2RpSS-Cwru96-ypyppR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081956559",
+      "name": "せかもも",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "V5FFvb-1mXlXO-vwkFkF"
+    }
+  ],
+  "total": 16
+}

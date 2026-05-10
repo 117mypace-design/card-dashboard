@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-06 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 11021,
+    "shopName": "ドラゴンスター泉佐野店",
+    "zipCode": 5980006,
+    "address": "大阪府泉佐野市市場西3丁目7番15号",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0011603168",
+      "name": "のぞみ",
+      "rank": 1,
+      "point": 100,
+      "area": "大阪府",
+      "deck_id": "Y8YJY8-MmUceF-8cG4cc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019370965",
+      "name": "アリーオ",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "Qg9QgL-fLfuH7-nQn9ng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031603463",
+      "name": "ブラス",
+      "rank": 3,
+      "point": 50,
+      "area": "和歌山県",
+      "deck_id": "9gQgQi-jDdeMy-6nnngQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054364642",
+      "name": "ﾋﾎﾟﾎﾟﾀｽ",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "xJY8Yc-oCQf4g-YGcc8a"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007819689",
+      "name": "ブヒれる｡",
+      "rank": 5,
+      "point": 25,
+      "area": "和歌山県",
+      "deck_id": "5kFdFF-FprB0M-bFvbVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008866615",
+      "name": "たけ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "Y8KKYc-lXinI7-4cx84G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0045194261",
+      "name": "R",
+      "rank": 5,
+      "point": 25,
+      "area": "和歌山県",
+      "deck_id": "URppyS-wBmpQd-RSRpM2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070241060",
+      "name": "なた",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "9QHPgg-q92Zyd-nggHg9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0097616885",
+      "name": "ラファ",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "VFvF15-5NLpnz-kvVbFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0093333405",
+      "name": "パッピング",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "yy3ppE-l3yxyD-pR2SMS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010364363",
+      "name": "ナベ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "g9QggH-vzgD58-nQ9nQ9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0093425845",
+      "name": "きりん",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "yppXEE-Qrirx0-yXypRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081848728",
+      "name": "ゾノック",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "bVFkF5-5qXx7E-f5dvVb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082881939",
+      "name": "ざわ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "YJYGYa-fi5PY4-xc848c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072015960",
+      "name": "ハルジオン",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "kFd5vk-QgmFrP-FVkFbv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0049613799",
+      "name": "まえた",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "ng99Qg-KRkGTU-gNL9Pg"
+    }
+  ],
+  "total": 16
+}

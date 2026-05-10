@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "宮城県",
+    "shopId": 19101,
+    "shopName": "ポケ堂　仙台店",
+    "zipCode": 9800021,
+    "address": "宮城県仙台市青葉区中央1-10-10 仙台ロフト8F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0058770737",
+      "name": "noze",
+      "rank": 1,
+      "point": 100,
+      "area": "宮城県",
+      "deck_id": "p22UyM-qEjBLY-S2MRRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071822055",
+      "name": "まさ",
+      "rank": 2,
+      "point": 75,
+      "area": "宮城県",
+      "deck_id": "ccc4Gx-VvyaGX-8YcDYx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0089870169",
+      "name": "りゅー",
+      "rank": 3,
+      "point": 50,
+      "area": "宮城県",
+      "deck_id": "448cx8-bOzPOp-xD8DG4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003147959",
+      "name": "千尋",
+      "rank": 3,
+      "point": 50,
+      "area": "宮城県",
+      "deck_id": "LnNgHL-4iM2B9-nPHH9g"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075831992",
+      "name": "ウォーリー",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "kFbb1k-gP6mQC-5vfFVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032979796",
+      "name": "パパドンex",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "g9LHgg-6tlB3D-QLPnHH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067922444",
+      "name": "リー",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "D88GJD-eHMwRF-acxa8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061898596",
+      "name": "マサキ",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "FkbVk5-8LK8zR-kffb5k"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0039039408",
+      "name": "鳥太郎",
+      "rank": 9,
+      "point": 15,
+      "area": "山形県",
+      "deck_id": "MyX22p-LcwZeA-R2yXMX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077943167",
+      "name": "くろまめ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "5VVFbV-NJuTjG-V5kvk5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036220980",
+      "name": "リューキ",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "2EpSM2-Pu7zSj-ySR2XM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039074160",
+      "name": "増田",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "HgnnHH-4iPMSO-gnLnH9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0016239214",
+      "name": "タガミ",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "FkV5dv-uYhPeg-k5bdVV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001505786",
+      "name": "こはるびより",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "p2SyMR-dUIkbv-pSp2My"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0088958345",
+      "name": "tomokun",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "Fwkk5b-YF7E7M-k5bVf5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054865110",
+      "name": "build／ビルド",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "pyEXpM-9G5UKr-S2XMR2"
+    }
+  ],
+  "total": 16
+}

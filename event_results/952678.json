@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:15:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "山形県",
+    "shopId": 19798,
+    "shopName": "ブックオフイオン山形北店",
+    "zipCode": 9900810,
+    "address": "山形県山形市馬見ヶ崎2丁目12-19",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0056785157",
+      "name": "kabuto",
+      "rank": 1,
+      "point": 100,
+      "area": "宮城県",
+      "deck_id": "yXypRX-UIjmo7-y2RMXM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0004255961",
+      "name": "さわみん",
+      "rank": 2,
+      "point": 75,
+      "area": "山形県",
+      "deck_id": "Yxcc8D-wXmh4D-cGa484"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070709665",
+      "name": "Margarine",
+      "rank": 3,
+      "point": 50,
+      "area": "秋田県",
+      "deck_id": "kffVbf-c1Xcle-1kVFff"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085445905",
+      "name": "カミッチュ",
+      "rank": 3,
+      "point": 50,
+      "area": "宮城県",
+      "deck_id": "V5kVkF-NXyzK3-5VFbbf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065161313",
+      "name": "こーせー",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "XMXXyp-3ZfeQY-RXypSR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035955805",
+      "name": "mt.sugi",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "yXyXMR-AeLcre-p2RXXy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082171379",
+      "name": "カメ",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "4aaxc4-tXAVLm-cD88G8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037014904",
+      "name": "ひゅろっきん",
+      "rank": 5,
+      "point": 25,
+      "area": "山形県",
+      "deck_id": "NLPNH9-gjwLwc-gLgnHg"
+    }
+  ],
+  "total": 8
+}

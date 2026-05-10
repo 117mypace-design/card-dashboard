@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-29 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "佐賀県",
+    "shopId": 15271,
+    "shopName": "ブックオフプラス佐賀南部バイパス店",
+    "zipCode": 8400023,
+    "address": "佐賀県佐賀市本庄町袋297",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0074319970",
+      "name": "べーたて",
+      "rank": 1,
+      "point": 100,
+      "area": "福岡県",
+      "deck_id": "ppyS32-euhj29-pR222y"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072815317",
+      "name": "のん",
+      "rank": 2,
+      "point": 75,
+      "area": "福岡県",
+      "deck_id": "MpyX32-mworXy-2pyXRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028550459",
+      "name": "Ditto",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "Xy3yUp-wUVaKZ-2MyREy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0090664252",
+      "name": "よこまる",
+      "rank": 3,
+      "point": 50,
+      "area": "佐賀県",
+      "deck_id": "x488x8-KSCzLY-x8GJ8c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0005847611",
+      "name": "もー",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "aDD8cG-ajSGUR-cDGxc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012401299",
+      "name": "ゲコガシラ柱",
+      "rank": 5,
+      "point": 25,
+      "area": "長崎県",
+      "deck_id": "bkkk5f-3c0v2b-1VFkfv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052622603",
+      "name": "しょーやん",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "HnnnNL-Z8kVol-H9gigH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037053525",
+      "name": "りょーが",
+      "rank": 5,
+      "point": 25,
+      "area": "佐賀県",
+      "deck_id": "pMpyEU-7O39l2-yyy2Ry"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0092017100",
+      "name": "ヒロキ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "ng99HL-2uuj0p-g6nngn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003101285",
+      "name": "いなば",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "yXyUUM-9x7XlL-yp2MRU"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064240310",
+      "name": "しゅう",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "8xcK8x-3oPovZ-c8GY4G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000145954",
+      "name": "クリプトン",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "8xc4Ka-O7iwN1-GKc848"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037911898",
+      "name": "いっしー",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "2yyUyy-jaYPRw-XRSSpU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074860814",
+      "name": "てけたん",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "n9NniH-PKNKjU-nnngH6"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043882825",
+      "name": "くどじゅん",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "4c8K8c-oqN4iz-KYG84c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036318854",
+      "name": "まー",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "HNggng-BFkE3w-nP9L6n"
+    }
+  ],
+  "total": 16
+}

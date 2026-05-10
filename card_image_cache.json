@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "cards": {
+    "45621": {
+      "card_name": "ゲッコウガex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/45621",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV5a/045621_P_GEKKOUGAEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "45852": {
+      "card_name": "イイネイヌ",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/45852",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045852_P_IINEINU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "45978": {
+      "card_name": "ヤドキング",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/45978",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV7/045978_P_YADOKINGU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "46189": {
+      "card_name": "ソウブレイズex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/46189",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SVLS/046189_P_SOUBUREIZUEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "46670": {
+      "card_name": "カミッチュ",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/46670",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046670_P_KAMITCHIXYU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47069": {
+      "card_name": "Nのゾロアークex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47069",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047069_P_NNOZOROAKUEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47142": {
+      "card_name": "ドラパルトex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47142",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/047142_P_DORAPARUTOEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47259": {
+      "card_name": "マリィのオーロンゲex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47259",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047259_P_MARIINOORONGEEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47278": {
+      "card_name": "ダイゴのメタグロスex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47278",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SVOD/047278_P_DAIGONOMETAGUROSUEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47339": {
+      "card_name": "シロナのガブリアスex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47339",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV9a/047339_P_SHIRONANOGABURIASUEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47405": {
+      "card_name": "オリーヴァex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47405",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV10/047405_P_ORIVUAEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47736": {
+      "card_name": "メガフシギバナex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47736",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047736_P_MFUSHIGIBANAEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47762": {
+      "card_name": "メガルカリオex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47762",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047762_P_MRUKARIOEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47771": {
+      "card_name": "メガアブソルex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47771",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047771_P_MABUSORUEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47834": {
+      "card_name": "フーディン",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47834",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047834_P_FUDEIN.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48625": {
+      "card_name": "ロケット団のドンカラス",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48625",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048625_P_ROKETTODANNODONKARASU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48704": {
+      "card_name": "活力の森",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48704",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048704_T_KATSURIXYOKUNOMORI.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48762": {
+      "card_name": "イワパレス",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48762",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048762_P_IWAPARESU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48798": {
+      "card_name": "オーガポン みどりのめんex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48798",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048798_P_OGAPONMIDORINOMENEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48940": {
+      "card_name": "オーガポン いどのめんex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48940",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048940_P_OGAPONIDONOMENEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49006": {
+      "card_name": "ロケット団のミュウツーex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49006",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049006_P_ROKETTODANNOMIXYUUTSUEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49213": {
+      "card_name": "メタング",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49213",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049213_P_METANGU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49270": {
+      "card_name": "タケルライコex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49270",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049270_P_TAKERURAIKOEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49521": {
+      "card_name": "リーリエのピッピex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49521",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049521_P_RIRIENOPIPPIEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49546": {
+      "card_name": "ゲノセクトex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49546",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049546_P_GENOSEKUTOEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49654": {
+      "card_name": "メガスターミーex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49654",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049654_P_MSUTAMIEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49712": {
+      "card_name": "テレパス超エネルギー",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49712",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049712_E_TEREPASUCHIXYOUENERUGI.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "50087": {
+      "card_name": "スピアーex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/50087",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050087_P_SUPIAEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "50104": {
+      "card_name": "ケロマツ",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/50104",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050104_P_KEROMATSU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "50106": {
+      "card_name": "メガゲッコウガex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/50106",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050106_P_MGEKKOUGAEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49228": {
+      "card_name": "?????ex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49228",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049228_P_GENOSEKUTOEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49024": {
+      "card_name": "????",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49024",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049024_P_YOMAWARU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48558": {
+      "card_name": "???????ex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48558",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048558_P_MYUKIMENOKOEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49291": {
+      "card_name": "?????ex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49291",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049291_P_NOKOKOTCHIEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "46470": {
+      "card_name": "?????ex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/46470",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SVM/046470_P_BASHIXYAMOEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "47847": {
+      "card_name": "??????ex",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/47847",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047847_P_MGARURAEX.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "46047": {
+      "card_name": "?????",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/46047",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SV6a/046047_P_YONOWARU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48534": {
+      "card_name": "シェイミ",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48534",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048534_P_SHIEIMI.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49959": {
+      "card_name": "コダック",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49959",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/049959_P_KODAKKU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48711": {
+      "card_name": "ロケット団の監視塔",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48711",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048711_T_ROKETTODANNOKANSHITOU.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "48603": {
+      "card_name": "マシマシラ",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/48603",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048603_P_MASHIMASHIRA.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49982": {
+      "card_name": "ジャミングタワー",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49982",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/049982_T_JIXYAMINGUTAWA.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49713": {
+      "card_name": "ロック闘エネルギー",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49713",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049713_EN_ROKKUTOUENERUGI.jpg",
+      "fetched_at": "2026-04-25"
+    },
+    "49845": {
+      "card_name": "ズボミー",
+      "detail_url": "https://www.pokemon-card.com/card-search/details.php/card/49845",
+      "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/049845_P_SUBOMI.jpg",
+      "fetched_at": "2026-04-26"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-08 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福島県",
+    "shopId": 18168,
+    "shopName": "カードゲームのシーガル郡山店",
+    "zipCode": 9638002,
+    "address": "福島県郡山市駅前1丁目16－7アティ郡山8階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0002939081",
+      "name": "あしゅー",
+      "rank": 1,
+      "point": 100,
+      "area": "福島県",
+      "deck_id": "gNnnHL-UB6edP-9PHH9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030999853",
+      "name": "たぬき",
+      "rank": 2,
+      "point": 75,
+      "area": "福島県",
+      "deck_id": "FV15k5-15BX4C-fFFFFb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070633885",
+      "name": "シュウヤ",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "aGc88G-ChaB9M-c48a8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000229621",
+      "name": "こうき",
+      "rank": 3,
+      "point": 50,
+      "area": "青森県",
+      "deck_id": "RXp2yM-MQxpCt-yp2ESp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0005380961",
+      "name": "ジラーチ三井",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "E32ypM-m0qtEj-pyppUR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095021298",
+      "name": "ーようらんー",
+      "rank": 5,
+      "point": 25,
+      "area": "福島県",
+      "deck_id": "4GDx4c-aiwdn5-KGc8x4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082356778",
+      "name": "ぐじ",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "H9gPHg-N4Fe8H-NnnLgQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069424296",
+      "name": "りんご",
+      "rank": 5,
+      "point": 25,
+      "area": "福島県",
+      "deck_id": "9HgnnN-zQPV1R-gnnLP6"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070677580",
+      "name": "ルナ",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "9gNLng-e1WWex-NgiNHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065552474",
+      "name": "りゅう",
+      "rank": 9,
+      "point": 15,
+      "area": "山形県",
+      "deck_id": "gnH9ng-Z8UrP9-gHPngH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070900343",
+      "name": "どかっち",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "F1VFFd-MaKBlR-k1Vb5F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002461014",
+      "name": "じじ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "ccaxx4-BNn8rC-xJJ8Gc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0041924527",
+      "name": "ぬぬ",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "c4884G-LHnBaN-cccaax"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030256219",
+      "name": "マキ",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "cccDDG-4YgxCl-ax448c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0045540648",
+      "name": "ふくまる",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "2RpUy2-2ZOwe1-pSp22y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0022844549",
+      "name": "キ！",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "c8GYac-xCIESe-a8cD44"
+    }
+  ],
+  "total": 16
+}

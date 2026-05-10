@@ -1,0 +1,111 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "三重県",
+    "shopId": 20082,
+    "shopName": "三洋堂書店 星川店",
+    "zipCode": 5110912,
+    "address": "三重県桑名市大字星川字十二899番地",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0072330915",
+      "name": "ジムバトル初心者",
+      "rank": 1,
+      "point": 100,
+      "area": "三重県",
+      "deck_id": "8GKDc4-paGqBV-c8Ycxx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0060449441",
+      "name": "うきよえ",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "VfFk5F-DU8veG-fVf1bV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031744807",
+      "name": "かざみぽ",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "c8GDD8-abjDBB-48Gx8D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058588947",
+      "name": "あらん",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "9PQLgg-6YuICw-69ngHN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029097591",
+      "name": "ミミッキュ",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "NLQngL-A8M1KW-H69HPN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0066606611",
+      "name": "ペイチン",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "DDc8xc-BxKgLv-GG8Yax"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030371622",
+      "name": "てんぱー",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "R23yUp-31vyzF-MpXMMp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012936180",
+      "name": "みぃ",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "f5FfVv-TVYf7o-5VfbFk"
+    }
+  ],
+  "total": 8
+}

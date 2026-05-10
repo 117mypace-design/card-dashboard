@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-22 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "栃木県",
+    "shopId": 18224,
+    "shopName": "Wonder GOO　足利店",
+    "zipCode": 3260823,
+    "address": "栃木県足利市朝倉町255-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0008346146",
+      "name": "三沢",
+      "rank": 1,
+      "point": 100,
+      "area": "栃木県",
+      "deck_id": "kv5Vvb-JYv2Gm-FfkfVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039981347",
+      "name": "コモドドラゴン",
+      "rank": 2,
+      "point": 75,
+      "area": "栃木県",
+      "deck_id": "vFfkFw-Qxo4o3-bkfbFV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078158649",
+      "name": "Ralts(ラルトス)",
+      "rank": 3,
+      "point": 50,
+      "area": "栃木県",
+      "deck_id": "y2yREX-TWzrRQ-ypMyMp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037985035",
+      "name": "タキ",
+      "rank": 3,
+      "point": 50,
+      "area": "栃木県",
+      "deck_id": "Xp3M2y-60r8fN-MMRyy3"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0012719572",
+      "name": "tatta",
+      "rank": 5,
+      "point": 25,
+      "area": "栃木県",
+      "deck_id": "Q9nNL9-kuvFqq-nNgn9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060514343",
+      "name": "ゴン太パトラ",
+      "rank": 5,
+      "point": 25,
+      "area": "群馬県",
+      "deck_id": "p2yRSM-33w1LB-ySXyMS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032055027",
+      "name": "あお",
+      "rank": 5,
+      "point": 25,
+      "area": "群馬県",
+      "deck_id": "yXy3My-bZlrJd-pRpMXy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063774276",
+      "name": "KJ",
+      "rank": 5,
+      "point": 25,
+      "area": "栃木県",
+      "deck_id": "4DxGD8-jdYlIn-8cG8Kx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087411315",
+      "name": "mori",
+      "rank": 9,
+      "point": 15,
+      "area": "群馬県",
+      "deck_id": "SyyypM-fpqOXp-MpRRXR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000063672",
+      "name": "NP",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "yXyR2p-HHaGA5-RXyMMX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0060521789",
+      "name": "さわ",
+      "rank": 9,
+      "point": 15,
+      "area": "栃木県",
+      "deck_id": "fkfFVk-CeGcbh-Vkkb55"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060558486",
+      "name": "海津",
+      "rank": 9,
+      "point": 15,
+      "area": "群馬県",
+      "deck_id": "nHnLg9-NJzgOk-nNgnnH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073464734",
+      "name": "ちゅうた",
+      "rank": 9,
+      "point": 15,
+      "area": "群馬県",
+      "deck_id": "KDc8cc-T7glp5-JxDGcD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081394847",
+      "name": "あっきー",
+      "rank": 9,
+      "point": 15,
+      "area": "群馬県",
+      "deck_id": "c8DccD-qc2ntj-88x84G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035565194",
+      "name": "しろみあ",
+      "rank": 9,
+      "point": 15,
+      "area": "群馬県",
+      "deck_id": "kbv1vF-oA7beI-fFkFkf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0091419015",
+      "name": "ナカノ",
+      "rank": 9,
+      "point": 15,
+      "area": "群馬県",
+      "deck_id": "88cx8x-XRVcCw-xKYDcG"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-01 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "京都府",
+    "shopId": 18935,
+    "shopName": "BOOKOFF SUPER BAZAAR 1号京都伏見店",
+    "zipCode": 6128246,
+    "address": "京都府京都市伏見区横大路芝生1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0030881998",
+      "name": "はら",
+      "rank": 1,
+      "point": 100,
+      "area": "京都府",
+      "deck_id": "LQQgnn-ynWVxM-9LNggg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036007084",
+      "name": "ほし",
+      "rank": 2,
+      "point": 75,
+      "area": "京都府",
+      "deck_id": "acD48D-mixPVx-84cGYc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0015466125",
+      "name": "ねっす",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "yppSXX-nE8wd9-Xy2pRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033475035",
+      "name": "ケイ",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "5Vk5Fv-VQ4J94-kFbFFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028722786",
+      "name": "ともたん",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "9ngnP9-OVYFpL-nHngNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035957032",
+      "name": "よういち",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "inQgnn-FKddWT-LggPH9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004045294",
+      "name": "あっきー",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "ngQLQg-fCFkoY-igN9ng"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0103854898",
+      "name": "バトラー",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "kkkvkF-FOYcU7-kbwFVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030842591",
+      "name": "まっくす",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "xKc88c-PP8Ihn-ccYGac"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004866633",
+      "name": "kumeキッズ",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "ggnHn9-A9IjRE-LngnQg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007209884",
+      "name": "こった",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "Yc4J8c-dIL17G-c8GcK4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084496416",
+      "name": "かてら",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "gQggNn-oeuAYN-9gLPnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032727900",
+      "name": "レア好き",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "pSXyyR-vThvYv-2EpypX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0018922822",
+      "name": "ゴリキ",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "FkkF51-bd9kzI-fbFbkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003816378",
+      "name": "ボッスン",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "RppMpS-L3wFCW-py2Mpy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0062003269",
+      "name": "ハイネKEN",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "VVkFFv-pHD9QU-FVFdVb"
+    }
+  ],
+  "total": 16
+}

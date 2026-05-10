@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "鳥取県",
+    "shopId": 18172,
+    "shopName": "カードボックスアリオン皆生店",
+    "zipCode": 6830003,
+    "address": "鳥取県米子市皆生4丁目11-34",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0030686193",
+      "name": "ひろハム",
+      "rank": 1,
+      "point": 100,
+      "area": "鳥取県",
+      "deck_id": "RSppSp-HHF6Fn-yX2Xyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041389847",
+      "name": "じぇるま",
+      "rank": 2,
+      "point": 75,
+      "area": "岡山県",
+      "deck_id": "84Jc8c-4MrcEF-GDY88x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001757101",
+      "name": "かじゅ",
+      "rank": 3,
+      "point": 50,
+      "area": "鳥取県",
+      "deck_id": "J8YGcc-jbG29L-c8Kxcx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042258427",
+      "name": "パレス",
+      "rank": 3,
+      "point": 50,
+      "area": "鳥取県",
+      "deck_id": "SRSppy-CM8koK-UyyS2M"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006349923",
+      "name": "☆じぃじ☆",
+      "rank": 5,
+      "point": 25,
+      "area": "鳥取県",
+      "deck_id": "ypRppp-z7cM6D-ppyS2R"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036684254",
+      "name": "ゆうぴ",
+      "rank": 5,
+      "point": 25,
+      "area": "鳥取県",
+      "deck_id": "ppRySR-eJ2k2F-p3ypXS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0049892215",
+      "name": "かなた",
+      "rank": 5,
+      "point": 25,
+      "area": "鳥取県",
+      "deck_id": "SypXyp-F4FNh3-2ppSR2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032607569",
+      "name": "アレン",
+      "rank": 5,
+      "point": 25,
+      "area": "鳥取県",
+      "deck_id": "pSypUp-d8RNEg-2RyMpy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073970309",
+      "name": "シロ",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "RypyXp-DdLPpo-S2ySXR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012736076",
+      "name": "ぶんぶん",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "xcYYcD-9MvwB3-844Gcc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073867809",
+      "name": "たいよう",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "n9LQgg-F8wmeE-ngNg9n"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067170371",
+      "name": "ソウタ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "pyMpyX-wTAgCt-RySXUp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0047949485",
+      "name": "やす",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "G8KGcD-YD6LNi-cY4xcx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036028267",
+      "name": "フクスロー",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "G48xJc-LGqd8n-cc4G4Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040101466",
+      "name": "いぐち",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "g9HQgP-m45fY3-nHNg9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081271032",
+      "name": "ゆーきゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "pRyRRR-5QBEfA-XSS2pp"
+    }
+  ],
+  "total": 16
+}

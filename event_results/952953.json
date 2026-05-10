@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-17 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "大阪府",
+    "shopId": 19938,
+    "shopName": "トレカショップ竜のしっぽ　布施店",
+    "zipCode": 5770056,
+    "address": "大阪府東大阪市長堂１丁目２−１  A+FUSEビル ３階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0011005041",
+      "name": "Nuts+",
+      "rank": 1,
+      "point": 100,
+      "area": "兵庫県",
+      "deck_id": "dkVfdV-yq19cM-FFkFbk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071544809",
+      "name": "きお",
+      "rank": 2,
+      "point": 75,
+      "area": "大阪府",
+      "deck_id": "SRX2yp-Nd4HiU-2MR3pM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078814569",
+      "name": "なお",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "gLPNQN-fnY6aL-n9L99n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065816152",
+      "name": "シキナ",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "FkFFVb-qoADU2-dvk5f5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0084108955",
+      "name": "カネ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "MESREy-JUTFvy-yyppX2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082108245",
+      "name": "アーサー",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "8J8DcG-zeRVcb-YcD8xJ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076911431",
+      "name": "ゆー",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "MM22Sy-VMvI5R-REppRX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055294139",
+      "name": "ハヤ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "ypp2XM-MmJx5i-RERXyM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043501058",
+      "name": "食寝遊(クネア)",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "MyXyRp-ng822Q-pRSpyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035480202",
+      "name": "なつき",
+      "rank": 9,
+      "point": 15,
+      "area": "奈良県",
+      "deck_id": "RyMS2y-vbx9P5-XppRXX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085584257",
+      "name": "ラフ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "LLN9gL-UxaC1v-ggnPnL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085591547",
+      "name": "デデンネ好き",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "DGxJc8-mlKIdd-a8cDcD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0062931371",
+      "name": "カークン",
+      "rank": 9,
+      "point": 15,
+      "area": "和歌山県",
+      "deck_id": "MySpXR-JXtIue-XRXypX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0025958885",
+      "name": "こちゃ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "cc4GxJ-U6p6Sw-88cGD4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076673616",
+      "name": "リクーム",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": null
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014491661",
+      "name": "zero",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "ggggLi-IEt4Lt-PQNnN9"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-24 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福岡県",
+    "shopId": 12076,
+    "shopName": "オレタン福岡天神店",
+    "zipCode": 8100001,
+    "address": "福岡県福岡市中央区天神3丁目2-22河村天神荘ビル3F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0036824047",
+      "name": "うるのば",
+      "rank": 1,
+      "point": 100,
+      "area": "沖縄県",
+      "deck_id": "5kbFkF-or7vNS-5wV5FV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038349467",
+      "name": "たぃち",
+      "rank": 2,
+      "point": 75,
+      "area": "福岡県",
+      "deck_id": "pM2ySR-bmV2uh-p2Uppy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0048781648",
+      "name": "t",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "cJ8c8x-fdPCi0-8x4xG4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007844610",
+      "name": "ななこ",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "R2pypy-KRvphb-2yMyXp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0009091245",
+      "name": "ブルート",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "R2S2p2-aupj3K-RyyyyX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0060531139",
+      "name": "あーる",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "Xypy2R-DKxMXU-X3MM2X"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0015783565",
+      "name": "かぁずや",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "yS2RMX-oNA3Fb-Xyy2py"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011751151",
+      "name": "りょっち",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "UypMpR-22wnZJ-2M2ypS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0022243418",
+      "name": "まみりむ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "GccYxJ-cll5Hl-48c84c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084419477",
+      "name": "グッピー",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "x8xK88-WhIRFp-cD4c4G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035375328",
+      "name": "てやん",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "9LgNnH-tYlrlh-9Nn9nH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071812661",
+      "name": "しょーと",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "Xp2pRy-2EPMuP-2yp2yy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012549629",
+      "name": "ASAHI",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "44ccG8-nU2D4W-xJcc8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001987140",
+      "name": "T.T",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "w555k1-DHvzj2-FFbkk5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0051793218",
+      "name": "きよ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "n6Nn9n-WBz1qF-gnHLgg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094402694",
+      "name": "タカ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "nnHHg9-YwDX0i-ggnHnQ"
+    }
+  ],
+  "total": 16
+}

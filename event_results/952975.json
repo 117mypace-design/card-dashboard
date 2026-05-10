@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-22 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "岐阜県",
+    "shopId": 20029,
+    "shopName": "三洋堂書店　みのかも店",
+    "zipCode": 5050036,
+    "address": "岐阜県美濃加茂市山手町1丁目91",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0054552618",
+      "name": "スズキ",
+      "rank": 1,
+      "point": 100,
+      "area": "岐阜県",
+      "deck_id": "gHg9Pn-vIhLm1-LPNP6n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000856616",
+      "name": "だいき",
+      "rank": 2,
+      "point": 75,
+      "area": "岐阜県",
+      "deck_id": "XSMpXM-DveJw5-yyR2y3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042948715",
+      "name": "サボテン",
+      "rank": 3,
+      "point": 50,
+      "area": "岐阜県",
+      "deck_id": "iNLigL-DWo4FA-6Ln9nQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063197387",
+      "name": "シオン「座員」",
+      "rank": 3,
+      "point": 50,
+      "area": "岐阜県",
+      "deck_id": "kVb55k-5c5UQa-vkk5Ff"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036283675",
+      "name": "タカ",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "fVkb1v-aOyNxA-FkkkfV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092322862",
+      "name": "フクチシンヤGX",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "G88888-FJX3DB-D8cDxc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0060890452",
+      "name": "介入",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "9PgnLN-dy041j-n6nHgL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052107308",
+      "name": "Noa",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "Pg9nNQ-ln3wQN-gnnniP"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086266165",
+      "name": "ボルツマン",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "kFkFkk-S11ebk-FbFfwk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071435954",
+      "name": "MGO",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "HPggnH-dniz2W-HHnn9N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065181090",
+      "name": "BdD",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "YD8cGc-pOQ2u6-J88DYc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0049745830",
+      "name": "むらっきー",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "i9gnnL-DLlX98-LnPNnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079941246",
+      "name": "ポリンキー",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "8GxDcc-RySnJ7-cD4cx8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099595344",
+      "name": "オコナー",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "c8GxDc-STrzPO-48cacc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043693993",
+      "name": "SouTan",
+      "rank": 9,
+      "point": 15,
+      "area": "長野県",
+      "deck_id": "gNHQLn-X0TowX-gL9Png"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028887519",
+      "name": "ましまし",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "x8GD8G-Z15FMV-xc8cx8"
+    }
+  ],
+  "total": 16
+}

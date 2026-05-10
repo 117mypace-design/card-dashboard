@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 20:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "東京都",
+    "shopId": 19806,
+    "shopName": "カードショップ竜星のPAO多摩境店",
+    "zipCode": 1940215,
+    "address": "東京都町田市小山ヶ丘2丁目3-3",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0032550601",
+      "name": "アーク",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "NNnNgn-BArOp8-9NL6gn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0096470590",
+      "name": "sinon",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "ypMXRU-4c3W24-yMRMXy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036155617",
+      "name": "ゆーき",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "NnHn9L-SSdwdP-9gNnLn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008269184",
+      "name": "ちゃめすけ",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "x8ccxD-FOUhjW-GY44Ja"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061553909",
+      "name": "もとさ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "iPnL6g-RN7mH6-NH9Pgg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072088319",
+      "name": "ルシ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "LgL9Lg-It8TrQ-nNHnNN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083600096",
+      "name": "ラボ畜",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "nggHLQ-iFhhXF-n9NgNQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077888301",
+      "name": "てふまめは",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "Lngg9Q-zZTpCK-gNHgLH"
+    }
+  ],
+  "total": 8
+}

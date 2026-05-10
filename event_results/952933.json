@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 18425,
+    "shopName": "青馬堂本店",
+    "zipCode": 2300001,
+    "address": "神奈川県横浜市鶴見区矢向6-12-11",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0045989713",
+      "name": "あっとん",
+      "rank": 1,
+      "point": 100,
+      "area": "福岡県",
+      "deck_id": "SyXyER-GWmVKX-Xypp2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072120327",
+      "name": "タオル",
+      "rank": 2,
+      "point": 75,
+      "area": "静岡県",
+      "deck_id": "gnggQn-fN2vXa-LN9L9g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039502470",
+      "name": "キリ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "9Q9gNg-dLkx4R-6gHPnN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001137743",
+      "name": "かいむ",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "D8c48G-pKtR3Z-ccY8Y8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0026550288",
+      "name": "雪道貼る夫",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "FFVdkf-IGdFzl-bFvkFk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0101000541",
+      "name": "halca",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "9gQHng-9kmQLk-ngnnQn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036079959",
+      "name": "わふ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "kvvfFk-jh8gtP-dFVFFb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004619257",
+      "name": "ましゅ",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "vFFkFF-Bb7LMW-f5bb5b"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101148252",
+      "name": "Koki",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "FwbfFd-K6n18z-5kkFkw"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006505578",
+      "name": "カネゴン",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "RpyUSy-7wa3cX-ypXEpS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0090267734",
+      "name": "ユウキ",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "XSp2Sy-y6a3U8-SRpyy2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072138023",
+      "name": "くま",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "RyESy3-5Ry53l-pXyMSM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000835174",
+      "name": "いけちん",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "ypy3MS-2CEzYf-2ppSRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013302391",
+      "name": "ばいかるこ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "ySypEp-HIC2V6-XX2pRy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0015453873",
+      "name": "ユウ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "MpppRU-7mvmMX-3yySXp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071835790",
+      "name": "ロス",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "g99Qgg-HtD5Cb-gnNQQN"
+    }
+  ],
+  "total": 16
+}

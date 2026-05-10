@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-12 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "広島県",
+    "shopId": 14183,
+    "shopName": "ゲームアーク　三原本店",
+    "zipCode": 7230052,
+    "address": "広島県三原市皆実1丁目3番2号ARCビル",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0049437007",
+      "name": "kazu",
+      "rank": 1,
+      "point": 100,
+      "area": "広島県",
+      "deck_id": "48cKxx-vhoSvU-cGxDKY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004040536",
+      "name": "ふみ",
+      "rank": 2,
+      "point": 75,
+      "area": "広島県",
+      "deck_id": "LLLnnH-IXZku7-N9gHLg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071389839",
+      "name": "やまだ",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "FbkV5F-5A901T-VFVvk5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037350255",
+      "name": "カナメ",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "c8Gxxc-vgHKBK-DcK848"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033745686",
+      "name": "RAY",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "yy3Ryp-VtO96D-yp2M2E"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073871208",
+      "name": "カッシー",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "2RppyM-tCNdb9-Uyp2yp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030268638",
+      "name": "だっしー",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "5VkbF5-6VjADP-fVkVfV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074148329",
+      "name": "たまどら",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "VVkb5k-C1OhR3-FfV5fk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061397220",
+      "name": "ぺこ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "ERpp2p-Ut7iC4-SpMyy3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027563755",
+      "name": "猫田",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "v5VVk5-N5Vxrb-wfFVb5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071355540",
+      "name": "うもつん",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "L99HHg-VnCTdX-nL6HgL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038788587",
+      "name": "ガメ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "MySMMy-hCV60Q-Xp2R2X"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057841241",
+      "name": "まさ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "1kFkfF-bmCJZm-FFV5bF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054863433",
+      "name": "かるぼー",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "4cGc44-OmTEHk-c88xGc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010161537",
+      "name": "がく",
+      "rank": 9,
+      "point": 15,
+      "area": "鳥取県",
+      "deck_id": "dbFV5V-qvdd2u-kfVkF5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034225275",
+      "name": "Mr9cumber",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "kb5kVf-cyODWS-kFfFdV"
+    }
+  ],
+  "total": 16
+}

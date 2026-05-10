@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛知県",
+    "shopId": 14746,
+    "shopName": "BOOKOFF SUPER BAZAAR 248号西友岡崎店",
+    "zipCode": 4440840,
+    "address": "愛知県岡崎市戸崎町越舞2-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0037632494",
+      "name": "すし",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "S2yyXX-eqlbJj-RpRMpp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036919479",
+      "name": "QJP",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "DG8cx8-0yyVpG-4Dxccc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057573041",
+      "name": "おさ",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "9nHNNg-8YzWuD-LL9gHi"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042293729",
+      "name": "よしよ",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "L9nNNn-z6Efqb-HggLNN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000242840",
+      "name": "としぞう",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "pyXyyX-eM3IyY-yMMXpR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0052558476",
+      "name": "まないた",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "gnNn9L-ecrlhh-LLnPnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087548642",
+      "name": "そうま",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "2pXpEy-fwF5n0-RMXpyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043879988",
+      "name": "たか",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "51Fkfv-6CxHLd-FVfbkk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095024213",
+      "name": "ぱらぼら",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "JcxDxx-SayXO9-Yc4G8J"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087998214",
+      "name": "およべ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "g9NgnP-RYAqzk-L9iHgH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037044255",
+      "name": "ゆーと",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "D4JJ84-ZSkudn-Gccxc4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0101098964",
+      "name": "きみ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "pRMMyE-VYeZpr-yXXy2y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064996666",
+      "name": "キョウ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "LNngNL-Y7S0Ue-9HnLNN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043312643",
+      "name": "きなこもち",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "DxYDcG-umoHtx-cGJ48Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074013498",
+      "name": "もつ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "4Dc4D8-xgCjy0-xcGGKY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0053947110",
+      "name": "アキ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "xxcD88-tqAqrp-8DGaDY"
+    }
+  ],
+  "total": 16
+}

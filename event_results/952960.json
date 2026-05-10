@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "岐阜県",
+    "shopId": 12781,
+    "shopName": "宝島　可児店",
+    "zipCode": 5090214,
+    "address": "岐阜県可児市広見6-98",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0011854942",
+      "name": "しば",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "pRXpyp-VKJQnJ-2RpRyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040761693",
+      "name": "負けを認めたバナナ",
+      "rank": 2,
+      "point": 75,
+      "area": "長野県",
+      "deck_id": "kkvwvF-rmBYWg-kb1fVV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040382793",
+      "name": "ぽぽ",
+      "rank": 3,
+      "point": 50,
+      "area": "長野県",
+      "deck_id": "MSXRMy-2a8iEt-EpMpRy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087359608",
+      "name": "ゆいと",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "6n6H9N-uVabAT-LLH9gN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0015152239",
+      "name": "いのべ",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "XS22yp-niAA8I-RMppX3"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099158899",
+      "name": "きょんどりーまー",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "ypyU33-Haxn0q-yRXSXM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0091478953",
+      "name": "ミエルブ・サイトウ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "XUSypy-MEeigA-MyXX3R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0056617926",
+      "name": "涼哉",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "ySyR3X-KQXpqM-yp3MMy"
+    }
+  ],
+  "total": 8
+}

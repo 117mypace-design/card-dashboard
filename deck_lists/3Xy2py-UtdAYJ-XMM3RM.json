@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "47128",
+    "name": "イルカマンex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46882",
+    "name": "イルカマン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46881",
+    "name": "ナミイルカ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49993",
+    "name": "メガユキメノコex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45846",
+    "name": "ユキメノコ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49960",
+    "name": "ユキワラシ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45849",
+    "name": "マシマシラ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49956",
+    "name": "スボミー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47367",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45854",
+    "name": "シャリタツ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50081",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48467",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49976",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48508",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48441",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47526",
+    "name": "ロケット団のラムダ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46171",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "38062",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46173",
+    "name": "ハイダイ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46330",
+    "name": "サーファー",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47858",
+    "name": "なみのりビーチ",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47905",
+    "name": "基本水エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46122",
+    "name": "基本悪エネルギー",
+    "count": 3
+  }
+]

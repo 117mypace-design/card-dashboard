@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48625",
+    "name": "ロケット団のドンカラス",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47510",
+    "name": "ロケット団のヤミカラス",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47476",
+    "name": "ロケット団のポリゴンZ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47475",
+    "name": "ロケット団のポリゴン2",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47474",
+    "name": "ロケット団のポリゴン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48556",
+    "name": "ロケット団のフリーザー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49977",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48440",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45799",
+    "name": "ロトりぼう",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48441",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49449",
+    "name": "ロケット団のサカキ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49447",
+    "name": "ロケット団のアテナ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49448",
+    "name": "ロケット団のアポロ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49451",
+    "name": "ロケット団のランス",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49450",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47490",
+    "name": "ロケット団のファクトリー",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45938",
+    "name": "ニュートラルセンター(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49458",
+    "name": "ロケット団エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48515",
+    "name": "イグニッションエネルギー",
+    "count": 4
+  }
+]

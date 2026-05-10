@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 13:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 19:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "神奈川県",
+    "shopId": 20100,
+    "shopName": "チェルモサード",
+    "zipCode": 2540043,
+    "address": "神奈川県平塚市紅谷町4-3　中秋ビル２F",
+    "venue": "JR平塚駅北口から徒歩約2分\nファミリーマート２Fになります。",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0054473238",
+      "name": "かわせみ",
+      "rank": 1,
+      "point": 100,
+      "area": "神奈川県",
+      "deck_id": "55FfVb-Evly84-FVvFkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042194538",
+      "name": "にしむねあ",
+      "rank": 2,
+      "point": 75,
+      "area": "神奈川県",
+      "deck_id": "a8cxK4-tDV9Ml-GDccx4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037209135",
+      "name": "can",
+      "rank": 3,
+      "point": 50,
+      "area": "神奈川県",
+      "deck_id": "cYYYG8-1c6CR6-c8c4cx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068095244",
+      "name": "でっかい！くぼた",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "kfkkkd-AqxPQC-b5F5FF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000027784",
+      "name": "サノ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "fkFfkk-PpDS6M-fVf1fb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001545656",
+      "name": "AGENT",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "SpySp2-cFMQGB-RyyMpS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068715546",
+      "name": "こふん",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "kFv1Ff-5zQ9YM-b55kFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085211872",
+      "name": "れっど",
+      "rank": 5,
+      "point": 25,
+      "area": "神奈川県",
+      "deck_id": "cDG8xJ-tXdSO6-8xDJ88"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035130204",
+      "name": "JONAS",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "gnnngH-COSElI-N9ggHH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082443247",
+      "name": "ししまる",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "888Y48-QPi0T6-cc8DG4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072089208",
+      "name": "せいいちろう",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "Fkk5bk-D7FqLE-5f5vFV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069534580",
+      "name": "るあ",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "QggHnH-2D9NCA-PHH6L9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062769954",
+      "name": "まさピカ",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "XMyp2R-U3eNOB-M2MpMS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092298572",
+      "name": "キャベツ太郎",
+      "rank": 9,
+      "point": 15,
+      "area": "神奈川県",
+      "deck_id": "ng9Qng-n6kRRR-gHnHPH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0102874327",
+      "name": "くるるぎ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "Ffvw5F-76wWcD-vFkF5b"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0016075357",
+      "name": "キシ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "GYG4x8-ZlLOHA-c4x4xc"
+    }
+  ],
+  "total": 16
+}

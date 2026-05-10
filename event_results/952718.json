@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-22 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "茨城県",
+    "shopId": 12098,
+    "shopName": "Duel Stade Ganryu　ひたち野うしく店",
+    "zipCode": 3001207,
+    "address": "茨城県牛久市ひたち野東5-5-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0078240090",
+      "name": "そでやまる",
+      "rank": 1,
+      "point": 100,
+      "area": "茨城県",
+      "deck_id": "bVV5Fw-PkvMog-vbk5kf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061177248",
+      "name": "ぜつれい",
+      "rank": 2,
+      "point": 75,
+      "area": "茨城県",
+      "deck_id": "ngnnNP-MNFFVc-ngQ9Lg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054321375",
+      "name": "かわもん",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "c88G8D-XhF6WN-x8G8cJ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027784143",
+      "name": "ダン",
+      "rank": 3,
+      "point": 50,
+      "area": "茨城県",
+      "deck_id": "xJGc4J-JvLFxy-c8JKcD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054640694",
+      "name": "やんp",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "XyXSyS-I8iq7S-UyMpyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076368921",
+      "name": "まーちん",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "ggnNnL-rVDCbo-N9PLLi"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000104803",
+      "name": "大月",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "XMXRMy-lIXd54-ypySpp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073874379",
+      "name": "ふくろう",
+      "rank": 5,
+      "point": 25,
+      "area": "茨城県",
+      "deck_id": "FkVvkw-ittEob-5bffFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000697439",
+      "name": "ハヤシ",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "nHnN9g-9Y56by-nLN6nP"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003218947",
+      "name": "Na2Me",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "1VFkFv-QkZgrP-ffkVbv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0008455989",
+      "name": "ハンプニーハンバート",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "XyMyyR-poZlua-pMSRyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009776504",
+      "name": "TT",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "9ggHNn-DgPu08-gnnNnQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032590885",
+      "name": "ミツパパ",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "3M2py2-ZVWoXu-RyXyXM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080801210",
+      "name": "たくみ",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "yyyRpp-ENdpSq-yXMXXS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030052022",
+      "name": "koki",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "bfkVV5-b3qDhG-kFf5kb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030790896",
+      "name": "たな",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "MySyXp-D1f62W-SyyRRM"
+    }
+  ],
+  "total": 16
+}

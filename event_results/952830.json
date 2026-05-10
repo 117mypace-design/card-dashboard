@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-26 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "東京都",
+    "shopId": 18174,
+    "shopName": "BOOKOFF SUPER BAZAAR 立川駅北口店",
+    "zipCode": 1900012,
+    "address": "東京都立川市曙町２-7-17　5F",
+    "venue": "応募多数の場合は抽選となることがあります。",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0037080727",
+      "name": "くう",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "9ggHn6-iSYr2M-NLggn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072837614",
+      "name": "まつむー",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "nnn99N-37LQGh-HgQgQn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067503258",
+      "name": "グラタン",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "kkvF55-Fz3OCw-v5kFkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043042902",
+      "name": "あむろ",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "YJ8c8G-6HvdBM-8x84xc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0042328829",
+      "name": "なべし",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "cKGccc-XQdrJE-8G84cY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007495634",
+      "name": "きゅーび",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "4xxcxG-1eUXRB-c88YJG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0042544852",
+      "name": "ひらまさ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "4Gxc8G-WHEraY-YcDYx8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013325295",
+      "name": "テト",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "4cD8Gc-dho3OS-K88Gcc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086302986",
+      "name": "受けループコータ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "nQngQL-i4MjHm-9Hn6Hg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0046255068",
+      "name": "れい",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "5Fbkwk-O2zKbw-bVFkFF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061182682",
+      "name": "どんちゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "Yc48cc-XlHqku-8x4GcY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003790346",
+      "name": "NEAR",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "yyR23M-mtJy6r-Ry2p2S"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067760264",
+      "name": "チャチャ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "8JY888-PVzTmJ-GYc8Y4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032130313",
+      "name": "こけ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "yRp3pp-emuVZu-Ryyy2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031936394",
+      "name": "ひっとネコ",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "9PHgnL-3SU0IK-nNngNQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036116670",
+      "name": "りんぐま",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "8cc48a-dxn1T6-GKDG8c"
+    }
+  ],
+  "total": 16
+}

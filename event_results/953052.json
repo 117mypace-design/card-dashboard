@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "愛媛県",
+    "shopId": 19154,
+    "shopName": "カードゲームショップ　オレタン松山店",
+    "zipCode": 7900012,
+    "address": "愛媛県松山市湊町4丁目10番地8　BE-FLATビル 5階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0065308495",
+      "name": "隻眼の梟(セキガンノフクロウ)",
+      "rank": 1,
+      "point": 100,
+      "area": "愛媛県",
+      "deck_id": "xxGK8a-cRJOHi-cx84Gc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009896327",
+      "name": "ちょこ",
+      "rank": 2,
+      "point": 75,
+      "area": "愛媛県",
+      "deck_id": "vFFFkd-kchtoy-wVFbk5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073989107",
+      "name": "くろろん",
+      "rank": 3,
+      "point": 50,
+      "area": "愛媛県",
+      "deck_id": "yRpEMM-GSvWu6-pyXU2X"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031741196",
+      "name": "じゅん",
+      "rank": 3,
+      "point": 50,
+      "area": "愛媛県",
+      "deck_id": "GcxGx4-3cTKAU-8xaDY4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035788023",
+      "name": "ラウル",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "y3Rppy-HI1Qjt-22MpRX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054114432",
+      "name": "カニカマ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "g99HNn-90bdgy-inL6gL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007214509",
+      "name": "セイータ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "pRSXMS-1PMEvq-yp32Mp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001643206",
+      "name": "かりんと",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "kVVVkF-Sf2tq4-b51kkv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068862808",
+      "name": "ＺＹＸ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "bwk5V5-8tb7Oy-wFFd51"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031993487",
+      "name": "きんぐぅ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "nnL9HP-G1diOU-ngPiNL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0005275919",
+      "name": "ハヤタ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "F5VV1V-TLSNPc-Fkbwf5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0032399219",
+      "name": "りょう",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "YDcxa8-OzSCPS-G8x4xc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0049347546",
+      "name": "キュウ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "FVFbdw-uWab9C-VkV5k1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013924054",
+      "name": "カジ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "S2yRp3-3pTqXE-yMppM2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076910407",
+      "name": "PSA2",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "yyy2ER-anIA3e-2yyMpM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0080745464",
+      "name": "ニブイチ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "c84c8G-RDUYBw-4a8x8c"
+    }
+  ],
+  "total": 16
+}

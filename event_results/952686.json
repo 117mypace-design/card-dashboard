@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "秋田県",
+    "shopId": 19825,
+    "shopName": "トーナメントセンターバトロコ秋田駅前店",
+    "zipCode": 100874,
+    "address": "秋田県秋田市千秋久保田町4-2",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0011749822",
+      "name": "ユリカ",
+      "rank": 1,
+      "point": 100,
+      "area": "秋田県",
+      "deck_id": "8a8xc4-9faNud-4D8DGc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052453751",
+      "name": "とうま",
+      "rank": 2,
+      "point": 75,
+      "area": "秋田県",
+      "deck_id": "c8a4cD-hiN8Sb-4DGcY4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019684390",
+      "name": "taka",
+      "rank": 3,
+      "point": 50,
+      "area": "秋田県",
+      "deck_id": "gging9-49Jor5-ngHgnQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075335508",
+      "name": "こだけん",
+      "rank": 3,
+      "point": 50,
+      "area": "秋田県",
+      "deck_id": "Xy2Ryp-RSZz5P-SRp2yy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0090830875",
+      "name": "とも",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "X3Mpyy-auhQte-SMXERS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095901015",
+      "name": "みたらし",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "9n9gNH-rSjHSj-gHngnQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085182767",
+      "name": "向日葵",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "bFk5k5-HDDxfW-fF51f5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092840889",
+      "name": "八巻",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "4Gc4cc-pNDhoD-xcx88D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044795188",
+      "name": "きりん",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "cc8x8x-dgeDYJ-cG4c4G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028032140",
+      "name": "わんぱ",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "yp2yRp-j7560T-2y2pUS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0082436340",
+      "name": "umasuke",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "F5vkfk-Tvcl4Q-bFFkFw"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0045524336",
+      "name": "なおくん",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "HQPLng-Opl7Q0-gLL9gP"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099885032",
+      "name": "ポケモンV",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "dVF55F-nLXN2X-bFv5kF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0084467683",
+      "name": "しんご",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "1FF5Vv-b867Rg-v1wbFk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0090143502",
+      "name": "あき",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "G4D88c-63Hlaf-Gcxc48"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068591076",
+      "name": "まに",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "ERMypS-zR2PBe-pMpMp2"
+    }
+  ],
+  "total": 16
+}

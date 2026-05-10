@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛知県",
+    "shopId": 12182,
+    "shopName": "王の洞窟jr.　一宮２２号バイパス店",
+    "zipCode": 4910028,
+    "address": "愛知県一宮市朝日3丁目5-4",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0011283296",
+      "name": "おうる",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "RpXU2y-hIhtwv-My2Myp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055398088",
+      "name": "ショウ",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "ffFdVf-bffwkw-fvkkbF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0026621625",
+      "name": "アンク",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "p3SRy2-vSAhvp-X2MyMp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036244919",
+      "name": "SP",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "EpMpyR-uTv94x-XRy2pM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005223125",
+      "name": "コジマ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "kf5vbv-36hoaO-VFkFFv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068031042",
+      "name": "レバブル",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "FFfvfV-nQGtbq-Fbd5kF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026523143",
+      "name": "ゴマ",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "n69nNg-8u5P5m-QQLHLn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079937522",
+      "name": "じんた",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "8xGKxc-FoBQ1b-48DG8x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044855826",
+      "name": "へろ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "MpyRXM-0bbipJ-XpEpSM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075841375",
+      "name": "Ziro",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "wd5bVV-4bo75J-kfvFkV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087453041",
+      "name": "ショウタ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "vbVfVk-I2DzSr-kFV15k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0016810006",
+      "name": "セン",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "yXMRp2-rK8AKR-SSpppM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0097990756",
+      "name": "ぺこ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "JDcxcc-9wYyqE-x84Ga4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061801310",
+      "name": "うどん",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "gLQgNg-VWeWcj-gnN9iQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002706364",
+      "name": "ゆうびんや〒",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "gLQ9QQ-10eNeM-NgLHng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099723549",
+      "name": "アディーくん",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "DcDx88-uHI3h4-xxGYKJ"
+    }
+  ],
+  "total": 16
+}

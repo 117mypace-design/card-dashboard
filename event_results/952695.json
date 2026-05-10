@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-25 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "山形県",
+    "shopId": 19798,
+    "shopName": "ブックオフイオン山形北店",
+    "zipCode": 9900810,
+    "address": "山形県山形市馬見ヶ崎2丁目12-19",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0044728904",
+      "name": "まりももん",
+      "rank": 1,
+      "point": 100,
+      "area": "宮城県",
+      "deck_id": "g99gLL-1FkcTJ-QnHHnQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0096923818",
+      "name": "テツマル",
+      "rank": 2,
+      "point": 75,
+      "area": "山形県",
+      "deck_id": "55kbvF-tha3ND-kfkVkv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0002392545",
+      "name": "kuro",
+      "rank": 3,
+      "point": 50,
+      "area": "新潟県",
+      "deck_id": "nniQHg-Xvz3gp-Hg6N9H"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004160517",
+      "name": "しお",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "VkVbfV-lP0Dt0-FvFk5F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069744493",
+      "name": "HAL",
+      "rank": 5,
+      "point": 25,
+      "area": "山形県",
+      "deck_id": "SSyX2R-T20zpM-pXUyyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076826515",
+      "name": "ゆうり",
+      "rank": 5,
+      "point": 25,
+      "area": "山形県",
+      "deck_id": "2XRyyy-6aQynA-Upyp2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076196582",
+      "name": "Ryo",
+      "rank": 5,
+      "point": 25,
+      "area": "山形県",
+      "deck_id": "kF5FkV-Uy8Aqy-5fb1b1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063569762",
+      "name": "コウ",
+      "rank": 5,
+      "point": 25,
+      "area": "宮城県",
+      "deck_id": "yp22yR-1dd5iJ-ypyRyX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071054625",
+      "name": "ようせん",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "84G88K-q0CvbD-x4ccx8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0040621418",
+      "name": "りょー",
+      "rank": 9,
+      "point": 15,
+      "area": "秋田県",
+      "deck_id": "5kVk11-YyASDg-bkF5kF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073624114",
+      "name": "Vo.",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "NLL96L-8G0j68-nnH9ng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031239569",
+      "name": "Yamashi",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "NnNnHg-nq6HQe-9PHnnn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044099668",
+      "name": "ニコル",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "4cc88Y-tY2Ege-YGcGJ8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067119453",
+      "name": "カンタク",
+      "rank": 9,
+      "point": 15,
+      "area": "山形県",
+      "deck_id": "1FV51k-plx3k6-k5Vb5F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094527546",
+      "name": "タカト",
+      "rank": 9,
+      "point": 15,
+      "area": "山形県",
+      "deck_id": "G8ax88-3muDvZ-JcY484"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043399558",
+      "name": "つくも",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "kbkFVV-aPb1V7-5k5fF5"
+    }
+  ],
+  "total": 16
+}

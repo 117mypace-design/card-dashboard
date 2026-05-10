@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45845",
+    "name": "カミッチュ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46670",
+    "name": "カミッチュ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48778",
+    "name": "カジッチュ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45702",
+    "name": "カジッチュ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45699",
+    "name": "サルノリ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45700",
+    "name": "バチンキー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45701",
+    "name": "ゴリランダー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45717",
+    "name": "トサキント",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46690",
+    "name": "アズマオウ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46849",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47331",
+    "name": "ヒビキのピチュー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48534",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49383",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49376",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47353",
+    "name": "ポケモンいれかえ",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49407",
+    "name": "マキシマムベルト(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "50039",
+    "name": "ブレイブバングル",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45871",
+    "name": "スグリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46603",
+    "name": "からておうの稽古",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46841",
+    "name": "お祭り会場",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47903",
+    "name": "基本草エネルギー",
+    "count": 6
+  }
+]

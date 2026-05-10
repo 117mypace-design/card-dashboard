@@ -1,0 +1,128 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49653",
+    "name": "ヒトデマン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50078",
+    "name": "メガスターミーex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49960",
+    "name": "ユキワラシ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49993",
+    "name": "メガユキメノコex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45846",
+    "name": "ユキメノコ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49956",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50081",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45849",
+    "name": "マシマシラ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "39572",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44861",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45875",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48469",
+    "name": "メガシグナル",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "43305",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47148",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48085",
+    "name": "トウコ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48448",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47858",
+    "name": "なみのりビーチ",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "34560",
+    "name": "基本水エネルギー",
+    "count": 5
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48314",
+    "name": "基本悪エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47220",
+    "name": "レガシーエネルギー",
+    "count": 1
+  }
+]

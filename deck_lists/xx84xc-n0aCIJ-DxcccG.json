@@ -1,0 +1,110 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48625",
+    "name": "ロケット団のドンカラス",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48624",
+    "name": "ロケット団のヤミカラス",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47475",
+    "name": "ロケット団のポリゴン2",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47474",
+    "name": "ロケット団のポリゴン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47415",
+    "name": "ロケット団のフリーザー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49601",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48682",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45799",
+    "name": "ロトりぼう",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47496",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45279",
+    "name": "プライムキャッチャー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47527",
+    "name": "ロケット団のランス",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47526",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47532",
+    "name": "ロケット団のアテナ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47524",
+    "name": "ロケット団のアポロ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47533",
+    "name": "ロケット団のサカキ",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48712",
+    "name": "ロケット団のファクトリー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48715",
+    "name": "ロケット団エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48713",
+    "name": "イグニッションエネルギー",
+    "count": 4
+  }
+]

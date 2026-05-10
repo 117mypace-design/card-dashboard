@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "千葉県",
+    "shopId": 18438,
+    "shopName": "BOOKOFF SUPER BAZAAR ショップス市川店",
+    "zipCode": 2720015,
+    "address": "千葉県市川市鬼高3-28-16　ショップス2階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0045404197",
+      "name": "みなの",
+      "rank": 1,
+      "point": 100,
+      "area": "千葉県",
+      "deck_id": "2SppRy-vh94Xw-Xyp2X2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080387310",
+      "name": "とんとろん",
+      "rank": 2,
+      "point": 75,
+      "area": "千葉県",
+      "deck_id": "8DDx48-xH6jjD-ccGY8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101501974",
+      "name": "mugi",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "d5kfFw-YxcSWX-Fbk5Fk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003347119",
+      "name": "イシダリョウ",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "fVfFFF-qOEa1M-55dkkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0066977757",
+      "name": "さとめろ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "ppyEpR-ElAWIh-pXppSM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0039810944",
+      "name": "ありぃ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "6HH6ng-JPvHDk-9HggQg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043412510",
+      "name": "カネチチ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "44GDc8-ADqmwD-cx4D48"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036311419",
+      "name": "sakup",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "M22XRy-EgiQoQ-yyM2pp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044988722",
+      "name": "こてがわ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "ERy2py-8Jei40-Mp2pyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0096056556",
+      "name": "ユココ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "5vfF5k-QCZw5r-kfbfkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089089846",
+      "name": "player2",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "FFvkkF-6tcUwY-b51Vk5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076720495",
+      "name": "スマイル",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "kfwF5b-WZSC5w-kfFF5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061379949",
+      "name": "もん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "nQ6nn9-6Ky7kQ-igLHgH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065611559",
+      "name": "ウエビー",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "c8x88c-01zqTg-84cG4Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003535039",
+      "name": "さわ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "ggQNLn-nzoXAa-9HHHNn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035998015",
+      "name": "とーたん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "HgPn9Q-REN8Sr-gg6nng"
+    }
+  ],
+  "total": 16
+}

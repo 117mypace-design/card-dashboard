@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-07 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "千葉県",
+    "shopId": 10553,
+    "shopName": "トーナメントセンターバトロコ　柏駅前",
+    "zipCode": 2770005,
+    "address": "千葉県柏市柏1-2-31 新星堂カルチェ4階",
+    "venue": "277-0005\n\n千葉県\n柏市柏1-2-31 新星堂カルチェ4階",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0002296650",
+      "name": "クリーム玄米ブラン",
+      "rank": 1,
+      "point": 100,
+      "area": "千葉県",
+      "deck_id": "Up2yEy-ZWxyVw-MRpMpS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003284018",
+      "name": "マートン",
+      "rank": 2,
+      "point": 75,
+      "area": "茨城県",
+      "deck_id": "4GcxJY-2mM3Rk-G8cc4D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0047598575",
+      "name": "やーん",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "yyRpEp-72CTnI-ypyS2R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055922058",
+      "name": "ウミネコ",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "V5Fkb5-2hSuol-Fb5kFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006161363",
+      "name": "Horo",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "gHg9gg-fVcSpj-iH9nin"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061007857",
+      "name": "ワド",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "ggngLH-NOAqMr-ggnP99"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0090434561",
+      "name": "将軍",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "8x4c44-TloDIw-cGccJa"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0066012230",
+      "name": "サダ太郎",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "RMXpX2-yDQqi4-Ryyyyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079092322",
+      "name": "genm",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "gngLP9-0MTc5L-iQggNH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0031678858",
+      "name": "Shima",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "9Ln9HQ-e11eH7-ggni6P"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0076099540",
+      "name": "無人くん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "SyXpyM-AQGmgQ-3yRXEX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0080467937",
+      "name": "やえざきぼたん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "Y44ccc-vIKJuj-JcGxa8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074430301",
+      "name": "モーディギ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "Pg9QQ9-T9gowq-6nHggn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099052296",
+      "name": "ネクストステップ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "c4GxcD-ynCOCm-c8Jc4c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004154093",
+      "name": "ヤマト",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "kkfbFF-U5VvM4-55bvwf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063323962",
+      "name": "空白",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "FbdFkF-QhWjUr-fv5kF5"
+    }
+  ],
+  "total": 16
+}

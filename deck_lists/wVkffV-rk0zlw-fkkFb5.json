@@ -1,0 +1,122 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "50085",
+    "name": "ビードル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50086",
+    "name": "コクーン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50087",
+    "name": "スピアーex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49475",
+    "name": "ミニーブ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49476",
+    "name": "オリーニョ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47515",
+    "name": "オリーヴァex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49290",
+    "name": "ノコッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46945",
+    "name": "ノココッチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50081",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45875",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46959",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50070",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44861",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46660",
+    "name": "夜のタンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48448",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48521",
+    "name": "ヒカリ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "50028",
+    "name": "ボスの指令",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50076",
+    "name": "活力の森",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "32362",
+    "name": "基本草エネルギー",
+    "count": 5
+  }
+]

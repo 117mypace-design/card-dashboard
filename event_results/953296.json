@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-02 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛知県",
+    "shopId": 14746,
+    "shopName": "BOOKOFF SUPER BAZAAR 248号西友岡崎店",
+    "zipCode": 4440840,
+    "address": "愛知県岡崎市戸崎町越舞2-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0004207463",
+      "name": "たつまき",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "gPi9HQ-TWZP1Q-g9nnng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010164563",
+      "name": "べりー",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "KY4G4x-6wja8u-c8cxcY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036410419",
+      "name": "フトゥー",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "ggHgL9-CBAfTy-ngngQn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0097257730",
+      "name": "エイシン",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "R32yRp-qkbaML-MMpRSX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0024893376",
+      "name": "サクヤ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "n9nNi6-AYVu6c-HnnnHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101045292",
+      "name": "まさお",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "kVFbFk-DDLKnd-vdF1FF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003782594",
+      "name": "やまたか",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "SppRpy-XuVY22-X2ypSR"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0039539212",
+      "name": "ぼ〜く〜",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "nHHgQ9-XNxePN-LNggn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037307235",
+      "name": "ネコまる",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "xY8Dcc-V1ip6T-4xcDG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028401410",
+      "name": "風",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "vk5VfF-TeOXiN-bVF1kV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013391669",
+      "name": "yuki",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "kbFvkF-FzWiDC-kVvFFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002369291",
+      "name": "うるひの",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "8c8cGY-OLiqBt-cccGGY"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087573695",
+      "name": "ゆーみん",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "kFkFkV-1na609-kFkvFb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039752242",
+      "name": "アイス",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "8cccG4-Cbq5Xv-YDYxx4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0008176529",
+      "name": "わんまる",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "cc8YKc-lPy1x5-4GYJ84"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036854961",
+      "name": "こやすけ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "Hg6nLn-OPjADi-ggPnQ9"
+    }
+  ],
+  "total": 16
+}

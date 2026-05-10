@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-18 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "埼玉県",
+    "shopId": 13186,
+    "shopName": "トレカショップKCC",
+    "zipCode": 3440067,
+    "address": "埼玉県春日部市中央1丁目9番地4号 高元ビル3階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0080554833",
+      "name": "リソラ",
+      "rank": 1,
+      "point": 100,
+      "area": "埼玉県",
+      "deck_id": "c4G48a-Z04Hpl-84xc8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011347523",
+      "name": "タケ",
+      "rank": 2,
+      "point": 75,
+      "area": "埼玉県",
+      "deck_id": "gLLgin-ejXAO9-9LHggn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043733628",
+      "name": "ゆーこ",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "RUyUUp-Hdi1AQ-py2MpM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010064584",
+      "name": "あつし",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "8cca8G-F4Rr1t-c8c84x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0076618491",
+      "name": "ジョナサン",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "E2MRXE-bG5qW7-pyEUpM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084471532",
+      "name": "こずえ",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "xGac4c-QiEVqY-4c48cx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026906171",
+      "name": "KUMAFAI",
+      "rank": 5,
+      "point": 25,
+      "area": "埼玉県",
+      "deck_id": "DD4c84-7XiikY-JcaxGc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014463008",
+      "name": "ゴリラTV",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "4a8GYY-GnDuBO-cxcDac"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0022650016",
+      "name": "とこてん",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "DG84Jx-ud01bP-8DYY4c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044922696",
+      "name": "サスケ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "kFVbk5-6MoQC6-FF5dVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075873763",
+      "name": "ハヤト",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "EyMUp2-6qckJ0-ypMpRp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037994260",
+      "name": "はる達のパパ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "FvFkVv-tNcDbr-dbFw5V"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058053337",
+      "name": "enem",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "PNLgN9-z4XE2y-HgnNni"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030810518",
+      "name": "クロエモン",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "8axcac-NVNmcB-4DD4Gc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072001471",
+      "name": "なかじ",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "8Dxc4G-A46Oc9-axaac4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037552901",
+      "name": "どくどく",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "Gx4K4G-H4PIIi-8xxJcK"
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,111 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "山梨県",
+    "shopId": 18931,
+    "shopName": "ブックオフプラス　田富昭和通り店",
+    "zipCode": 4093845,
+    "address": "山梨県中央市山之神 3356-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0078474156",
+      "name": "わっしー",
+      "rank": 1,
+      "point": 100,
+      "area": "長野県",
+      "deck_id": "M22pUy-j3w18L-pXyRpM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026627957",
+      "name": "ブイ推しアニキ",
+      "rank": 2,
+      "point": 75,
+      "area": "山梨県",
+      "deck_id": "N9nNLg-w3Vn36-NgHnNn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054326460",
+      "name": "ぴらっつぁ",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "5VbkFF-aKrUYY-kFf1Vd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074034930",
+      "name": "セブン@",
+      "rank": 3,
+      "point": 50,
+      "area": "山梨県",
+      "deck_id": "nnLgHQ-9T20yr-9HNHNn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0084923624",
+      "name": "みので",
+      "rank": 5,
+      "point": 25,
+      "area": "長野県",
+      "deck_id": "gNHLg9-NTwy6z-HnHgin"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0092609781",
+      "name": "キングドラ",
+      "rank": 5,
+      "point": 25,
+      "area": "山梨県",
+      "deck_id": "VbfkVF-RSOmoU-5FVffk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028614203",
+      "name": "アズ",
+      "rank": 5,
+      "point": 25,
+      "area": "山梨県",
+      "deck_id": "D4xccY-rCwEz0-8c4cDG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002428950",
+      "name": "かずモーグリ",
+      "rank": 5,
+      "point": 25,
+      "area": "山梨県",
+      "deck_id": "VffvVf-WQmIBF-vbkFdb"
+    }
+  ],
+  "total": 8
+}

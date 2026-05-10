@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "千葉県",
+    "shopId": 14753,
+    "shopName": "ブックオフスーパーバザー ららぽーとTOKYO-BAY North Gate店",
+    "zipCode": 2730012,
+    "address": "千葉県船橋市浜町2-2-7ららぽーと TOKYO-BAY North Gate3F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0000026323",
+      "name": "ろむぴー",
+      "rank": 1,
+      "point": 100,
+      "area": "東京都",
+      "deck_id": "8ccxKc-XDDZWX-xcG4KJ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0009218628",
+      "name": "のっこ",
+      "rank": 2,
+      "point": 75,
+      "area": "千葉県",
+      "deck_id": "f51bkb-8qy0aP-5FVFfk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0066673266",
+      "name": "ゆどうふ",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "c4xKDc-Rt4jHE-xGxJ8D"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071097004",
+      "name": "セージ",
+      "rank": 3,
+      "point": 50,
+      "area": "埼玉県",
+      "deck_id": "yp3pUy-V4jnY8-RpyM2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036321780",
+      "name": "みっころ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "ngNL9i-IrQTyZ-Lggg9H"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064488291",
+      "name": "タングルド",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "kbwffV-hdNdpc-F5VkFk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087544086",
+      "name": "ドアラ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "LHgnni-wzTmNC-9NHQNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068790055",
+      "name": "てびら",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "gnHQHH-MbGaoX-Hig9Ln"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0088887122",
+      "name": "ルカルカ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "L9HPNg-Vj1w7V-nLLiHn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0021387326",
+      "name": "ななすず",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "G4acx4-R00tIh-xGx4x8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073687731",
+      "name": "たくむ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "4K4xcx-YxRq3y-J8cG4x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005323160",
+      "name": "ルコ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "YYcJ44-EEHBBU-D8cGx8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012552780",
+      "name": "アンズィー",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "USpSR2-KOucCN-3RpMyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000356329",
+      "name": "螺旋",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "Fb5Vv1-CKlooA-dbkVFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026782533",
+      "name": "おさかな",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "vbF1F5-JcgPFC-5wkkVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005464830",
+      "name": "めかだん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "5b5kk5-MIZ2pG-VFV1Vd"
+    }
+  ],
+  "total": 16
+}

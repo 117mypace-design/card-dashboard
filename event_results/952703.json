@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "岩手県",
+    "shopId": 19776,
+    "shopName": "トーナメントセンターバトロコ　盛岡大通",
+    "zipCode": 200022,
+    "address": "岩手県盛岡市大通3丁目1-24　第3菱和ビル3F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0044206635",
+      "name": "ギルティー",
+      "rank": 1,
+      "point": 100,
+      "area": "岩手県",
+      "deck_id": "RySSpX-u1QemJ-pppMpM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0081921607",
+      "name": "ゆーふぉー",
+      "rank": 2,
+      "point": 75,
+      "area": "青森県",
+      "deck_id": "8x48Yx-kUl9m2-xccGxY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036639849",
+      "name": "♨",
+      "rank": 3,
+      "point": 50,
+      "area": "岩手県",
+      "deck_id": "kFbfFF-U9cL0o-FkkkVv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071692038",
+      "name": "ぽりごん通",
+      "rank": 3,
+      "point": 50,
+      "area": "岩手県",
+      "deck_id": "Yc8cxG-Cz3ENZ-Dc8Y8Y"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085355051",
+      "name": "やま",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "8Y4x8Y-1AH2IO-48cc8G"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075471273",
+      "name": "おのしろ",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "RyyMpy-nlOhFE-SMyXpp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0016960787",
+      "name": "フルスタ",
+      "rank": 5,
+      "point": 25,
+      "area": "岩手県",
+      "deck_id": "Dc88JK-qvN6KF-Y888Gc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0060651176",
+      "name": "おもりん",
+      "rank": 5,
+      "point": 25,
+      "area": "秋田県",
+      "deck_id": "V5VF5F-9vM2Zw-5bVvkk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0016960899",
+      "name": "たぬきそば",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "Dc88JK-qvN6KF-Y888Gc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069981373",
+      "name": "メガおのし",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "8Gc8c4-Cl1hpL-GJY8cJ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0030517163",
+      "name": "Toto",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "VfV1v5-8FKjWQ-FbkFFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037818940",
+      "name": "るる☆",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "ngN9gQ-9VfOT5-iHnigg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0040330651",
+      "name": "nanasi",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "88YDcc-lNAL7z-c84Y8G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054087576",
+      "name": "クウ",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "nng9QL-Py1bMj-NnPggn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0029718153",
+      "name": "うー",
+      "rank": 9,
+      "point": 15,
+      "area": "岩手県",
+      "deck_id": "9PNgQH-nvT9Ww-gnNgnQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036474059",
+      "name": "あな",
+      "rank": 9,
+      "point": 15,
+      "area": "青森県",
+      "deck_id": "4x8YKG-xxceJE-8D8ccc"
+    }
+  ],
+  "total": 16
+}

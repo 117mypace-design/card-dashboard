@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-26 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 13:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 20:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "長崎県",
+    "shopId": 18186,
+    "shopName": "BOOKOFFSUPERBAZAARアクロスプラザ佐世保店",
+    "zipCode": 8570832,
+    "address": "長崎県佐世保市藤原町20-7　2F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0066100788",
+      "name": "さえか",
+      "rank": 1,
+      "point": 100,
+      "area": "長崎県",
+      "deck_id": "pyp2RM-yH6jpv-p2Rpyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099531793",
+      "name": "もっち",
+      "rank": 2,
+      "point": 75,
+      "area": "長崎県",
+      "deck_id": "FkfFVF-rFQaxg-F5kbvb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0052968763",
+      "name": "やまと",
+      "rank": 3,
+      "point": 50,
+      "area": "長崎県",
+      "deck_id": "n9n9in-aFAnxh-gnQgH9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054147528",
+      "name": "アカドラ",
+      "rank": 3,
+      "point": 50,
+      "area": "長崎県",
+      "deck_id": "kbvFkk-wRC6nF-5vkFkf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0047125605",
+      "name": "もぴ。",
+      "rank": 5,
+      "point": 25,
+      "area": "長崎県",
+      "deck_id": "9NgQHn-bTU34b-Q6QHnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081855366",
+      "name": "ヒョンノリ",
+      "rank": 5,
+      "point": 25,
+      "area": "長崎県",
+      "deck_id": "D84c88-tr2POr-4YDG4K"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065894125",
+      "name": "ヒロ",
+      "rank": 5,
+      "point": 25,
+      "area": "佐賀県",
+      "deck_id": "gNnnP9-5t3cLq-HLLQQn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036468197",
+      "name": "sins",
+      "rank": 5,
+      "point": 25,
+      "area": "佐賀県",
+      "deck_id": "acxacD-X36yA7-K8Y84G"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041931705",
+      "name": "ぽっぽ",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "888G48-BCv8qz-JGKccc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083620896",
+      "name": "せぶ",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "ngnHQL-gtqTXY-6n9NHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068398420",
+      "name": "すずけん",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "giLNHn-Pi1jS8-H99nQn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039970277",
+      "name": "リョータ",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "gQnNQ9-6q5irn-nnHg9g"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0073032645",
+      "name": "オッチョ",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "kFfvwb-HCNH4q-wvFk55"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0093830407",
+      "name": "ユウスイ",
+      "rank": 9,
+      "point": 15,
+      "area": "佐賀県",
+      "deck_id": "2RSRM3-09xxOz-pMpyy2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064833554",
+      "name": "黒白",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "MypRyR-bm3o3F-22pR2y"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0038738830",
+      "name": "ひょー",
+      "rank": 9,
+      "point": 15,
+      "area": "長崎県",
+      "deck_id": "pEySyp-wyXAWz-2yRR3p"
+    }
+  ],
+  "total": 16
+}

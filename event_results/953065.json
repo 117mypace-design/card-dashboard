@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-26 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "岡山県",
+    "shopId": 18400,
+    "shopName": "BOOKOFF 250号東岡山店",
+    "zipCode": 7038225,
+    "address": "岡山県岡山市中区神下136-2",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0091279985",
+      "name": "ソッシー",
+      "rank": 1,
+      "point": 100,
+      "area": "岡山県",
+      "deck_id": "G4ac8c-4bQydv-44c888"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039246307",
+      "name": "きんちゃん",
+      "rank": 2,
+      "point": 75,
+      "area": "岡山県",
+      "deck_id": "ySy2Xy-QgbOyZ-yyyXRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070264515",
+      "name": "もみじ",
+      "rank": 3,
+      "point": 50,
+      "area": "岡山県",
+      "deck_id": "JGcJ48-AoL0xn-c48GcG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0069778153",
+      "name": "やす",
+      "rank": 3,
+      "point": 50,
+      "area": "岡山県",
+      "deck_id": "wFFbkv-KuU6yE-5bVkvb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054551448",
+      "name": "ハタケ",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "HHLnHL-yOClYI-QinNg9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082751766",
+      "name": "ボーイング",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "2XpyR3-4MjSpF-yySSMp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0012373590",
+      "name": "あきと",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "FvFbkv-toXJIn-k5bvbd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036307582",
+      "name": "ルリノオー",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "M2RyRp-543lBg-p2ESSy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0098986291",
+      "name": "ロズ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "4G44YJ-kctC4Z-Y8x8Dc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077856979",
+      "name": "ドロス",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "wkbfb5-57C5hP-kkFvFf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0088223496",
+      "name": "まぐち",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "kFbkFk-TTO1aT-fvf5v5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0062078474",
+      "name": "とろ玉",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "pp2XR2-ISPQoc-pyyyUS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005201503",
+      "name": "とと",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "cY8xGY-n22MEQ-8Kx848"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038582983",
+      "name": "ヨッシー",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "Ln9ngN-N2ZxrV-HQQNLP"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087866139",
+      "name": "よよぱぱ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "XypRyM-Xmgpeo-2S2yM2"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061114878",
+      "name": "ぴーたー",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "nng96n-Y1XwkE-LngHnQ"
+    }
+  ],
+  "total": 16
+}

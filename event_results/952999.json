@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "三重県",
+    "shopId": 18209,
+    "shopName": "BOOKOFF SUPERBAZAAR 1号四日市日永店",
+    "zipCode": 5100885,
+    "address": "三重県四日市市日永3丁目1-4",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0001897016",
+      "name": "くんくん",
+      "rank": 1,
+      "point": 100,
+      "area": "三重県",
+      "deck_id": "5kkkFb-ubOQW1-FVvf1F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087235476",
+      "name": "ふぇるーる",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "UXySyS-ywJgeC-yRMSpE"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062703536",
+      "name": "ざきーりょ",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "48Yacx-0L5SoP-xcc8DG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069257111",
+      "name": "あや",
+      "rank": 3,
+      "point": 50,
+      "area": "三重県",
+      "deck_id": "ngHNQg-YElLfm-9ggggQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037478740",
+      "name": "プレミおじさん",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "5FvbFV-LStvvQ-V5d1k1"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0094319376",
+      "name": "イカくん",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "9HNn9n-GAyZcU-ggnnQn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082630829",
+      "name": "きのこ",
+      "rank": 5,
+      "point": 25,
+      "area": "三重県",
+      "deck_id": "M3E2p2-Cg1QNA-Rp2Myp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099163200",
+      "name": "まーしん",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "vbFFdF-GzhKgB-1k5FVf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083725432",
+      "name": "べい",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "gngLHn-5Y81ww-gHnN96"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083942567",
+      "name": "スメシ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "XpS2py-DNZRDC-ppypRX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057425878",
+      "name": "ぷぅ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "4YccG8-xpEA1O-4cGJ8Y"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014466685",
+      "name": "ミートン",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "bfk55F-0RNbqY-FFvVkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065525115",
+      "name": "ベイカ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "FkFVVb-8hacKS-5FdVfb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079870562",
+      "name": "よっち",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "HHnLni-mzDhuT-gHgn9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054969665",
+      "name": "たん",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "pSXRMy-LMPIuz-2XpUSy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006042260",
+      "name": "なごみ",
+      "rank": 9,
+      "point": 15,
+      "area": "三重県",
+      "deck_id": "8G84Kc-bAQQj1-cx8844"
+    }
+  ],
+  "total": 16
+}

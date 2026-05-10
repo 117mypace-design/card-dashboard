@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "50085",
+    "name": "ビードル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50086",
+    "name": "コクーン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50087",
+    "name": "スピアーex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49290",
+    "name": "ノコッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46791",
+    "name": "ノココッチ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48785",
+    "name": "ミニーブ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47404",
+    "name": "オリーニョ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48787",
+    "name": "オリーヴァex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49205",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49973",
+    "name": "スピンロトム",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49956",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48679",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36858",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50069",
+    "name": "せいなるはい",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "41126",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "48697",
+    "name": "リーリエの決心",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "40139",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45681",
+    "name": "ゴヨウ",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "50076",
+    "name": "活力の森",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "44959",
+    "name": "基本草エネルギー",
+    "count": 5
+  }
+]

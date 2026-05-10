@@ -1,0 +1,116 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46011",
+    "name": "ジュラルドン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46266",
+    "name": "ブリジュラスex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47779",
+    "name": "メガクチートex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46740",
+    "name": "ジーランス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42741",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "41334",
+    "name": "ポケギア3.0",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46812",
+    "name": "夜のタンカ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46599",
+    "name": "からておうの稽古",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "38821",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "45788",
+    "name": "ゼイユ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "45213",
+    "name": "探検家の先導",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "45937",
+    "name": "クセロシキのたくらみ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45287",
+    "name": "フルメタルラボ",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42786",
+    "name": "基本鋼エネルギー",
+    "count": 12
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45792",
+    "name": "レガシーエネルギー",
+    "count": 1
+  }
+]

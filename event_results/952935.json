@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-04 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福井県",
+    "shopId": 11393,
+    "shopName": "【CARDBOX】Super KaBoS 二の宮本店",
+    "zipCode": 9100015,
+    "address": "福井県福井市二の宮5丁目18-8",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0040805210",
+      "name": "マノ",
+      "rank": 1,
+      "point": 100,
+      "area": "富山県",
+      "deck_id": "pSRpXy-iXON7A-2Mp2Xy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0084941141",
+      "name": "かさとし",
+      "rank": 2,
+      "point": 75,
+      "area": "富山県",
+      "deck_id": "kkfFFb-PjYDFu-vffk5v"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075398608",
+      "name": "ようろう",
+      "rank": 3,
+      "point": 50,
+      "area": "福井県",
+      "deck_id": "n9iPng-LCEwet-ng6LQn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0069277393",
+      "name": "りゅうじろう",
+      "rank": 3,
+      "point": 50,
+      "area": "石川県",
+      "deck_id": "fFkkFd-UFDd0p-kvfkbk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0060027364",
+      "name": "tsune",
+      "rank": 5,
+      "point": 25,
+      "area": "福井県",
+      "deck_id": "4cDcGY-DcgfQc-Jc8cc4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058692358",
+      "name": "アクアん",
+      "rank": 5,
+      "point": 25,
+      "area": "富山県",
+      "deck_id": "gLn9ng-ln8zcx-NiQLNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037428037",
+      "name": "レイン",
+      "rank": 5,
+      "point": 25,
+      "area": "福井県",
+      "deck_id": "fFbFVf-vDyO1y-kVvkk5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064557883",
+      "name": "やましん",
+      "rank": 5,
+      "point": 25,
+      "area": "石川県",
+      "deck_id": "ggHg9g-kwq6Jf-nN9QHi"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0098069192",
+      "name": "シャケ",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": null
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070955297",
+      "name": "うめしゅ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "FvkkVk-tHAf3V-kbvfbF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011893620",
+      "name": "ニコニコ",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "1FbkFf-5Iy2ly-FwwvkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010678451",
+      "name": "カズ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "gnPHLg-7vV3Ck-nQggg9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072798496",
+      "name": "ワニノコ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "n9Nggn-xpHMBv-9NHQgn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065965898",
+      "name": "KASSI",
+      "rank": 9,
+      "point": 15,
+      "area": "富山県",
+      "deck_id": "4D8ccc-02kcFj-88cGYc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042276124",
+      "name": "はたけ",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "fFvfvF-AiY3vP-bFffkk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0058398193",
+      "name": "じゅんp",
+      "rank": 9,
+      "point": 15,
+      "area": "福井県",
+      "deck_id": "J4YcG8-PEcG2d-8cxcGc"
+    }
+  ],
+  "total": 16
+}

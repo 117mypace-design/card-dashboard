@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛媛県",
+    "shopId": 18915,
+    "shopName": "TCG桜華",
+    "zipCode": 7910054,
+    "address": "愛媛県松山市空港通6-12-3ジョイランド21西棟",
+    "venue": "TCG桜華店内デュエルスペースにて開催致します。",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0017349273",
+      "name": "ぽんず",
+      "rank": 1,
+      "point": 100,
+      "area": "愛媛県",
+      "deck_id": "1fkVkv-ltuJSM-5FFwbf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0088368542",
+      "name": "ふぁん",
+      "rank": 2,
+      "point": 75,
+      "area": "愛媛県",
+      "deck_id": "cxcG8c-aAcIzT-84DcaD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0082754310",
+      "name": "やまもと",
+      "rank": 3,
+      "point": 50,
+      "area": "愛媛県",
+      "deck_id": "RpypyM-8mgdqN-pXU2yR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078192265",
+      "name": "チ。",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "8K8cDG-WJbyYW-xx44Dx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0081838716",
+      "name": "だいしーまる",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "p3M2XS-JP6D3M-SRMyRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014145263",
+      "name": "まうつ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "96Q66L-riVLf6-gnnnNN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081493971",
+      "name": "ごすろ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "DG4x8K-WBlRWq-cc8c8x"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0028018931",
+      "name": "フミヤ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛媛県",
+      "deck_id": "ca8ca8-ayBHtD-cGDc8x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099720096",
+      "name": "ゆうと",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "xGDKxc-xZYK36-a8ccYD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0086162418",
+      "name": "加藤",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "NnLngi-iNy1VS-NQggn9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055926344",
+      "name": "たつき",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "FkFdw5-nN4reG-VFfbw5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0055329824",
+      "name": "とっこーまる",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "x88c8D-XQUJpE-GYcxcc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0038851566",
+      "name": "やまうち",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "bwFkkV-HKLt7V-VFkVkf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0067527265",
+      "name": "そうま",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "XEpXXy-MgxdmA-y3XRpM"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043062735",
+      "name": "Haru",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "gnNQgg-2rpLc9-9nnnHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000525552",
+      "name": "オーレくん",
+      "rank": 9,
+      "point": 15,
+      "area": "愛媛県",
+      "deck_id": "c8xKcc-t50PgK-D8GcJD"
+    }
+  ],
+  "total": 16
+}

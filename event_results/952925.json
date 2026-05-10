@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-02 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 16:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "長野県",
+    "shopId": 19891,
+    "shopName": "バトスタ長野駅前店",
+    "zipCode": 3800824,
+    "address": "長野県長野市大字南長野南石堂町1423番地4　南石堂A-1ビル　201B号室",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0021764156",
+      "name": "ともぽけ",
+      "rank": 1,
+      "point": 100,
+      "area": "大阪府",
+      "deck_id": "aY4xG8-geoti2-cK8YxY"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075324944",
+      "name": "神谷",
+      "rank": 2,
+      "point": 75,
+      "area": "長野県",
+      "deck_id": "Gcx4DG-2dUvTp-DaDca8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064098287",
+      "name": "スピカ",
+      "rank": 3,
+      "point": 50,
+      "area": "長野県",
+      "deck_id": "8YcK4Y-WjY68k-8G8Y88"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004081722",
+      "name": "くろかみ",
+      "rank": 3,
+      "point": 50,
+      "area": "長野県",
+      "deck_id": "NnHg9H-9t3LF9-H9NngQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087184851",
+      "name": "ぬまん",
+      "rank": 5,
+      "point": 25,
+      "area": "長野県",
+      "deck_id": "PnngLL-lnpAOD-gNQ9gN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068001948",
+      "name": "ナポリ",
+      "rank": 5,
+      "point": 25,
+      "area": "東京都",
+      "deck_id": "1FvVwF-fQHhf2-b5fkFf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0079006204",
+      "name": "jin",
+      "rank": 5,
+      "point": 25,
+      "area": "長野県",
+      "deck_id": "ngnQNQ-HB71jH-gN9HgL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087496510",
+      "name": "セン",
+      "rank": 5,
+      "point": 25,
+      "area": "長野県",
+      "deck_id": "yUSRX2-jRr8ju-pMppMM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094714230",
+      "name": "りっち〜",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "ngQL6g-cykPiJ-9HgQLL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0098282076",
+      "name": "まみ",
+      "rank": 9,
+      "point": 15,
+      "area": "長野県",
+      "deck_id": "kvVk5F-anYFV9-1FFFVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065051704",
+      "name": "ぱら",
+      "rank": 9,
+      "point": 15,
+      "area": "長野県",
+      "deck_id": "FVbww5-vW7WXc-kfV5FF"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072566501",
+      "name": "RX",
+      "rank": 9,
+      "point": 15,
+      "area": "長野県",
+      "deck_id": "Fb5kVb-ROwSMY-k5vFVv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0018591150",
+      "name": "タギロン",
+      "rank": 9,
+      "point": 15,
+      "area": "長野県",
+      "deck_id": "pRyMyS-UuEpKG-SMyRXp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040408477",
+      "name": "ゆゆ",
+      "rank": 9,
+      "point": 15,
+      "area": "長野県",
+      "deck_id": "Jcxcc8-l78T3T-84c8YG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0025681103",
+      "name": "たか",
+      "rank": 9,
+      "point": 15,
+      "area": "長野県",
+      "deck_id": "S2pyRS-jTlu2X-EypXMM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034095113",
+      "name": "なお",
+      "rank": 9,
+      "point": 15,
+      "area": "富山県",
+      "deck_id": "pSURpS-AoIN28-MpSyyp"
+    }
+  ],
+  "total": 16
+}

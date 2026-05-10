@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-21 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "福島県",
+    "shopId": 12949,
+    "shopName": "Wonder GOO　いわき鹿島店",
+    "zipCode": 9718141,
+    "address": "福島県いわき市鹿島町走熊字西反町2番",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0063770632",
+      "name": "サトウ",
+      "rank": 1,
+      "point": 100,
+      "area": "福島県",
+      "deck_id": "FFfkkf-PO4y9A-5bfFkf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044071488",
+      "name": "惨劇",
+      "rank": 2,
+      "point": 75,
+      "area": "福島県",
+      "deck_id": "bkF5ff-I8iEPz-fkv5Vf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099864433",
+      "name": "どすこい町田",
+      "rank": 3,
+      "point": 50,
+      "area": "福島県",
+      "deck_id": "VkkFbf-JRogSb-FkffVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0021972540",
+      "name": "ちいかわ",
+      "rank": 3,
+      "point": 50,
+      "area": "福島県",
+      "deck_id": "8cYGGc-NuwVzP-D8Y8Dc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044358947",
+      "name": "写楽",
+      "rank": 5,
+      "point": 25,
+      "area": "福島県",
+      "deck_id": "R2RyXy-pdN8Kw-XXpMMU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054616776",
+      "name": "なー",
+      "rank": 5,
+      "point": 25,
+      "area": "福島県",
+      "deck_id": "MppyXX-NWE5HG-MyMXRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061666689",
+      "name": "やぶ",
+      "rank": 5,
+      "point": 25,
+      "area": "福島県",
+      "deck_id": "gNQ6gn-l591Bd-g9NH9L"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026547273",
+      "name": "かっぱ",
+      "rank": 5,
+      "point": 25,
+      "area": "福島県",
+      "deck_id": "gQLQ6L-GTaXbv-Nggg9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074799578",
+      "name": "なお",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "UMR2MX-e5STm3-pypXyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035918961",
+      "name": "カトレア",
+      "rank": 9,
+      "point": 15,
+      "area": "茨城県",
+      "deck_id": "R2XEpp-U08jN5-pRMyXy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061400810",
+      "name": "マツモト",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "nLL9nn-6Ayqcr-LggnNH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063160679",
+      "name": "はやて",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "Dc4x48-uYUVEc-GxJG8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040510336",
+      "name": "まゆっち",
+      "rank": 9,
+      "point": 15,
+      "area": "宮城県",
+      "deck_id": "NgNPnN-b39xVa-gNgn9L"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002450900",
+      "name": "ムーサ@チームぺリッパー",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "pUpyRM-VinKRD-MR2yyX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033031875",
+      "name": "さつき",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "F1fVb1-EOVVTb-k5k5VF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027844847",
+      "name": "みっちー",
+      "rank": 9,
+      "point": 15,
+      "area": "福島県",
+      "deck_id": "yyyEMy-BYKSMZ-ypRXpy"
+    }
+  ],
+  "total": 16
+}

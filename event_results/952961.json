@@ -1,0 +1,111 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-20 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 09:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "愛知県",
+    "shopId": 15293,
+    "shopName": "ブックオフ　西尾下町店",
+    "zipCode": 4450891,
+    "address": "愛知県西尾市下町神明下63",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0039949611",
+      "name": "ゆへ",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "PNngL6-qjKzW5-9LigQn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100357646",
+      "name": "ウイングjr.",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "FFVVfV-D4tYLY-FkbFkk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031894779",
+      "name": "ケンケンパ",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "3X3MyX-N6R1tT-RypMyX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061601442",
+      "name": "にっしー",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "g69ggL-25GV8L-nNNngP"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035835734",
+      "name": "ちくぼん",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "cDxGD8-n9uOaA-YD8GKc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0083814756",
+      "name": "しょうへい",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "cGDD4c-9oFHBG-8888cx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0081521029",
+      "name": "コタオ",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "Ng9Nni-OQmfu9-nNnHL6"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043844047",
+      "name": "だーにし",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "VkVfFk-JtVWYm-wbkVv5"
+    }
+  ],
+  "total": 8
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-18 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "熊本県",
+    "shopId": 19995,
+    "shopName": "TSUTAYA AVクラブ御領店",
+    "zipCode": 8618035,
+    "address": "熊本県熊本市東区御領2丁目20-5",
+    "venue": "対戦席84席完備。\n\n広く使いやすく、どなた様でも安心してプレイできる環境です。\nフリープレイ・家族でフリープレイも大歓迎！",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0084951715",
+      "name": "カオル",
+      "rank": 1,
+      "point": 100,
+      "area": "熊本県",
+      "deck_id": "g9HNng-oPVEyc-HnLNn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035451536",
+      "name": "カフェイン",
+      "rank": 2,
+      "point": 75,
+      "area": "熊本県",
+      "deck_id": "G4ac8c-Q2OLSS-8cYxDK"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0019209731",
+      "name": "よじろ",
+      "rank": 3,
+      "point": 50,
+      "area": "熊本県",
+      "deck_id": "cx8a4c-31fm7f-GcYc48"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0016253399",
+      "name": "Bear",
+      "rank": 3,
+      "point": 50,
+      "area": "熊本県",
+      "deck_id": "RMMpMp-9EHrHg-Up2Uy2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054277375",
+      "name": "サトシ",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "Vvb5kb-xCSLT9-F5VdVf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0089079698",
+      "name": "キナスケ",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "pU2py2-U7Bhkt-pRMEpM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069622106",
+      "name": "ひろみく",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "PL9nnP-dEW0bx-LnQNgH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061551345",
+      "name": "まさ",
+      "rank": 5,
+      "point": 25,
+      "area": "熊本県",
+      "deck_id": "y2pMpR-7QicT5-EMEMMy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065723126",
+      "name": "カヌSwag",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "cYG4Kx-uI0JXu-88xDJ8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099948335",
+      "name": "こうちゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "888cYG-atmlqb-Gcx48c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065543890",
+      "name": "ひー",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "kV5bFF-26QOTm-15F5VF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068754190",
+      "name": "ヨシムネ",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "aG8448-oU5Bkn-xc8Ycx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071166506",
+      "name": "KUGA",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "Vdffk5-4TxHxV-ffkbVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078249943",
+      "name": "HYO",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "cY8GYa-eVAP1J-xc4884"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0037261920",
+      "name": "麻呂",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "xxacc8-0vHX7u-Kx4Gac"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065603976",
+      "name": "ヒカル",
+      "rank": 9,
+      "point": 15,
+      "area": "熊本県",
+      "deck_id": "F1FFkv-5cSEND-kkFvbk"
+    }
+  ],
+  "total": 16
+}

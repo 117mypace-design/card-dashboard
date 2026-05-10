@@ -1,0 +1,75 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-16 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "滋賀県",
+    "shopId": 18414,
+    "shopName": "トレカショップVOW",
+    "zipCode": 5200025,
+    "address": "滋賀県大津市皇子が丘2丁目10-27 西大津ISビル3F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0002348108",
+      "name": "マツケン",
+      "rank": 1,
+      "point": 100,
+      "area": "兵庫県",
+      "deck_id": "XpRRMX-LGVzv4-2pppyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036993291",
+      "name": "きわみ",
+      "rank": 2,
+      "point": 75,
+      "area": "岐阜県",
+      "deck_id": "p3Myy2-5x7jgT-XRSpSM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031739597",
+      "name": "やしーすけ",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "xcc884-HBVfnt-xDDGGc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032888111",
+      "name": "よっくん3D",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "LNn9Hg-8btr30-9gnggP"
+    }
+  ],
+  "total": 4
+}

@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-14 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "岡山県",
+    "shopId": 11203,
+    "shopName": "【CARDBOX】玉島店",
+    "zipCode": 7100253,
+    "address": "岡山県倉敷市新倉敷駅前4-28",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0060735685",
+      "name": "イッキー",
+      "rank": 1,
+      "point": 100,
+      "area": "岡山県",
+      "deck_id": "F5VFV5-eQKNlp-kvbkfb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0084255868",
+      "name": "こた",
+      "rank": 2,
+      "point": 75,
+      "area": "岡山県",
+      "deck_id": "LgQPPL-Aum0ph-LnN9Ng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0027862746",
+      "name": "さく",
+      "rank": 3,
+      "point": 50,
+      "area": "岡山県",
+      "deck_id": "H9Hnng-bkcv0I-LnNQQN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077601427",
+      "name": "aochi",
+      "rank": 3,
+      "point": 50,
+      "area": "岡山県",
+      "deck_id": "2XyMXy-Oi6bx2-RXEppU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031145116",
+      "name": "Souta",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "pypSXR-qqlh78-yXpyyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001277557",
+      "name": "kat",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "15kkFF-xP8hWG-1VbkFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0077283052",
+      "name": "ゆういち",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "LNPNnL-i79U4D-nLHNg9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0028761004",
+      "name": "だいや",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "LPLgNN-LAgxRF-gNn99L"
+    }
+  ],
+  "total": 8
+}

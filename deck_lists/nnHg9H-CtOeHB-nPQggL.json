@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "50143",
+    "name": "メタグロス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49213",
+    "name": "メタング",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45263",
+    "name": "ダンバル",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49228",
+    "name": "ゲノセクトex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49687",
+    "name": "メガエアームドex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45767",
+    "name": "ヒードラン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48636",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46793",
+    "name": "レジギガス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48926",
+    "name": "ウッウ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48534",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49367",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49364",
+    "name": "なかよしポフィン",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48682",
+    "name": "ロケット団のレシーバー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49356",
+    "name": "エネルギーリサイクル",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46220",
+    "name": "プレシャスキャリー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49405",
+    "name": "ブレイブバングル",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49450",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49440",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "50160",
+    "name": "ジプソ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46608",
+    "name": "ジャッジマン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47104",
+    "name": "タケシのスカウト",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48705",
+    "name": "グラビティーマウンテン",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47910",
+    "name": "基本鋼エネルギー",
+    "count": 17
+  }
+]

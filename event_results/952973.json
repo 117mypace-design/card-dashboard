@@ -1,0 +1,115 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-21 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "岐阜県",
+    "shopId": 19789,
+    "shopName": "カードショップ　海賊船-starch-",
+    "zipCode": 5016256,
+    "address": "岐阜県羽島市福寿町千代田2-29",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0081528969",
+      "name": "へま",
+      "rank": 1,
+      "point": 100,
+      "area": "岐阜県",
+      "deck_id": "DDc8Y8-X1UCGF-GY8ccc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062820233",
+      "name": "しゃち",
+      "rank": 2,
+      "point": 75,
+      "area": "岐阜県",
+      "deck_id": "c8Y88c-AQJ6x5-Y8xDG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068705411",
+      "name": "あかわいん",
+      "rank": 3,
+      "point": 50,
+      "area": "岐阜県",
+      "deck_id": "6n99NH-SWLVl7-NLLgnL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014494776",
+      "name": "ゆらねこ",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "SyyppR-5vgSe0-yyMSXp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079310123",
+      "name": "ひろってぃ",
+      "rank": 5,
+      "point": 25,
+      "area": "滋賀県",
+      "deck_id": "bfVF11-R2mAJv-k5FkfV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061147830",
+      "name": "ドロップス",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "8Gc8D8-F7p5N4-8c88xJ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044891938",
+      "name": "ホーリー",
+      "rank": 5,
+      "point": 25,
+      "area": "岐阜県",
+      "deck_id": "c4D8x8-BSapOm-xxGcGD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0048914107",
+      "name": "まち",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "pMyXMp-FDNgqF-RRMXpy"
+    }
+  ],
+  "total": 8
+}

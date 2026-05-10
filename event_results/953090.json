@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-02 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "静岡県",
+    "shopId": 10706,
+    "shopName": "駿河屋本店駿河屋ビル",
+    "zipCode": 4200858,
+    "address": "静岡県静岡市葵区伝馬町5-4",
+    "venue": "デュエルスペース188席有り",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0020572219",
+      "name": "じゃがビー",
+      "rank": 1,
+      "point": 100,
+      "area": "静岡県",
+      "deck_id": "yRppMp-9PAoSo-Sy2yEp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071712053",
+      "name": "ノリニー",
+      "rank": 2,
+      "point": 75,
+      "area": "静岡県",
+      "deck_id": "5bFVb5-gU366n-Vkvb1F"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0079590684",
+      "name": "シオン",
+      "rank": 3,
+      "point": 50,
+      "area": "静岡県",
+      "deck_id": "NLHgni-GHIKaB-9Qgngg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077871662",
+      "name": "むな",
+      "rank": 3,
+      "point": 50,
+      "area": "静岡県",
+      "deck_id": "G4ac8c-4bQydv-44c888"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000020978",
+      "name": "でぃーどの",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "nNgH9H-o19n0R-nHQNng"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0091431581",
+      "name": "やもと",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "FkwfFV-EUm9xU-Fk5b5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0011981347",
+      "name": "ダイ",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "p3pppX-AZylj8-ySRMyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036794076",
+      "name": "キクリン",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "Da8G48-LBQFoK-xDxcc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010234673",
+      "name": "クロ。96",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "kFvk5w-jc53N1-VVbbkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072880173",
+      "name": "りょうた",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "cDcYc8-GgbRux-xG88DD"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0089626012",
+      "name": "妖怪ガッツK",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "cGY8cx-N8htZN-aYaJYx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007753316",
+      "name": "ロッタ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "FFvk5b-kN2if7-FVfkVb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000049586",
+      "name": "はわ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "GxcDJY-XkLPAV-xcx8Gc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037224547",
+      "name": "ショウ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "yyyRRS-zpHWhE-MppySp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037391856",
+      "name": "松田ジンページサンダー",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "XMyppM-9ufhnH-E3S3MR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0074449738",
+      "name": "ミノ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "gg9NNL-zDWSnc-gnH6Qn"
+    }
+  ],
+  "total": 16
+}

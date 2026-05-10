@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-05 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "愛知県",
+    "shopId": 15235,
+    "shopName": "トレカプラザ５５大須アメ横店",
+    "zipCode": 4600011,
+    "address": "愛知県名古屋市中区大須３丁目30－86第１アメ横ビル２階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0031664471",
+      "name": "クボ",
+      "rank": 1,
+      "point": 100,
+      "area": "愛知県",
+      "deck_id": "9LgHng-WZZG34-HnngHn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036105892",
+      "name": "ろみひぃ",
+      "rank": 2,
+      "point": 75,
+      "area": "愛知県",
+      "deck_id": "ccGKY4-JdNw64-Y84xcJ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0069408085",
+      "name": "rashia",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "y2pM2p-zFpjem-SppMRy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030128172",
+      "name": "ゆうほし",
+      "rank": 3,
+      "point": 50,
+      "area": "愛知県",
+      "deck_id": "cG8xx4-CjDRA4-Dcc8DY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005835359",
+      "name": "みずき",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "cD48Ga-g48z3i-G4Dc84"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000710299",
+      "name": "三等兵",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "8c4ccG-pubG0o-c84G8c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068740892",
+      "name": "そう",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "nHniLg-EW9USh-nnH9Ng"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070614255",
+      "name": "あしぱん",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "8YYcKc-yigV47-JcG4cc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001255418",
+      "name": "へちま",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "bFkVvF-HwHb6v-5FFFkb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037889915",
+      "name": "しろまる",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "FFvkbF-eFSZlp-F5f5V5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085325823",
+      "name": "Azuki",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "pp22RS-5GAKkd-yyUppX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020642206",
+      "name": "にざ",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "9gLgHi-tRXphB-HgLngi"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000622594",
+      "name": "あつき",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "2pXpyR-rWPFnW-pp2y3y"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0099223836",
+      "name": "アキ久",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "pyyp2y-MRdLLK-Rypp22"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0042197687",
+      "name": "まんず",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "yMMyXp-8xodKD-XyEyER"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010898219",
+      "name": "こひ",
+      "rank": 9,
+      "point": 15,
+      "area": "岐阜県",
+      "deck_id": "v51kvF-zIr0rc-kdvFbF"
+    }
+  ],
+  "total": 16
+}

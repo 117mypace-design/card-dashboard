@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "北海道",
+    "shopId": 14799,
+    "shopName": "バトロコミニ苫小牧バイパス店",
+    "zipCode": 591261,
+    "address": "北海道苫小牧市ときわ町6-23-30",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0052452615",
+      "name": "ハルク",
+      "rank": 1,
+      "point": 100,
+      "area": "北海道",
+      "deck_id": "gng9HL-udAcJu-H9nn6L"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033143677",
+      "name": "まいき",
+      "rank": 2,
+      "point": 75,
+      "area": "北海道",
+      "deck_id": "MXRypU-TcaLgU-p3M2ER"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0041755136",
+      "name": "スマトラ@むろじむ",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "88xKcG-xhDt2c-8cGc4x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0004443375",
+      "name": "うちけん",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "51VfbV-YnRKOf-bkFkV1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0058492749",
+      "name": "まおち",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "gHgLL6-XZitNL-gnQ99L"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054529746",
+      "name": "すー",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "V1VFbF-WvEjVh-kbkF55"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077604138",
+      "name": "ふれんちん",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "pS2yMp-U0HKzk-MEyRMy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007215881",
+      "name": "723",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "g9HLnL-ttvNFZ-nnNHi9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0096233294",
+      "name": "ナカハタ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "FF5v5w-gRxOWk-VdbkVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013517603",
+      "name": "かきたろう",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "ppypEM-bVOW4M-y3M2Rp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039404246",
+      "name": "さく太郎",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "kkfvVb-YbTEBD-d5FfFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099103451",
+      "name": "ネメシス",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "RpMUUM-AzCmh1-X3y2pM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0088641142",
+      "name": "めぴ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "RMy2MS-HyGwbz-UpyXpM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081413636",
+      "name": "ソーズ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "a4a4cG-zjUuB7-8xxxa8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078997820",
+      "name": "ぱお",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "VbfFv5-MIoA0b-kk1kkV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0081335381",
+      "name": "とも",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "c4xK8x-bBECtU-DK48cG"
+    }
+  ],
+  "total": 16
+}

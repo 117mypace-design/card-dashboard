@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-11 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "石川県",
+    "shopId": 18435,
+    "shopName": "北国書林　松任店",
+    "zipCode": 9240817,
+    "address": "石川県白山市幸明町180-1",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0009390393",
+      "name": "なわとび",
+      "rank": 1,
+      "point": 100,
+      "area": "石川県",
+      "deck_id": "6nNnPQ-YdDD92-nHg9gL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0094972472",
+      "name": "てんねんすぃ",
+      "rank": 2,
+      "point": 75,
+      "area": "石川県",
+      "deck_id": "Lg9gng-EX39Pr-HNNLLg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0032579590",
+      "name": "らぴっど",
+      "rank": 3,
+      "point": 50,
+      "area": "富山県",
+      "deck_id": "dFfVFV-9MEILR-F5bkkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0038587045",
+      "name": "なるみ",
+      "rank": 3,
+      "point": 50,
+      "area": "石川県",
+      "deck_id": "DDc8Gx-PRbUZ3-ccx8c4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0077229771",
+      "name": "なぎ",
+      "rank": 5,
+      "point": 25,
+      "area": "石川県",
+      "deck_id": "xGc8JY-Qdfc5S-cDGxx4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064052074",
+      "name": "たく",
+      "rank": 5,
+      "point": 25,
+      "area": "石川県",
+      "deck_id": "FFfbff-J60wyD-5kwkwV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035458173",
+      "name": "みつ",
+      "rank": 5,
+      "point": 25,
+      "area": "石川県",
+      "deck_id": "4cG888-vMyvzl-DxJ8cc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0015786333",
+      "name": "ところてん",
+      "rank": 5,
+      "point": 25,
+      "area": "石川県",
+      "deck_id": "fV1b5V-lqFzd4-wFFFVk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0054250927",
+      "name": "TAKA",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "gLn6L9-UxGgtd-ggHgLH"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0020915445",
+      "name": "カワウソ",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "yU2XpR-YhjvN2-p2MM2S"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0100345306",
+      "name": "クラタソ",
+      "rank": 9,
+      "point": 15,
+      "area": "富山県",
+      "deck_id": "5kFkbV-5L4GHS-FFVvb5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0083602526",
+      "name": "そーま",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "a8xx48-uknfDS-Y8c4cG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0074614721",
+      "name": "ぴょん",
+      "rank": 9,
+      "point": 15,
+      "area": "富山県",
+      "deck_id": "LHLng9-gfcAmi-HngQnL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040788603",
+      "name": "さく",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "gHgggL-qKSqAu-9NLnnL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0014458642",
+      "name": "ぽぷ",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "gLLHLL-UBpg5Z-n9HQgn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0040489612",
+      "name": "ペインキラー",
+      "rank": 9,
+      "point": 15,
+      "area": "石川県",
+      "deck_id": "Y8888G-ZXHyvU-4ccx8c"
+    }
+  ],
+  "total": 16
+}

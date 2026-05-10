@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-29 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:20:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "広島県",
+    "shopId": 14687,
+    "shopName": "BOOKOFFSUPERBAZAAR54号広島八木店",
+    "zipCode": 7310101,
+    "address": "広島県広島市安佐南区八木2-16-5",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0038175802",
+      "name": "Lulu",
+      "rank": 1,
+      "point": 100,
+      "area": "広島県",
+      "deck_id": "QnHLQH-qNRKcC-9iQg9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007662977",
+      "name": "かずや",
+      "rank": 2,
+      "point": 75,
+      "area": "広島県",
+      "deck_id": "UySy2R-Qicn62-pUyyMR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009550728",
+      "name": "ぶっきー",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "KccGG4-dobypD-J8c8c8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035094629",
+      "name": "ずたろう",
+      "rank": 3,
+      "point": 50,
+      "area": "広島県",
+      "deck_id": "Hng66N-g3bDWB-ngign9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043980004",
+      "name": "ルチャごっこ",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "Ryy3py-IdgHA4-22E2yp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065775976",
+      "name": "Gsan",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "6LgngH-eS01kY-nn9NN6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037849023",
+      "name": "えーしん",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "kwFkw5-79p356-F5F1Vb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0024989507",
+      "name": "病気の豚",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "KGDKc4-L28GLR-cc84c8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085707029",
+      "name": "あぼ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "Fw5VbF-q6Ehem-Fkdvk5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043846757",
+      "name": "ハマーC",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "K44c8c-BnEky3-8G8GKa"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054091919",
+      "name": "ミチ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "8ccx4Y-tltKq4-8cK8Ga"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006605579",
+      "name": "オジ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "acx8a8-M8BuCw-G8x8c4"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0070363391",
+      "name": "ぼくくぼ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "EX3ypS-eMMP7Q-yM2RRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0026557128",
+      "name": "みーみ",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "x8xcGa-CwrB95-8Y84D8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0060998822",
+      "name": "フク",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "gHngnL-pbR0qO-HgnQ96"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014971967",
+      "name": "中指☆立太郎",
+      "rank": 9,
+      "point": 15,
+      "area": "広島県",
+      "deck_id": "3p23Ry-auvYKi-MMpypy"
+    }
+  ],
+  "total": 16
+}

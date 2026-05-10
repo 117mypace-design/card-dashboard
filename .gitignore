@@ -1,0 +1,8 @@
+.venv/
+_vendor_lib/
+_vendor_wheels/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+

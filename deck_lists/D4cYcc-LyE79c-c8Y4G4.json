@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45949",
+    "name": "カジッチュ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45703",
+    "name": "カミッチュ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45951",
+    "name": "カミツオロチex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47799",
+    "name": "チコリータ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47800",
+    "name": "ベイリーフ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47801",
+    "name": "メガニウム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45881",
+    "name": "カプ・ブルル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48539",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "33168",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45785",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36190",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45931",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45640",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "45215",
+    "name": "マツバの確信",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47487",
+    "name": "ロケット団のラムダ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "45637",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46039",
+    "name": "ブライア",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "37976",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47857",
+    "name": "活力の森",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "32327",
+    "name": "基本草エネルギー",
+    "count": 12
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49142",
+    "name": "イイネイヌ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49675",
+    "name": "ガメノデス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49674",
+    "name": "カメテテ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48609",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48608",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49131",
+    "name": "ガチグマ アカツキ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47336",
+    "name": "ヒビキのウソッキー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50152",
+    "name": "ミネズミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49703",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48677",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46199",
+    "name": "ポケギア3.0",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49404",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49433",
+    "name": "探検家の先導",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49706",
+    "name": "タラゴン",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48419",
+    "name": "バトルコロシアム",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "33223",
+    "name": "基本闘エネルギー",
+    "count": 10
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49455",
+    "name": "プリズムエネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49457",
+    "name": "レガシーエネルギー",
+    "count": 1
+  }
+]

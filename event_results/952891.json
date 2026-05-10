@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-11 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 16:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "新潟県",
+    "shopId": 19926,
+    "shopName": "トーナメントセンターバトロコ新潟万代",
+    "zipCode": 9500088,
+    "address": "新潟県新潟市中央区万代1丁目4-8　Lovela2　３F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0034406917",
+      "name": "ベルシー",
+      "rank": 1,
+      "point": 100,
+      "area": "新潟県",
+      "deck_id": "p2MXMp-mwGLCx-RyMpyU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095763639",
+      "name": "まにしら",
+      "rank": 2,
+      "point": 75,
+      "area": "新潟県",
+      "deck_id": "4Gxxc8-Owa4DZ-c8xGc8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0068018328",
+      "name": "ヒジリ",
+      "rank": 3,
+      "point": 50,
+      "area": "新潟県",
+      "deck_id": "vVFVwV-bHm3td-5kk1Fb"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087273535",
+      "name": "サンバ",
+      "rank": 3,
+      "point": 50,
+      "area": "新潟県",
+      "deck_id": "VfV5Vb-dAZR1R-fkdFVF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0051183941",
+      "name": "ゆねぱ",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "g9nn6P-lZdudf-HLLHNg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036326741",
+      "name": "てんねんナマコ",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "Y44cYc-6Oubnb-Kxc8xG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005013694",
+      "name": "ピンク",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "nN6Hng-jMIhK5-LQ996g"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052650884",
+      "name": "りょた",
+      "rank": 5,
+      "point": 25,
+      "area": "新潟県",
+      "deck_id": "KGGxxc-MwEQ5I-KYY8c4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0069227208",
+      "name": "オコエ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "Ry3X2p-3BPWHR-SXyyRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078277999",
+      "name": "ニノ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "yEMMyR-tqrhuN-3p2yp2"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0039700908",
+      "name": "はとぽっぽ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "FfV5bF-6JU4VP-5kFV5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100827895",
+      "name": "ライライ",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "VkVFdV-Ez4zTf-kbw5Fk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037458816",
+      "name": "zuki",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "pMMypR-7Gwn6t-EyypU2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010801527",
+      "name": "すい",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "yyy2Mp-karQ66-RSyMp2"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057430807",
+      "name": "kana",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "J4G8cx-gAxRDU-x8GaYc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0017218076",
+      "name": "もー",
+      "rank": 9,
+      "point": 15,
+      "area": "新潟県",
+      "deck_id": "gLLiLi-jGb1tQ-9HgHgn"
+    }
+  ],
+  "total": 16
+}

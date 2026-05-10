@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 18:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "福岡県",
+    "shopId": 12160,
+    "shopName": "竜星の嵐　小倉駅前店",
+    "zipCode": 8020002,
+    "address": "福岡県北九州市小倉北区京町3-1-1　セントシティ　10階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0003337039",
+      "name": "ちゃえん",
+      "rank": 1,
+      "point": 100,
+      "area": "福岡県",
+      "deck_id": "XppypR-5LQrp5-SUEppy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036644418",
+      "name": "でんぼ",
+      "rank": 2,
+      "point": 75,
+      "area": "福岡県",
+      "deck_id": "888Y8c-vYmTDl-GY8Gc8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044979171",
+      "name": "けん",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "FkbVv1-f7X0WT-bwkFVk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034457766",
+      "name": "フカフカ",
+      "rank": 3,
+      "point": 50,
+      "area": "福岡県",
+      "deck_id": "yMyypR-HEadmq-pXMpSy"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035760607",
+      "name": "ラテ",
+      "rank": 5,
+      "point": 25,
+      "area": "大分県",
+      "deck_id": "Fvf1Fb-XBRJDp-Fk5kfb"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0079966142",
+      "name": "holly",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "ppRSy2-DVKuJZ-ESSX2p"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072819085",
+      "name": "コヨミ(ブイ麦)",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "LgNQP9-9aQ2Jl-ggnL6N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036092965",
+      "name": "めいぷる",
+      "rank": 5,
+      "point": 25,
+      "area": "福岡県",
+      "deck_id": "pSpppX-B9oyxo-y3MMRp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0078593215",
+      "name": "きな粉もちち",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "nnnLgg-3XpkIf-gN9gNQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0038503470",
+      "name": "よしお",
+      "rank": 9,
+      "point": 15,
+      "area": "山口県",
+      "deck_id": "pyRyyR-mhae6S-ySMMpy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065035728",
+      "name": "ローチェ",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "F5FbkF-4EMDdI-1kVFkk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075224741",
+      "name": "マイケル山田",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "nnNLn9-DyRLoK-nQngg9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0099998116",
+      "name": "ゆはまる",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "FVfbVF-ntGGJh-vbFFkf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081640425",
+      "name": "レン",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "ppXXSX-J9o66e-py2pRp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0073343640",
+      "name": "サムギョプ三郎",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "bkkkFv-PXC1f6-fFvwFV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0057962324",
+      "name": "ぬまち",
+      "rank": 9,
+      "point": 15,
+      "area": "福岡県",
+      "deck_id": "xDYcGc-oTSEft-Ycc8cD"
+    }
+  ],
+  "total": 16
+}

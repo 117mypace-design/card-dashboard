@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:40:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 20:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "千葉県",
+    "shopId": 18187,
+    "shopName": "トーナメントセンターバトロコ　新津田沼駅前",
+    "zipCode": 2750016,
+    "address": "千葉県習志野市津田沼1-3-11  8階",
+    "venue": "時間に間に合うように来るように",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0000211363",
+      "name": "オイカワ",
+      "rank": 1,
+      "point": 100,
+      "area": "千葉県",
+      "deck_id": "ccG88J-Jaw4dV-4D4YGc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044192303",
+      "name": "おでん",
+      "rank": 2,
+      "point": 75,
+      "area": "千葉県",
+      "deck_id": "8DGxc8-Ikiey9-Ycx88c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065267275",
+      "name": "それせか",
+      "rank": 3,
+      "point": 50,
+      "area": "東京都",
+      "deck_id": "HngNnn-gUgrvi-gng9gN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010974180",
+      "name": "イチノセ",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "c888Y4-4b9EE2-4G8Dcc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0100372496",
+      "name": "ふゆう",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "L9nHgg-eONz9m-Ln6N9N"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000428835",
+      "name": "イミュ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "SXp2yU-C5LxcX-MypMMR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0009962196",
+      "name": "メガたこやき",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "xc8xJc-k4xmVP-c48YG8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0032495957",
+      "name": "むじた",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "5FvkbF-QjcWyF-dFfkFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089013742",
+      "name": "カイト",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "kffFkv-vUX8Pc-kbkFdd"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0028225931",
+      "name": "まろ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "c88Ycx-894T4d-cGxD4c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0056960871",
+      "name": "ロア",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "n9Hngg-uUbwlu-gNngQ9"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0101620965",
+      "name": "ナカヨシ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "kvF5kF-Qao0gp-FdVVbf"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0042348977",
+      "name": "さかき",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "gnnnng-86PxhK-Qn69NQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070548105",
+      "name": "Myuu",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "8cYG84-OHQAT3-8Yc8c4"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000041780",
+      "name": "部長",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "NgigiP-83R719-g9nQnN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081953163",
+      "name": "ゆう",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "QgLnnn-PjxpYa-9Q9Hgn"
+    }
+  ],
+  "total": 16
+}

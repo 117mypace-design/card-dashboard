@@ -1,0 +1,97 @@
+[
+  {
+    "category": "ポケモン",
+    "name": "カルボウ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "カルボウ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "ソウブレイズex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "name": "ソルロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "name": "モグリュー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "name": "ファイトゴング",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "name": "パーフェクトミキサー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "name": "ゼイユ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "name": "ピュール",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "name": "探検家の先導",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "name": "プリズムタワー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本闘エネルギー",
+    "count": 13
+  },
+  {
+    "category": "エネルギー",
+    "name": "基本炎エネルギー",
+    "count": 7
+  }
+]

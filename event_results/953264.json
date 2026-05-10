@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-03-15 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "静岡県",
+    "shopId": 19920,
+    "shopName": "トレカステーション佐鳴台店",
+    "zipCode": 4328061,
+    "address": "静岡県浜松市中央区入野町621-1 　TSUTAYA佐鳴台店２F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0069426085",
+      "name": "いんぬ",
+      "rank": 1,
+      "point": 100,
+      "area": "静岡県",
+      "deck_id": "bVFfkf-2zmuJa-vVdFbv"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0085685248",
+      "name": "おくみー",
+      "rank": 2,
+      "point": 75,
+      "area": "静岡県",
+      "deck_id": "xxDG8x-MO0bBd-Yc8Gxc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084448963",
+      "name": "まっちゃら",
+      "rank": 3,
+      "point": 50,
+      "area": "静岡県",
+      "deck_id": "vkbFFd-oYLUbz-Fk1f5V"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0101373612",
+      "name": "ゆう",
+      "rank": 3,
+      "point": 50,
+      "area": "静岡県",
+      "deck_id": "M2XXMR-0cgEGv-ppyMM3"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072150241",
+      "name": "すーでび",
+      "rank": 5,
+      "point": 25,
+      "area": "愛知県",
+      "deck_id": "nHnNNn-6HADJh-L9ngNg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0088208736",
+      "name": "エド",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "dVbfvb-lHZUxn-kVfFvF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0046131027",
+      "name": "ふみ",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "8DcJxG-FqzirT-8Jc84x"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0044420969",
+      "name": "味皇",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "K48DY8-LLG0bl-cG4cDx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0033196327",
+      "name": "P0S0Y4",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "x4xxca-w9otXa-88GDxG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0088086820",
+      "name": "いろはす",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "nLiN9g-llTLEi-nNgHNN"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071285182",
+      "name": "ミラクルファイターズ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "8D8cY8-5j8nkk-8G8x44"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078153228",
+      "name": "夜行性",
+      "rank": 9,
+      "point": 15,
+      "area": "愛知県",
+      "deck_id": "1bfVkv-FQxzAf-VfFkkF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030776283",
+      "name": "たか",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "S2SpXR-pQQ3zV-2RpMyS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0098036523",
+      "name": "こっこ",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "xxDc8G-YGMg6p-xDK84c"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0025663967",
+      "name": "杉ちゃん",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "gLLnN9-FjYVit-6nQHgP"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0029697979",
+      "name": "咆狼~ほうろう~",
+      "rank": 9,
+      "point": 15,
+      "area": "静岡県",
+      "deck_id": "RMppyX-SIcTxK-RS2XpS"
+    }
+  ],
+  "total": 16
+}
