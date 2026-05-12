@@ -14,7 +14,8 @@
     {
       "name": "たねex系",
       "required": [
-        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 1},
+        {"card": "メガガルーラex", "min_count": 1},
         {"card": "アカマツ", "min_count": 2}
       ]
     },
@@ -83,7 +84,10 @@
     },
     {
       "name": "おまつりおんど系",
-      "required": [{"card": "カミッチュ", "min_count": 2}]
+      "required": [
+	{"card": "お祭り会場", "min_count": 3},
+        {"card": "バチンキー", "min_count": 2}
+      ]
     },
     {
       "name": "超系",
@@ -160,6 +164,15 @@
       ]
     },
     {
+      "name": "カミツオロチ",
+      "archetype": "草系",
+      "required": [
+        {"card": "カミツオロチex",          "min_count": 2},
+        {"card": "活力の森",          "min_count": 2},
+        {"card": "基本草エネルギー", "min_count": 4}
+      ]
+    },
+    {
       "name": "草その他",
       "archetype": "草系",
       "required": [
@@ -172,16 +185,17 @@
       "archetype": "たねex系",
       "required": [
         {"card": "タケルライコex",            "min_count": 2},
-        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 1},
+        {"card": "メガガルーラex", "min_count": 1},
         {"card": "アカマツ", "min_count": 2}
       ]
     },
     {
-      "name": "オーガポンバレット",
+      "name": "ガルーラBOX",
       "archetype": "たねex系",
       "required": [
-        {"card": "オーガポン いどのめんex",   "min_count": 2},
-        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 1},
+        {"card": "メガガルーラex", "min_count": 2},
         {"card": "アカマツ", "min_count": 2}
       ]
     },
@@ -191,16 +205,19 @@
       "required": [
         {"card": "メガアブソルex", "min_count": 2},
         {"card": "基本悪エネルギー", "min_count": 2},
-        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 1},
+        {"card": "メガガルーラex", "min_count": 1},
         {"card": "アカマツ", "min_count": 2}
       ]
     },
     {
-      "name": "ピッピポン",
+      "name": "ピッピ",
       "archetype": "たねex系",
       "required": [
         {"card": "リーリエのピッピex", "min_count": 2},
-        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "リーリエのしんじゅ", "min_count": 1},
+        {"card": "オーガポン みどりのめんex", "min_count": 1},
+        {"card": "メガガルーラex", "min_count": 1},
         {"card": "アカマツ", "min_count": 2}
       ]
     },
@@ -208,7 +225,8 @@
       "name": "たねexその他",
       "archetype": "たねex系",
       "required": [
-        {"card": "オーガポン みどりのめんex", "min_count": 2},
+        {"card": "オーガポン みどりのめんex", "min_count": 1},
+        {"card": "メガガルーラex", "min_count": 1},
         {"card": "アカマツ", "min_count": 2}
       ]
     },
@@ -257,11 +275,20 @@
       ]
     },
     {
+      "name": "悪メガゲッコウガ",
+      "archetype": "ゲッコウガex系",
+      "required": [
+        {"card": "メガゲッコウガex", "min_count": 1},
+        {"card": "モモワロウex", "min_count": 1},
+        {"card": "ケロマツ", "min_count": 2},
+      ]
+    },
+    {
       "name": "メガゲッコウガ",
       "archetype": "ゲッコウガex系",
       "required": [
         {"card": "メガゲッコウガex", "min_count": 1},
-        {"card": "ケロマツ", "min_count": 2}
+        {"card": "ケロマツ", "min_count": 2},
       ]
     },
     {
@@ -358,7 +385,8 @@
       "name": "おまつりおんど",
       "archetype": "おまつりおんど系",
       "required": [
-        {"card": "カミッチュ", "min_count": 2}
+	{"card": "お祭り会場", "min_count": 3},
+        {"card": "バチンキー", "min_count": 2}
       ]
     },
     {
