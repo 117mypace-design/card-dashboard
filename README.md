@@ -1,4 +1,4 @@
-# card-tracker README
+﻿# card-tracker README
 
 ## このプロジェクトの目的
 
@@ -18,6 +18,19 @@
   大会データ取得から、レポート生成・ダッシュボード再生成までをまとめて実行します。
 - `run_report_dashboard.bat`
   既存データを使って、レポート生成・ダッシュボード再生成だけを実行します。
+- `publish_source_changes.bat`
+  よくある設定・コード変更を GitHub に反映するための公開用バッチです。  
+  `deck_types.json` などを編集したあと、ダブルクリックで `commit / pull --rebase / push` まで進めます。
+- `publish_deck_types.bat`
+  `deck_types.json` を直したあとに使う専用バッチです。
+- `publish_meta_cards.bat`
+  `meta_cards.json` を直したあとに使う専用バッチです。
+- `publish_seasons.bat`
+  `seasons.json` を直したあとに使う専用バッチです。  
+  push 後は GitHub 側で `fetch_data = true` の手動実行が必要です。
+- `work_shortcuts`
+  編集ファイルを開くバッチと、GitHub 反映バッチを順番に置いた作業用フォルダです。  
+  エクスプローラーでこのフォルダを開いたままにしておくと、PowerShell を使わずに更新できます。
 
 ## トップレベルのフォルダ
 
@@ -215,6 +228,48 @@ Tier表、カード分析、メタカード表示などで使います。
 - GitHub の Actions 画面から手動実行も可能
 - 手動実行時は「大会データ取得あり / なし」を選べます
 - 更新後の `site_fullperiod` は GitHub Pages に自動デプロイされます
+- 次のファイルを `push` したときも自動実行されます
+  - `deck_types.json`
+  - `meta_cards.json`
+  - `card_image_cache.json`
+  - `generate_report_local_alltrend.py`
+  - `build_dashboard_multipage_fullperiod_styled.py`
+
+### いちばん楽な運用
+
+#### `deck_types.json` や `meta_cards.json` を直したとき
+
+1. ファイルを編集して保存
+2. `deck_types.json` なら `publish_deck_types.bat`、`meta_cards.json` なら `publish_meta_cards.bat` をダブルクリック
+3. 何も追加操作しなくても、GitHub 側で自動再生成と自動公開が走る
+
+もっと楽にやるなら、`work_shortcuts` フォルダを開いて次の順で押します。
+
+- `01_edit_deck_types.bat` → 編集
+- `02_publish_deck_types.bat` → GitHub 反映
+
+`meta_cards.json` も同じで、
+
+- `03_edit_meta_cards.bat` → 編集
+- `04_publish_meta_cards.bat` → GitHub 反映
+
+#### `seasons.json` や取得スクリプトを直したとき
+
+1. ファイルを編集して保存
+2. `seasons.json` なら `publish_seasons.bat`、それ以外の取得スクリプトは `publish_source_changes.bat` をダブルクリック
+3. GitHub の `Actions > Update Dashboard` を開く
+4. `Run workflow` で `fetch_data = true` を選んで実行
+
+`seasons.json` は `work_shortcuts` の
+
+- `05_edit_seasons.bat` → 編集
+- `06_publish_seasons.bat` → GitHub 反映
+
+でも同じです。
+
+理由:
+- `deck_types.json` などは再分類・再描画だけで反映できる
+- `seasons.json` や取得スクリプト変更は、大会データの再取得が必要になることがある
 
 ### GitHub に commit されるもの
 

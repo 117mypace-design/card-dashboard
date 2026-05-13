@@ -1,13 +1,22 @@
 name: Update Dashboard
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - deck_types.json
+      - meta_cards.json
+      - card_image_cache.json
+      - generate_report_local_alltrend.py
+      - build_dashboard_multipage_fullperiod_styled.py
   workflow_dispatch:
     inputs:
       fetch_data:
         description: "大会データ取得も含めて更新する"
         required: true
         type: boolean
-        default: true
+        default: false
   schedule:
     # JST 09:15
     - cron: "15 0 * * *"
