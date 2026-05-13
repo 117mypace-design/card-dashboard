@@ -280,7 +280,7 @@
       "required": [
         {"card": "メガゲッコウガex", "min_count": 1},
         {"card": "モモワロウex", "min_count": 1},
-        {"card": "ケロマツ", "min_count": 2},
+        {"card": "ケロマツ", "min_count": 2}
       ]
     },
     {
@@ -288,7 +288,7 @@
       "archetype": "ゲッコウガex系",
       "required": [
         {"card": "メガゲッコウガex", "min_count": 1},
-        {"card": "ケロマツ", "min_count": 2},
+        {"card": "ケロマツ", "min_count": 2}
       ]
     },
     {
