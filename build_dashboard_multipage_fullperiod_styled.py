@@ -177,11 +177,16 @@ a{color:inherit;text-decoration:none}
   overscroll-behavior:none;
   touch-action:manipulation;
 }
-.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs{
+.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.hero .tooltip-wrap,.hero .help-tip{
+  min-height:0;
+  max-height:none;
   overflow:hidden;
   overscroll-behavior:none;
-  touch-action:manipulation;
+  overscroll-behavior-y:none;
+  touch-action:none;
+  -webkit-overflow-scrolling:auto;
 }
+#pageTitle{min-width:0;flex:0 1 auto}
 .hero-period{
   justify-self:end;
   text-align:right;
@@ -1873,6 +1878,7 @@ const PAGE_TITLES = {index:"環境全体", archetypes:"アーキタイプ分析"
 
 function qs(sel, root=document){ return root.querySelector(sel); }
 function qsa(sel, root=document){ return [...root.querySelectorAll(sel)]; }
+const STATIC_HEADER_TOUCH_SELECTOR = ".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.hero .tooltip-wrap,.hero .help-tip,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head";
 function lockHorizontalScroll(){
   const y = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
   window.scrollTo(0, y);
@@ -1881,7 +1887,7 @@ function lockHorizontalScroll(){
   qsa(".main,.page-scroller,.view-stage,.view-shell,.panel-scroll,.table-wrap").forEach(el => {
     el.scrollLeft = 0;
   });
-  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(STATIC_HEADER_TOUCH_SELECTOR).forEach(el => {
     el.scrollTop = 0;
   });
 }
@@ -1895,25 +1901,37 @@ function clampHorizontalLayout(){
     el.style.maxWidth = "100%";
     el.style.tableLayout = "fixed";
   });
-  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(STATIC_HEADER_TOUCH_SELECTOR).forEach(el => {
     el.style.overflow = "hidden";
     el.style.overscrollBehavior = "none";
-    el.style.touchAction = "manipulation";
+    el.style.touchAction = "none";
+    el.style.webkitOverflowScrolling = "auto";
     el.scrollTop = 0;
   });
   lockHorizontalScroll();
 }
 function bindStaticHeaderTouchGuards(){
   if (window.innerWidth > 720) return;
-  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
+  qsa(STATIC_HEADER_TOUCH_SELECTOR).forEach(el => {
     if (el.dataset.touchGuardBound === "1") return;
     el.dataset.touchGuardBound = "1";
     el.addEventListener("touchmove", event => {
-      if (event.target.closest("select,input,textarea,button")) return;
-      event.preventDefault();
+      if (event.target.closest("select,input,textarea")) return;
+      if (event.cancelable) event.preventDefault();
       el.scrollTop = 0;
     }, {passive:false});
   });
+  if (document.documentElement.dataset.staticHeaderTouchGuardBound === "1") return;
+  document.documentElement.dataset.staticHeaderTouchGuardBound = "1";
+  document.addEventListener("touchmove", event => {
+    if (window.innerWidth > 720) return;
+    const target = event.target;
+    if (!target || !target.closest) return;
+    const el = target.closest(STATIC_HEADER_TOUCH_SELECTOR);
+    if (!el || target.closest("select,input,textarea")) return;
+    if (event.cancelable) event.preventDefault();
+    el.scrollTop = 0;
+  }, {passive:false, capture:true});
 }
 function scheduleHorizontalReset(){
   lockHorizontalScroll();
@@ -3410,6 +3428,7 @@ let sectionObserver = null;
 
 function qs(sel, root=document){ return root.querySelector(sel); }
 function qsa(sel, root=document){ return [...root.querySelectorAll(sel)]; }
+const STATIC_HEADER_TOUCH_SELECTOR = ".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.hero .tooltip-wrap,.hero .help-tip,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head";
 function lockHorizontalScroll(){
   const y = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
   window.scrollTo(0, y);
@@ -3418,7 +3437,7 @@ function lockHorizontalScroll(){
   qsa(".main,.page-scroller,.view-stage,.view-shell,.panel-scroll,.table-wrap").forEach(el => {
     el.scrollLeft = 0;
   });
-  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(STATIC_HEADER_TOUCH_SELECTOR).forEach(el => {
     el.scrollTop = 0;
   });
 }
@@ -3432,25 +3451,37 @@ function clampHorizontalLayout(){
     el.style.maxWidth = "100%";
     el.style.tableLayout = "fixed";
   });
-  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(STATIC_HEADER_TOUCH_SELECTOR).forEach(el => {
     el.style.overflow = "hidden";
     el.style.overscrollBehavior = "none";
-    el.style.touchAction = "manipulation";
+    el.style.touchAction = "none";
+    el.style.webkitOverflowScrolling = "auto";
     el.scrollTop = 0;
   });
   lockHorizontalScroll();
 }
 function bindStaticHeaderTouchGuards(){
   if (window.innerWidth > 720) return;
-  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
+  qsa(STATIC_HEADER_TOUCH_SELECTOR).forEach(el => {
     if (el.dataset.touchGuardBound === "1") return;
     el.dataset.touchGuardBound = "1";
     el.addEventListener("touchmove", event => {
-      if (event.target.closest("select,input,textarea,button")) return;
-      event.preventDefault();
+      if (event.target.closest("select,input,textarea")) return;
+      if (event.cancelable) event.preventDefault();
       el.scrollTop = 0;
     }, {passive:false});
   });
+  if (document.documentElement.dataset.staticHeaderTouchGuardBound === "1") return;
+  document.documentElement.dataset.staticHeaderTouchGuardBound = "1";
+  document.addEventListener("touchmove", event => {
+    if (window.innerWidth > 720) return;
+    const target = event.target;
+    if (!target || !target.closest) return;
+    const el = target.closest(STATIC_HEADER_TOUCH_SELECTOR);
+    if (!el || target.closest("select,input,textarea")) return;
+    if (event.cancelable) event.preventDefault();
+    el.scrollTop = 0;
+  }, {passive:false, capture:true});
 }
 function scheduleHorizontalReset(){
   lockHorizontalScroll();
