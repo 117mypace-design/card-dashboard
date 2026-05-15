@@ -167,8 +167,21 @@ a{color:inherit;text-decoration:none}
   align-items:start;
   gap:10px;
   margin-bottom:6px;
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:manipulation;
 }
-.hero-main{min-width:0}
+.hero-main{
+  min-width:0;
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:manipulation;
+}
+.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs{
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:manipulation;
+}
 .hero-period{
   justify-self:end;
   text-align:right;
@@ -1868,7 +1881,7 @@ function lockHorizontalScroll(){
   qsa(".main,.page-scroller,.view-stage,.view-shell,.panel-scroll,.table-wrap").forEach(el => {
     el.scrollLeft = 0;
   });
-  qsa(".view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
     el.scrollTop = 0;
   });
 }
@@ -1882,7 +1895,7 @@ function clampHorizontalLayout(){
     el.style.maxWidth = "100%";
     el.style.tableLayout = "fixed";
   });
-  qsa(".view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
     el.style.overflow = "hidden";
     el.style.overscrollBehavior = "none";
     el.style.touchAction = "manipulation";
@@ -1892,11 +1905,11 @@ function clampHorizontalLayout(){
 }
 function bindStaticHeaderTouchGuards(){
   if (window.innerWidth > 720) return;
-  qsa(".view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
+  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
     if (el.dataset.touchGuardBound === "1") return;
     el.dataset.touchGuardBound = "1";
     el.addEventListener("touchmove", event => {
-      if (event.target.closest("select,input,textarea")) return;
+      if (event.target.closest("select,input,textarea,button")) return;
       event.preventDefault();
       el.scrollTop = 0;
     }, {passive:false});
@@ -3405,7 +3418,7 @@ function lockHorizontalScroll(){
   qsa(".main,.page-scroller,.view-stage,.view-shell,.panel-scroll,.table-wrap").forEach(el => {
     el.scrollLeft = 0;
   });
-  qsa(".view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
     el.scrollTop = 0;
   });
 }
@@ -3419,7 +3432,7 @@ function clampHorizontalLayout(){
     el.style.maxWidth = "100%";
     el.style.tableLayout = "fixed";
   });
-  qsa(".view-head,.view-head .title-line,.view-title").forEach(el => {
+  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title").forEach(el => {
     el.style.overflow = "hidden";
     el.style.overscrollBehavior = "none";
     el.style.touchAction = "manipulation";
@@ -3429,11 +3442,11 @@ function clampHorizontalLayout(){
 }
 function bindStaticHeaderTouchGuards(){
   if (window.innerWidth > 720) return;
-  qsa(".view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
+  qsa(".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
     if (el.dataset.touchGuardBound === "1") return;
     el.dataset.touchGuardBound = "1";
     el.addEventListener("touchmove", event => {
-      if (event.target.closest("select,input,textarea")) return;
+      if (event.target.closest("select,input,textarea,button")) return;
       event.preventDefault();
       el.scrollTop = 0;
     }, {passive:false});
