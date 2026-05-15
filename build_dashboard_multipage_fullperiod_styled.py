@@ -1890,12 +1890,26 @@ function clampHorizontalLayout(){
   });
   lockHorizontalScroll();
 }
+function bindStaticHeaderTouchGuards(){
+  if (window.innerWidth > 720) return;
+  qsa(".view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
+    if (el.dataset.touchGuardBound === "1") return;
+    el.dataset.touchGuardBound = "1";
+    el.addEventListener("touchmove", event => {
+      if (event.target.closest("select,input,textarea")) return;
+      event.preventDefault();
+      el.scrollTop = 0;
+    }, {passive:false});
+  });
+}
 function scheduleHorizontalReset(){
   lockHorizontalScroll();
   clampHorizontalLayout();
+  bindStaticHeaderTouchGuards();
   [0, 80, 240, 800].forEach(delay => setTimeout(() => {
     lockHorizontalScroll();
     clampHorizontalLayout();
+    bindStaticHeaderTouchGuards();
   }, delay));
 }
 window.addEventListener("scroll", () => {
@@ -3317,6 +3331,7 @@ function renderPage(){
   if (PAGE === "decks") renderDecks();
   if (PAGE === "cards") renderCards();
   requestAnimationFrame(clampHorizontalLayout);
+  requestAnimationFrame(bindStaticHeaderTouchGuards);
 }
 document.addEventListener("DOMContentLoaded", () => {
   if (window.innerWidth > 980) qs("#sidebar")?.classList.remove("hidden");
@@ -3412,12 +3427,26 @@ function clampHorizontalLayout(){
   });
   lockHorizontalScroll();
 }
+function bindStaticHeaderTouchGuards(){
+  if (window.innerWidth > 720) return;
+  qsa(".view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head").forEach(el => {
+    if (el.dataset.touchGuardBound === "1") return;
+    el.dataset.touchGuardBound = "1";
+    el.addEventListener("touchmove", event => {
+      if (event.target.closest("select,input,textarea")) return;
+      event.preventDefault();
+      el.scrollTop = 0;
+    }, {passive:false});
+  });
+}
 function scheduleHorizontalReset(){
   lockHorizontalScroll();
   clampHorizontalLayout();
+  bindStaticHeaderTouchGuards();
   [0, 80, 240, 800].forEach(delay => setTimeout(() => {
     lockHorizontalScroll();
     clampHorizontalLayout();
+    bindStaticHeaderTouchGuards();
   }, delay));
 }
 window.addEventListener("scroll", () => {
@@ -6154,6 +6183,7 @@ function renderPage(options={}){
   if (PAGE === "decklists") renderDecklists();
   bindSectionNavigation({preserveScroll});
   requestAnimationFrame(clampHorizontalLayout);
+  requestAnimationFrame(bindStaticHeaderTouchGuards);
   if (scrollState){
     requestAnimationFrame(() => {
       const nextPageBody = qs("#pageBody");
