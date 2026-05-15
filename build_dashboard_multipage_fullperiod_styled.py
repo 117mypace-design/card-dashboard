@@ -410,14 +410,14 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   transform:translateX(0) translateY(0);
 }
 @media (max-width:720px){
-  .hero .tooltip-wrap{
+  .tooltip-wrap{
     overflow:visible;
     touch-action:manipulation;
   }
-  .hero .help-tip{
+  .help-tip{
     touch-action:manipulation;
   }
-  .hero .tooltip-bubble{
+  .tooltip-bubble{
     position:fixed;
     top:76px;
     left:12px;
@@ -429,21 +429,27 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
     z-index:80;
     pointer-events:none;
   }
-  .hero .tooltip-wrap.align-left .tooltip-bubble,
-  .hero .tooltip-wrap.align-right .tooltip-bubble{
+  .tooltip-wrap.align-left .tooltip-bubble,
+  .tooltip-wrap.align-right .tooltip-bubble{
     left:12px;
     right:12px;
     transform:translateY(-4px);
   }
-  .hero .tooltip-wrap:hover .tooltip-bubble,
-  .hero .tooltip-wrap:focus-within .tooltip-bubble,
-  .hero .tooltip-wrap.tip-open .tooltip-bubble,
-  .hero .tooltip-wrap.align-left:hover .tooltip-bubble,
-  .hero .tooltip-wrap.align-left:focus-within .tooltip-bubble,
-  .hero .tooltip-wrap.align-left.tip-open .tooltip-bubble,
-  .hero .tooltip-wrap.align-right:hover .tooltip-bubble,
-  .hero .tooltip-wrap.align-right:focus-within .tooltip-bubble,
-  .hero .tooltip-wrap.align-right.tip-open .tooltip-bubble{
+  .tooltip-wrap:hover .tooltip-bubble,
+  .tooltip-wrap:focus-within .tooltip-bubble,
+  .tooltip-wrap.align-left:hover .tooltip-bubble,
+  .tooltip-wrap.align-left:focus-within .tooltip-bubble,
+  .tooltip-wrap.align-right:hover .tooltip-bubble,
+  .tooltip-wrap.align-right:focus-within .tooltip-bubble{
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(-4px);
+  }
+  .tooltip-wrap.tip-open .tooltip-bubble,
+  .tooltip-wrap.align-left.tip-open .tooltip-bubble,
+  .tooltip-wrap.align-right.tip-open .tooltip-bubble{
+    opacity:1;
+    visibility:visible;
     transform:translateY(0);
   }
 }
@@ -3427,6 +3433,7 @@ function renderPage(){
   if (PAGE === "cards") renderCards();
   requestAnimationFrame(clampHorizontalLayout);
   requestAnimationFrame(bindStaticHeaderTouchGuards);
+  requestAnimationFrame(bindTooltipTapOverlays);
 }
 document.addEventListener("DOMContentLoaded", () => {
   if (window.innerWidth > 980) qs("#sidebar")?.classList.remove("hidden");
@@ -6317,6 +6324,7 @@ function renderPage(options={}){
   bindSectionNavigation({preserveScroll});
   requestAnimationFrame(clampHorizontalLayout);
   requestAnimationFrame(bindStaticHeaderTouchGuards);
+  requestAnimationFrame(bindTooltipTapOverlays);
   if (scrollState){
     requestAnimationFrame(() => {
       const nextPageBody = qs("#pageBody");
