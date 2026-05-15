@@ -186,11 +186,16 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   align-items:flex-start;
   gap:10px;
   padding:2px 2px 0;
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:manipulation;
 }
 .view-title{
   font-size:20px;
   line-height:1.1;
   font-weight:800;
+  overflow:hidden;
+  overscroll-behavior:none;
 }
 .title-line,
 .panel-head,
@@ -199,6 +204,11 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   align-items:center;
   gap:8px;
   flex-wrap:wrap;
+}
+.view-head .title-line{
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:manipulation;
 }
 .view-stage{
   flex:1;
@@ -1724,7 +1734,12 @@ select option:checked{
     overflow-y:visible;
   }
   .view-shell{height:auto;min-height:auto;overflow-x:hidden;overflow-y:visible}
-  .view-head{padding:0}
+  .view-head{
+    padding:0;
+    overflow:hidden;
+    overscroll-behavior:none;
+    touch-action:manipulation;
+  }
   .view-stage{overflow-x:hidden;overflow-y:visible}
   .decklist-results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .decklist-card{overflow:hidden;min-width:0}
@@ -1762,6 +1777,12 @@ select option:checked{
   .sidebar .section-link-list .side-link{
     overflow:hidden;
     overscroll-behavior:none;
+  }
+  .view-head,.view-head .title-line,.view-title{
+    max-height:none;
+    overflow:hidden;
+    overscroll-behavior:none;
+    touch-action:manipulation;
   }
   .main{padding-left:12px;padding-right:12px}
   .hero,.page-scroller,.view-section,.view-shell,.view-head,.view-stage,.panel,.panel-scroll,.grid,.table-wrap,.tier-group,.tier-group-grid,.tier-stack-card,.tier-stack-link,.tier-stack-top,.tier-stack-stats{
@@ -1889,6 +1910,9 @@ function lockHorizontalScroll(){
   qsa(".main,.page-scroller,.view-stage,.view-shell,.panel-scroll,.table-wrap").forEach(el => {
     el.scrollLeft = 0;
   });
+  qsa(".view-head,.view-head .title-line,.view-title").forEach(el => {
+    el.scrollTop = 0;
+  });
 }
 function clampHorizontalLayout(){
   if (window.innerWidth > 720) return;
@@ -1899,6 +1923,12 @@ function clampHorizontalLayout(){
   qsa(".table").forEach(el => {
     el.style.maxWidth = "100%";
     el.style.tableLayout = "fixed";
+  });
+  qsa(".view-head,.view-head .title-line,.view-title").forEach(el => {
+    el.style.overflow = "hidden";
+    el.style.overscrollBehavior = "none";
+    el.style.touchAction = "manipulation";
+    el.scrollTop = 0;
   });
   lockHorizontalScroll();
 }
