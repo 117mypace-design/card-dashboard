@@ -177,7 +177,7 @@ a{color:inherit;text-decoration:none}
   overscroll-behavior:none;
   touch-action:manipulation;
 }
-.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.hero .tooltip-wrap,.hero .help-tip{
+.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs{
   min-height:0;
   max-height:none;
   overflow:hidden;
@@ -395,7 +395,8 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   transform:translateX(0) translateY(-4px);
 }
 .tooltip-wrap:hover .tooltip-bubble,
-.tooltip-wrap:focus-within .tooltip-bubble{
+.tooltip-wrap:focus-within .tooltip-bubble,
+.tooltip-wrap.tip-open .tooltip-bubble{
   opacity:1;
   visibility:visible;
 }
@@ -407,6 +408,44 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .tooltip-wrap.align-right:hover .tooltip-bubble,
 .tooltip-wrap.align-right:focus-within .tooltip-bubble{
   transform:translateX(0) translateY(0);
+}
+@media (max-width:720px){
+  .hero .tooltip-wrap{
+    overflow:visible;
+    touch-action:manipulation;
+  }
+  .hero .help-tip{
+    touch-action:manipulation;
+  }
+  .hero .tooltip-bubble{
+    position:fixed;
+    top:76px;
+    left:12px;
+    right:12px;
+    width:auto;
+    min-width:0;
+    max-width:none;
+    transform:translateY(-4px);
+    z-index:80;
+    pointer-events:none;
+  }
+  .hero .tooltip-wrap.align-left .tooltip-bubble,
+  .hero .tooltip-wrap.align-right .tooltip-bubble{
+    left:12px;
+    right:12px;
+    transform:translateY(-4px);
+  }
+  .hero .tooltip-wrap:hover .tooltip-bubble,
+  .hero .tooltip-wrap:focus-within .tooltip-bubble,
+  .hero .tooltip-wrap.tip-open .tooltip-bubble,
+  .hero .tooltip-wrap.align-left:hover .tooltip-bubble,
+  .hero .tooltip-wrap.align-left:focus-within .tooltip-bubble,
+  .hero .tooltip-wrap.align-left.tip-open .tooltip-bubble,
+  .hero .tooltip-wrap.align-right:hover .tooltip-bubble,
+  .hero .tooltip-wrap.align-right:focus-within .tooltip-bubble,
+  .hero .tooltip-wrap.align-right.tip-open .tooltip-bubble{
+    transform:translateY(0);
+  }
 }
 .grid{display:grid;gap:16px}
 .grid.two{grid-template-columns:1fr 1fr}
@@ -1878,7 +1917,7 @@ const PAGE_TITLES = {index:"環境全体", archetypes:"アーキタイプ分析"
 
 function qs(sel, root=document){ return root.querySelector(sel); }
 function qsa(sel, root=document){ return [...root.querySelectorAll(sel)]; }
-const STATIC_HEADER_TOUCH_SELECTOR = ".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.hero .tooltip-wrap,.hero .help-tip,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head";
+const STATIC_HEADER_TOUCH_SELECTOR = ".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head";
 function lockHorizontalScroll(){
   const y = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
   window.scrollTo(0, y);
@@ -1933,14 +1972,39 @@ function bindStaticHeaderTouchGuards(){
     el.scrollTop = 0;
   }, {passive:false, capture:true});
 }
+function bindTooltipTapOverlays(){
+  qsa(".help-tip").forEach(btn => {
+    if (btn.dataset.tapOverlayBound === "1") return;
+    btn.dataset.tapOverlayBound = "1";
+    btn.addEventListener("click", event => {
+      if (window.innerWidth > 720) return;
+      const wrap = btn.closest(".tooltip-wrap");
+      if (!wrap) return;
+      event.preventDefault();
+      event.stopPropagation();
+      const wasOpen = wrap.classList.contains("tip-open");
+      qsa(".tooltip-wrap.tip-open").forEach(el => el.classList.remove("tip-open"));
+      if (!wasOpen) wrap.classList.add("tip-open");
+    });
+  });
+  if (document.documentElement.dataset.tooltipTapOverlayBound === "1") return;
+  document.documentElement.dataset.tooltipTapOverlayBound = "1";
+  document.addEventListener("click", event => {
+    if (window.innerWidth > 720) return;
+    if (event.target.closest(".tooltip-wrap")) return;
+    qsa(".tooltip-wrap.tip-open").forEach(el => el.classList.remove("tip-open"));
+  }, true);
+}
 function scheduleHorizontalReset(){
   lockHorizontalScroll();
   clampHorizontalLayout();
   bindStaticHeaderTouchGuards();
+  bindTooltipTapOverlays();
   [0, 80, 240, 800].forEach(delay => setTimeout(() => {
     lockHorizontalScroll();
     clampHorizontalLayout();
     bindStaticHeaderTouchGuards();
+    bindTooltipTapOverlays();
   }, delay));
 }
 window.addEventListener("scroll", () => {
@@ -3428,7 +3492,7 @@ let sectionObserver = null;
 
 function qs(sel, root=document){ return root.querySelector(sel); }
 function qsa(sel, root=document){ return [...root.querySelectorAll(sel)]; }
-const STATIC_HEADER_TOUCH_SELECTOR = ".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.hero .tooltip-wrap,.hero .help-tip,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head";
+const STATIC_HEADER_TOUCH_SELECTOR = ".hero,.hero-main,.hero .title-line,#pageTitle,#heroPeriod,.breadcrumbs,.view-head,.view-head .title-line,.view-title,.panel-head,.deck-summary-trend-head,.arch-breakdown-head";
 function lockHorizontalScroll(){
   const y = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
   window.scrollTo(0, y);
@@ -3483,14 +3547,39 @@ function bindStaticHeaderTouchGuards(){
     el.scrollTop = 0;
   }, {passive:false, capture:true});
 }
+function bindTooltipTapOverlays(){
+  qsa(".help-tip").forEach(btn => {
+    if (btn.dataset.tapOverlayBound === "1") return;
+    btn.dataset.tapOverlayBound = "1";
+    btn.addEventListener("click", event => {
+      if (window.innerWidth > 720) return;
+      const wrap = btn.closest(".tooltip-wrap");
+      if (!wrap) return;
+      event.preventDefault();
+      event.stopPropagation();
+      const wasOpen = wrap.classList.contains("tip-open");
+      qsa(".tooltip-wrap.tip-open").forEach(el => el.classList.remove("tip-open"));
+      if (!wasOpen) wrap.classList.add("tip-open");
+    });
+  });
+  if (document.documentElement.dataset.tooltipTapOverlayBound === "1") return;
+  document.documentElement.dataset.tooltipTapOverlayBound = "1";
+  document.addEventListener("click", event => {
+    if (window.innerWidth > 720) return;
+    if (event.target.closest(".tooltip-wrap")) return;
+    qsa(".tooltip-wrap.tip-open").forEach(el => el.classList.remove("tip-open"));
+  }, true);
+}
 function scheduleHorizontalReset(){
   lockHorizontalScroll();
   clampHorizontalLayout();
   bindStaticHeaderTouchGuards();
+  bindTooltipTapOverlays();
   [0, 80, 240, 800].forEach(delay => setTimeout(() => {
     lockHorizontalScroll();
     clampHorizontalLayout();
     bindStaticHeaderTouchGuards();
+    bindTooltipTapOverlays();
   }, delay));
 }
 window.addEventListener("scroll", () => {
