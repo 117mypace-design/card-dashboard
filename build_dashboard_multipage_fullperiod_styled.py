@@ -127,6 +127,11 @@ a{color:inherit;text-decoration:none}
   border-radius:12px;
   color:var(--text);
   font-size:14px;
+  line-height:1.35;
+  min-height:0;
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:manipulation;
 }
 .side-link.active,.side-link:hover{background:rgba(124,199,255,.12)}
 .toggle{
@@ -1692,6 +1697,14 @@ select option:checked{
 .tier4{background:rgba(255,157,178,.16);color:#ffc6d3}
 .note-box{padding:12px 14px;border:1px dashed rgba(255,255,255,.16);border-radius:14px;font-size:13px;color:var(--muted);background:rgba(255,255,255,.02);line-height:1.65}
 .sidebar .side-accordion-body{overflow-x:hidden}
+.sidebar .section-link-list{
+  overflow:hidden;
+  overscroll-behavior:none;
+  touch-action:manipulation;
+}
+.sidebar .section-link-list .side-link{
+  overflow:hidden;
+}
 .sidebar .decklist-filter-panel .field-grid.two{grid-template-columns:1fr}
 .sidebar .decklist-filter-panel .card-condition-list{min-width:0}
 .sidebar .decklist-filter-panel .card-condition-row{grid-template-columns:1fr;min-width:0}
@@ -1774,6 +1787,14 @@ select option:checked{
     width:100%;
     max-width:100vw;
     overflow-x:clip;
+  }
+  .sidebar .section-link-list{
+    max-height:none;
+    overflow:hidden;
+  }
+  .sidebar .section-link-list .side-link{
+    overflow:hidden;
+    overscroll-behavior:none;
   }
   .main{padding-left:12px;padding-right:12px}
   .hero,.page-scroller,.view-section,.view-shell,.view-head,.view-stage,.panel,.panel-scroll,.grid,.table-wrap,.tier-group,.tier-group-grid,.tier-stack-card,.tier-stack-link,.tier-stack-top,.tier-stack-stats{
@@ -5045,7 +5066,7 @@ function sidebarMarkup(){
     </details>
     <details class="side-accordion" open>
       <summary>${PAGE_TITLES[PAGE]} の分析項目</summary>
-      <div class="side-accordion-body">
+      <div class="side-accordion-body section-link-list">
         ${pageSections().map(section => `<a class="side-link" data-section-link="${section.id}" href="#${section.id}">${section.label}</a>`).join("")}
       </div>
     </details>
