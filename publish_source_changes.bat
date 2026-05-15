@@ -11,6 +11,8 @@ for %%F in (
   meta_cards.json
   card_image_cache.json
   seasons.json
+  season_utils.py
+  update_expansion_seasons.py
   find_events_v2.py
   fetch_results_s4.py
   generate_report_local_alltrend.py
@@ -63,6 +65,8 @@ git add -- ^
   meta_cards.json ^
   card_image_cache.json ^
   seasons.json ^
+  season_utils.py ^
+  update_expansion_seasons.py ^
   find_events_v2.py ^
   fetch_results_s4.py ^
   generate_report_local_alltrend.py ^
@@ -126,6 +130,6 @@ echo.
 echo [5/5] Done.
 echo.
 echo Usual setting/code changes such as deck_types.json trigger GitHub auto update after push.
-echo If you changed seasons.json, find_events_v2.py, or fetch_results_s4.py, run Update Dashboard manually with fetch_data = true.
+echo If you changed seasons.json, season_utils.py, update_expansion_seasons.py, find_events_v2.py, or fetch_results_s4.py, run Update Dashboard manually with fetch_data = true when you need a fresh fetch immediately.
 pause
 exit /b 0

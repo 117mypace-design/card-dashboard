@@ -54,9 +54,20 @@ CSS = r"""
   --bad:#ff9a90;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth;
+  width:100%;
+  max-width:100%;
+  overflow-x:hidden;
+  overscroll-behavior-x:none;
+}
 body{
   margin:0;
+  width:100%;
+  max-width:100%;
+  overflow-x:hidden;
+  overscroll-behavior-x:none;
+  touch-action:pan-y;
   color:var(--text);
   font-family:"BIZ UDPGothic","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif;
   background:
@@ -65,7 +76,7 @@ body{
     linear-gradient(180deg,#08101d 0%,#09111f 100%);
 }
 a{color:inherit;text-decoration:none}
-.app{display:flex;min-height:100vh}
+.app{display:flex;min-height:100vh;width:100%;max-width:100%;overflow-x:hidden;overscroll-behavior-x:none}
 .backdrop{display:none}
 .backdrop.show{display:block;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:19}
 .sidebar{
@@ -132,12 +143,18 @@ a{color:inherit;text-decoration:none}
 }
 .main{
   flex:1;
+  width:100%;
+  max-width:100%;
   min-width:0;
   height:100vh;
   overflow:hidden;
   padding:10px 16px 12px;
   display:flex;
   flex-direction:column;
+  overscroll-behavior-x:none;
+}
+.hero,.page-scroller,.view-section,.view-shell,.view-head,.view-stage,.panel,.grid,.tier-group,.tier-group-grid,.tier-stack-card,.tier-stack-link,.tier-stack-top,.tier-stack-stats,.table-wrap{
+  max-width:100%;
 }
 .hero{
   display:grid;
@@ -1706,13 +1723,15 @@ select option:checked{
   .sidebar{position:fixed;z-index:20}
   .main{
     height:auto;
-    overflow:visible;
+    overflow-x:hidden;
+    overflow-y:visible;
     padding:74px 16px 28px;
   }
   .hero{grid-template-columns:1fr}
   .hero-period{justify-self:start;text-align:left;padding-top:0;white-space:normal}
   .page-scroller{
-    overflow:visible;
+    overflow-x:hidden;
+    overflow-y:visible;
     scroll-snap-type:none;
     padding-right:0;
   }
@@ -1721,11 +1740,12 @@ select option:checked{
     flex-basis:auto;
     min-height:auto;
     max-height:none;
-    overflow:visible;
+    overflow-x:hidden;
+    overflow-y:visible;
   }
-  .view-shell{height:auto;min-height:auto;overflow:visible}
+  .view-shell{height:auto;min-height:auto;overflow-x:hidden;overflow-y:visible}
   .view-head{padding:0}
-  .view-stage{overflow:visible}
+  .view-stage{overflow-x:hidden;overflow-y:visible}
   .decklist-results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .decklist-card{overflow:hidden;min-width:0}
   .decklist-image{
@@ -1750,6 +1770,38 @@ select option:checked{
   .card-condition-row{grid-template-columns:minmax(0,1fr) 1fr 1fr 72px}
 }
 @media (max-width:720px){
+  html,body,.app,.main{
+    width:100%;
+    max-width:100vw;
+    overflow-x:clip;
+  }
+  .main{padding-left:12px;padding-right:12px}
+  .hero,.page-scroller,.view-section,.view-shell,.view-head,.view-stage,.panel,.panel-scroll,.grid,.table-wrap,.tier-group,.tier-group-grid,.tier-stack-card,.tier-stack-link,.tier-stack-top,.tier-stack-stats{
+    min-width:0;
+    max-width:100%;
+    overflow-x:hidden;
+  }
+  .table-wrap{padding-right:0}
+  .table{
+    width:100%;
+    max-width:100%;
+    table-layout:fixed;
+  }
+  .table th,.table td{
+    white-space:normal;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+  .table-tier th:nth-child(1),.table-tier td:nth-child(1){width:46px}
+  .table-tier th:nth-child(3),.table-tier td:nth-child(3),
+  .table-tier th:nth-child(4),.table-tier td:nth-child(4),
+  .table-tier th:nth-child(5),.table-tier td:nth-child(5){width:auto}
+  .tier-stack-stats{gap:3px}
+  .tier-stat{padding:4px 3px}
+  .tier-stat-main{gap:3px}
+  .tier-stat-icon{width:14px;height:14px}
+  .tier-stat-icon svg{width:9px;height:9px}
+  .tier-stat-value{font-size:11px;letter-spacing:0}
   .decklist-results-grid{grid-template-columns:1fr}
   .tier-group-grid{grid-template-columns:1fr}
   .tier-stack-link{min-height:108px;padding:8px}
@@ -1766,6 +1818,45 @@ const PAGE_TITLES = {index:"環境全体", archetypes:"アーキタイプ分析"
 
 function qs(sel, root=document){ return root.querySelector(sel); }
 function qsa(sel, root=document){ return [...root.querySelectorAll(sel)]; }
+function lockHorizontalScroll(){
+  const y = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  window.scrollTo(0, y);
+  document.documentElement.scrollLeft = 0;
+  if (document.body) document.body.scrollLeft = 0;
+  qsa(".main,.page-scroller,.view-stage,.view-shell,.panel-scroll,.table-wrap").forEach(el => {
+    el.scrollLeft = 0;
+  });
+}
+function clampHorizontalLayout(){
+  if (window.innerWidth > 720) return;
+  qsa(".hero,.page-scroller,.view-section,.view-shell,.view-head,.view-stage,.panel,.panel-scroll,.grid,.table-wrap,.tier-group,.tier-group-grid,.tier-stack-card,.tier-stack-link,.tier-stack-top,.tier-stack-stats").forEach(el => {
+    el.style.maxWidth = "100%";
+    el.style.overflowX = "hidden";
+  });
+  qsa(".table").forEach(el => {
+    el.style.maxWidth = "100%";
+    el.style.tableLayout = "fixed";
+  });
+  lockHorizontalScroll();
+}
+function scheduleHorizontalReset(){
+  lockHorizontalScroll();
+  clampHorizontalLayout();
+  [0, 80, 240, 800].forEach(delay => setTimeout(() => {
+    lockHorizontalScroll();
+    clampHorizontalLayout();
+  }, delay));
+}
+window.addEventListener("scroll", () => {
+  if (window.scrollX) requestAnimationFrame(lockHorizontalScroll);
+}, {passive:true});
+window.addEventListener("resize", () => {
+  scheduleHorizontalReset();
+}, {passive:true});
+window.addEventListener("orientationchange", scheduleHorizontalReset, {passive:true});
+window.addEventListener("pageshow", scheduleHorizontalReset, {passive:true});
+window.addEventListener("load", scheduleHorizontalReset, {passive:true});
+window.addEventListener("touchend", () => requestAnimationFrame(lockHorizontalScroll), {passive:true});
 function escapeHtml(value){ return String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch])); }
 function fmtPct(value){ return `${Number(value || 0).toFixed(1)}%`; }
 function fmtSigned(value){ const num = Number(value || 0); return `${num >= 0 ? "+" : ""}${num.toFixed(1)}pt`; }
@@ -3174,6 +3265,7 @@ function renderPage(){
   if (PAGE === "archetypes") renderArchetypes();
   if (PAGE === "decks") renderDecks();
   if (PAGE === "cards") renderCards();
+  requestAnimationFrame(clampHorizontalLayout);
 }
 document.addEventListener("DOMContentLoaded", () => {
   if (window.innerWidth > 980) qs("#sidebar")?.classList.remove("hidden");
@@ -3239,6 +3331,45 @@ let sectionObserver = null;
 
 function qs(sel, root=document){ return root.querySelector(sel); }
 function qsa(sel, root=document){ return [...root.querySelectorAll(sel)]; }
+function lockHorizontalScroll(){
+  const y = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  window.scrollTo(0, y);
+  document.documentElement.scrollLeft = 0;
+  if (document.body) document.body.scrollLeft = 0;
+  qsa(".main,.page-scroller,.view-stage,.view-shell,.panel-scroll,.table-wrap").forEach(el => {
+    el.scrollLeft = 0;
+  });
+}
+function clampHorizontalLayout(){
+  if (window.innerWidth > 720) return;
+  qsa(".hero,.page-scroller,.view-section,.view-shell,.view-head,.view-stage,.panel,.panel-scroll,.grid,.table-wrap,.tier-group,.tier-group-grid,.tier-stack-card,.tier-stack-link,.tier-stack-top,.tier-stack-stats").forEach(el => {
+    el.style.maxWidth = "100%";
+    el.style.overflowX = "hidden";
+  });
+  qsa(".table").forEach(el => {
+    el.style.maxWidth = "100%";
+    el.style.tableLayout = "fixed";
+  });
+  lockHorizontalScroll();
+}
+function scheduleHorizontalReset(){
+  lockHorizontalScroll();
+  clampHorizontalLayout();
+  [0, 80, 240, 800].forEach(delay => setTimeout(() => {
+    lockHorizontalScroll();
+    clampHorizontalLayout();
+  }, delay));
+}
+window.addEventListener("scroll", () => {
+  if (window.scrollX) requestAnimationFrame(lockHorizontalScroll);
+}, {passive:true});
+window.addEventListener("resize", () => {
+  scheduleHorizontalReset();
+}, {passive:true});
+window.addEventListener("orientationchange", scheduleHorizontalReset, {passive:true});
+window.addEventListener("pageshow", scheduleHorizontalReset, {passive:true});
+window.addEventListener("load", scheduleHorizontalReset, {passive:true});
+window.addEventListener("touchend", () => requestAnimationFrame(lockHorizontalScroll), {passive:true});
 function escapeHtml(value){ return String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch])); }
 function fmtPct(value){ return `${Number(value || 0).toFixed(1)}%`; }
 function fmtSigned(value){ const num = Number(value || 0); return `${num >= 0 ? "+" : ""}${num.toFixed(1)}pt`; }
@@ -5962,6 +6093,7 @@ function renderPage(options={}){
   if (PAGE === "cards") renderCards();
   if (PAGE === "decklists") renderDecklists();
   bindSectionNavigation({preserveScroll});
+  requestAnimationFrame(clampHorizontalLayout);
   if (scrollState){
     requestAnimationFrame(() => {
       const nextPageBody = qs("#pageBody");

@@ -4,13 +4,17 @@ import time
 import re
 import csv
 import requests
-from datetime import datetime, timezone
+
+from season_utils import (
+    load_current_season,
+    season_end_yyyymmdd,
+    season_output_name,
+    season_start_yyyymmdd,
+)
 
 # ============================================================
 # 設定
 # ============================================================
-
-SEASONS_FILE = "seasons.json"
 
 RESULTS_DIR = "event_results"
 DECKS_DIR   = "deck_lists"
@@ -43,19 +47,8 @@ DECK_CATEGORY = {
 # シーズン設定の読み込み
 # ============================================================
 
-def load_season():
-    with open(SEASONS_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-    current_name = data["current_season"]
-    for s in data["seasons"]:
-        if s["name"] == current_name:
-            return s
-    raise ValueError(f"seasons.json に '{current_name}' が見つかりません")
-
-
 def get_event_ids_file(season):
-    safe_name = season["name"].replace(" ", "_").replace("/", "-")
-    return f"event_ids_{safe_name}.json"
+    return f"event_ids_{season_output_name(season)}.json"
 
 
 def load_event_ids(season):
@@ -65,9 +58,8 @@ def load_event_ids(season):
         print(f"エラー: {ids_file} が見つかりません。先に find_events_v2.py を実行してください。")
         return []
 
-    today = datetime.now(timezone.utc).strftime("%Y%m%d")
-    date_from = season["date_from"]
-    date_to = min(season["date_to"], today)
+    date_from = season_start_yyyymmdd(season)
+    date_to = season_end_yyyymmdd(season, cap_today=True)
 
     with open(ids_file, encoding="utf-8") as f:
         data = json.load(f)
@@ -204,7 +196,7 @@ def update_events_csv(event_id, data):
 # ============================================================
 
 def main():
-    season = load_season()
+    season = load_current_season()
     event_ids = load_event_ids(season)
 
     if not event_ids:

@@ -7,10 +7,11 @@
 
 現行の本線は、次の流れで動いています。
 
-1. 大会IDを取得
-2. 大会結果とデッキリストを取得
-3. レポートと分析用JSONを生成
-4. 5ページ構成のダッシュボードを再生成
+1. 拡張パック発売日にもとづく環境区分を更新
+2. 大会IDを取得
+3. 大会結果とデッキリストを取得
+4. レポートと分析用JSONを生成
+5. 5ページ構成のダッシュボードを再生成
 
 ## ふだん使う入口
 
@@ -106,7 +107,19 @@
 
 ### `seasons.json`
 
-どのシーズンを取得対象にするかの設定です。
+どの環境区分を取得・集計対象にするかの設定です。  
+現在は公式シティリーグのシーズン番号ではなく、拡張パックの発売日を新しい環境の開始日として区切ります。  
+`current_season` が `auto` の場合は、今日の日付が含まれる環境区分を自動で選びます。
+
+### `season_utils.py`
+
+`seasons.json` を読み込み、現在の環境区分を選ぶ共通ヘルパーです。  
+大会ID取得、結果取得、レポート生成で同じ環境区分を使うために参照します。
+
+### `update_expansion_seasons.py`
+
+ポケカ公式の商品情報 API から拡張パックの発売日を取得し、`seasons.json` を発売日ベースで再生成するスクリプトです。  
+新しい拡張パック情報が公式に公開された場合、日次更新または一括取得時に次の環境区分が自動で追加されます。
 
 ### `card_image_cache.json`
 
@@ -194,11 +207,12 @@ Tier表、カード分析、メタカード表示などで使います。
 
 - `.github/workflows/update-dashboard.yml`
   GitHub 上で
-  1. 大会データ取得
-  2. レポート生成
-  3. ダッシュボード再生成
-  4. 更新差分の自動 commit / push
-  5. `site_fullperiod` の GitHub Pages 自動公開
+  1. 拡張パック発売日にもとづく環境区分更新
+  2. 大会データ取得
+  3. レポート生成
+  4. ダッシュボード再生成
+  5. 更新差分の自動 commit / push
+  6. `site_fullperiod` の GitHub Pages 自動公開
 
   を行います。
 
@@ -232,6 +246,11 @@ Tier表、カード分析、メタカード表示などで使います。
   - `deck_types.json`
   - `meta_cards.json`
   - `card_image_cache.json`
+  - `seasons.json`
+  - `season_utils.py`
+  - `update_expansion_seasons.py`
+  - `find_events_v2.py`
+  - `fetch_results_s4.py`
   - `generate_report_local_alltrend.py`
   - `build_dashboard_multipage_fullperiod_styled.py`
 

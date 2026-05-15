@@ -1,16 +1,22 @@
 import json
 import os
 import time
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+from season_utils import (
+    load_current_season,
+    season_end_yyyymmdd,
+    season_output_name,
+    season_start_yyyymmdd,
+)
 
 # ============================================================
 # 設定
 # ============================================================
 
-SEASONS_FILE     = "seasons.json"
 EVENT_TYPES      = ["3:1", "3:2", "3:7"]  # 全種別指定（Python側でオープンのみフィルタ）
 PER_PAGE         = 20
 REQUEST_INTERVAL = 1.0
@@ -22,28 +28,15 @@ HEADERS = {
     "Referer": "https://players.pokemon-card.com/",
 }
 
-
-def load_season():
-    with open(SEASONS_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-    current_name = data["current_season"]
-    for s in data["seasons"]:
-        if s["name"] == current_name:
-            return s
-    raise ValueError(f"seasons.json に '{current_name}' が見つかりません")
-
-
 def get_output_filename(season):
-    safe_name = season["name"].replace(" ", "_").replace("/", "-")
-    return f"event_ids_{safe_name}.json"
+    return f"event_ids_{season_output_name(season)}.json"
 
 
 def get_date_range(existing, season):
-    today = datetime.now(timezone.utc).strftime("%Y%m%d")
-    season_end = min(season["date_to"], today)
+    season_end = season_end_yyyymmdd(season, cap_today=True)
 
     if not existing:
-        return season["date_from"], season_end
+        return season_start_yyyymmdd(season), season_end
 
     latest = max(str(v.get("date", "")) for v in existing.values())
     if latest >= season_end:
@@ -126,7 +119,7 @@ def fetch_events(session, date_from, date_to):
 
 
 def main():
-    season = load_season()
+    season = load_current_season()
     output_json = get_output_filename(season)
 
     existing = {}

@@ -49,7 +49,20 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo [1/4] Fetching event IDs...
+echo [1/5] Updating expansion-release seasons...
+if defined PYTHON_ARGS (
+    "%PYTHON_EXE%" %PYTHON_ARGS% update_expansion_seasons.py
+) else (
+    "%PYTHON_EXE%" update_expansion_seasons.py
+)
+if errorlevel 1 (
+    echo ERROR: update_expansion_seasons.py failed.
+    if not defined NO_PAUSE pause
+    exit /b 1
+)
+
+echo.
+echo [2/5] Fetching event IDs...
 if defined PYTHON_ARGS (
     "%PYTHON_EXE%" %PYTHON_ARGS% find_events_v2.py
 ) else (
@@ -62,7 +75,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [2/4] Fetching deck lists...
+echo [3/5] Fetching deck lists...
 if defined PYTHON_ARGS (
     "%PYTHON_EXE%" %PYTHON_ARGS% fetch_results_s4.py
 ) else (
@@ -75,7 +88,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/4] Generating report and full-period JSON...
+echo [4/5] Generating report and full-period JSON...
 if defined PYTHON_ARGS (
     "%PYTHON_EXE%" %PYTHON_ARGS% generate_report_local_alltrend.py
 ) else (
@@ -96,7 +109,7 @@ if not defined FULLPERIOD_JSON (
 )
 
 echo.
-echo [4/4] Rebuilding dashboard site...
+echo [5/5] Rebuilding dashboard site...
 if defined PYTHON_ARGS (
     "%PYTHON_EXE%" %PYTHON_ARGS% build_dashboard_multipage_fullperiod_styled.py "%FULLPERIOD_JSON%" "%~dp0site_fullperiod"
 ) else (

@@ -34,6 +34,8 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
+from season_utils import load_current_season, season_date_from, season_date_to
+
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
@@ -475,6 +477,7 @@ def build_fullperiod_payload(
     meta_card_names: list[str],
     deck_ranking: list[dict[str, Any]],
     deck_visuals: dict[str, dict[str, Any]],
+    season: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     serialized_records: list[dict[str, Any]] = []
     for record in sorted(
@@ -509,6 +512,7 @@ def build_fullperiod_payload(
 
     return {
         "title": title,
+        "season": season or {},
         "period_start": date_min.isoformat(),
         "period_end": date_max.isoformat(),
         "total_decks": total_decks,
@@ -980,6 +984,7 @@ def build_fullperiod_payload(
     meta_card_names: list[str],
     deck_ranking: list[dict[str, Any]],
     deck_visuals: dict[str, dict[str, Any]],
+    season: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     weeks_data: dict[str, Any] = {}
     synthetic_deck_ids = 0
@@ -1058,6 +1063,7 @@ def build_fullperiod_payload(
 
     return {
         "title": title,
+        "season": season or {},
         "period_start": date_min.isoformat(),
         "period_end": date_max.isoformat(),
         "total_decks": total_decks,
@@ -1093,7 +1099,15 @@ def main() -> None:
     )
 
     print("Loading event results ...", flush=True)
+    season = load_current_season()
+    season_start = season_date_from(season)
+    season_end = season_date_to(season)
+    print(
+        f"Season: {season['name']} ({season_start.isoformat()} - {season_end.isoformat()})",
+        flush=True,
+    )
     records: list[dict[str, Any]] = []
+    included_event_ids: set[str] = set()
     event_files = sorted(EVENT_DIR.glob("*.json"))
 
     for event_file in event_files:
@@ -1112,9 +1126,12 @@ def main() -> None:
             event_date = datetime.strptime(date_str[:10], "%Y-%m-%d").date()
         except Exception:
             continue
+        if event_date < season_start or event_date > season_end:
+            continue
 
         prefecture = event.get("prefecture_name", "不明")
         event_id = event_file.stem
+        included_event_ids.add(event_id)
         event_name = event.get("event_title", "")
         event_type = event.get("event_type_title", "")
         shop_name = event.get("shopName", "")
@@ -1152,7 +1169,7 @@ def main() -> None:
             )
 
     total_decks = len(records)
-    total_events = len(event_files)
+    total_events = len(included_event_ids)
     print(f"  {total_decks} records from {total_events} events", flush=True)
     if total_decks == 0:
         print("No records found. Exiting.", flush=True)
@@ -1344,6 +1361,7 @@ def main() -> None:
     lines += [
         f"# {report_title}",
         "",
+        f"> 環境区分: {season['name']}  ",
         f"> 集計期間: {date_min} 〜 {date_max}  ",
         f"> 総エントリー数: {total_decks} デッキ / {total_events} 大会",
         "",
@@ -1458,6 +1476,7 @@ def main() -> None:
         meta_card_names=meta_card_names,
         deck_ranking=deck_ranking,
         deck_visuals=deck_visuals,
+        season=season,
     )
     fullperiod_path.write_text(
         json.dumps(fullperiod_payload, ensure_ascii=False, separators=(",", ":")),

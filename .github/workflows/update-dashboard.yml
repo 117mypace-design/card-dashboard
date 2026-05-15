@@ -8,6 +8,11 @@ on:
       - deck_types.json
       - meta_cards.json
       - card_image_cache.json
+      - seasons.json
+      - season_utils.py
+      - update_expansion_seasons.py
+      - find_events_v2.py
+      - fetch_results_s4.py
       - generate_report_local_alltrend.py
       - build_dashboard_multipage_fullperiod_styled.py
   workflow_dispatch:
@@ -51,6 +56,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Update expansion-release seasons
+        run: python update_expansion_seasons.py
+
       - name: Fetch event ids and deck lists
         if: ${{ github.event_name == 'schedule' || inputs.fetch_data }}
         run: |
@@ -84,6 +92,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add \
+            seasons.json \
             deck_lists \
             event_results \
             reports \

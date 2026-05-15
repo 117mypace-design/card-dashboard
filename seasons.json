@@ -1,25 +1,106 @@
 {
+  "season_policy": "expansion_release",
+  "season_source": {
+    "type": "pokemon-card-products-api",
+    "product_type": "expansion",
+    "date_lower": "20250101",
+    "lookahead_days": 420
+  },
+  "current_season": "auto",
   "seasons": [
     {
-      "name": "シティリーグ2026 シーズン1",
-      "date_from": "20250906",
-      "date_to": "20261103"
+      "name": "バトルパートナーズ環境",
+      "release_date": "20250124",
+      "products": [
+        "拡張パック「バトルパートナーズ」"
+      ],
+      "date_from": "20250124",
+      "date_to": "20250313"
     },
     {
-      "name": "シティリーグ2026 シーズン2",
-      "date_from": "20261108",
-      "date_to": "20270104"
+      "name": "熱風のアリーナ環境",
+      "release_date": "20250314",
+      "products": [
+        "強化拡張パック「熱風のアリーナ」"
+      ],
+      "date_from": "20250314",
+      "date_to": "20250417"
     },
     {
-      "name": "シティリーグ2026 シーズン3",
-      "date_from": "20260110",
-      "date_to": "20260308"
+      "name": "ロケット団の栄光環境",
+      "release_date": "20250418",
+      "products": [
+        "拡張パック「ロケット団の栄光」"
+      ],
+      "date_from": "20250418",
+      "date_to": "20250605"
     },
     {
-      "name": "シティリーグ2026 シーズン4",
-      "date_from": "20260314",
-      "date_to": "20260506"
+      "name": "ブラックボルト・ホワイトフレア環境",
+      "release_date": "20250606",
+      "products": [
+        "拡張パック「ブラックボルト」",
+        "拡張パック「ホワイトフレア」",
+        "拡張パックデラックス「ブラックボルト」",
+        "拡張パックデラックス「ホワイトフレア」"
+      ],
+      "date_from": "20250606",
+      "date_to": "20250731"
+    },
+    {
+      "name": "メガブレイブ・メガシンフォニア環境",
+      "release_date": "20250801",
+      "products": [
+        "拡張パック「メガブレイブ」",
+        "拡張パック「メガシンフォニア」"
+      ],
+      "date_from": "20250801",
+      "date_to": "20250925"
+    },
+    {
+      "name": "インフェルノX環境",
+      "release_date": "20250926",
+      "products": [
+        "拡張パック「インフェルノX」"
+      ],
+      "date_from": "20250926",
+      "date_to": "20251127"
+    },
+    {
+      "name": "MEGAドリームex環境",
+      "release_date": "20251128",
+      "products": [
+        "ハイクラスパック「MEGAドリームex」"
+      ],
+      "date_from": "20251128",
+      "date_to": "20260122"
+    },
+    {
+      "name": "ムニキスゼロ環境",
+      "release_date": "20260123",
+      "products": [
+        "拡張パック「ムニキスゼロ」"
+      ],
+      "date_from": "20260123",
+      "date_to": "20260312"
+    },
+    {
+      "name": "ニンジャスピナー環境",
+      "release_date": "20260313",
+      "products": [
+        "拡張パック「ニンジャスピナー」"
+      ],
+      "date_from": "20260313",
+      "date_to": "20260521"
+    },
+    {
+      "name": "アビスアイ環境",
+      "release_date": "20260522",
+      "products": [
+        "拡張パック「アビスアイ」"
+      ],
+      "date_from": "20260522",
+      "date_to": "20991231"
     }
-  ],
-  "current_season": "シティリーグ2026 シーズン4"
+  ]
 }
