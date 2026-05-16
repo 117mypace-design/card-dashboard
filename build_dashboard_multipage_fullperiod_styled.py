@@ -1753,11 +1753,13 @@ select option:checked{
 .decklist-results-count-inline{display:inline-flex;align-items:baseline;margin-left:10px;font-size:13px;font-weight:600;color:var(--muted)}
 .event-detail-panel{gap:10px;overflow:hidden}
 .event-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
-.event-detail-grid{display:grid;grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr);gap:14px;min-height:0;flex:1}
-.event-detail-grid > div{min-width:0}
-.event-detail-grid .section-title{font-size:15px;margin:0 0 6px}
-.event-detail-grid .table-wrap{height:calc(100% - 25px);max-height:none;overflow:auto}
-.event-detail-grid .decklist-results-grid{grid-template-columns:1fr;max-height:none;height:calc(100% - 25px);overflow:auto;padding-right:2px}
+.event-detail-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.event-detail-tab{border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:999px;padding:7px 14px;font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.event-detail-tab.active{background:rgba(124,199,255,.16);border-color:rgba(124,199,255,.42);color:var(--text)}
+.event-detail-content{min-height:0;flex:1;display:flex;flex-direction:column}
+.event-detail-content .section-title{font-size:15px;margin:0 0 6px}
+.event-detail-content .table-wrap{height:calc(100% - 25px);max-height:none;overflow:auto}
+.event-detail-content .decklist-results-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-height:none;height:calc(100% - 25px);overflow:auto;padding-right:2px}
 .event-usage-table{table-layout:fixed;font-size:12px}
 .event-usage-table th,.event-usage-table td{padding:5px 6px;vertical-align:middle}
 .event-usage-table th{font-size:11px}
@@ -1834,7 +1836,7 @@ select option:checked{
 .chart-panel .svg-wrap{flex:1;min-height:0;display:flex}
 .chart-panel svg{width:100%;height:100%}
 @media (max-width:1100px){
-  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend,.event-detail-grid{grid-template-columns:1fr}
+  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend{grid-template-columns:1fr}
   .trend-legend{grid-template-columns:repeat(2,minmax(0,1fr))}
   .card-summary-hero{grid-template-columns:1fr}
   .card-summary-right{grid-template-rows:auto auto}
@@ -1948,6 +1950,7 @@ select option:checked{
   .tier-stat-icon svg{width:9px;height:9px}
   .tier-stat-value{font-size:11px;letter-spacing:0}
   .decklist-results-grid{grid-template-columns:1fr}
+  .event-detail-content .decklist-results-grid{grid-template-columns:1fr}
   .tier-group-grid{grid-template-columns:1fr}
   .tier-stack-link{min-height:108px;padding:8px}
   .tier-stack-top{grid-template-columns:118px minmax(0,1fr);gap:8px}
@@ -4364,6 +4367,14 @@ function setEventSelection(value){
   location.hash = `event=${encodeHashValue(value)}`;
   renderPage({preserveScroll:true});
 }
+function eventDetailTabState(){
+  const saved = localStorage.getItem(`${PAGE}_event_detail_tab`) || "usage";
+  return saved === "decklists" ? "decklists" : "usage";
+}
+function setEventDetailTab(value){
+  localStorage.setItem(`${PAGE}_event_detail_tab`, value === "decklists" ? "decklists" : "usage");
+  renderPage({preserveScroll:true});
+}
 function aggregateDeckStatsForRows(rows){
   const map = {};
   let totalTop4 = 0;
@@ -4410,11 +4421,23 @@ function renderEventUsageTable(rows){
 function renderEventDetailPanel(groups, selectedId){
   if (!groups.length) return `<div class="note-box">表示できる大会データがありません。</div>`;
   const selected = groups.find(event => event.id === selectedId) || groups[0];
+  const activeTab = eventDetailTabState();
   const rows = [...selected.rows].sort((a, b) =>
     Number(a.placing_score || 999999) - Number(b.placing_score || 999999) ||
     Number(a.placing || 999999) - Number(b.placing || 999999) ||
     a.deck_name.localeCompare(b.deck_name, "ja")
   );
+  const content = activeTab === "decklists"
+    ? `
+      <div class="event-detail-content">
+        <div class="section-title">大会内デッキリスト</div>
+        <div class="decklist-results-grid">${rows.map(decklistResultCard).join("")}</div>
+      </div>`
+    : `
+      <div class="event-detail-content">
+        <div class="section-title">大会内使用率</div>
+        <div class="table-wrap">${renderEventUsageTable(rows)}</div>
+      </div>`;
   return `
     <div class="panel panel-scroll event-detail-panel">
       <div class="event-toolbar">
@@ -4423,20 +4446,20 @@ function renderEventDetailPanel(groups, selectedId){
           <select id="eventSelect">${groups.map(event => `<option value="${escapeHtml(event.id)}" ${event.id === selected.id ? "selected" : ""}>${escapeHtml(eventOptionLabel(event))}</option>`).join("")}</select>
         </div>
       </div>
-      <div class="event-detail-grid">
-        <div>
-          <div class="section-title">大会内使用率</div>
-          <div class="table-wrap">${renderEventUsageTable(rows)}</div>
-        </div>
-        <div>
-          <div class="section-title">大会内デッキリスト</div>
-          <div class="decklist-results-grid">${rows.map(decklistResultCard).join("")}</div>
-        </div>
+      <div class="event-detail-tabs" role="tablist" aria-label="大会内表示">
+        <button type="button" class="event-detail-tab ${activeTab === "usage" ? "active" : ""}" data-event-detail-tab="usage">使用率</button>
+        <button type="button" class="event-detail-tab ${activeTab === "decklists" ? "active" : ""}" data-event-detail-tab="decklists">デッキリスト</button>
       </div>
+      ${content}
     </div>`;
 }
 function bindEventDetailControls(){
   qs("#eventSelect")?.addEventListener("change", event => setEventSelection(event.currentTarget.value || ""));
+  qsa("[data-event-detail-tab]").forEach(button => {
+    if (button.dataset.bound === "1") return;
+    button.dataset.bound = "1";
+    button.addEventListener("click", () => setEventDetailTab(button.dataset.eventDetailTab || "usage"));
+  });
 }
 async function copyDeckCode(text, button){
   if (!text) return;
