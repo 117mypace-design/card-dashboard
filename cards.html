@@ -2184,7 +2184,11 @@ function currentWeeks(){
   return weeks.slice(state.start, state.end + 1);
 }
 function trendWeeks(){
-  return latestSeasonWeeks();
+  const weeks = latestSeasonWeeks();
+  const latestVisible = [...weeks].reverse().find(weekHasDisplayData);
+  if (!latestVisible) return weeks;
+  const endIndex = weeks.indexOf(latestVisible);
+  return endIndex >= 0 ? weeks.slice(0, endIndex + 1) : weeks;
 }
 function setPeriodPreset(kind){
   const weeks = weekKeys();
