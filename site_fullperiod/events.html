@@ -1960,7 +1960,7 @@ const DEFAULT_TIER_THRESHOLDS = [
 const PAGE_FILES = {index:"index.html", champions:"champions.html", events:"events.html", archetypes:"archetypes.html", decks:"decks.html", cards:"cards.html", decklists:"decklists.html"};
 const PAGE_DEFAULT_HASH = {
   index:"meta-tier",
-  champions:"champions-usage",
+  champions:"champions-by-event",
   events:"event-detail",
   archetypes:"arch-summary",
   decks:"deck-summary",
@@ -1975,9 +1975,7 @@ const PAGE_SECTIONS = {
     {id:"meta-cards", label:"重要メタカードの推移"},
   ],
   champions: [
-    {id:"champions-usage", label:"使用率"},
     {id:"champions-by-event", label:"大会別"},
-    {id:"champions-decklists", label:"デッキリスト"},
   ],
   events: [
     {id:"event-detail", label:"大会別データ"},
@@ -4582,42 +4580,18 @@ function renderIndexV2(){
 }
 
 function renderChampions(){
-  const decks = aggregateDeckStats();
   const groups = eventGroups();
   const selectedEventId = eventSelectionState(groups);
-  const rows = decklistSourceRows()
-    .sort((a, b) =>
-      Number(a.placing_score || 999999) - Number(b.placing_score || 999999) ||
-      Number(a.placing || 999999) - Number(b.placing || 999999) ||
-      a.deck_name.localeCompare(b.deck_name, "ja")
-    );
-  const decklistContent = rows.length
-    ? `<div class="decklist-results-grid">${rows.map(decklistResultCard).join("")}</div>`
-    : `<div class="note-box">表示できるデッキリストがありません。</div>`;
 
   qs("#pageTitle").textContent = PAGE_TITLES.champions;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile("champions")}">${PAGE_TITLES.champions}</a>`;
   const sections = [
-    screenSection(
-      "champions-usage",
-      "",
-      "使用率",
-      "チャンピオンズリーグで公開されたデッキリストだけを母数にしたデッキ別の使用率です。",
-      tablePanel("デッキ別使用率", "", buildUsageTable(decks))
-    ),
     screenSection(
       "champions-by-event",
       "",
       "大会別",
       "大会ごとに使用率と公開デッキリストを切り替えて確認します。",
       renderEventDetailPanel(groups, selectedEventId)
-    ),
-    screenSection(
-      "champions-decklists",
-      "",
-      `デッキリスト<span class="decklist-results-count-inline">${rows.length}件</span>`,
-      "チャンピオンズリーグで公開されたデッキリストを大会順位順に表示します。",
-      `<div class="panel panel-scroll"><div class="table-wrap">${decklistContent}</div></div>`
     ),
   ];
   qs("#pageBody").innerHTML = sections.join("");
