@@ -1929,23 +1929,31 @@ select option:checked{
       <div class="page-scroller" id="pageBody"></div>
     </main>
   </div>
-  <script src="data.js?v=b1cfc5b00a9a"></script>
+  <script src="data.js?v=1fcf3baab9c1"></script>
   <script>
 const VISUAL_MAP = {"ドラパルトex":{"tokens":[{"text":"ド","class":"dragon"}]},"ドラパルトex系":{"tokens":[{"text":"ド","class":"dragon"}]},"ドラパルトex / バシャーモex":{"tokens":[{"text":"ド","class":"dragon"},{"text":"バ","class":"fire"}]},"ドラパルトex / ノココッチex":{"tokens":[{"text":"ド","class":"dragon"},{"text":"ノ","class":"normal"}]},"メガルカリオex":{"tokens":[{"text":"ル","class":"steel"}]},"メガルカリオex系":{"tokens":[{"text":"ル","class":"steel"}]},"タケルライコex":{"tokens":[{"text":"雷","class":"electric"}]},"たねex系":{"tokens":[{"text":"種","class":"neutral"}]},"Nのゾロアークex":{"tokens":[{"text":"N","class":"dark"}]},"Nのゾロアークex系":{"tokens":[{"text":"N","class":"dark"}]},"フーディン":{"tokens":[{"text":"フ","class":"psychic"}]},"フーディン系":{"tokens":[{"text":"フ","class":"psychic"}]},"シロナのガブリアスex":{"tokens":[{"text":"ガ","class":"dragon"}]},"シロナのガブリアスex系":{"tokens":[{"text":"ガ","class":"dragon"}]},"メガゲッコウガex":{"tokens":[{"text":"ゲ","class":"water"}]},"ゲッコウガex系":{"tokens":[{"text":"ゲ","class":"water"}]},"ロケット団のミュウツーex":{"tokens":[{"text":"ミ","class":"psychic"}]},"ロケット団のミュウツーex系":{"tokens":[{"text":"ミ","class":"psychic"}]},"オリーヴァex":{"tokens":[{"text":"草","class":"grass"}]},"草系":{"tokens":[{"text":"草","class":"grass"}]},"シェイミ":{"tokens":[{"text":"シ","class":"grass"}]},"コダック":{"tokens":[{"text":"コ","class":"water"}]},"マシマシラ":{"tokens":[{"text":"マ","class":"psychic"}]},"ジャミングタワー":{"tokens":[{"text":"塔","class":"stadium"}]},"ロケット団の監視塔":{"tokens":[{"text":"塔","class":"stadium"}]},"ロック闘エネルギー":{"tokens":[{"text":"闘","class":"energy"}]},"その他草":{"tokens":[{"text":"草","class":"type"}]},"その他（同アーキタイプ内）":{"tokens":[{"text":"他","class":"group"}]}};
 const CARD_IMAGE_LOOKUP = {"ゲッコウガex":"https://www.pokemon-card.com/assets/images/card_images/large/SV5a/045621_P_GEKKOUGAEX.jpg","イイネイヌ":"https://www.pokemon-card.com/assets/images/card_images/large/SV6/045852_P_IINEINU.jpg","ヤドキング":"https://www.pokemon-card.com/assets/images/card_images/large/SV7/045978_P_YADOKINGU.jpg","ソウブレイズex":"https://www.pokemon-card.com/assets/images/card_images/large/SVLS/046189_P_SOUBUREIZUEX.jpg","カミッチュ":"https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046670_P_KAMITCHIXYU.jpg","Nのゾロアークex":"https://www.pokemon-card.com/assets/images/card_images/large/SV9/047069_P_NNOZOROAKUEX.jpg","ドラパルトex":"https://www.pokemon-card.com/assets/images/card_images/large/SV8a/047142_P_DORAPARUTOEX.jpg","マリィのオーロンゲex":"https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047259_P_MARIINOORONGEEX.jpg","ダイゴのメタグロスex":"https://www.pokemon-card.com/assets/images/card_images/large/SVOD/047278_P_DAIGONOMETAGUROSUEX.jpg","シロナのガブリアスex":"https://www.pokemon-card.com/assets/images/card_images/large/SV9a/047339_P_SHIRONANOGABURIASUEX.jpg","オリーヴァex":"https://www.pokemon-card.com/assets/images/card_images/large/SV10/047405_P_ORIVUAEX.jpg","メガフシギバナex":"https://www.pokemon-card.com/assets/images/card_images/large/M1L/047736_P_MFUSHIGIBANAEX.jpg","メガルカリオex":"https://www.pokemon-card.com/assets/images/card_images/large/M1L/047762_P_MRUKARIOEX.jpg","メガアブソルex":"https://www.pokemon-card.com/assets/images/card_images/large/M1L/047771_P_MABUSORUEX.jpg","フーディン":"https://www.pokemon-card.com/assets/images/card_images/large/M1S/047834_P_FUDEIN.jpg","ロケット団のドンカラス":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048625_P_ROKETTODANNODONKARASU.jpg","活力の森":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048704_T_KATSURIXYOKUNOMORI.jpg","イワパレス":"https://www.pokemon-card.com/assets/images/card_images/large/MC/048762_P_IWAPARESU.jpg","オーガポン みどりのめんex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/048798_P_OGAPONMIDORINOMENEX.jpg","オーガポン いどのめんex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/048940_P_OGAPONIDONOMENEX.jpg","ロケット団のミュウツーex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049006_P_ROKETTODANNOMIXYUUTSUEX.jpg","メタング":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049213_P_METANGU.jpg","タケルライコex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049270_P_TAKERURAIKOEX.jpg","リーリエのピッピex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049521_P_RIRIENOPIPPIEX.jpg","ゲノセクトex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049546_P_GENOSEKUTOEX.jpg","メガスターミーex":"https://www.pokemon-card.com/assets/images/card_images/large/M3/049654_P_MSUTAMIEX.jpg","テレパス超エネルギー":"https://www.pokemon-card.com/assets/images/card_images/large/M3/049712_E_TEREPASUCHIXYOUENERUGI.jpg","スピアーex":"https://www.pokemon-card.com/assets/images/card_images/large/M4/050087_P_SUPIAEX.jpg","ケロマツ":"https://www.pokemon-card.com/assets/images/card_images/large/M4/050104_P_KEROMATSU.jpg","メガゲッコウガex":"https://www.pokemon-card.com/assets/images/card_images/large/M4/050106_P_MGEKKOUGAEX.jpg","?????ex":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049228_P_GENOSEKUTOEX.jpg","????":"https://www.pokemon-card.com/assets/images/card_images/large/MC/049024_P_YOMAWARU.jpg","???????ex":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048558_P_MYUKIMENOKOEX.jpg","??????ex":"https://www.pokemon-card.com/assets/images/card_images/large/M1S/047847_P_MGARURAEX.jpg","?????":"https://www.pokemon-card.com/assets/images/card_images/large/SV6a/046047_P_YONOWARU.jpg","シェイミ":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048534_P_SHIEIMI.jpg","コダック":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/049959_P_KODAKKU.jpg","ロケット団の監視塔":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048711_T_ROKETTODANNOKANSHITOU.jpg","マシマシラ":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/048603_P_MASHIMASHIRA.jpg","ジャミングタワー":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/049982_T_JIXYAMINGUTAWA.jpg","ロック闘エネルギー":"https://www.pokemon-card.com/assets/images/card_images/large/M3/049713_EN_ROKKUTOUENERUGI.jpg","ズボミー":"https://www.pokemon-card.com/assets/images/card_images/large/M2a/049845_P_SUBOMI.jpg"};
-const DATA = window.REPORT_DATA;
 const PAGE = "decks";
-const PAGE_TITLES = {index:"環境全体", archetypes:"アーキタイプ分析", decks:"デッキ分析", cards:"カード分析", decklists:"デッキリスト検索"};
-const PAGE_DESCRIPTIONS = {index:"固定分析を、PCでは 1画面 1分析で追える4ページ版です。", archetypes:"選択したアーキタイプの立ち位置、派生内訳、採用カードを確認できます。", decks:"選択したデッキの要約と推移、採用カードを確認できます。", cards:"選択したカードの採用率、週次推移、採用先を確認できます。", decklists:"個別デッキリストを条件検索して一覧で確認できます。"};
+const RAW_DATA = window.REPORT_DATA || {};
+function reportDataForPage(page){
+  const views = RAW_DATA.event_type_views || {};
+  if (page === "champions") return views.champions || RAW_DATA;
+  if (["index", "archetypes", "decks", "cards"].includes(page)) return views.city || RAW_DATA;
+  return RAW_DATA;
+}
+const DATA = reportDataForPage(PAGE);
+const PAGE_TITLES = {index:"環境全体", champions:"チャンピオンズリーグ", archetypes:"アーキタイプ分析", decks:"デッキ分析", cards:"カード分析", decklists:"デッキリスト検索"};
+const PAGE_DESCRIPTIONS = {index:"シティリーグの環境推移と主要デッキを確認できます。", champions:"チャンピオンズリーグの公開デッキだけを集計したページです。", archetypes:"シティリーグ内で選択したアーキタイプの立ち位置、派生内訳、採用カードを確認できます。", decks:"シティリーグ内で選択したデッキの要約と推移、採用カードを確認できます。", cards:"シティリーグ内で選択したカードの採用率、週次推移、採用先を確認できます。", decklists:"個別デッキリストを条件検索して一覧で確認できます。"};
 const DEFAULT_TIER_THRESHOLDS = [
   {tier:"Tier1", min_usage:12, max_usage:null, description:"使用率12%以上の最上位帯"},
   {tier:"Tier2", min_usage:6, max_usage:12, description:"使用率6%以上12%未満の上位帯"},
   {tier:"Tier3", min_usage:4, max_usage:6, description:"使用率4%以上6%未満の注目帯"},
   {tier:"Tier4", min_usage:2, max_usage:4, description:"使用率2%以上4%未満の監視帯"},
 ];
-const PAGE_FILES = {index:"index.html", archetypes:"archetypes.html", decks:"decks.html", cards:"cards.html", decklists:"decklists.html"};
+const PAGE_FILES = {index:"index.html", champions:"champions.html", archetypes:"archetypes.html", decks:"decks.html", cards:"cards.html", decklists:"decklists.html"};
 const PAGE_DEFAULT_HASH = {
   index:"meta-tier",
+  champions:"meta-tier",
   archetypes:"arch-summary",
   decks:"deck-summary",
   cards:"card-summary",
@@ -1953,6 +1961,12 @@ const PAGE_DEFAULT_HASH = {
 };
 const PAGE_SECTIONS = {
   index: [
+    {id:"meta-tier", label:"Tier表"},
+    {id:"meta-movers", label:"使用率推移"},
+    {id:"meta-overview", label:"環境サマリー"},
+    {id:"meta-cards", label:"重要メタカードの推移"},
+  ],
+  champions: [
     {id:"meta-tier", label:"Tier表"},
     {id:"meta-movers", label:"使用率推移"},
     {id:"meta-overview", label:"環境サマリー"},
@@ -2166,15 +2180,18 @@ function periodStateFromWeeks(targetWeeks){
 function defaultPeriodState(){
   return periodStateFromWeeks(latestMetricWeeks());
 }
+function periodStateStorageKey(){
+  return PAGE === "champions" ? "periodStateV2_champions" : "periodStateV2_city";
+}
 function periodState(){
   const fallback = defaultPeriodState();
   try {
-    return JSON.parse(localStorage.getItem("periodStateV2") || JSON.stringify(fallback));
+    return JSON.parse(localStorage.getItem(periodStateStorageKey()) || localStorage.getItem("periodStateV2") || JSON.stringify(fallback));
   } catch {
     return fallback;
   }
 }
-function savePeriodState(state){ localStorage.setItem("periodStateV2", JSON.stringify(state)); }
+function savePeriodState(state){ localStorage.setItem(periodStateStorageKey(), JSON.stringify(state)); }
 function tierSortState(){
   const fallback = {key:"usage", dir:"desc"};
   try {
@@ -3996,8 +4013,8 @@ function renderIndex(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
-  qs("#pageTitle").textContent = PAGE_TITLES.index;
-  qs("#breadcrumbs").innerHTML = `<a href="${pageFile("index")}">環境全体</a>`;
+  qs("#pageTitle").textContent = PAGE_TITLES[PAGE] || PAGE_TITLES.index;
+  qs("#breadcrumbs").innerHTML = `<a href="${pageFile(PAGE)}">${escapeHtml(PAGE_TITLES[PAGE] || PAGE_TITLES.index)}</a>`;
 
   const sections = [
     screenSection(
@@ -4202,8 +4219,8 @@ function renderIndexV2(){
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
 
-  qs("#pageTitle").textContent = PAGE_TITLES.index;
-  qs("#breadcrumbs").innerHTML = `<a href="${pageFile("index")}">環境全体</a>`;
+  qs("#pageTitle").textContent = PAGE_TITLES[PAGE] || PAGE_TITLES.index;
+  qs("#breadcrumbs").innerHTML = `<a href="${pageFile(PAGE)}">${escapeHtml(PAGE_TITLES[PAGE] || PAGE_TITLES.index)}</a>`;
 
   const sections = [
     screenSection(
@@ -4869,7 +4886,7 @@ function renderPage(options={}){
     ? {top: pageBody.scrollTop}
     : null;
   updatePeriodVisuals();
-  if (PAGE === "index") renderIndexV2();
+  if (PAGE === "index" || PAGE === "champions") renderIndexV2();
   if (PAGE === "archetypes") renderArchetypes();
   if (PAGE === "decks") renderDecks();
   if (PAGE === "cards") renderCards();
