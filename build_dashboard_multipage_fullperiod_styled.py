@@ -1751,12 +1751,22 @@ select option:checked{
 .copy-btn{justify-self:start;padding:7px 10px;background:rgba(124,199,255,.12);color:var(--text);border:1px solid rgba(124,199,255,.24);font-size:12px;border-radius:10px;white-space:nowrap;flex:0 0 auto;margin-left:auto}
 .copy-btn[disabled]{cursor:not-allowed;opacity:.56;transform:none}
 .decklist-results-count-inline{display:inline-flex;align-items:baseline;margin-left:10px;font-size:13px;font-weight:600;color:var(--muted)}
-.event-detail-panel{gap:14px}
+.event-detail-panel{gap:10px;overflow:hidden}
 .event-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
-.event-detail-grid{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(0,1.15fr);gap:16px;min-height:0}
+.event-detail-grid{display:grid;grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr);gap:14px;min-height:0;flex:1}
 .event-detail-grid > div{min-width:0}
-.event-detail-grid .table-wrap{max-height:460px;overflow:auto}
-.event-detail-grid .decklist-results-grid{grid-template-columns:1fr;max-height:460px;overflow:auto;padding-right:2px}
+.event-detail-grid .section-title{font-size:15px;margin:0 0 6px}
+.event-detail-grid .table-wrap{height:calc(100% - 25px);max-height:none;overflow:auto}
+.event-detail-grid .decklist-results-grid{grid-template-columns:1fr;max-height:none;height:calc(100% - 25px);overflow:auto;padding-right:2px}
+.event-usage-table{table-layout:fixed;font-size:12px}
+.event-usage-table th,.event-usage-table td{padding:5px 6px;vertical-align:middle}
+.event-usage-table th{font-size:11px}
+.event-usage-table th:nth-child(1),.event-usage-table td:nth-child(1){width:36px}
+.event-usage-table th:nth-child(3),.event-usage-table td:nth-child(3){width:74px}
+.event-usage-table th:nth-child(4),.event-usage-table td:nth-child(4){width:54px}
+.event-usage-table th:nth-child(5),.event-usage-table td:nth-child(5),
+.event-usage-table th:nth-child(6),.event-usage-table td:nth-child(6){width:48px}
+.event-usage-deck{font-weight:700;line-height:1.25;word-break:keep-all;overflow-wrap:anywhere}
 .empty-state{padding:28px;border:1px dashed rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.02);display:grid;gap:8px;place-items:center;text-align:center}
 .empty-title{font-size:18px;font-weight:700}
 .empty-desc{font-size:13px;color:var(--muted);max-width:520px;line-height:1.7}
@@ -4385,7 +4395,17 @@ function aggregateDeckStatsForRows(rows){
 }
 function renderEventUsageTable(rows){
   const decks = aggregateDeckStatsForRows(rows);
-  return buildUsageTable(decks);
+  if (!decks.length) return `<div class="note-box">表示できるデッキがありません。</div>`;
+  return `<table class="table event-usage-table"><thead><tr><th>#</th><th>デッキ</th><th>使用率</th><th>数</th><th>TOP4</th><th>優勝</th></tr></thead><tbody>${decks.map((item, index) => `
+    <tr>
+      <td>${index + 1}</td>
+      <td><div class="event-usage-deck">${escapeHtml(item.name)}</div></td>
+      <td>${fmtPct(item.usage)}</td>
+      <td>${Number(item.count || 0)}</td>
+      <td>${Number(item.top4 || 0)}</td>
+      <td>${Number(item.wins || 0)}</td>
+    </tr>
+  `).join("")}</tbody></table>`;
 }
 function renderEventDetailPanel(groups, selectedId){
   if (!groups.length) return `<div class="note-box">表示できる大会データがありません。</div>`;
