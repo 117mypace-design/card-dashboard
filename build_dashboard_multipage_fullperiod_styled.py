@@ -1753,7 +1753,6 @@ select option:checked{
 .decklist-results-count-inline{display:inline-flex;align-items:baseline;margin-left:10px;font-size:13px;font-weight:600;color:var(--muted)}
 .event-detail-panel{gap:14px}
 .event-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
-.event-summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
 .event-detail-grid{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(0,1.15fr);gap:16px;min-height:0}
 .event-detail-grid > div{min-width:0}
 .event-detail-grid .table-wrap{max-height:460px;overflow:auto}
@@ -1825,7 +1824,7 @@ select option:checked{
 .chart-panel .svg-wrap{flex:1;min-height:0;display:flex}
 .chart-panel svg{width:100%;height:100%}
 @media (max-width:1100px){
-  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend,.event-summary-grid,.event-detail-grid{grid-template-columns:1fr}
+  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend,.event-detail-grid{grid-template-columns:1fr}
   .trend-legend{grid-template-columns:repeat(2,minmax(0,1fr))}
   .card-summary-hero{grid-template-columns:1fr}
   .card-summary-right{grid-template-rows:auto auto}
@@ -4396,9 +4395,6 @@ function renderEventDetailPanel(groups, selectedId){
     Number(a.placing || 999999) - Number(b.placing || 999999) ||
     a.deck_name.localeCompare(b.deck_name, "ja")
   );
-  const winner = rows.find(row => Number(row.placing || 0) === 1);
-  const regulation = eventRegulationLabel(selected) || "-";
-  const league = selected.league || "-";
   return `
     <div class="panel panel-scroll event-detail-panel">
       <div class="event-toolbar">
@@ -4406,12 +4402,6 @@ function renderEventDetailPanel(groups, selectedId){
           <label class="field-label">大会</label>
           <select id="eventSelect">${groups.map(event => `<option value="${escapeHtml(event.id)}" ${event.id === selected.id ? "selected" : ""}>${escapeHtml(eventOptionLabel(event))}</option>`).join("")}</select>
         </div>
-      </div>
-      <div class="event-summary-grid">
-        <div class="mini-card"><div class="cap">開催日</div><div class="big">${escapeHtml(selected.date || "-")}</div><div class="subnote">${escapeHtml(eventDisplayName(selected))}</div></div>
-        <div class="mini-card"><div class="cap">区分</div><div class="big">${escapeHtml(regulation)}</div><div class="subnote">${escapeHtml(league)}</div></div>
-        <div class="mini-card"><div class="cap">公開デッキ</div><div class="big">${rows.length}件</div><div class="subnote">${escapeHtml(selected.type || "-")}</div></div>
-        <div class="mini-card"><div class="cap">優勝</div><div class="big">${winner ? renderName(winner.deck_name) : "-"}</div><div class="subnote">${winner ? escapeHtml(winner.deck_code || "") : ""}</div></div>
       </div>
       <div class="event-detail-grid">
         <div>
