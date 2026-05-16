@@ -189,12 +189,30 @@ a{color:inherit;text-decoration:none}
 #pageTitle{min-width:0;flex:0 1 auto}
 .hero-period{
   justify-self:end;
+  display:grid;
+  gap:4px;
   text-align:right;
   color:var(--muted);
   font-size:13px;
-  line-height:1.45;
+  line-height:1.35;
   padding-top:0;
+}
+.hero-period-row{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  gap:8px;
   white-space:nowrap;
+}
+.hero-period-label{
+  color:var(--accent);
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.04em;
+  border:1px solid rgba(124,199,255,.24);
+  background:rgba(124,199,255,.09);
+  padding:2px 7px;
+  border-radius:999px;
 }
 .section-kicker{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:3px;font-weight:700}
 h1{font-size:27px;line-height:1.05;margin:0 0 2px}
@@ -1815,6 +1833,7 @@ select option:checked{
   }
   .hero{grid-template-columns:1fr}
   .hero-period{justify-self:start;text-align:left;padding-top:0;white-space:normal}
+  .hero-period-row{justify-content:flex-start;flex-wrap:wrap;white-space:normal}
   .page-scroller{
     overflow-x:hidden;
     overflow-y:visible;
@@ -5343,16 +5362,6 @@ function sidebarMarkup(){
       <summary>集計期間</summary>
       <div class="side-accordion-body">
         <div class="range-box">
-          <div class="range-head">
-            <div>
-              <div class="range-title">集計期間</div>
-              <div class="range-value" id="periodLabel">-</div>
-            </div>
-            <div>
-              <div class="range-title">推移期間</div>
-              <div class="range-value" id="trendPeriodLabel">-</div>
-            </div>
-          </div>
           <div class="tabs">
             <button class="tab" data-preset="default">デフォルト</button>
             <button class="tab" data-preset="all">全期間</button>
@@ -5363,7 +5372,6 @@ function sidebarMarkup(){
             <div><div class="range-title">開始週</div><select id="periodStart"></select></div>
             <div><div class="range-title">終了週</div><select id="periodEnd"></select></div>
           </div>
-          <div class="chips" id="periodWeeks"></div>
         </div>
       </div>
     </details>`;
@@ -5416,15 +5424,19 @@ function updatePeriodVisuals(){
   const periodWeeks = qs("#periodWeeks");
   const trendPeriodLabel = qs("#trendPeriodLabel");
   if (heroPeriod){
-    heroPeriod.textContent = PAGE === "decklists"
-      ? `${DATA.period_start} 〜 ${DATA.period_end}`
-      : `${DATA.period_start} 〜 ${DATA.period_end} / 集計: ${selectedRangeText()} / 推移: ${trendRangeText()}`;
+    const baseRange = `${DATA.period_start} 〜 ${DATA.period_end}`;
+    heroPeriod.innerHTML = PAGE === "decklists"
+      ? `<div class="hero-period-row"><span class="hero-period-label">対象期間</span><span>${escapeHtml(baseRange)}</span></div>`
+      : `
+        <div class="hero-period-row"><span class="hero-period-label">対象期間</span><span>${escapeHtml(baseRange)}</span></div>
+        <div class="hero-period-row"><span class="hero-period-label">集計</span><span>${escapeHtml(selectedRangeText())}</span></div>
+        <div class="hero-period-row"><span class="hero-period-label">推移</span><span>${escapeHtml(trendRangeText())}</span></div>
+      `;
   }
   if (heroHelpText) heroHelpText.textContent = PAGE_DESCRIPTIONS[PAGE] || "";
-  if (!periodLabel || !periodWeeks) return;
-  periodLabel.textContent = selectedRangeText();
+  if (periodLabel) periodLabel.textContent = selectedRangeText();
   if (trendPeriodLabel) trendPeriodLabel.textContent = trendRangeText();
-  periodWeeks.innerHTML = currentWeeks().map(week => {
+  if (periodWeeks) periodWeeks.innerHTML = currentWeeks().map(week => {
     const warn = !weekEntry(week).totals.stable;
     const count = DATA.week_event_counts[week] || 0;
     return `<span class="chip ${warn ? "warn" : ""}">${DATA.week_labels[week]} / ${count}大会${warn ? " / 参考値" : ""}</span>`;
