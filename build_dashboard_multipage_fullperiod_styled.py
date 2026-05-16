@@ -5637,9 +5637,11 @@ function renderIndexV2(){
   const metaCards = aggregateCardStats(currentWeeks(), DATA.meta_card_names || []);
   const tiers = tiersFromUsage(decks);
   const tierRows = tiers.flatMap(bucket => bucket.items);
-  const trendDeckNames = tierRows.map(item => item.name);
+  const trendDeckStats = aggregateDeckStats(trendWeeks());
+  const trendTierRows = tiersFromUsage(trendDeckStats).flatMap(bucket => bucket.items);
+  const trendDeckNames = trendTierRows.map(item => item.name);
   const selectedTrendDecks = trendDeckSelection(trendDeckNames);
-  const movementRows = tierRows.map(deck => {
+  const movementRows = trendTierRows.map(deck => {
     const series = weekSeriesDeck(deck.name);
     const pair = adjacentWeekValues(series, "usage");
     return {
@@ -5650,7 +5652,7 @@ function renderIndexV2(){
       current_usage: pair.currentValue,
     };
   });
-  const trendLines = tierRows
+  const trendLines = trendTierRows
     .map((deck, index) => ({
       name: deck.name,
       color: usageTrendPalette(index),
@@ -5661,16 +5663,17 @@ function renderIndexV2(){
   const risingRows = [...movementRows].filter(item => item.delta > 0).sort((a, b) => b.delta - a.delta).slice(0, moverCount);
   const fallingRows = [...movementRows].filter(item => item.delta < 0).sort((a, b) => a.delta - b.delta).slice(0, moverCount);
 
-  const metaTrendCardNames = metaCards.map(item => item.name);
+  const metaTrendCards = aggregateCardStats(trendWeeks(), DATA.meta_card_names || []);
+  const metaTrendCardNames = metaTrendCards.map(item => item.name);
   const selectedMetaTrendCards = metaTrendCardSelection(metaTrendCardNames);
-  const metaTrendLines = metaCards
+  const metaTrendLines = metaTrendCards
     .map((card, index) => ({
       name: card.name,
       color: usageTrendPalette(index),
       series: weekSeriesCard(card.name),
     }))
     .filter(line => selectedMetaTrendCards.includes(line.name));
-  const metaMovementRows = metaCards.map(card => {
+  const metaMovementRows = metaTrendCards.map(card => {
     const series = weekSeriesCard(card.name);
     return {
       ...card,
