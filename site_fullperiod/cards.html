@@ -2121,7 +2121,14 @@ function latestSeasonWeeks(){
 }
 function latestMetricWeeks(){
   const weeks = latestSeasonWeeks();
-  return weeks.length ? [weeks[weeks.length - 1]] : [];
+  const reversed = [...weeks].reverse();
+  const stableWeek = reversed.find(week => weekHasDisplayData(week) && weekEntry(week).totals.stable);
+  const displayWeek = stableWeek || reversed.find(week => weekHasDisplayData(week)) || weeks[weeks.length - 1];
+  return displayWeek ? [displayWeek] : [];
+}
+function weekHasDisplayData(week){
+  const entry = weekEntry(week);
+  return Object.keys(entry.decks || {}).some(name => !strictOther(name));
 }
 function periodStateFromWeeks(targetWeeks){
   const weeks = weekKeys();
@@ -2168,6 +2175,10 @@ function currentWeeks(){
     const temp = state.start;
     state.start = state.end;
     state.end = temp;
+  }
+  const selected = weeks.slice(state.start, state.end + 1);
+  if (!selected.some(weekHasDisplayData)){
+    state = defaultPeriodState();
   }
   savePeriodState(state);
   return weeks.slice(state.start, state.end + 1);
