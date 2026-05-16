@@ -1751,6 +1751,13 @@ select option:checked{
 .copy-btn{justify-self:start;padding:7px 10px;background:rgba(124,199,255,.12);color:var(--text);border:1px solid rgba(124,199,255,.24);font-size:12px;border-radius:10px;white-space:nowrap;flex:0 0 auto;margin-left:auto}
 .copy-btn[disabled]{cursor:not-allowed;opacity:.56;transform:none}
 .decklist-results-count-inline{display:inline-flex;align-items:baseline;margin-left:10px;font-size:13px;font-weight:600;color:var(--muted)}
+.event-detail-panel{gap:14px}
+.event-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.event-summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.event-detail-grid{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(0,1.15fr);gap:16px;min-height:0}
+.event-detail-grid > div{min-width:0}
+.event-detail-grid .table-wrap{max-height:460px;overflow:auto}
+.event-detail-grid .decklist-results-grid{grid-template-columns:1fr;max-height:460px;overflow:auto;padding-right:2px}
 .empty-state{padding:28px;border:1px dashed rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.02);display:grid;gap:8px;place-items:center;text-align:center}
 .empty-title{font-size:18px;font-weight:700}
 .empty-desc{font-size:13px;color:var(--muted);max-width:520px;line-height:1.7}
@@ -1818,7 +1825,7 @@ select option:checked{
 .chart-panel .svg-wrap{flex:1;min-height:0;display:flex}
 .chart-panel svg{width:100%;height:100%}
 @media (max-width:1100px){
-  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend{grid-template-columns:1fr}
+  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend,.event-summary-grid,.event-detail-grid{grid-template-columns:1fr}
   .trend-legend{grid-template-columns:repeat(2,minmax(0,1fr))}
   .card-summary-hero{grid-template-columns:1fr}
   .card-summary-right{grid-template-rows:auto auto}
@@ -3456,6 +3463,7 @@ function renderPage(){
   updatePeriodVisuals();
   if (PAGE === "index") renderIndexV2();
   if (PAGE === "champions") renderChampions();
+  if (PAGE === "events") renderEvents();
   if (PAGE === "archetypes") renderArchetypes();
   if (PAGE === "decks") renderDecks();
   if (PAGE === "cards") renderCards();
@@ -3482,18 +3490,19 @@ function reportDataForPage(page){
   return RAW_DATA;
 }
 const DATA = reportDataForPage(PAGE);
-const PAGE_TITLES = {index:"環境全体", champions:"チャンピオンズリーグ", archetypes:"アーキタイプ分析", decks:"デッキ分析", cards:"カード分析", decklists:"デッキリスト検索"};
-const PAGE_DESCRIPTIONS = {index:"シティリーグの環境推移と主要デッキを確認できます。", champions:"チャンピオンズリーグの公開デッキだけを集計したページです。", archetypes:"シティリーグ内で選択したアーキタイプの立ち位置、派生内訳、採用カードを確認できます。", decks:"シティリーグ内で選択したデッキの要約と推移、採用カードを確認できます。", cards:"シティリーグ内で選択したカードの採用率、週次推移、採用先を確認できます。", decklists:"個別デッキリストを条件検索して一覧で確認できます。"};
+const PAGE_TITLES = {index:"環境全体", champions:"チャンピオンズリーグ", events:"大会別分析", archetypes:"アーキタイプ分析", decks:"デッキ分析", cards:"カード分析", decklists:"デッキリスト検索"};
+const PAGE_DESCRIPTIONS = {index:"シティリーグの環境推移と主要デッキを確認できます。", champions:"チャンピオンズリーグの公開デッキだけを集計したページです。", events:"公開されたデッキリストを大会ごとに切り替えて確認できます。", archetypes:"シティリーグ内で選択したアーキタイプの立ち位置、派生内訳、採用カードを確認できます。", decks:"シティリーグ内で選択したデッキの要約と推移、採用カードを確認できます。", cards:"シティリーグ内で選択したカードの採用率、週次推移、採用先を確認できます。", decklists:"個別デッキリストを条件検索して一覧で確認できます。"};
 const DEFAULT_TIER_THRESHOLDS = [
   {tier:"Tier1", min_usage:12, max_usage:null, description:"使用率12%以上の最上位帯"},
   {tier:"Tier2", min_usage:6, max_usage:12, description:"使用率6%以上12%未満の上位帯"},
   {tier:"Tier3", min_usage:4, max_usage:6, description:"使用率4%以上6%未満の注目帯"},
   {tier:"Tier4", min_usage:2, max_usage:4, description:"使用率2%以上4%未満の監視帯"},
 ];
-const PAGE_FILES = {index:"index.html", champions:"champions.html", archetypes:"archetypes.html", decks:"decks.html", cards:"cards.html", decklists:"decklists.html"};
+const PAGE_FILES = {index:"index.html", champions:"champions.html", events:"events.html", archetypes:"archetypes.html", decks:"decks.html", cards:"cards.html", decklists:"decklists.html"};
 const PAGE_DEFAULT_HASH = {
   index:"meta-tier",
   champions:"champions-usage",
+  events:"event-detail",
   archetypes:"arch-summary",
   decks:"deck-summary",
   cards:"card-summary",
@@ -3508,7 +3517,11 @@ const PAGE_SECTIONS = {
   ],
   champions: [
     {id:"champions-usage", label:"使用率"},
+    {id:"champions-by-event", label:"大会別"},
     {id:"champions-decklists", label:"デッキリスト"},
+  ],
+  events: [
+    {id:"event-detail", label:"大会別データ"},
   ],
   archetypes: [
     {id:"arch-summary", label:"アーキタイプ要約"},
@@ -3672,6 +3685,9 @@ function syncSidebarMode(){
 }
 function closeSidebar(){
   setSidebarOpen(false);
+}
+function pageUsesPeriodControls(page=PAGE){
+  return !["decklists", "events"].includes(page);
 }
 function weekEntry(week){
   return (DATA.weeks_data && DATA.weeks_data[week]) || {totals:{decks:0, top4:0, wins:0, stable:false}, decks:{}, archetypes:{}, cards:{}, deck_cards:{}, archetype_cards:{}};
@@ -4007,6 +4023,8 @@ function normalizeDecklistRow(raw, index){
     event_id:String(raw?.event_id ?? "").trim(),
     event_name:String(raw?.event_name ?? "").trim(),
     event_type:String(raw?.event_type ?? "").trim(),
+    event_league:String(raw?.event_league ?? raw?.league ?? "").trim(),
+    event_regulation:String(raw?.event_regulation ?? raw?.regulation ?? "").trim(),
     shop_name:String(raw?.shop_name ?? "").trim(),
     deck_code:String(raw?.deck_code ?? raw?.code ?? "").trim(),
     deck_code_status:String(raw?.deck_code_status ?? "").trim(),
@@ -4270,6 +4288,147 @@ function decklistResultCard(item){
         </div>
       </div>
     </article>`;
+}
+function eventKeyForDecklistRow(row){
+  return row.event_id || [row.event_name, row.event_date, row.shop_name].filter(Boolean).join("|") || row.id;
+}
+function eventRegulationLabel(event){
+  const value = String(event.regulation || "").trim();
+  if (value) return value;
+  if (String(event.name || "").includes("エクストラ")) return "エクストラ";
+  if (String(event.name || "").includes("チャンピオンズリーグ")) return "スタンダード";
+  return "";
+}
+function eventDisplayName(event){
+  const type = String(event.type || "").trim();
+  const name = String(event.name || "").trim();
+  const shop = String(event.shop || "").trim();
+  if (type.includes("シティリーグ") && shop) return shop;
+  return name || shop || event.id;
+}
+function eventOptionLabel(event){
+  const parts = [event.date, eventDisplayName(event)];
+  const sub = [eventRegulationLabel(event), event.league].filter(Boolean).join(" / ");
+  if (sub) parts.push(sub);
+  return parts.filter(Boolean).join(" / ");
+}
+function eventGroups(rows=decklistSourceRows()){
+  const map = new Map();
+  rows.forEach(row => {
+    const id = eventKeyForDecklistRow(row);
+    if (!id) return;
+    if (!map.has(id)){
+      map.set(id, {
+        id,
+        date:row.event_date || "",
+        name:row.event_name || "",
+        type:row.event_type || "",
+        league:row.event_league || "",
+        regulation:row.event_regulation || "",
+        shop:row.shop_name || "",
+        rows:[],
+      });
+    }
+    const event = map.get(id);
+    if (!event.date && row.event_date) event.date = row.event_date;
+    if (!event.name && row.event_name) event.name = row.event_name;
+    if (!event.type && row.event_type) event.type = row.event_type;
+    if (!event.league && row.event_league) event.league = row.event_league;
+    if (!event.regulation && row.event_regulation) event.regulation = row.event_regulation;
+    if (!event.shop && row.shop_name) event.shop = row.shop_name;
+    event.rows.push(row);
+  });
+  return [...map.values()].sort((a, b) =>
+    String(b.date || "").localeCompare(String(a.date || "")) ||
+    eventDisplayName(a).localeCompare(eventDisplayName(b), "ja") ||
+    String(a.id).localeCompare(String(b.id), "ja")
+  );
+}
+function eventSelectionState(groups){
+  const ids = groups.map(event => event.id);
+  const hash = location.hash.startsWith("#event=") ? decodeHashValue(location.hash.slice(7)) : "";
+  if (hash && ids.includes(hash)) return hash;
+  const saved = localStorage.getItem(`${PAGE}_event_id`) || "";
+  if (saved && ids.includes(saved)) return saved;
+  return ids[0] || "";
+}
+function setEventSelection(value){
+  localStorage.setItem(`${PAGE}_event_id`, value);
+  location.hash = `event=${encodeHashValue(value)}`;
+  renderPage({preserveScroll:true});
+}
+function aggregateDeckStatsForRows(rows){
+  const map = {};
+  let totalTop4 = 0;
+  let totalWins = 0;
+  rows.forEach(row => {
+    const name = row.deck_name || "その他";
+    if (!map[name]) map[name] = {name, count:0, top4:0, wins:0};
+    map[name].count += 1;
+    if (Number(row.placing || 999) <= 4){
+      map[name].top4 += 1;
+      totalTop4 += 1;
+    }
+    if (Number(row.placing || 999) === 1){
+      map[name].wins += 1;
+      totalWins += 1;
+    }
+  });
+  return Object.values(map)
+    .filter(item => !strictOther(item.name))
+    .map(item => ({
+      ...item,
+      usage: rows.length ? item.count / rows.length * 100 : 0,
+      b4: totalTop4 ? item.top4 / totalTop4 * 100 : 0,
+      win: totalWins ? item.wins / totalWins * 100 : 0,
+      top4_rate: item.count ? item.top4 / item.count * 100 : 0,
+      win_rate: item.count ? item.wins / item.count * 100 : 0,
+    }))
+    .sort((a, b) => b.usage - a.usage || b.wins - a.wins || b.top4 - a.top4 || a.name.localeCompare(b.name, "ja"));
+}
+function renderEventUsageTable(rows){
+  const decks = aggregateDeckStatsForRows(rows);
+  return buildUsageTable(decks);
+}
+function renderEventDetailPanel(groups, selectedId){
+  if (!groups.length) return `<div class="note-box">表示できる大会データがありません。</div>`;
+  const selected = groups.find(event => event.id === selectedId) || groups[0];
+  const rows = [...selected.rows].sort((a, b) =>
+    Number(a.placing_score || 999999) - Number(b.placing_score || 999999) ||
+    Number(a.placing || 999999) - Number(b.placing || 999999) ||
+    a.deck_name.localeCompare(b.deck_name, "ja")
+  );
+  const winner = rows.find(row => Number(row.placing || 0) === 1);
+  const regulation = eventRegulationLabel(selected) || "-";
+  const league = selected.league || "-";
+  return `
+    <div class="panel panel-scroll event-detail-panel">
+      <div class="event-toolbar">
+        <div class="field">
+          <label class="field-label">大会</label>
+          <select id="eventSelect">${groups.map(event => `<option value="${escapeHtml(event.id)}" ${event.id === selected.id ? "selected" : ""}>${escapeHtml(eventOptionLabel(event))}</option>`).join("")}</select>
+        </div>
+      </div>
+      <div class="event-summary-grid">
+        <div class="mini-card"><div class="cap">開催日</div><div class="big">${escapeHtml(selected.date || "-")}</div><div class="subnote">${escapeHtml(eventDisplayName(selected))}</div></div>
+        <div class="mini-card"><div class="cap">区分</div><div class="big">${escapeHtml(regulation)}</div><div class="subnote">${escapeHtml(league)}</div></div>
+        <div class="mini-card"><div class="cap">公開デッキ</div><div class="big">${rows.length}件</div><div class="subnote">${escapeHtml(selected.type || "-")}</div></div>
+        <div class="mini-card"><div class="cap">優勝</div><div class="big">${winner ? renderName(winner.deck_name) : "-"}</div><div class="subnote">${winner ? escapeHtml(winner.deck_code || "") : ""}</div></div>
+      </div>
+      <div class="event-detail-grid">
+        <div>
+          <div class="section-title">大会内使用率</div>
+          <div class="table-wrap">${renderEventUsageTable(rows)}</div>
+        </div>
+        <div>
+          <div class="section-title">大会内デッキリスト</div>
+          <div class="decklist-results-grid">${rows.map(decklistResultCard).join("")}</div>
+        </div>
+      </div>
+    </div>`;
+}
+function bindEventDetailControls(){
+  qs("#eventSelect")?.addEventListener("change", event => setEventSelection(event.currentTarget.value || ""));
 }
 async function copyDeckCode(text, button){
   if (!text) return;
@@ -5384,19 +5543,7 @@ function sidebarMarkup(){
         <div class="side-accordion-body" id="decklistSidebarMount"></div>
       </details>`;
   }
-  return `
-    <details class="side-accordion" open>
-      <summary>ページ切替</summary>
-      <div class="side-accordion-body">
-        ${Object.entries(PAGE_TITLES).map(([page, title]) => `<a class="side-link" data-page="${page}" href="${pageFile(page)}">${title}</a>`).join("")}
-      </div>
-    </details>
-    <details class="side-accordion" open>
-      <summary>${PAGE_TITLES[PAGE]} の分析項目</summary>
-      <div class="side-accordion-body section-link-list">
-        ${pageSections().map(section => `<a class="side-link" data-section-link="${section.id}" href="#${section.id}">${section.label}</a>`).join("")}
-      </div>
-    </details>
+  const periodControls = pageUsesPeriodControls() ? `
     <details class="side-accordion" open>
       <summary>集計期間</summary>
       <div class="side-accordion-body">
@@ -5413,7 +5560,21 @@ function sidebarMarkup(){
           </div>
         </div>
       </div>
-    </details>`;
+    </details>` : "";
+  return `
+    <details class="side-accordion" open>
+      <summary>ページ切替</summary>
+      <div class="side-accordion-body">
+        ${Object.entries(PAGE_TITLES).map(([page, title]) => `<a class="side-link" data-page="${page}" href="${pageFile(page)}">${title}</a>`).join("")}
+      </div>
+    </details>
+    <details class="side-accordion" open>
+      <summary>${PAGE_TITLES[PAGE]} の分析項目</summary>
+      <div class="side-accordion-body section-link-list">
+        ${pageSections().map(section => `<a class="side-link" data-section-link="${section.id}" href="#${section.id}">${section.label}</a>`).join("")}
+      </div>
+    </details>
+    ${periodControls}`;
 }
 function initShell(){
   qs("#sidebarContent").innerHTML = sidebarMarkup();
@@ -5421,7 +5582,7 @@ function initShell(){
   if (PAGE === "decklists"){
     renderDecklistSidebarControls();
     bindDecklistSidebarControls();
-  } else {
+  } else if (pageUsesPeriodControls()) {
     const weeks = weekKeys();
     const startSel = qs("#periodStart");
     const endSel = qs("#periodEnd");
@@ -5963,6 +6124,8 @@ function renderIndexV2(){
 
 function renderChampions(){
   const decks = aggregateDeckStats();
+  const groups = eventGroups();
+  const selectedEventId = eventSelectionState(groups);
   const rows = decklistSourceRows()
     .sort((a, b) =>
       Number(a.placing_score || 999999) - Number(b.placing_score || 999999) ||
@@ -5984,6 +6147,13 @@ function renderChampions(){
       tablePanel("デッキ別使用率", "", buildUsageTable(decks))
     ),
     screenSection(
+      "champions-by-event",
+      "",
+      "大会別",
+      "大会ごとに使用率と公開デッキリストを切り替えて確認します。",
+      renderEventDetailPanel(groups, selectedEventId)
+    ),
+    screenSection(
       "champions-decklists",
       "",
       `デッキリスト<span class="decklist-results-count-inline">${rows.length}件</span>`,
@@ -5992,6 +6162,27 @@ function renderChampions(){
     ),
   ];
   qs("#pageBody").innerHTML = sections.join("");
+  bindEventDetailControls();
+  bindDecklistResultActions();
+  bindTooltipTapOverlays();
+}
+
+function renderEvents(){
+  const groups = eventGroups();
+  const selectedEventId = eventSelectionState(groups);
+  qs("#pageTitle").textContent = PAGE_TITLES.events;
+  qs("#breadcrumbs").innerHTML = `<a href="${pageFile("events")}">${PAGE_TITLES.events}</a>`;
+  const sections = [
+    screenSection(
+      "event-detail",
+      "",
+      `大会別データ<span class="decklist-results-count-inline">${groups.length}大会</span>`,
+      "公開されたデッキリストを大会単位で選び、使用率とデッキリストを確認します。",
+      renderEventDetailPanel(groups, selectedEventId)
+    ),
+  ];
+  qs("#pageBody").innerHTML = sections.join("");
+  bindEventDetailControls();
   bindDecklistResultActions();
   bindTooltipTapOverlays();
 }
@@ -6813,6 +7004,7 @@ def build_site(data_path: Path, out_dir: Path) -> None:
     page_titles = {
         "index": "環境全体",
         "champions": "チャンピオンズリーグ",
+        "events": "大会別分析",
         "archetypes": "アーキタイプ分析",
         "decks": "デッキ分析",
         "cards": "カード分析",
@@ -6821,6 +7013,7 @@ def build_site(data_path: Path, out_dir: Path) -> None:
     page_titles = {
         "index": "環境全体",
         "champions": "チャンピオンズリーグ",
+        "events": "大会別分析",
         "archetypes": "アーキタイプ分析",
         "decks": "デッキ分析",
         "cards": "カード分析",
@@ -6829,6 +7022,7 @@ def build_site(data_path: Path, out_dir: Path) -> None:
     for page, filename in (
         ("index", "index.html"),
         ("champions", "champions.html"),
+        ("events", "events.html"),
         ("archetypes", "archetypes.html"),
         ("decks", "decks.html"),
         ("cards", "cards.html"),

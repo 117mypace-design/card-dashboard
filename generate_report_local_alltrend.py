@@ -889,6 +889,8 @@ def build_decklist_search_payload(records: list[dict[str, Any]]) -> dict[str, An
             "event_id": str(record.get("event_id", "")),
             "event_name": str(record.get("event_name", "")),
             "event_type": str(record.get("event_type", "")),
+            "event_league": str(record.get("event_league", "")),
+            "event_regulation": str(record.get("event_regulation", "")),
             "shop_name": str(record.get("shop_name", "")),
             "deck_code": deck_code,
             "deck_code_status": deck_code_status,
@@ -1135,6 +1137,8 @@ def main() -> None:
         event_name = event.get("event_title", "")
         event_type = event.get("event_type_title", "")
         shop_name = event.get("shopName", "")
+        event_league = event.get("league") or event.get("event_kbn") or ""
+        event_regulation = event.get("regulation", "")
         for result_index, result in enumerate(event_data.get("results", []), 1):
             rank = int(result.get("rank", 999))
             deck_id = normalize_deck_id(result.get("deck_id", ""), event_file, rank, result_index)
@@ -1148,6 +1152,8 @@ def main() -> None:
                     "event_id": event_id,
                     "event_name": event_name,
                     "event_type": event_type,
+                    "event_league": event_league,
+                    "event_regulation": event_regulation,
                     "date": event_date,
                     "week": week_start(event_date),
                     "prefecture": prefecture,
