@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "チャンピオンズリーグ2026 愛知 May ジュニアリーグ 2日目大会",
+    "eventTypeId": 1,
+    "event_type_title": "大型大会",
+    "event_kbn": null,
+    "csp_flg": null,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-10 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 07:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 21:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": "2026/05/10",
+    "prefecture_name": "愛知県",
+    "shopId": null,
+    "shopName": null,
+    "zipCode": null,
+    "address": "愛知県常滑市セントレア5丁目10番1号",
+    "venue": "Aichi Sky Expo　展示ホールD・E",
+    "detail": "追加エントリーは、先着順での受付となります。\r\n受付期間：2026年4月17日 (金) 18:00 ～ 5月1日 (金) 17:00\r\n\r\nhttps://www.pokemon-card.com/info/005464.html",
+    "league": "ジュニア",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 1000,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0031838441",
+      "name": "コハルヒー",
+      "rank": 1,
+      "point": 0,
+      "area": "奈良県",
+      "deck_id": "Qnng9L-PNvKfq-6giQgL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036113914",
+      "name": "うーか",
+      "rank": 2,
+      "point": 0,
+      "area": "東京都",
+      "deck_id": "f5v1k5-SxgiBx-kkFFbk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044613503",
+      "name": "アキラ",
+      "rank": 3,
+      "point": 0,
+      "area": "愛知県",
+      "deck_id": "g9gPNN-ZQ2Ifm-nNnNnQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036383418",
+      "name": "かんかん",
+      "rank": 3,
+      "point": 0,
+      "area": "神奈川県",
+      "deck_id": "9QLngH-HKM7cE-igggQL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0079947141",
+      "name": "けんと",
+      "rank": 5,
+      "point": 0,
+      "area": "愛知県",
+      "deck_id": "4cGa8x-KDn6Aj-cY8YJG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0078246434",
+      "name": "あき",
+      "rank": 5,
+      "point": 0,
+      "area": "埼玉県",
+      "deck_id": "9gLLng-QLckhg-nnPQ6Q"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0062925701",
+      "name": "ルカリオ",
+      "rank": 5,
+      "point": 0,
+      "area": "東京都",
+      "deck_id": "SREUpU-f42Azr-EXypyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0039176679",
+      "name": "裕斗",
+      "rank": 5,
+      "point": 0,
+      "area": "京都府",
+      "deck_id": "pyUyMp-njjgVP-RS2ppy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061587456",
+      "name": "K",
+      "rank": 9,
+      "point": 0,
+      "area": "兵庫県",
+      "deck_id": "kvFkbk-UhUqaL-FwdbVv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036349948",
+      "name": "ナツオ",
+      "rank": 9,
+      "point": 0,
+      "area": "兵庫県",
+      "deck_id": "bFdFVd-xblZTX-vFFkwv"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030656167",
+      "name": "ARATA",
+      "rank": 9,
+      "point": 0,
+      "area": "神奈川県",
+      "deck_id": "cxGc4c-IPbpJ0-4Y8c8D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084590545",
+      "name": "くも",
+      "rank": 9,
+      "point": 0,
+      "area": "神奈川県",
+      "deck_id": "kkVVVF-EPNDVW-Fvfbwk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0061932449",
+      "name": "リンジョット",
+      "rank": 9,
+      "point": 0,
+      "area": "山形県",
+      "deck_id": "8cc88Y-cFMMqt-cK4GDY"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0020430256",
+      "name": "うーぴ",
+      "rank": 9,
+      "point": 0,
+      "area": "大分県",
+      "deck_id": "c8Ya88-Q09BiP-Gcx84D"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007734641",
+      "name": "れん",
+      "rank": 9,
+      "point": 0,
+      "area": "愛知県",
+      "deck_id": "nnQgg9-485AqY-6nQgQN"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0072823901",
+      "name": "てやん",
+      "rank": 9,
+      "point": 0,
+      "area": "埼玉県",
+      "deck_id": "gQnL9g-c0uym5-g6iHnH"
+    }
+  ],
+  "total": 16
+}

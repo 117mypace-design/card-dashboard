@@ -5568,5 +5568,55 @@
     "regulation": "スタンダード",
     "capacity": 64,
     "shop_name": "宝島　岐阜本店"
+  },
+  "981254": {
+    "event_id": 981254,
+    "event_title": "チャンピオンズリーグ2026 愛知 May シニアリーグ 1日目大会",
+    "event_kbn": "シニア",
+    "date": "20260509",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 1000,
+    "shop_name": "Aichi Sky Expo　展示ホールD・E"
+  },
+  "981255": {
+    "event_id": 981255,
+    "event_title": "チャンピオンズリーグ2026 愛知 May シニアリーグ 2日目大会",
+    "event_kbn": "シニア",
+    "date": "20260510",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 1000,
+    "shop_name": "Aichi Sky Expo　展示ホールD・E"
+  },
+  "981401": {
+    "event_id": 981401,
+    "event_title": "チャンピオンズリーグ2026 愛知 May ジュニアリーグ 1日目大会",
+    "event_kbn": "ジュニア",
+    "date": "20260509",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 1000,
+    "shop_name": "Aichi Sky Expo　展示ホールD・E"
+  },
+  "981402": {
+    "event_id": 981402,
+    "event_title": "チャンピオンズリーグ2026 愛知 May ジュニアリーグ 2日目大会",
+    "event_kbn": "ジュニア",
+    "date": "20260510",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 1000,
+    "shop_name": "Aichi Sky Expo　展示ホールD・E"
+  },
+  "981571": {
+    "event_id": 981571,
+    "event_title": "チャンピオンズリーグ2026 愛知 May マスターリーグDay2",
+    "event_kbn": "マスター",
+    "date": "20260510",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 1200,
+    "shop_name": "Aichi Sky Expo　展示ホールD・E"
   }
 }

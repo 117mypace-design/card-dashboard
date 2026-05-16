@@ -64,10 +64,22 @@ def load_event_ids(season):
     with open(ids_file, encoding="utf-8") as f:
         data = json.load(f)
 
+    def should_include_event(row):
+        league = str(row.get("event_kbn", "")).strip()
+        title = str(row.get("event_title", "")).strip()
+        if league in ("オープン", ""):
+            return True
+        if "チャンピオンズリーグ" in title:
+            if league in {"シニア", "ジュニア"}:
+                return True
+            if league == "マスター" and ("Day2" in title or "2日目" in title):
+                return True
+        return False
+
     ids = [
         v["event_id"] for v in data.values()
         if date_from <= str(v.get("date", "")) <= date_to
-        and str(v.get("event_kbn", "")).strip() in ("オープン", "")
+        and should_include_event(v)
     ]
     return sorted(ids)
 

@@ -17,10 +17,11 @@ from season_utils import (
 # 設定
 # ============================================================
 
-EVENT_TYPES      = ["3:1", "3:2", "3:7"]  # 全種別指定（Python側でオープンのみフィルタ）
+EVENT_TYPES      = ["3:1", "3:2", "3:7"]  # 全種別指定（Python側で対象リーグをフィルタ）
 PER_PAGE         = 20
 REQUEST_INTERVAL = 1.0
 EVENT_SEARCH_API = "https://players.pokemon-card.com/event_search"
+EVENT_REFRESH_LOOKBACK_DAYS = 14
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -34,16 +35,42 @@ def get_output_filename(season):
 
 def get_date_range(existing, season):
     season_end = season_end_yyyymmdd(season, cap_today=True)
+    season_start = season_start_yyyymmdd(season)
 
     if not existing:
-        return season_start_yyyymmdd(season), season_end
+        return season_start, season_end
 
     latest = max(str(v.get("date", "")) for v in existing.values())
-    if latest >= season_end:
-        return None, None
+    latest_dt = datetime.strptime(latest, "%Y%m%d")
+    season_start_dt = datetime.strptime(season_start, "%Y%m%d")
+    refresh_from = max(season_start_dt, latest_dt - timedelta(days=EVENT_REFRESH_LOOKBACK_DAYS))
+    return refresh_from.strftime("%Y%m%d"), season_end
 
-    next_day = (datetime.strptime(latest, "%Y%m%d") + timedelta(days=1)).strftime("%Y%m%d")
-    return next_day, season_end
+
+def should_include_event(event):
+    league = str(event.get("leagueName", "")).strip()
+    title = str(event.get("event_title", "")).strip()
+    if league == "オープン":
+        return True
+    if "チャンピオンズリーグ" in title:
+        if league in {"シニア", "ジュニア"}:
+            return True
+        if league == "マスター" and ("Day2" in title or "2日目" in title):
+            return True
+    return False
+
+
+def should_include_saved_event(event):
+    league = str(event.get("event_kbn", "")).strip()
+    title = str(event.get("event_title", "")).strip()
+    if league == "オープン":
+        return True
+    if "チャンピオンズリーグ" in title:
+        if league in {"シニア", "ジュニア"}:
+            return True
+        if league == "マスター" and ("Day2" in title or "2日目" in title):
+            return True
+    return False
 
 
 def make_session():
@@ -105,8 +132,7 @@ def fetch_events(session, date_from, date_to):
         # オープンリーグ・対象期間のみフィルタ
         for e in events:
             d = str(e.get("event_date_params", ""))
-            league = str(e.get("leagueName", ""))
-            if date_from <= d <= date_to and league == "オープン":
+            if date_from <= d <= date_to and should_include_event(e):
                 all_events.append(e)
 
         offset += len(events)
@@ -126,6 +152,11 @@ def main():
     if os.path.exists(output_json):
         with open(output_json, encoding="utf-8") as f:
             existing = json.load(f)
+        existing = {
+            key: value
+            for key, value in existing.items()
+            if should_include_saved_event(value)
+        }
 
     date_from, date_to = get_date_range(existing, season)
 

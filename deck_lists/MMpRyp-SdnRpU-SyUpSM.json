@@ -1,0 +1,140 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46936",
+    "name": "ドラメシヤ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49972",
+    "name": "ドロンチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47142",
+    "name": "ドラパルトex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46849",
+    "name": "スボミー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46066",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46324",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46894",
+    "name": "ヨマワル",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46046",
+    "name": "サマヨール",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46047",
+    "name": "ヨノワール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45403",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "40464",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "35141",
+    "name": "ふしぎなアメ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "50156",
+    "name": "スペシャルレッドカード",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "42900",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49708",
+    "name": "メイのはげまし",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "47707",
+    "name": "トウコ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49586",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46988",
+    "name": "ジャミングタワー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "44228",
+    "name": "基本炎エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "44231",
+    "name": "基本超エネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45217",
+    "name": "ネオアッパーエネルギー",
+    "count": 1
+  }
+]
