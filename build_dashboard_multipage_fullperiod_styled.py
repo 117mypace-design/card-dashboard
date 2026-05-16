@@ -3454,7 +3454,8 @@ function renderCards(){
 }
 function renderPage(){
   updatePeriodVisuals();
-  if (PAGE === "index" || PAGE === "champions") renderIndexV2();
+  if (PAGE === "index") renderIndexV2();
+  if (PAGE === "champions") renderChampions();
   if (PAGE === "archetypes") renderArchetypes();
   if (PAGE === "decks") renderDecks();
   if (PAGE === "cards") renderCards();
@@ -3492,7 +3493,7 @@ const DEFAULT_TIER_THRESHOLDS = [
 const PAGE_FILES = {index:"index.html", champions:"champions.html", archetypes:"archetypes.html", decks:"decks.html", cards:"cards.html", decklists:"decklists.html"};
 const PAGE_DEFAULT_HASH = {
   index:"meta-tier",
-  champions:"meta-tier",
+  champions:"champions-usage",
   archetypes:"arch-summary",
   decks:"deck-summary",
   cards:"card-summary",
@@ -3506,10 +3507,8 @@ const PAGE_SECTIONS = {
     {id:"meta-cards", label:"重要メタカードの推移"},
   ],
   champions: [
-    {id:"meta-tier", label:"Tier表"},
-    {id:"meta-movers", label:"使用率推移"},
-    {id:"meta-overview", label:"環境サマリー"},
-    {id:"meta-cards", label:"重要メタカードの推移"},
+    {id:"champions-usage", label:"使用率"},
+    {id:"champions-decklists", label:"デッキリスト"},
   ],
   archetypes: [
     {id:"arch-summary", label:"アーキタイプ要約"},
@@ -5068,6 +5067,24 @@ function buildTierTable(tiers){
     return `<tr class="tier-row"><td>${item.tier ? `<span class="pill ${tierClass(item.tier)}">${item.tier}</span>` : ""}</td><td><div class="tier-deck-name">${renderTierDeckName(item.name)}</div></td><td>${tierMetricCard(item.usage, "usage")}</td><td>${tierMetricCard(item.top4_rate, "top4", "", metricRatioState(item.b4, item.usage))}</td><td>${tierMetricCard(item.win_rate, "win", "", metricRatioState(item.win, item.usage))}</td></tr>`;
   }).join("")}</tbody></table>`;
 }
+function buildUsageTable(decks){
+  const rows = [...decks].sort((a, b) =>
+    Number(b.usage || 0) - Number(a.usage || 0) ||
+    Number(a.placing_score || 999999) - Number(b.placing_score || 999999) ||
+    a.name.localeCompare(b.name, "ja")
+  );
+  if (!rows.length) return `<div class="note-box">表示できるデッキがありません。</div>`;
+  return `<table class="table"><thead><tr><th>#</th><th>デッキ</th><th>使用率</th><th>デッキ数</th><th>TOP4</th><th>優勝</th></tr></thead><tbody>${rows.map((item, index) => `
+    <tr>
+      <td>${index + 1}</td>
+      <td>${renderName(item.name)}</td>
+      <td>${fmtPct(item.usage)}</td>
+      <td>${Number(item.count || 0)}</td>
+      <td>${Number(item.top4 || 0)}</td>
+      <td>${Number(item.wins || 0)}</td>
+    </tr>
+  `).join("")}</tbody></table>`;
+}
 function bindTierSortControls(){
   qsa("[data-tier-sort]").forEach(button => {
     if (button.dataset.bound === "1") return;
@@ -5944,6 +5961,41 @@ function renderIndexV2(){
   drawMultiLine("metaCardTrend", metaTrendLines, "rate");
 }
 
+function renderChampions(){
+  const decks = aggregateDeckStats();
+  const rows = decklistSourceRows()
+    .sort((a, b) =>
+      Number(a.placing_score || 999999) - Number(b.placing_score || 999999) ||
+      Number(a.placing || 999999) - Number(b.placing || 999999) ||
+      a.deck_name.localeCompare(b.deck_name, "ja")
+    );
+  const decklistContent = rows.length
+    ? `<div class="decklist-results-grid">${rows.map(decklistResultCard).join("")}</div>`
+    : `<div class="note-box">表示できるデッキリストがありません。</div>`;
+
+  qs("#pageTitle").textContent = PAGE_TITLES.champions;
+  qs("#breadcrumbs").innerHTML = `<a href="${pageFile("champions")}">${PAGE_TITLES.champions}</a>`;
+  const sections = [
+    screenSection(
+      "champions-usage",
+      "",
+      "使用率",
+      "チャンピオンズリーグで公開されたデッキリストだけを母数にしたデッキ別の使用率です。",
+      tablePanel("デッキ別使用率", "", buildUsageTable(decks))
+    ),
+    screenSection(
+      "champions-decklists",
+      "",
+      `デッキリスト<span class="decklist-results-count-inline">${rows.length}件</span>`,
+      "チャンピオンズリーグで公開されたデッキリストを大会順位順に表示します。",
+      `<div class="panel panel-scroll"><div class="table-wrap">${decklistContent}</div></div>`
+    ),
+  ];
+  qs("#pageBody").innerHTML = sections.join("");
+  bindDecklistResultActions();
+  bindTooltipTapOverlays();
+}
+
 function renderArchetypes(){
   const archetypes = aggregateArchetypeStats();
   const names = archetypes.map(item => item.name);
@@ -6425,7 +6477,8 @@ function renderPage(options={}){
     ? {top: pageBody.scrollTop}
     : null;
   updatePeriodVisuals();
-  if (PAGE === "index" || PAGE === "champions") renderIndexV2();
+  if (PAGE === "index") renderIndexV2();
+  if (PAGE === "champions") renderChampions();
   if (PAGE === "archetypes") renderArchetypes();
   if (PAGE === "decks") renderDecks();
   if (PAGE === "cards") renderCards();
