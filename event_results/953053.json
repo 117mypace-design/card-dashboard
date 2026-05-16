@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 20:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "京都府",
+    "shopId": 18907,
+    "shopName": "カードボックス京都店",
+    "zipCode": 6008211,
+    "address": "京都府京都市下京区七条通烏丸東入真苧屋町214番地京都駅前第5ビル 3階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0008803054",
+      "name": "りこー",
+      "rank": 1,
+      "point": 100,
+      "area": "大阪府",
+      "deck_id": "giLNLH-p1nJzb-g9LNn6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036326831",
+      "name": "アヤユウ",
+      "rank": 2,
+      "point": 75,
+      "area": "京都府",
+      "deck_id": "pSy2yp-Wu8gMH-yyMR2S"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064593052",
+      "name": "TKH",
+      "rank": 3,
+      "point": 50,
+      "area": "京都府",
+      "deck_id": "Xy23UM-3NtXDy-pR2Uyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0028790321",
+      "name": "ずしお",
+      "rank": 3,
+      "point": 50,
+      "area": "大阪府",
+      "deck_id": "Xy22Uy-4Zt7ZZ-pMRM2y"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0045046403",
+      "name": "ヤシャ",
+      "rank": 5,
+      "point": 25,
+      "area": "静岡県",
+      "deck_id": "nLgQ9H-SBtV3r-Li9iPL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0065919088",
+      "name": "ラナ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "bd1fFk-YkN6Do-Vf15k5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036634271",
+      "name": "Sh0-1",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "SpRpyM-FyDXN8-Xp2S3S"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0046991830",
+      "name": "すー",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "L6N99N-oSLerI-gHnnHg"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0093936493",
+      "name": "syun",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "9QiQnn-YjIuLj-LgHLnn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067487507",
+      "name": "ましゅ",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "bwVvvv-YYUemA-FFVF5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0071119841",
+      "name": "hayuru",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "HLQnig-gOLG4u-L9HQL9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0085574313",
+      "name": "アネモネ",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "4cx4Gx-NwprXo-8DKxYc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007713064",
+      "name": "もとき",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "5FbwFw-MK4Sw9-1VVk5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006962845",
+      "name": "たにまつ",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "2yXpMS-IqxzuW-33RS2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081279030",
+      "name": "かりんとう",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "1dvb5V-xh8cEa-kFFdwV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0015764586",
+      "name": "める",
+      "rank": 9,
+      "point": 15,
+      "area": "滋賀県",
+      "deck_id": "FVVvdV-3P2iNK-kbFbfk"
+    }
+  ],
+  "total": 16
+}

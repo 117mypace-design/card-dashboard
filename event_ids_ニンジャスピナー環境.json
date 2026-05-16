@@ -1,0 +1,5572 @@
+{
+  "981404": {
+    "event_id": 981404,
+    "event_title": "チャンピオンズリーグ2026 愛知 May オープンリーグ【エクストラレギュレーション】",
+    "event_kbn": "オープン",
+    "date": "20260510",
+    "prefecture": "愛知県",
+    "regulation": "エクストラ",
+    "capacity": 950,
+    "shop_name": null
+  },
+  "953115": {
+    "event_id": 953115,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋2号店"
+  },
+  "952857": {
+    "event_id": 952857,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "953258": {
+    "event_id": 953258,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトロコミニ苫小牧バイパス店"
+  },
+  "952759": {
+    "event_id": 952759,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ裁龍"
+  },
+  "952758": {
+    "event_id": 952758,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952855": {
+    "event_id": 952855,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA西友町田店"
+  },
+  "952856": {
+    "event_id": 952856,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR町田中央通り店"
+  },
+  "952940": {
+    "event_id": 952940,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFPLUS　アミューあつぎ店"
+  },
+  "953113": {
+    "event_id": 953113,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "岡山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームショップ オレタン 岡山本店"
+  },
+  "953114": {
+    "event_id": 953114,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULL京都店"
+  },
+  "953257": {
+    "event_id": 953257,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ武蔵小金井"
+  },
+  "952938": {
+    "event_id": 952938,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "福井県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Super KaBoS + GEO 鯖江店"
+  },
+  "952939": {
+    "event_id": 952939,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイニティ長岡E・PLAZA店"
+  },
+  "953110": {
+    "event_id": 953110,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター泉佐野店"
+  },
+  "953111": {
+    "event_id": 953111,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップVOW"
+  },
+  "953112": {
+    "event_id": 953112,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　新開橋店"
+  },
+  "953161": {
+    "event_id": 953161,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "大分県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA光吉店"
+  },
+  "952854": {
+    "event_id": 952854,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高田馬場"
+  },
+  "953299": {
+    "event_id": 953299,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】カードボックス　福山店"
+  },
+  "953109": {
+    "event_id": 953109,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "香川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ゲームアーク　丸亀店"
+  },
+  "953108": {
+    "event_id": 953108,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260506",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　岐阜本店"
+  },
+  "953107": {
+    "event_id": 953107,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　布施店"
+  },
+  "953256": {
+    "event_id": 953256,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Duel Stade Ganryu本庄店"
+  },
+  "952705": {
+    "event_id": 952705,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "山形県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　酒田店"
+  },
+  "952852": {
+    "event_id": 952852,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952853": {
+    "event_id": 952853,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ　PLAYERS CENTER　八王子本店"
+  },
+  "953255": {
+    "event_id": 953255,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ武蔵小金井"
+  },
+  "953298": {
+    "event_id": 953298,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 248号西友岡崎店"
+  },
+  "953106": {
+    "event_id": 953106,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　新開橋店"
+  },
+  "953159": {
+    "event_id": 953159,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "熊本県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "遊ING　熊本上通り店"
+  },
+  "953160": {
+    "event_id": 953160,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "沖縄県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードスタジアム小禄店"
+  },
+  "953105": {
+    "event_id": 953105,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260505",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　可児店"
+  },
+  "952704": {
+    "event_id": 952704,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "山形県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　嶋北店"
+  },
+  "952851": {
+    "event_id": 952851,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952757": {
+    "event_id": 952757,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川越駅前"
+  },
+  "952850": {
+    "event_id": 952850,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ千葉店"
+  },
+  "952937": {
+    "event_id": 952937,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "青馬堂本店"
+  },
+  "953104": {
+    "event_id": 953104,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "山口県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】下関店"
+  },
+  "952936": {
+    "event_id": 952936,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　相模大野店"
+  },
+  "953102": {
+    "event_id": 953102,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイコンプ岸和田店"
+  },
+  "953103": {
+    "event_id": 953103,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "鳥取県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードボックスアリオン皆生店"
+  },
+  "952847": {
+    "event_id": 952847,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 立川駅北口店"
+  },
+  "952848": {
+    "event_id": 952848,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR町田中央通り店"
+  },
+  "952849": {
+    "event_id": 952849,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター秋葉原駅前店"
+  },
+  "952756": {
+    "event_id": 952756,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Duel Stade Ganryu　鹿島店"
+  },
+  "952935": {
+    "event_id": 952935,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "福井県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Super KaBoS 二の宮本店"
+  },
+  "953099": {
+    "event_id": 953099,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店"
+  },
+  "953100": {
+    "event_id": 953100,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　乙川店"
+  },
+  "953158": {
+    "event_id": 953158,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "長崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "遊ING浜町店"
+  },
+  "953101": {
+    "event_id": 953101,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードボックス京都店"
+  },
+  "953098": {
+    "event_id": 953098,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260504",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　多治見店"
+  },
+  "953097": {
+    "event_id": 953097,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　名古屋店"
+  },
+  "952846": {
+    "event_id": 952846,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952934": {
+    "event_id": 952934,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　横浜伊勢佐木町"
+  },
+  "953254": {
+    "event_id": 953254,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトロコミニ苫小牧バイパス店"
+  },
+  "952933": {
+    "event_id": 952933,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "青馬堂本店"
+  },
+  "953095": {
+    "event_id": 953095,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "兵庫県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　姫路店"
+  },
+  "953096": {
+    "event_id": 953096,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "愛媛県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ　ファンクス"
+  },
+  "952703": {
+    "event_id": 952703,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "岩手県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　盛岡大通"
+  },
+  "952754": {
+    "event_id": 952754,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Duel Stade Ganryu　ひたち野うしく店"
+  },
+  "952755": {
+    "event_id": 952755,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ裁龍"
+  },
+  "952845": {
+    "event_id": 952845,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ千葉店"
+  },
+  "952844": {
+    "event_id": 952844,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "福福トレカ　秋葉原店"
+  },
+  "952930": {
+    "event_id": 952930,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ港北綱島西店"
+  },
+  "952931": {
+    "event_id": 952931,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF　イオン橋本"
+  },
+  "952932": {
+    "event_id": 952932,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFPLUS　アミューあつぎ店"
+  },
+  "953093": {
+    "event_id": 953093,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "953094": {
+    "event_id": 953094,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "953156": {
+    "event_id": 953156,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　小倉駅前店"
+  },
+  "953157": {
+    "event_id": 953157,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　小倉駅前店"
+  },
+  "953253": {
+    "event_id": 953253,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ武蔵小金井"
+  },
+  "952928": {
+    "event_id": 952928,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "福井県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Super KaBoS 敦賀店"
+  },
+  "952929": {
+    "event_id": 952929,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイニティ長岡E・PLAZA店"
+  },
+  "953091": {
+    "event_id": 953091,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】本の王国すまいるキング　安城店"
+  },
+  "953092": {
+    "event_id": 953092,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA三島店"
+  },
+  "953153": {
+    "event_id": 953153,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "オレタン福岡天神店"
+  },
+  "953154": {
+    "event_id": 953154,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "宮崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ＠ほ～む。宮崎店"
+  },
+  "953155": {
+    "event_id": 953155,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "熊本県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA AVクラブ御領店"
+  },
+  "952702": {
+    "event_id": 952702,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　泉中央店"
+  },
+  "952753": {
+    "event_id": 952753,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　入間店"
+  },
+  "952843": {
+    "event_id": 952843,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260503",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "952927": {
+    "event_id": 952927,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　本厚木駅前"
+  },
+  "952926": {
+    "event_id": 952926,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川崎駅前"
+  },
+  "952842": {
+    "event_id": 952842,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "蔦屋書店　茂原店"
+  },
+  "952677": {
+    "event_id": 952677,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　札幌南2条店"
+  },
+  "952751": {
+    "event_id": 952751,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "栃木県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　小山駅前"
+  },
+  "952752": {
+    "event_id": 952752,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952841": {
+    "event_id": 952841,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR町田中央通り店"
+  },
+  "953089": {
+    "event_id": 953089,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULL京都店"
+  },
+  "953090": {
+    "event_id": 953090,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "駿河屋本店駿河屋ビル"
+  },
+  "953295": {
+    "event_id": 953295,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ イトーヨカドー溝ノ口店"
+  },
+  "953296": {
+    "event_id": 953296,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 248号西友岡崎店"
+  },
+  "952924": {
+    "event_id": 952924,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "石川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "北国書林　松任店"
+  },
+  "952925": {
+    "event_id": 952925,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "長野県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトスタ長野駅前店"
+  },
+  "953083": {
+    "event_id": 953083,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店"
+  },
+  "953084": {
+    "event_id": 953084,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "奈良県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF奈良法華寺店"
+  },
+  "953085": {
+    "event_id": 953085,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　みのかも店"
+  },
+  "953086": {
+    "event_id": 953086,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋3号店"
+  },
+  "953087": {
+    "event_id": 953087,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "島根県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "CARDBOXアリオン塩冶店"
+  },
+  "953088": {
+    "event_id": 953088,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA富士八幡町店"
+  },
+  "953152": {
+    "event_id": 953152,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "長崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ゲームセンターRX"
+  },
+  "952700": {
+    "event_id": 952700,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "福島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームのシーガル郡山店"
+  },
+  "952701": {
+    "event_id": 952701,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "岩手県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ポケ堂北上店"
+  },
+  "952750": {
+    "event_id": 952750,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "WonderGOO PLUS つくば店"
+  },
+  "952840": {
+    "event_id": 952840,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高田馬場"
+  },
+  "953082": {
+    "event_id": 953082,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260502",
+    "prefecture": "山口県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラグーン周南"
+  },
+  "952839": {
+    "event_id": 952839,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260501",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター池袋店"
+  },
+  "953410": {
+    "event_id": 953410,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260501",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 1号京都伏見店"
+  },
+  "952838": {
+    "event_id": 952838,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260430",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター町田店"
+  },
+  "952749": {
+    "event_id": 952749,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260430",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA嵐山店"
+  },
+  "952837": {
+    "event_id": 952837,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260430",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフスーパーバザー　多摩永山"
+  },
+  "953080": {
+    "event_id": 953080,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260430",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス浜北店"
+  },
+  "953081": {
+    "event_id": 953081,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260430",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋3号店"
+  },
+  "953252": {
+    "event_id": 953252,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップリドル京急蒲田店"
+  },
+  "953251": {
+    "event_id": 953251,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星のPAO　大宮店"
+  },
+  "952836": {
+    "event_id": 952836,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ　PLAYERS CENTER　八王子本店"
+  },
+  "952747": {
+    "event_id": 952747,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "栃木県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA Trading Card 宇都宮インターパークビレッジ店"
+  },
+  "952748": {
+    "event_id": 952748,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックエースTSUTAYA　勝田東石川店"
+  },
+  "952835": {
+    "event_id": 952835,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフスーパーバザー　多摩永山"
+  },
+  "952746": {
+    "event_id": 952746,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952832": {
+    "event_id": 952832,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA西友町田店"
+  },
+  "952833": {
+    "event_id": 952833,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR イトーヨーカドー流山店"
+  },
+  "952834": {
+    "event_id": 952834,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "福福トレカ　秋葉原店"
+  },
+  "953250": {
+    "event_id": 953250,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ武蔵小金井"
+  },
+  "953079": {
+    "event_id": 953079,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR54号広島八木店"
+  },
+  "952923": {
+    "event_id": 952923,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "福井県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Super KaBoS 二の宮本店"
+  },
+  "953075": {
+    "event_id": 953075,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "愛媛県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TCG桜華"
+  },
+  "953076": {
+    "event_id": 953076,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　新開橋店"
+  },
+  "953077": {
+    "event_id": 953077,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店"
+  },
+  "953078": {
+    "event_id": 953078,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "高知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ楓"
+  },
+  "953146": {
+    "event_id": 953146,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "沖縄県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードスタジアム小禄店"
+  },
+  "953147": {
+    "event_id": 953147,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "大分県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA光吉店"
+  },
+  "953148": {
+    "event_id": 953148,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "熊本県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "遊ING　熊本上通り店"
+  },
+  "953149": {
+    "event_id": 953149,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "佐賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス佐賀南部バイパス店"
+  },
+  "953150": {
+    "event_id": 953150,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "鹿児島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ＠ほ～む。鹿児島店"
+  },
+  "953151": {
+    "event_id": 953151,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ福岡天神店"
+  },
+  "952676": {
+    "event_id": 952676,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　札幌狸小路"
+  },
+  "952698": {
+    "event_id": 952698,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　仙台駅前店"
+  },
+  "952699": {
+    "event_id": 952699,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　仙台駅前店"
+  },
+  "952697": {
+    "event_id": 952697,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "秋田県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "鹿角ラボ"
+  },
+  "953074": {
+    "event_id": 953074,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　西尾下町店"
+  },
+  "953072": {
+    "event_id": 953072,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　多治見店"
+  },
+  "953073": {
+    "event_id": 953073,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260429",
+    "prefecture": "山口県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラグーン周南"
+  },
+  "953071": {
+    "event_id": 953071,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260428",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ　スキップ玉出店"
+  },
+  "953070": {
+    "event_id": 953070,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260428",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　布施店"
+  },
+  "952922": {
+    "event_id": 952922,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260428",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】青馬堂矢向店"
+  },
+  "952831": {
+    "event_id": 952831,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260427",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター秋葉原駅前店"
+  },
+  "953069": {
+    "event_id": 953069,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260427",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップVOW"
+  },
+  "953294": {
+    "event_id": 953294,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260427",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "秋葉原チェルモ"
+  },
+  "952921": {
+    "event_id": 952921,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "チェルモサード"
+  },
+  "953145": {
+    "event_id": 953145,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "長崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAARアクロスプラザ佐世保店"
+  },
+  "952920": {
+    "event_id": 952920,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　横浜伊勢佐木町"
+  },
+  "952919": {
+    "event_id": 952919,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "山梨県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR甲府貢川店"
+  },
+  "953293": {
+    "event_id": 953293,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星のPAO　八王子店"
+  },
+  "952917": {
+    "event_id": 952917,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ港北綱島西店"
+  },
+  "952918": {
+    "event_id": 952918,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFPLUS　アミューあつぎ店"
+  },
+  "953065": {
+    "event_id": 953065,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "岡山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF 250号東岡山店"
+  },
+  "953066": {
+    "event_id": 953066,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "鳥取県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードボックスアリオン皆生店"
+  },
+  "953067": {
+    "event_id": 953067,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "953068": {
+    "event_id": 953068,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "952830": {
+    "event_id": 952830,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 立川駅北口店"
+  },
+  "952916": {
+    "event_id": 952916,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "長野県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "タッチ松本店"
+  },
+  "953062": {
+    "event_id": 953062,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】本の王国すまいるキング　安城店"
+  },
+  "953063": {
+    "event_id": 953063,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "三重県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店 星川店"
+  },
+  "953144": {
+    "event_id": 953144,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Booksあんとく　三潴店"
+  },
+  "953249": {
+    "event_id": 953249,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプPLAYERS CENTER札幌駅前店"
+  },
+  "953064": {
+    "event_id": 953064,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードボックス京都店"
+  },
+  "952696": {
+    "event_id": 952696,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "福島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームのシーガル郡山店"
+  },
+  "953292": {
+    "event_id": 953292,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】カードボックス　福山店"
+  },
+  "953061": {
+    "event_id": 953061,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "香川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ゲームアーク　丸亀店"
+  },
+  "953060": {
+    "event_id": 953060,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260426",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　多治見店"
+  },
+  "952829": {
+    "event_id": 952829,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Card Secret"
+  },
+  "952915": {
+    "event_id": 952915,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "山梨県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス　田富昭和通り店"
+  },
+  "953291": {
+    "event_id": 953291,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 248号西友岡崎店"
+  },
+  "952675": {
+    "event_id": 952675,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　札幌南2条店"
+  },
+  "952695": {
+    "event_id": 952695,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "山形県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフイオン山形北店"
+  },
+  "952744": {
+    "event_id": 952744,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952745": {
+    "event_id": 952745,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR大宮ステラタウン店"
+  },
+  "952826": {
+    "event_id": 952826,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA西友町田店"
+  },
+  "952827": {
+    "event_id": 952827,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 西友大森店"
+  },
+  "952828": {
+    "event_id": 952828,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR町田中央通り店"
+  },
+  "952674": {
+    "event_id": 952674,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　旭川駅前"
+  },
+  "952694": {
+    "event_id": 952694,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "福島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　いわき鹿島店"
+  },
+  "953059": {
+    "event_id": 953059,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　乙川店"
+  },
+  "953143": {
+    "event_id": 953143,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260425",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFイオンモール大牟田店"
+  },
+  "953142": {
+    "event_id": 953142,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260424",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "オレタン福岡天神店"
+  },
+  "952825": {
+    "event_id": 952825,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260424",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高田馬場"
+  },
+  "953290": {
+    "event_id": 953290,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260423",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "秋葉原チェルモ"
+  },
+  "953058": {
+    "event_id": 953058,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260423",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋3号店"
+  },
+  "953057": {
+    "event_id": 953057,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260421",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　布施店"
+  },
+  "952824": {
+    "event_id": 952824,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260421",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "952914": {
+    "event_id": 952914,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "チェルモサード"
+  },
+  "953248": {
+    "event_id": 953248,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップリドル京急蒲田店"
+  },
+  "953056": {
+    "event_id": 953056,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　名古屋店"
+  },
+  "953289": {
+    "event_id": 953289,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカステーション領家店"
+  },
+  "952822": {
+    "event_id": 952822,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952913": {
+    "event_id": 952913,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　横浜伊勢佐木町"
+  },
+  "953247": {
+    "event_id": 953247,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトロコミニ苫小牧バイパス店"
+  },
+  "952912": {
+    "event_id": 952912,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "山梨県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR甲府貢川店"
+  },
+  "953055": {
+    "event_id": 953055,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "山口県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】下関店"
+  },
+  "953141": {
+    "event_id": 953141,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "鹿児島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ彩々 国分店"
+  },
+  "952823": {
+    "event_id": 952823,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ　PLAYERS CENTER　八王子本店"
+  },
+  "952693": {
+    "event_id": 952693,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "岩手県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　盛岡大通"
+  },
+  "952740": {
+    "event_id": 952740,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ裁龍"
+  },
+  "952741": {
+    "event_id": 952741,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Duel Stade Ganryu　ひたち野うしく店"
+  },
+  "952742": {
+    "event_id": 952742,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA嵐山店"
+  },
+  "952743": {
+    "event_id": 952743,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "群馬県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトロコミニ前橋文京店"
+  },
+  "952821": {
+    "event_id": 952821,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフスーパーバザー　多摩永山"
+  },
+  "952739": {
+    "event_id": 952739,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "栃木県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　小山駅前"
+  },
+  "952819": {
+    "event_id": 952819,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 立川駅北口店"
+  },
+  "952820": {
+    "event_id": 952820,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 松戸駅東口店"
+  },
+  "952909": {
+    "event_id": 952909,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAARノースポート・モール店"
+  },
+  "952910": {
+    "event_id": 952910,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF　イオン橋本"
+  },
+  "952911": {
+    "event_id": 952911,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFPLUS　アミューあつぎ店"
+  },
+  "953054": {
+    "event_id": 953054,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "岡山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームショップ オレタン 岡山本店"
+  },
+  "953246": {
+    "event_id": 953246,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ武蔵小金井"
+  },
+  "952908": {
+    "event_id": 952908,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイニティ長岡E・PLAZA店"
+  },
+  "953047": {
+    "event_id": 953047,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "兵庫県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター神戸三宮店"
+  },
+  "953048": {
+    "event_id": 953048,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "奈良県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF奈良法華寺店"
+  },
+  "953049": {
+    "event_id": 953049,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　新開橋店"
+  },
+  "953050": {
+    "event_id": 953050,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "島根県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "CARDBOXアリオン塩冶店"
+  },
+  "953051": {
+    "event_id": 953051,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイコンプ高槻店"
+  },
+  "953052": {
+    "event_id": 953052,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "愛媛県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームショップ　オレタン松山店"
+  },
+  "953140": {
+    "event_id": 953140,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "オレタン福岡天神店"
+  },
+  "953245": {
+    "event_id": 953245,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプPLAYERS CENTER札幌駅前店"
+  },
+  "953053": {
+    "event_id": 953053,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードボックス京都店"
+  },
+  "952817": {
+    "event_id": 952817,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフスーパーバザー ららぽーとTOKYO-BAY North Gate店"
+  },
+  "952818": {
+    "event_id": 952818,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "953046": {
+    "event_id": 953046,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "徳島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ビデオ100　徳島藍住店"
+  },
+  "953288": {
+    "event_id": 953288,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260419",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ゲームアーク　西条中央店"
+  },
+  "953287": {
+    "event_id": 953287,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "宮崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "CARDSHOPラリアット！"
+  },
+  "952907": {
+    "event_id": 952907,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　本厚木駅前"
+  },
+  "953244": {
+    "event_id": 953244,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップリドル京急蒲田店"
+  },
+  "952906": {
+    "event_id": 952906,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川崎駅前"
+  },
+  "953045": {
+    "event_id": 953045,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "香川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　高松店"
+  },
+  "952816": {
+    "event_id": 952816,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "蔦屋書店　茂原店"
+  },
+  "952673": {
+    "event_id": 952673,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　札幌南2条店"
+  },
+  "952738": {
+    "event_id": 952738,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952813": {
+    "event_id": 952813,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 立川駅北口店"
+  },
+  "952814": {
+    "event_id": 952814,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 西友大森店"
+  },
+  "952815": {
+    "event_id": 952815,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "福福トレカ　秋葉原店"
+  },
+  "952905": {
+    "event_id": 952905,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　相模大野店"
+  },
+  "953043": {
+    "event_id": 953043,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "953044": {
+    "event_id": 953044,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "953285": {
+    "event_id": 953285,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 248号西友岡崎店"
+  },
+  "953286": {
+    "event_id": 953286,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ イトーヨカドー溝ノ口店"
+  },
+  "952902": {
+    "event_id": 952902,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "石川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "北国書林　松任店"
+  },
+  "952903": {
+    "event_id": 952903,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイニティ長岡E・PLAZA店"
+  },
+  "952904": {
+    "event_id": 952904,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF イオン本牧店"
+  },
+  "953039": {
+    "event_id": 953039,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店"
+  },
+  "953040": {
+    "event_id": 953040,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　みのかも店"
+  },
+  "953041": {
+    "event_id": 953041,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA富士八幡町店"
+  },
+  "953042": {
+    "event_id": 953042,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ　海賊船-starch-"
+  },
+  "953137": {
+    "event_id": 953137,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "熊本県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "遊ING　熊本上通り店"
+  },
+  "953138": {
+    "event_id": 953138,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "熊本県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA AVクラブ御領店"
+  },
+  "953139": {
+    "event_id": 953139,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "佐賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス佐賀南部バイパス店"
+  },
+  "952691": {
+    "event_id": 952691,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "岩手県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ポケ堂北上店"
+  },
+  "952692": {
+    "event_id": 952692,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "福島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームのシーガル郡山店"
+  },
+  "953038": {
+    "event_id": 953038,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260418",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　岐阜本店"
+  },
+  "952812": {
+    "event_id": 952812,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260417",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター池袋店"
+  },
+  "952811": {
+    "event_id": 952811,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260417",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ竜星のPAO　立川店"
+  },
+  "952810": {
+    "event_id": 952810,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260417",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高田馬場"
+  },
+  "952809": {
+    "event_id": 952809,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260416",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター町田店"
+  },
+  "953037": {
+    "event_id": 953037,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260416",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップVOW"
+  },
+  "953281": {
+    "event_id": 953281,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260416",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "秋葉原チェルモ"
+  },
+  "953036": {
+    "event_id": 953036,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260416",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Torecacamp大須店"
+  },
+  "953035": {
+    "event_id": 953035,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260415",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋2号店"
+  },
+  "952690": {
+    "event_id": 952690,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260415",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ポケ堂　仙台店"
+  },
+  "953034": {
+    "event_id": 953034,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260415",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR54号広島八木店"
+  },
+  "953033": {
+    "event_id": 953033,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260414",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ　スキップ玉出店"
+  },
+  "953032": {
+    "event_id": 953032,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260414",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　布施店"
+  },
+  "953243": {
+    "event_id": 953243,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260414",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星のPAO　大宮店"
+  },
+  "952808": {
+    "event_id": 952808,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260414",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "952901": {
+    "event_id": 952901,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260414",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】青馬堂矢向店"
+  },
+  "952807": {
+    "event_id": 952807,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260413",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター秋葉原駅前店"
+  },
+  "953280": {
+    "event_id": 953280,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260413",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "秋葉原チェルモ"
+  },
+  "952900": {
+    "event_id": 952900,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "チェルモサード"
+  },
+  "953279": {
+    "event_id": 953279,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ竜星のPAO町田店"
+  },
+  "952672": {
+    "event_id": 952672,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "青森県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトロコミニ十和田店"
+  },
+  "953029": {
+    "event_id": 953029,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ　大阪日本橋店"
+  },
+  "953030": {
+    "event_id": 953030,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　名古屋店"
+  },
+  "953136": {
+    "event_id": 953136,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "鹿児島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF鹿児島ジョイプラザ店トレカ館"
+  },
+  "953278": {
+    "event_id": 953278,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカステーション佐鳴台店"
+  },
+  "952806": {
+    "event_id": 952806,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952737": {
+    "event_id": 952737,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川越駅前"
+  },
+  "952899": {
+    "event_id": 952899,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　横浜伊勢佐木町"
+  },
+  "952898": {
+    "event_id": 952898,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "青馬堂本店"
+  },
+  "953028": {
+    "event_id": 953028,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "愛媛県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ　ファンクス"
+  },
+  "953242": {
+    "event_id": 953242,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "群馬県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高崎駅前"
+  },
+  "953277": {
+    "event_id": 953277,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星のPAO　八王子店"
+  },
+  "952736": {
+    "event_id": 952736,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　水戸駅前"
+  },
+  "952735": {
+    "event_id": 952735,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "栃木県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　足利店"
+  },
+  "952803": {
+    "event_id": 952803,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 立川駅北口店"
+  },
+  "952804": {
+    "event_id": 952804,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA西友町田店"
+  },
+  "952805": {
+    "event_id": 952805,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 西友大森店"
+  },
+  "952895": {
+    "event_id": 952895,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　相模大野店"
+  },
+  "952896": {
+    "event_id": 952896,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ港北綱島西店"
+  },
+  "952897": {
+    "event_id": 952897,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFPLUS　アミューあつぎ店"
+  },
+  "953027": {
+    "event_id": 953027,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "三重県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】津店"
+  },
+  "952892": {
+    "event_id": 952892,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイニティ長岡E・PLAZA店"
+  },
+  "952893": {
+    "event_id": 952893,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "福井県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Super KaBoS 二の宮本店"
+  },
+  "952894": {
+    "event_id": 952894,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "長野県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトスタ長野駅前店"
+  },
+  "953020": {
+    "event_id": 953020,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "奈良県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF奈良法華寺店"
+  },
+  "953021": {
+    "event_id": 953021,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】本の王国すまいるキング　安城店"
+  },
+  "953022": {
+    "event_id": 953022,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　新開橋店"
+  },
+  "953023": {
+    "event_id": 953023,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "王の洞窟jr.　一宮２２号バイパス店"
+  },
+  "953024": {
+    "event_id": 953024,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA三島店"
+  },
+  "953025": {
+    "event_id": 953025,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイコンプ　住道店"
+  },
+  "953133": {
+    "event_id": 953133,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "宮崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ＠ほ～む。宮崎店"
+  },
+  "953134": {
+    "event_id": 953134,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "沖縄県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードスタジアム小禄店"
+  },
+  "953135": {
+    "event_id": 953135,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ福岡天神店"
+  },
+  "953241": {
+    "event_id": 953241,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプPLAYERS CENTER札幌駅前店"
+  },
+  "953026": {
+    "event_id": 953026,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードボックス京都店"
+  },
+  "952688": {
+    "event_id": 952688,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "福島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームのシーガル郡山店"
+  },
+  "952689": {
+    "event_id": 952689,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　泉中央店"
+  },
+  "952734": {
+    "event_id": 952734,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　入間店"
+  },
+  "952801": {
+    "event_id": 952801,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "952802": {
+    "event_id": 952802,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA BOOKSTORE　そよら成田ニュータウン"
+  },
+  "953019": {
+    "event_id": 953019,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ゲームアーク　三原本店"
+  },
+  "953018": {
+    "event_id": 953018,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "山口県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラグーン周南"
+  },
+  "953031": {
+    "event_id": 953031,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260412",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　長久手店"
+  },
+  "952800": {
+    "event_id": 952800,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Card Secret"
+  },
+  "953240": {
+    "event_id": 953240,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Duel Stade Ganryu本庄店"
+  },
+  "953276": {
+    "event_id": 953276,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ竜星のPAO多摩境店"
+  },
+  "952890": {
+    "event_id": 952890,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "青馬堂本店"
+  },
+  "952891": {
+    "event_id": 952891,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ新潟万代"
+  },
+  "952732": {
+    "event_id": 952732,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA嵐山店"
+  },
+  "952733": {
+    "event_id": 952733,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "栃木県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA Trading Card 宇都宮インターパークビレッジ店"
+  },
+  "952799": {
+    "event_id": 952799,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ千葉店"
+  },
+  "952729": {
+    "event_id": 952729,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952730": {
+    "event_id": 952730,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　古河店"
+  },
+  "952731": {
+    "event_id": 952731,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR大宮ステラタウン店"
+  },
+  "952797": {
+    "event_id": 952797,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR イトーヨーカドー流山店"
+  },
+  "952798": {
+    "event_id": 952798,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR町田中央通り店"
+  },
+  "953016": {
+    "event_id": 953016,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "駿河屋本店駿河屋ビル"
+  },
+  "953017": {
+    "event_id": 953017,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイコンプ岸和田店"
+  },
+  "952889": {
+    "event_id": 952889,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "石川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "北国書林　松任店"
+  },
+  "953013": {
+    "event_id": 953013,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULL 広島ドンキ店"
+  },
+  "953014": {
+    "event_id": 953014,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "三重県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店 星川店"
+  },
+  "953015": {
+    "event_id": 953015,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　大阪梅田店"
+  },
+  "953132": {
+    "event_id": 953132,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "佐賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス佐賀南部バイパス店"
+  },
+  "953275": {
+    "event_id": 953275,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "岡山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】玉島店"
+  },
+  "953011": {
+    "event_id": 953011,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　高蔵寺店"
+  },
+  "953012": {
+    "event_id": 953012,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260411",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　高蔵寺店"
+  },
+  "953131": {
+    "event_id": 953131,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260410",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "オレタン福岡天神店"
+  },
+  "952796": {
+    "event_id": 952796,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260410",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高田馬場"
+  },
+  "953010": {
+    "event_id": 953010,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260409",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Torecacamp大須店"
+  },
+  "953008": {
+    "event_id": 953008,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260409",
+    "prefecture": "奈良県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF奈良法華寺店"
+  },
+  "953009": {
+    "event_id": 953009,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260409",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋3号店"
+  },
+  "953006": {
+    "event_id": 953006,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260408",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋2号店"
+  },
+  "953007": {
+    "event_id": 953007,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260408",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULL京都店"
+  },
+  "952795": {
+    "event_id": 952795,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260408",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Card Secret"
+  },
+  "952687": {
+    "event_id": 952687,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260408",
+    "prefecture": "福島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードゲームのシーガル郡山店"
+  },
+  "952794": {
+    "event_id": 952794,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260407",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "953005": {
+    "event_id": 953005,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260407",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　布施店"
+  },
+  "952888": {
+    "event_id": 952888,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260407",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】青馬堂矢向店"
+  },
+  "953004": {
+    "event_id": 953004,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260406",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップVOW"
+  },
+  "953003": {
+    "event_id": 953003,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260406",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店"
+  },
+  "953274": {
+    "event_id": 953274,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260406",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "秋葉原チェルモ"
+  },
+  "952887": {
+    "event_id": 952887,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "チェルモサード"
+  },
+  "952685": {
+    "event_id": 952685,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "山形県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　嶋北店"
+  },
+  "952686": {
+    "event_id": 952686,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "秋田県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ秋田駅前店"
+  },
+  "952793": {
+    "event_id": 952793,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952728": {
+    "event_id": 952728,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川越駅前"
+  },
+  "952885": {
+    "event_id": 952885,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　横浜伊勢佐木町"
+  },
+  "952886": {
+    "event_id": 952886,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川崎駅前"
+  },
+  "953239": {
+    "event_id": 953239,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトロコミニ苫小牧バイパス店"
+  },
+  "953130": {
+    "event_id": 953130,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "鹿児島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ彩々 鹿児島店"
+  },
+  "952727": {
+    "event_id": 952727,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ裁龍"
+  },
+  "952792": {
+    "event_id": 952792,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフスーパーバザー　多摩永山"
+  },
+  "952790": {
+    "event_id": 952790,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 立川駅北口店"
+  },
+  "952791": {
+    "event_id": 952791,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 西友大森店"
+  },
+  "952883": {
+    "event_id": 952883,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAARノースポート・モール店"
+  },
+  "952884": {
+    "event_id": 952884,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF　イオン橋本"
+  },
+  "952999": {
+    "event_id": 952999,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "三重県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPERBAZAAR 1号四日市日永店"
+  },
+  "953000": {
+    "event_id": 953000,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカプラザ５５大須アメ横店"
+  },
+  "953001": {
+    "event_id": 953001,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "953002": {
+    "event_id": 953002,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "953128": {
+    "event_id": 953128,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　小倉駅前店"
+  },
+  "953129": {
+    "event_id": 953129,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　小倉駅前店"
+  },
+  "953409": {
+    "event_id": 953409,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 1号京都伏見店"
+  },
+  "952882": {
+    "event_id": 952882,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "長野県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "タッチ松本店"
+  },
+  "952881": {
+    "event_id": 952881,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "福井県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Super KaBoS + GEO 鯖江店"
+  },
+  "952996": {
+    "event_id": 952996,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　乙川店"
+  },
+  "952997": {
+    "event_id": 952997,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ゲームプラザ元気302"
+  },
+  "952998": {
+    "event_id": 952998,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "高知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ楓"
+  },
+  "953126": {
+    "event_id": 953126,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "沖縄県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードスタジアム小禄店"
+  },
+  "953127": {
+    "event_id": 953127,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "長崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "遊ING浜町店"
+  },
+  "953273": {
+    "event_id": 953273,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "岡山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】玉島店"
+  },
+  "952671": {
+    "event_id": 952671,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　札幌狸小路"
+  },
+  "952788": {
+    "event_id": 952788,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR ショップス市川店"
+  },
+  "952789": {
+    "event_id": 952789,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260405",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "953271": {
+    "event_id": 953271,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "宮崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "CARDSHOPラリアット！"
+  },
+  "952880": {
+    "event_id": 952880,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　本厚木駅前"
+  },
+  "953238": {
+    "event_id": 953238,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップリドル京急蒲田店"
+  },
+  "953237": {
+    "event_id": 953237,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ竜星のPAO千葉中央店"
+  },
+  "952879": {
+    "event_id": 952879,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "青馬堂本店"
+  },
+  "952726": {
+    "event_id": 952726,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　水戸駅前"
+  },
+  "952724": {
+    "event_id": 952724,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952786": {
+    "event_id": 952786,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR町田中央通り店"
+  },
+  "952787": {
+    "event_id": 952787,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR東千葉祐光店"
+  },
+  "952878": {
+    "event_id": 952878,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFPLUS　アミューあつぎ店"
+  },
+  "952995": {
+    "event_id": 952995,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "鳥取県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードボックスアリオン皆生店"
+  },
+  "953269": {
+    "event_id": 953269,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 248号西友岡崎店"
+  },
+  "952876": {
+    "event_id": 952876,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "石川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　金沢駅前"
+  },
+  "952877": {
+    "event_id": 952877,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "長野県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトスタ長野駅前店"
+  },
+  "952992": {
+    "event_id": 952992,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター泉佐野店"
+  },
+  "952993": {
+    "event_id": 952993,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA富士八幡町店"
+  },
+  "952994": {
+    "event_id": 952994,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ　海賊船-starch-"
+  },
+  "953125": {
+    "event_id": 953125,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "オレタン福岡天神店"
+  },
+  "952670": {
+    "event_id": 952670,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　旭川駅前"
+  },
+  "952683": {
+    "event_id": 952683,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　仙台駅前店"
+  },
+  "952684": {
+    "event_id": 952684,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "シーガル　仙台駅前店"
+  },
+  "952723": {
+    "event_id": 952723,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "WonderGOO PLUS つくば店"
+  },
+  "952682": {
+    "event_id": 952682,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260404",
+    "prefecture": "秋田県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "鹿角ラボ"
+  },
+  "952785": {
+    "event_id": 952785,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260403",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター池袋店"
+  },
+  "953236": {
+    "event_id": 953236,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260403",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星のPAO　大宮店"
+  },
+  "952784": {
+    "event_id": 952784,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260402",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター町田店"
+  },
+  "952991": {
+    "event_id": 952991,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260402",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Torecacamp大須店"
+  },
+  "952990": {
+    "event_id": 952990,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260401",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋2号店"
+  },
+  "952989": {
+    "event_id": 952989,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260331",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ　スキップ玉出店"
+  },
+  "952875": {
+    "event_id": 952875,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260331",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】青馬堂矢向店"
+  },
+  "952783": {
+    "event_id": 952783,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260330",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター秋葉原駅前店"
+  },
+  "952782": {
+    "event_id": 952782,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260326",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター町田店"
+  },
+  "952988": {
+    "event_id": 952988,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260326",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップVOW"
+  },
+  "952722": {
+    "event_id": 952722,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260326",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA嵐山店"
+  },
+  "952987": {
+    "event_id": 952987,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260326",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋3号店"
+  },
+  "952986": {
+    "event_id": 952986,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260325",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋2号店"
+  },
+  "952781": {
+    "event_id": 952781,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260325",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Card Secret"
+  },
+  "952681": {
+    "event_id": 952681,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260325",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ポケ堂　仙台店"
+  },
+  "952985": {
+    "event_id": 952985,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260325",
+    "prefecture": "和歌山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF和歌山国体道路店"
+  },
+  "952984": {
+    "event_id": 952984,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260325",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Torecacamp大須店"
+  },
+  "952983": {
+    "event_id": 952983,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260324",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　布施店"
+  },
+  "952780": {
+    "event_id": 952780,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260324",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "952874": {
+    "event_id": 952874,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260324",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】青馬堂矢向店"
+  },
+  "952982": {
+    "event_id": 952982,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260323",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店"
+  },
+  "953268": {
+    "event_id": 953268,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260323",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "秋葉原チェルモ"
+  },
+  "952873": {
+    "event_id": 952873,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "チェルモサード"
+  },
+  "953235": {
+    "event_id": 953235,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星のPAO　大宮店"
+  },
+  "953267": {
+    "event_id": 953267,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカステーション領家店"
+  },
+  "952721": {
+    "event_id": 952721,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川越駅前"
+  },
+  "952718": {
+    "event_id": 952718,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Duel Stade Ganryu　ひたち野うしく店"
+  },
+  "952719": {
+    "event_id": 952719,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ裁龍"
+  },
+  "952720": {
+    "event_id": 952720,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "群馬県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトロコミニ前橋文京店"
+  },
+  "952980": {
+    "event_id": 952980,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "兵庫県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　姫路店"
+  },
+  "952979": {
+    "event_id": 952979,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "岡山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF 250号東岡山店"
+  },
+  "953124": {
+    "event_id": 953124,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　小倉駅前店"
+  },
+  "953408": {
+    "event_id": 953408,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 1号京都伏見店"
+  },
+  "952717": {
+    "event_id": 952717,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "栃木県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　足利店"
+  },
+  "952779": {
+    "event_id": 952779,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "952871": {
+    "event_id": 952871,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "福井県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Super KaBoS 敦賀店"
+  },
+  "952872": {
+    "event_id": 952872,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "長野県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "バトスタ長野駅前店"
+  },
+  "952974": {
+    "event_id": 952974,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】本の王国すまいるキング　安城店"
+  },
+  "952975": {
+    "event_id": 952975,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　みのかも店"
+  },
+  "952976": {
+    "event_id": 952976,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップVOW"
+  },
+  "952977": {
+    "event_id": 952977,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA三島店"
+  },
+  "952978": {
+    "event_id": 952978,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイコンプ高槻店"
+  },
+  "953234": {
+    "event_id": 953234,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプPLAYERS CENTER札幌駅前店"
+  },
+  "953266": {
+    "event_id": 953266,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】カードボックス　福山店"
+  },
+  "952981": {
+    "event_id": 952981,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260322",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　長久手店"
+  },
+  "952778": {
+    "event_id": 952778,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Card Secret"
+  },
+  "952777": {
+    "event_id": 952777,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952870": {
+    "event_id": 952870,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　川崎駅前"
+  },
+  "952775": {
+    "event_id": 952775,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "蔦屋書店　茂原店"
+  },
+  "952776": {
+    "event_id": 952776,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ千葉店"
+  },
+  "952868": {
+    "event_id": 952868,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "青馬堂本店"
+  },
+  "952869": {
+    "event_id": 952869,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ新潟万代"
+  },
+  "952669": {
+    "event_id": 952669,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "北海道",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　札幌南2条店"
+  },
+  "952715": {
+    "event_id": 952715,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952716": {
+    "event_id": 952716,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR大宮ステラタウン店"
+  },
+  "952680": {
+    "event_id": 952680,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "福島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　いわき鹿島店"
+  },
+  "952714": {
+    "event_id": 952714,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Wonder GOO　入間店"
+  },
+  "952973": {
+    "event_id": 952973,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ　海賊船-starch-"
+  },
+  "953265": {
+    "event_id": 953265,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "富山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】おもちゃのバンビ　本郷店"
+  },
+  "952971": {
+    "event_id": 952971,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　高蔵寺店"
+  },
+  "952972": {
+    "event_id": 952972,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260321",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　高蔵寺店"
+  },
+  "952970": {
+    "event_id": 952970,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　名古屋店"
+  },
+  "952774": {
+    "event_id": 952774,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ竜星のPAO　立川店"
+  },
+  "952713": {
+    "event_id": 952713,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックエースTSUTAYA　勝田東石川店"
+  },
+  "952772": {
+    "event_id": 952772,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高田馬場"
+  },
+  "952968": {
+    "event_id": 952968,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "高知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA土佐道路店"
+  },
+  "952969": {
+    "event_id": 952969,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "香川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星の嵐　高松店"
+  },
+  "952773": {
+    "event_id": 952773,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ　PLAYERS CENTER　八王子本店"
+  },
+  "952966": {
+    "event_id": 952966,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "952967": {
+    "event_id": 952967,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULLなんば店"
+  },
+  "952712": {
+    "event_id": 952712,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952770": {
+    "event_id": 952770,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA西友町田店"
+  },
+  "952771": {
+    "event_id": 952771,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター池袋店"
+  },
+  "952867": {
+    "event_id": 952867,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAARノースポート・モール店"
+  },
+  "952962": {
+    "event_id": 952962,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "愛媛県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TCG桜華"
+  },
+  "952963": {
+    "event_id": 952963,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店　乙川店"
+  },
+  "952964": {
+    "event_id": 952964,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス浜北店"
+  },
+  "952965": {
+    "event_id": 952965,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイコンプ　住道店"
+  },
+  "953121": {
+    "event_id": 953121,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "大分県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA光吉店"
+  },
+  "953122": {
+    "event_id": 953122,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "熊本県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "遊ING　熊本上通り店"
+  },
+  "953123": {
+    "event_id": 953123,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "鹿児島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ＠ほ～む。鹿児島店"
+  },
+  "952961": {
+    "event_id": 952961,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ　西尾下町店"
+  },
+  "952960": {
+    "event_id": 952960,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260320",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　可児店"
+  },
+  "952769": {
+    "event_id": 952769,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260319",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター町田店"
+  },
+  "952958": {
+    "event_id": 952958,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260319",
+    "prefecture": "奈良県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF奈良法華寺店"
+  },
+  "952959": {
+    "event_id": 952959,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260319",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋3号店"
+  },
+  "952956": {
+    "event_id": 952956,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260318",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋2号店"
+  },
+  "952957": {
+    "event_id": 952957,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260318",
+    "prefecture": "京都府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULL京都店"
+  },
+  "952768": {
+    "event_id": 952768,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260318",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Card Secret"
+  },
+  "952955": {
+    "event_id": 952955,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260318",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR54号広島八木店"
+  },
+  "952954": {
+    "event_id": 952954,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260317",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ　スキップ玉出店"
+  },
+  "952953": {
+    "event_id": 952953,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260317",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップ竜のしっぽ　布施店"
+  },
+  "952767": {
+    "event_id": 952767,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260317",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　柏駅前"
+  },
+  "952866": {
+    "event_id": 952866,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260317",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】青馬堂矢向店"
+  },
+  "952766": {
+    "event_id": 952766,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260316",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター秋葉原駅前店"
+  },
+  "952952": {
+    "event_id": 952952,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260316",
+    "prefecture": "滋賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップVOW"
+  },
+  "952765": {
+    "event_id": 952765,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260316",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA西友町田店"
+  },
+  "952865": {
+    "event_id": 952865,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "チェルモサード"
+  },
+  "953233": {
+    "event_id": 953233,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップリドル京急蒲田店"
+  },
+  "953264": {
+    "event_id": 953264,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "静岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカステーション佐鳴台店"
+  },
+  "952763": {
+    "event_id": 952763,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　新津田沼駅前"
+  },
+  "952864": {
+    "event_id": 952864,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　横浜伊勢佐木町"
+  },
+  "953232": {
+    "event_id": 953232,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "群馬県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　高崎駅前"
+  },
+  "953263": {
+    "event_id": 953263,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "竜星のPAO　八王子店"
+  },
+  "952764": {
+    "event_id": 952764,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "フルコンプ　PLAYERS CENTER　八王子本店"
+  },
+  "952710": {
+    "event_id": 952710,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA嵐山店"
+  },
+  "952711": {
+    "event_id": 952711,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "茨城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　水戸駅前"
+  },
+  "952762": {
+    "event_id": 952762,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 松戸駅東口店"
+  },
+  "952862": {
+    "event_id": 952862,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAARノースポート・モール店"
+  },
+  "952863": {
+    "event_id": 952863,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF　イオン橋本"
+  },
+  "952951": {
+    "event_id": 952951,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "三重県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】津店"
+  },
+  "952948": {
+    "event_id": 952948,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "兵庫県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター神戸三宮店"
+  },
+  "952949": {
+    "event_id": 952949,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "王の洞窟jr.　一宮２２号バイパス店"
+  },
+  "952950": {
+    "event_id": 952950,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "奈良県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF奈良法華寺店"
+  },
+  "953119": {
+    "event_id": 953119,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "沖縄県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードスタジアム小禄店"
+  },
+  "953120": {
+    "event_id": 953120,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】Booksあんとく　三潴店"
+  },
+  "952679": {
+    "event_id": 952679,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "宮城県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ポケ堂　仙台店"
+  },
+  "952761": {
+    "event_id": 952761,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "千葉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "TSUTAYA BOOKSTORE　そよら成田ニュータウン"
+  },
+  "952860": {
+    "event_id": 952860,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "新潟県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トイニティ長岡E・PLAZA店"
+  },
+  "952861": {
+    "event_id": 952861,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF イオン本牧店"
+  },
+  "952947": {
+    "event_id": 952947,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260315",
+    "prefecture": "徳島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ビデオ100　徳島藍住店"
+  },
+  "953118": {
+    "event_id": 953118,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "長崎県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAARアクロスプラザ佐世保店"
+  },
+  "953231": {
+    "event_id": 953231,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップリドル京急蒲田店"
+  },
+  "952859": {
+    "event_id": 952859,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トーナメントセンターバトロコ　本厚木駅前"
+  },
+  "953262": {
+    "event_id": 953262,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "カードショップ竜星のPAO多摩境店"
+  },
+  "952858": {
+    "event_id": 952858,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "山梨県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス　田富昭和通り店"
+  },
+  "952709": {
+    "event_id": 952709,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "群馬県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "Duel Stade Ganryu　高崎店"
+  },
+  "952708": {
+    "event_id": 952708,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "埼玉県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "トレカショップKCC"
+  },
+  "952760": {
+    "event_id": 952760,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "東京都",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFFSUPERBAZAAR町田中央通り店"
+  },
+  "953260": {
+    "event_id": 953260,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "神奈川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフ イトーヨカドー溝ノ口店"
+  },
+  "953261": {
+    "event_id": 953261,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "愛知県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 248号西友岡崎店"
+  },
+  "952678": {
+    "event_id": 952678,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "山形県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフイオン山形北店"
+  },
+  "952943": {
+    "event_id": 952943,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "BOOKOFF SUPER BAZAAR 307号枚方池之宮店"
+  },
+  "952944": {
+    "event_id": 952944,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "大阪府",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ドラゴンスター日本橋3号店"
+  },
+  "952945": {
+    "event_id": 952945,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "広島県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "GIRAFULL 広島ドンキ店"
+  },
+  "952946": {
+    "event_id": 952946,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "三重県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "三洋堂書店 星川店"
+  },
+  "953116": {
+    "event_id": 953116,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "福岡県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "オレタン福岡天神店"
+  },
+  "953117": {
+    "event_id": 953117,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "佐賀県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ブックオフプラス佐賀南部バイパス店"
+  },
+  "953259": {
+    "event_id": 953259,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "岡山県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "【CARDBOX】玉島店"
+  },
+  "952942": {
+    "event_id": 952942,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "香川県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "ゲームアーク　丸亀店"
+  },
+  "952941": {
+    "event_id": 952941,
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "event_kbn": "オープン",
+    "date": "20260314",
+    "prefecture": "岐阜県",
+    "regulation": "スタンダード",
+    "capacity": 64,
+    "shop_name": "宝島　岐阜本店"
+  }
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46711",
+    "name": "オーガポン いどのめんex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48539",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45233",
+    "name": "テツノイサハex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48582",
+    "name": "リーリエのピッピex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48597",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48636",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47847",
+    "name": "メガガルーラex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45628",
+    "name": "ガチグマ アカツキex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49694",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48809",
+    "name": "パルデア ケンタロス",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48295",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48674",
+    "name": "テラスタルオーブ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49383",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47871",
+    "name": "エネルギーつけかえ",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48681",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48274",
+    "name": "プライムキャッチャー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48303",
+    "name": "ボスの指令",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47619",
+    "name": "Nの筋書き",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48706",
+    "name": "ゼロの大空洞",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47903",
+    "name": "基本草エネルギー",
+    "count": 11
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47905",
+    "name": "基本水エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48307",
+    "name": "基本超エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47904",
+    "name": "基本炎エネルギー",
+    "count": 1
+  }
+]

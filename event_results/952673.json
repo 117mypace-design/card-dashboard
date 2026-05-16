@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-18 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "北海道",
+    "shopId": 18867,
+    "shopName": "ブックオフ　札幌南2条店",
+    "zipCode": 600062,
+    "address": "北海道札幌市中央区南二条西1-3",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0074393938",
+      "name": "くまのみ",
+      "rank": 1,
+      "point": 100,
+      "area": "北海道",
+      "deck_id": "g9nPnH-Vq0Nev-PnQnNn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0081219865",
+      "name": "むらびと",
+      "rank": 2,
+      "point": 75,
+      "area": "北海道",
+      "deck_id": "6gQnLg-2iEd7v-NgiHn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000137359",
+      "name": "りん",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "RyMpMy-PIoiaE-Rpy2SS"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000647760",
+      "name": "カロコ",
+      "rank": 3,
+      "point": 50,
+      "area": "北海道",
+      "deck_id": "88D4x8-ImFOZu-48JGcx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0034481729",
+      "name": "アルト",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "4GYx8a-1BK59I-x4c8J8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0064700074",
+      "name": "けんじろう",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "xJGYxc-f1jomj-4848ax"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0036771059",
+      "name": "もも",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "cccKD4-6CPn55-a8Gxxc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0053995472",
+      "name": "ブロッコリー",
+      "rank": 5,
+      "point": 25,
+      "area": "北海道",
+      "deck_id": "4c84x8-tdfl3E-4aGxx8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084952592",
+      "name": "カニマヨDX",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "555bFF-A1FfHV-1kf1kV"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0081212745",
+      "name": "猫サブロー",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "yRpS2M-Yf313g-yMRyXE"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030798928",
+      "name": "あずこう",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "HHnLLP-Aj7OaO-P9LnHg"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0056661644",
+      "name": "よしくん",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "nnnQLN-Rp8gP0-PnQ9gH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001369380",
+      "name": "ミーナ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "MSMSyp-uM6BVM-M2pUyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0052417649",
+      "name": "みずはがね",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "48cYx8-KxdTh9-YGc8Ya"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007283101",
+      "name": "真珠ご飯",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "gLgLLi-jDgDcZ-gLHin9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003670938",
+      "name": "カツラネコ",
+      "rank": 9,
+      "point": 15,
+      "area": "北海道",
+      "deck_id": "G4Jcx4-Zk8IEL-xJG8xD"
+    }
+  ],
+  "total": 16
+}

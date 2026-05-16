@@ -1,0 +1,146 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48411",
+    "name": "ミミロル",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48412",
+    "name": "メガミミロップex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49865",
+    "name": "ユキワラシ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48558",
+    "name": "メガユキメノコex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47086",
+    "name": "ノコッチ",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45203",
+    "name": "ノココッチ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47087",
+    "name": "ノココッチex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48661",
+    "name": "スピンロトム",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47492",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44861",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45875",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46660",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "39572",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49404",
+    "name": "ふうせん",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "49609",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "42422",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "47899",
+    "name": "ミツルの思いやり",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "42024",
+    "name": "ジャッジマン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49434",
+    "name": "トウコ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48419",
+    "name": "バトルコロシアム",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46293",
+    "name": "リッチエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47218",
+    "name": "ミストエネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "25299",
+    "name": "基本水エネルギー",
+    "count": 3
+  }
+]

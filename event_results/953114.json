@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-06 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "京都府",
+    "shopId": 11037,
+    "shopName": "GIRAFULL京都店",
+    "zipCode": 6008211,
+    "address": "京都府京都市下京区真苧屋町195　福井ビル2F",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0042481098",
+      "name": "J兄さん",
+      "rank": 1,
+      "point": 100,
+      "area": "京都府",
+      "deck_id": "k5fkFv-8WgQVM-bFvFwk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000576446",
+      "name": "atr",
+      "rank": 2,
+      "point": 75,
+      "area": "滋賀県",
+      "deck_id": "4Y8Yc8-7YGKH7-YaGKcD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0054262234",
+      "name": "の",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "Ffwfkb-k7T1Ul-F5Fdbk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0007614165",
+      "name": "アッキー",
+      "rank": 3,
+      "point": 50,
+      "area": "滋賀県",
+      "deck_id": "MyRpSS-aUICaa-SS3Xyp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075098100",
+      "name": "おかき",
+      "rank": 5,
+      "point": 25,
+      "area": "奈良県",
+      "deck_id": "Y4cx4G-zFwjer-cG8cYD"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0002786452",
+      "name": "きらら",
+      "rank": 5,
+      "point": 25,
+      "area": "京都府",
+      "deck_id": "gng9gQ-oaxZEv-gnQ9gQ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0089309065",
+      "name": "エッヌ",
+      "rank": 5,
+      "point": 25,
+      "area": "大阪府",
+      "deck_id": "8GYcYK-CTljNl-YcKxax"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000673455",
+      "name": "瀬田",
+      "rank": 5,
+      "point": 25,
+      "area": "リモート",
+      "deck_id": "GDDYGc-NumwdK-Y88Dcx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087104101",
+      "name": "Hamia",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "9iQgng-7Xig9x-gNQQQn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0102644300",
+      "name": "たくと",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "99QgLH-12xLov-g6gLgn"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0005842414",
+      "name": "ワつし",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "ccYc8G-BElYy7-ccGxx8"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0028140016",
+      "name": "RAY",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "ypSpSp-zlWwx0-RRpX2R"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000274452",
+      "name": "りさりさ",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "yySySp-tb9oog-pXpyXR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0006904919",
+      "name": "さいごう",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "kFFFFb-MLquOk-vk5bFf"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031079561",
+      "name": "ロル",
+      "rank": 9,
+      "point": 15,
+      "area": "京都府",
+      "deck_id": "MppMRy-Fql9mN-RESRpy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003404203",
+      "name": "たぶんね",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "FvFbvb-MmPdzP-FFFkbV"
+    }
+  ],
+  "total": 16
+}

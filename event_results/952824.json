@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-21 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 12:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "千葉県",
+    "shopId": 10553,
+    "shopName": "トーナメントセンターバトロコ　柏駅前",
+    "zipCode": 2770005,
+    "address": "千葉県柏市柏1-2-31 新星堂カルチェ4階",
+    "venue": "277-0005\n\n千葉県\n柏市柏1-2-31 新星堂カルチェ4階",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0055850407",
+      "name": "ドラ",
+      "rank": 1,
+      "point": 100,
+      "area": "千葉県",
+      "deck_id": "k1bkFF-jXBA13-Vf15dF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0043590023",
+      "name": "ペペペ",
+      "rank": 2,
+      "point": 75,
+      "area": "東京都",
+      "deck_id": "kV5bkF-DHxY3I-k5kFf1"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0024517919",
+      "name": "たくあん",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "9nnngn-N6e5ye-6HHggQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0096739835",
+      "name": "ピノ",
+      "rank": 3,
+      "point": 50,
+      "area": "千葉県",
+      "deck_id": "Fbk51F-wCDCNo-FkbFfk"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0065190674",
+      "name": "チャマ",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "5vFVkf-3IHUNT-VbkvFF"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001031083",
+      "name": "葉月",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "SpXRyy-xMgXtr-pE2XXX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000203522",
+      "name": "伊藤ちゃん",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "ggnnQL-mNFBhL-gggH9n"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0014263185",
+      "name": "かたな",
+      "rank": 5,
+      "point": 25,
+      "area": "千葉県",
+      "deck_id": "yUyMMp-0mlOXo-2RRSpp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0070956243",
+      "name": "涙目のるか",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "LgPnng-69r2NO-LnHnn9"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036578245",
+      "name": "じゅん",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "gQn9NP-MHPBod-nHLggL"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0074742004",
+      "name": "しんそん",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "pRRyM3-KqMble-MMyp2p"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0000256104",
+      "name": "しゅーと",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "yMXR3p-HafFpB-py2SRM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0045013418",
+      "name": "はらけー",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "V1bfkF-AMh7HV-VF5k5f"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0041667521",
+      "name": "きむ",
+      "rank": 9,
+      "point": 15,
+      "area": "千葉県",
+      "deck_id": "RpSpp2-rJPuwF-y2yyyX"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0035860990",
+      "name": "にしこう",
+      "rank": 9,
+      "point": 15,
+      "area": "埼玉県",
+      "deck_id": "kkbf5k-olPG6a-FkfbF5"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0087383537",
+      "name": "あまえび",
+      "rank": 9,
+      "point": 15,
+      "area": "東京都",
+      "deck_id": "fFFdVV-4x1OCR-kF5dbk"
+    }
+  ],
+  "total": 16
+}

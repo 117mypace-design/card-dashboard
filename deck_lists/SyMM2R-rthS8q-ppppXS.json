@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "49790",
+    "name": "ソルロック",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45852",
+    "name": "イイネイヌ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50038",
+    "name": "カメテテ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49131",
+    "name": "ガチグマ アカツキ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49087",
+    "name": "ルナトーン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49675",
+    "name": "ガメノデス",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48354",
+    "name": "ファイヤー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50152",
+    "name": "ミネズミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "39572",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48298",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48439",
+    "name": "ファイトゴング",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49573",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "49404",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "42900",
+    "name": "ボスの指令",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "49706",
+    "name": "タラゴン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46608",
+    "name": "ジャッジマン",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49437",
+    "name": "ハッサク",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48514",
+    "name": "バトルコロシアム",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "48337",
+    "name": "基本闘エネルギー",
+    "count": 9
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "27552",
+    "name": "プリズムエネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49457",
+    "name": "レガシーエネルギー",
+    "count": 1
+  }
+]

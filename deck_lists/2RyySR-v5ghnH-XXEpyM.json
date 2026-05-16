@@ -1,0 +1,110 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45538",
+    "name": "タケルライコex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45867",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46409",
+    "name": "コライドン",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46324",
+    "name": "ラティアスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46066",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49959",
+    "name": "コダック",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "27617",
+    "name": "ポケモンキャッチャー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "39572",
+    "name": "ポケギア3.0",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44008",
+    "name": "エネルギー回収",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44861",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46094",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46957",
+    "name": "テラスタルオーブ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "46970",
+    "name": "アカマツ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42944",
+    "name": "基本草エネルギー",
+    "count": 12
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42949",
+    "name": "基本闘エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "42947",
+    "name": "基本雷エネルギー",
+    "count": 4
+  }
+]

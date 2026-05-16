@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "45867",
+    "name": "オーガポン みどりのめんex",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47799",
+    "name": "チコリータ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47800",
+    "name": "ベイリーフ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47801",
+    "name": "メガニウム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45702",
+    "name": "カジッチュ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46670",
+    "name": "カミッチュ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48780",
+    "name": "カミツオロチex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47739",
+    "name": "セレビィ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48777",
+    "name": "カプ・ブルル",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "50067",
+    "name": "ニャースex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46066",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49600",
+    "name": "ハイパーボール",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47883",
+    "name": "むしとりセット",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49349",
+    "name": "アンフェアスタンプ(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48697",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47898",
+    "name": "ボスの指令",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49428",
+    "name": "スイレンのお世話",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49414",
+    "name": "暗号マニアの解読",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47857",
+    "name": "活力の森",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "47903",
+    "name": "基本草エネルギー",
+    "count": 15
+  }
+]

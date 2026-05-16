@@ -1,0 +1,200 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48446",
+    "name": "メガアブソルex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "35982",
+    "name": "ゲンガー&amp;ミミッキュGX",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "37879",
+    "name": "ヤミラミV",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "36106",
+    "name": "マルマインGX",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "30874",
+    "name": "ビリリダマ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "44447",
+    "name": "リククラゲ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "44319",
+    "name": "ノノクラゲ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "31918",
+    "name": "アンノーン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "37443",
+    "name": "デデンネGX",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "43687",
+    "name": "イキリンコex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "40053",
+    "name": "バトルVIPパス",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36307",
+    "name": "ハイパーボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44053",
+    "name": "ヒスイのヘビーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "33665",
+    "name": "トレーナーズポスト",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "39728",
+    "name": "レスキューキャリー",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36412",
+    "name": "レスキュータンカ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "30568",
+    "name": "バトルサーチャー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "34643",
+    "name": "バトルコンプレッサー（フレア団ギア）",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "28414",
+    "name": "あなぬけのヒモ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "41294",
+    "name": "キャンセルコロン",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "31974",
+    "name": "かるいし",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "30227",
+    "name": "ちからのハチマキ",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "42184",
+    "name": "森の封印石",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "43659",
+    "name": "ナンジャモ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "35658",
+    "name": "グズマ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "35653",
+    "name": "プルメリ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "33707",
+    "name": "サイレントラボ",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "42812",
+    "name": "頂への雪道",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "41752",
+    "name": "ポケストップ",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "27552",
+    "name": "プリズムエネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "49712",
+    "name": "テレパス超エネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "25303",
+    "name": "基本悪エネルギー",
+    "count": 2
+  }
+]

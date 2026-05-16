@@ -1,0 +1,230 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "33659",
+    "name": "ホルビー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "43499",
+    "name": "ポッポ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "37308",
+    "name": "ピジョン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "44162",
+    "name": "ピジョットex",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46946",
+    "name": "スピンロトム",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "36320",
+    "name": "ナゾノクサ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "36322",
+    "name": "クサイハナ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "33555",
+    "name": "ラフレシア",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "37172",
+    "name": "ラフレシアGX",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "37034",
+    "name": "ヨーテリー",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "33159",
+    "name": "ハーデリア",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "28206",
+    "name": "ムーランド",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45520",
+    "name": "ジーランス",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "28536",
+    "name": "バリヤード",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "35337",
+    "name": "キリンリキ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "49956",
+    "name": "スボミー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "33773",
+    "name": "ジラーチ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "37147",
+    "name": "タッグコール",
+    "count": 4
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "36191",
+    "name": "隠密フード",
+    "count": 3
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "44375",
+    "name": "ワザマシン エヴォリューション",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "46339",
+    "name": "カウンターゲイン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "30163",
+    "name": "クロケア",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "32325",
+    "name": "カリン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35653",
+    "name": "プルメリ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35669",
+    "name": "グラジオ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35751",
+    "name": "ザオボー",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "36041",
+    "name": "グズマ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "36709",
+    "name": "ルザミーネ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "37387",
+    "name": "グズマ&amp;ハラ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "37462",
+    "name": "ジュジュベ&amp;ハチクマン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "39523",
+    "name": "シャクヤ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "40471",
+    "name": "エール団の応援",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "44964",
+    "name": "ボウルタウン",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "46040",
+    "name": "偉大な大樹(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40331",
+    "name": "キャプチャーエネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "43037",
+    "name": "ジェットエネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "35387",
+    "name": "メモリーエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "31997",
+    "name": "基本草エネルギー",
+    "count": 1
+  }
+]

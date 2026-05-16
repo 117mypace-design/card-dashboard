@@ -1,0 +1,230 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "41737",
+    "name": "カビゴン",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "39019",
+    "name": "ガラルマッギョ",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "30850",
+    "name": "レジロック",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "43241",
+    "name": "ミミッキュ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "35337",
+    "name": "キリンリキ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "33659",
+    "name": "ホルビー",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "34869",
+    "name": "フリーザーGX",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "41841",
+    "name": "ロトムV",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "28744",
+    "name": "ポケモン回収サイクロン(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "34318",
+    "name": "改造ハンマー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "34641",
+    "name": "トレーナーズポスト",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36611",
+    "name": "ネストボール",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "37416",
+    "name": "バトルサーチャー",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "38020",
+    "name": "クイックボール",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45317",
+    "name": "ヒスイのヘビーボール",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47186",
+    "name": "カウンターキャッチャー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47198",
+    "name": "夜のタンカ",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "34646",
+    "name": "かるいし",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "36191",
+    "name": "隠密フード",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "39194",
+    "name": "ツールジャマー",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "46097",
+    "name": "森の封印石",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "31811",
+    "name": "ロケット団の工作",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "33831",
+    "name": "フレア団のしたっぱ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "33913",
+    "name": "プルメリ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "34655",
+    "name": "センパイとコウハイ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "35591",
+    "name": "グラジオ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35596",
+    "name": "ルザミーネ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "36455",
+    "name": "グズマ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "37354",
+    "name": "ザオボー",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "42700",
+    "name": "ペパー",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "44705",
+    "name": "ボタン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "45214",
+    "name": "ビワ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "49445",
+    "name": "リーリエの決心",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "28636",
+    "name": "トロピカルビーチ",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "38633",
+    "name": "プレイヤーズセレモニー",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "45388",
+    "name": "シンオウ神殿",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40331",
+    "name": "キャプチャーエネルギー",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46118",
+    "name": "基本水エネルギー",
+    "count": 2
+  }
+]

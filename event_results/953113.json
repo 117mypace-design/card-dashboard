@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-05-06 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:30:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "岡山県",
+    "shopId": 11189,
+    "shopName": "カードゲームショップ オレタン 岡山本店",
+    "zipCode": 7000962,
+    "address": "岡山県岡山市北区北長瀬表町2丁目17番80号 ブランチ岡山北長瀬 内",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 1,
+      "player_id": "0035373269",
+      "name": "スイセイ",
+      "rank": 1,
+      "point": 100,
+      "area": "岡山県",
+      "deck_id": "QgNnLi-zlcyPp-9gNQnn"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0079581987",
+      "name": "マサト",
+      "rank": 2,
+      "point": 75,
+      "area": "岡山県",
+      "deck_id": "QngPnQ-h4OwFQ-g9NnL6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0095029094",
+      "name": "ベリベリー",
+      "rank": 3,
+      "point": 50,
+      "area": "岡山県",
+      "deck_id": "S2XpRS-6KcQ4i-ypp3yp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0061502543",
+      "name": "taka",
+      "rank": 3,
+      "point": 50,
+      "area": "岡山県",
+      "deck_id": "gQHgnQ-IgXNZy-NQgg99"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0031784957",
+      "name": "おぐら",
+      "rank": 5,
+      "point": 25,
+      "area": "兵庫県",
+      "deck_id": "ccYDcY-DMaKjz-8GG8JG"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0071953465",
+      "name": "ソーダ",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "SpRSXS-d7ucYJ-ppyRUp"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0093348502",
+      "name": "ふぶき/FBK",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "NHLgH6-PVC6Uv-ng9n9N"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0062037671",
+      "name": "チートイツ",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "g6Qg9Q-xJi95G-Q9LHnL"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063770766",
+      "name": "Lefty/BFF",
+      "rank": 9,
+      "point": 15,
+      "area": "大阪府",
+      "deck_id": "Rp2Sy3-AAZR5a-MypySX"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0094989469",
+      "name": "オノハコ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "pppRS3-xS4GXR-yUypyS"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0035513007",
+      "name": "ハンバーグ",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "gn9Qn9-TawaEV-9igQgQ"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0057977016",
+      "name": "zane",
+      "rank": 9,
+      "point": 15,
+      "area": "兵庫県",
+      "deck_id": "YcDc4D-SJdIdF-YGG8c8"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0063340983",
+      "name": "ダンダラ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "88xx8c-JKESUK-DYDYcG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0045071142",
+      "name": "ジョジョ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "pypppR-qMNpTv-22SMUU"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003107674",
+      "name": "鶴屋",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "MyypRR-Bu8CuL-ppSyMy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0091348869",
+      "name": "ケータ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "RpUXSS-lJck1L-RppypM"
+    }
+  ],
+  "total": 16
+}

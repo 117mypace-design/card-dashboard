@@ -1,0 +1,224 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "33753",
+    "name": "ソーナンス",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "30850",
+    "name": "レジロック",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "41737",
+    "name": "カビゴン",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "30685",
+    "name": "ラクライ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "35337",
+    "name": "キリンリキ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45127",
+    "name": "ミミッキュ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "33795",
+    "name": "バトルサーチャー",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "34382",
+    "name": "殿堂の書",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "30659",
+    "name": "みがわりロボ（フレア団ギア）",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "37040",
+    "name": "リーリエのピッピ人形",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36412",
+    "name": "レスキュータンカ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36198",
+    "name": "改造ハンマー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "32012",
+    "name": "魅惑のポフレ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "33789",
+    "name": "ターゲットホイッスル（フレア団ギア）",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36037",
+    "name": "フィールドブロアー",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46285",
+    "name": "メガトンブロアー(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44973",
+    "name": "カウンターキャッチャー",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36592",
+    "name": "ネストボール",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "39194",
+    "name": "ツールジャマー",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35729",
+    "name": "ダイゴの決断",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "35751",
+    "name": "ザオボー",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "35653",
+    "name": "プルメリ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35887",
+    "name": "フレア団のしたっぱ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35658",
+    "name": "グズマ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35853",
+    "name": "ポケモンレンジャー",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35849",
+    "name": "ロケット団の工作",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "37462",
+    "name": "ジュジュベ&amp;ハチクマン",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "35881",
+    "name": "N",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "35791",
+    "name": "センパイとコウハイ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "35674",
+    "name": "ルザミーネ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "35669",
+    "name": "グラジオ",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48443",
+    "name": "リーリエの決心",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "37155",
+    "name": "混沌のうねり",
+    "count": 2
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "43035",
+    "name": "ボウルタウン",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "37377",
+    "name": "リサイクルエネルギー",
+    "count": 1
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "37980",
+    "name": "キャプチャーエネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46340",
+    "name": "ジェットエネルギー",
+    "count": 1
+  }
+]

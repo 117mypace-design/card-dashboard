@@ -1,0 +1,164 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "46410",
+    "name": "モノズ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46411",
+    "name": "ジヘッド",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46647",
+    "name": "サザンドラex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48667",
+    "name": "テラパゴスex",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47182",
+    "name": "ホーホー",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47183",
+    "name": "ヨルノズク",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48661",
+    "name": "スピンロトム",
+    "count": 2
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45913",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "46808",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48674",
+    "name": "テラスタルオーブ",
+    "count": 3
+  },
+  {
+    "category": "グッズ",
+    "card_id": "44177",
+    "name": "ハイパーボール",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "38367",
+    "name": "ふしぎなアメ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "40835",
+    "name": "エネルギー転送",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "42020",
+    "name": "エネルギーつけかえ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "48671",
+    "name": "ガラスのラッパ",
+    "count": 1
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48301",
+    "name": "ふうせん",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "48694",
+    "name": "トウコ",
+    "count": 3
+  },
+  {
+    "category": "サポート",
+    "card_id": "48417",
+    "name": "ヒカリ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "46824",
+    "name": "アカマツ",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "49708",
+    "name": "メイのはげまし",
+    "count": 1
+  },
+  {
+    "category": "サポート",
+    "card_id": "44184",
+    "name": "ボスの指令",
+    "count": 1
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "48706",
+    "name": "ゼロの大空洞",
+    "count": 3
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40888",
+    "name": "基本悪エネルギー",
+    "count": 4
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40886",
+    "name": "基本超エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "40889",
+    "name": "基本鋼エネルギー",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "45217",
+    "name": "ネオアッパーエネルギー",
+    "count": 1
+  }
+]

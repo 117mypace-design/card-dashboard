@@ -1,0 +1,183 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 11:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": null,
+    "eventDaySupply": null,
+    "prefecture_name": "鹿児島県",
+    "shopId": 18936,
+    "shopName": "カードショップ彩々 国分店",
+    "zipCode": 8994353,
+    "address": "鹿児島県霧島市国分向花町10-2 末元ビル１階",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0009193136",
+      "name": "マサト",
+      "rank": 1,
+      "point": 100,
+      "area": "鹿児島県",
+      "deck_id": "aKG8xc-P6K0LJ-xx4DDc"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0001825769",
+      "name": "ぴぃ",
+      "rank": 2,
+      "point": 75,
+      "area": "滋賀県",
+      "deck_id": "ig9LHn-L9MIoN-LQnH6H"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0068426972",
+      "name": "だいもんじいけだ",
+      "rank": 3,
+      "point": 50,
+      "area": "鹿児島県",
+      "deck_id": "dwbFkV-F9DA3i-5F51Fk"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067644164",
+      "name": "コーヒー牛乳",
+      "rank": 3,
+      "point": 50,
+      "area": "鹿児島県",
+      "deck_id": "84cG8K-q1iLg8-xJ4x8c"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0011946089",
+      "name": "枝薄荷",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "NninnN-quXzJW-gHL9ng"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0041547124",
+      "name": "ヒロ",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "pyUUyU-MV0ErE-MpXUyR"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0010293005",
+      "name": "細目　晴臣",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "X22pRM-g3vGAg-3Sy3py"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0053556330",
+      "name": "ポルセロナ",
+      "rank": 5,
+      "point": 25,
+      "area": "鹿児島県",
+      "deck_id": "5kFFwk-HOpePP-FVFfbd"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0030518186",
+      "name": "だんご虫",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "2Mp2RM-IIYbhn-y2SXyy"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0025058640",
+      "name": "たけ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "XE2MMU-8nn2hj-3RpyXp"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0066465401",
+      "name": "パリピじゃない孔明",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "UyRypy-P1AqH5-22MyyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0067546884",
+      "name": "とっしー",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "UySyR2-Q4ma8R-RRypyM"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0064534282",
+      "name": "こしあん",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "8J4G8c-6IK4B1-Y8xDYJ"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087114652",
+      "name": "なつき",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "8cJG48-yup67p-a88x4x"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0013648103",
+      "name": "CL落選者辛すぎ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "a8GaDc-G2ltXr-axx4Kx"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0056440267",
+      "name": "オニマエコ",
+      "rank": 9,
+      "point": 15,
+      "area": "鹿児島県",
+      "deck_id": "pRMp32-Lgghcy-2SXpy2"
+    }
+  ],
+  "total": 16
+}

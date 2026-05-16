@@ -1,0 +1,187 @@
+{
+  "event": {
+    "event_title": "シティリーグ2026 シーズン4 オープンリーグ",
+    "eventTypeId": 2,
+    "event_type_title": "シティリーグ",
+    "event_kbn": "city",
+    "csp_flg": 1,
+    "image": "",
+    "eventDate": {
+      "date": "2026-04-19 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventStartedAt": {
+      "date": "1970-01-01 10:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventEndedAt": {
+      "date": "1970-01-01 17:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "UTC"
+    },
+    "eventDaySupply": null,
+    "prefecture_name": "島根県",
+    "shopId": 11179,
+    "shopName": "CARDBOXアリオン塩冶店",
+    "zipCode": 6930022,
+    "address": "島根県出雲市上塩冶町2647",
+    "venue": "",
+    "detail": null,
+    "league": "オープン",
+    "regulation": "スタンダード",
+    "entry_condition": null,
+    "capacity": 64,
+    "remarks": null,
+    "access": null,
+    "eventAttrId": 3
+  },
+  "results": [
+    {
+      "show_profile": 0,
+      "player_id": "0025664621",
+      "name": "かさ",
+      "rank": 1,
+      "point": 100,
+      "area": "島根県",
+      "deck_id": "G4cGxY-OJ0H3R-axK88G"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0004622420",
+      "name": "まねっ珈琲",
+      "rank": 2,
+      "point": 75,
+      "area": "島根県",
+      "deck_id": "1fFVk5-HzattY-FbfkF5"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0055635194",
+      "name": "トンク",
+      "rank": 3,
+      "point": 50,
+      "area": "島根県",
+      "deck_id": "gg9LH6-56X2im-n9nQPi"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0036324626",
+      "name": "きむち",
+      "rank": 3,
+      "point": 50,
+      "area": "島根県",
+      "deck_id": "G4cGxY-OJ0H3R-axK88G"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0043543874",
+      "name": "だいくん。",
+      "rank": 5,
+      "point": 25,
+      "area": "広島県",
+      "deck_id": "ccxJG8-BSuA8A-K4c4Jx"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0075822903",
+      "name": "きび団子",
+      "rank": 5,
+      "point": 25,
+      "area": "岡山県",
+      "deck_id": "b1kkkF-5uwLWd-5Vbk5w"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0084608769",
+      "name": "HARU",
+      "rank": 5,
+      "point": 25,
+      "area": "島根県",
+      "deck_id": "vkFVkk-WGGjXI-bk5Vk1"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0037383273",
+      "name": "なの",
+      "rank": 5,
+      "point": 25,
+      "area": "島根県",
+      "deck_id": "FVVk5k-ZeNmXr-FwFbkV"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0003006043",
+      "name": "のーぷらんなー",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "n6g9Hg-kPrgoy-9HLLLH"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0075588755",
+      "name": "ユウソウ",
+      "rank": 9,
+      "point": 15,
+      "area": "岡山県",
+      "deck_id": "VwfV11-jNBNww-kbbF5V"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0093359133",
+      "name": "ヤクモ　",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "Kxc4x8-7ip5Kg-GKcKxG"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0087121133",
+      "name": "ダネ",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "FfbkbF-me4w6C-V5fF5k"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044934464",
+      "name": "ユメゆめ",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "8YKGKx-tzlO7y-84cccc"
+    },
+    {
+      "show_profile": 1,
+      "player_id": "0004974767",
+      "name": "ゴリしん",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "FkkVFV-9wiRhT-VFbw5F"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0072530850",
+      "name": "モン",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "Lgg9nH-MyRIIF-QgN6N6"
+    },
+    {
+      "show_profile": 0,
+      "player_id": "0044783264",
+      "name": "トーレス",
+      "rank": 9,
+      "point": 15,
+      "area": "島根県",
+      "deck_id": "fkVvF5-l3Pebl-1bf5kf"
+    }
+  ],
+  "total": 16
+}

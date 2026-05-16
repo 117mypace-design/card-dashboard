@@ -1,0 +1,134 @@
+[
+  {
+    "category": "ポケモン",
+    "card_id": "48397",
+    "name": "ストリンダー",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48396",
+    "name": "エレズン",
+    "count": 4
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "47771",
+    "name": "メガアブソルex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48636",
+    "name": "キチキギスex",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "45762",
+    "name": "アラブルタケ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "46415",
+    "name": "モモワロウ",
+    "count": 1
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48603",
+    "name": "マシマシラ",
+    "count": 3
+  },
+  {
+    "category": "ポケモン",
+    "card_id": "48534",
+    "name": "シェイミ",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45209",
+    "name": "なかよしポフィン",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49378",
+    "name": "ポケパッド",
+    "count": 4
+  },
+  {
+    "category": "グッズ",
+    "card_id": "43106",
+    "name": "ハイパーボール",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "45783",
+    "name": "シークレットボックス(ACE SPEC)",
+    "count": 1
+  },
+  {
+    "category": "グッズ",
+    "card_id": "40134",
+    "name": "ポケギア3.0",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "47483",
+    "name": "ロケット団のレシーバー",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "49386",
+    "name": "夜のタンカ",
+    "count": 2
+  },
+  {
+    "category": "グッズ",
+    "card_id": "36609",
+    "name": "エネルギーつけかえ",
+    "count": 2
+  },
+  {
+    "category": "ポケモンのどうぐ",
+    "card_id": "48301",
+    "name": "ふうせん",
+    "count": 2
+  },
+  {
+    "category": "サポート",
+    "card_id": "47795",
+    "name": "リーリエの決心",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "47487",
+    "name": "ロケット団のラムダ",
+    "count": 4
+  },
+  {
+    "category": "サポート",
+    "card_id": "46205",
+    "name": "ボスの指令",
+    "count": 3
+  },
+  {
+    "category": "スタジアム",
+    "card_id": "47489",
+    "name": "ロケット団の監視塔",
+    "count": 2
+  },
+  {
+    "category": "エネルギー",
+    "card_id": "46122",
+    "name": "基本悪エネルギー",
+    "count": 11
+  }
+]
