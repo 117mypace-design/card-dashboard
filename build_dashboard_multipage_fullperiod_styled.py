@@ -2749,7 +2749,7 @@ function renderIndexV2(){
   const metaLeader = metaCards[0] || null;
   const metaSwing = metaLeader ? deltaAcrossSelected(weekSeriesCard(metaLeader.name), "rate") : 0;
   const top3Share = decks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
-  const seasonFlow = currentWeeks().map(week => {
+  const seasonFlow = trendWeeks().map(week => {
     const weeklyDecks = aggregateDeckStats([week]);
     const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
     const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
@@ -2983,7 +2983,7 @@ function renderIndexV2(){
   const metaLeader = metaCards[0] || null;
   const metaSwing = metaLeader ? deltaAcrossSelected(weekSeriesCard(metaLeader.name), "rate") : 0;
   const top3Share = decks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
-  const seasonFlow = currentWeeks().map(week => {
+  const seasonFlow = trendWeeks().map(week => {
     const weeklyDecks = aggregateDeckStats([week]);
     const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
     const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
@@ -3011,7 +3011,7 @@ function renderIndexV2(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
-  const seasonFlow = currentWeeks().map(week => {
+  const seasonFlow = trendWeeks().map(week => {
     const weeklyDecks = aggregateDeckStats([week]);
     const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
     const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
@@ -3248,7 +3248,7 @@ function renderIndexV3(){
   const metaLeader = metaCards[0] || null;
   const metaSwing = metaLeader ? deltaAcrossSelected(weekSeriesCard(metaLeader.name), "rate") : 0;
 
-  const seasonFlow = currentWeeks().map(week => {
+  const seasonFlow = trendWeeks().map(week => {
     const weeklyDecks = aggregateDeckStats([week]);
     const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
     const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
@@ -3636,16 +3636,50 @@ function closeSidebar(){
 function weekEntry(week){
   return (DATA.weeks_data && DATA.weeks_data[week]) || {totals:{decks:0, top4:0, wins:0, stable:false}, decks:{}, archetypes:{}, cards:{}, deck_cards:{}, archetype_cards:{}};
 }
-function periodState(){
+function compactDate(value){
+  return String(value || "").replace(/[^\d]/g, "").slice(0, 8);
+}
+function latestSeasonWeeks(){
   const weeks = weekKeys();
-  const fallback = {start:0, end:Math.max(0, weeks.length - 1)};
+  const season = DATA.season || {};
+  const from = compactDate(season.date_from || season.release_date || DATA.period_start || "");
+  const to = compactDate(season.date_to || DATA.period_end || "");
+  const filtered = weeks.filter(week => {
+    const key = compactDate(week);
+    if (!key) return false;
+    if (from && key < from) return false;
+    if (to && key > to) return false;
+    return true;
+  });
+  return filtered.length ? filtered : weeks;
+}
+function latestMetricWeeks(){
+  const weeks = latestSeasonWeeks();
+  return weeks.length ? [weeks[weeks.length - 1]] : [];
+}
+function periodStateFromWeeks(targetWeeks){
+  const weeks = weekKeys();
+  if (!weeks.length) return {start:0, end:0};
+  const wanted = (targetWeeks || []).filter(Boolean);
+  const fallbackIndex = Math.max(0, weeks.length - 1);
+  const startIndex = weeks.indexOf(wanted[0]);
+  const endIndex = weeks.indexOf(wanted[wanted.length - 1]);
+  const start = startIndex >= 0 ? startIndex : fallbackIndex;
+  const end = endIndex >= 0 ? endIndex : start;
+  return {start:Math.min(start, end), end:Math.max(start, end)};
+}
+function defaultPeriodState(){
+  return periodStateFromWeeks(latestMetricWeeks());
+}
+function periodState(){
+  const fallback = defaultPeriodState();
   try {
-    return JSON.parse(localStorage.getItem("periodState") || JSON.stringify(fallback));
+    return JSON.parse(localStorage.getItem("periodStateV2") || JSON.stringify(fallback));
   } catch {
     return fallback;
   }
 }
-function savePeriodState(state){ localStorage.setItem("periodState", JSON.stringify(state)); }
+function savePeriodState(state){ localStorage.setItem("periodStateV2", JSON.stringify(state)); }
 function tierSortState(){
   const fallback = {key:"usage", dir:"desc"};
   try {
@@ -3672,17 +3706,26 @@ function currentWeeks(){
   savePeriodState(state);
   return weeks.slice(state.start, state.end + 1);
 }
+function trendWeeks(){
+  return latestSeasonWeeks();
+}
 function setPeriodPreset(kind){
   const weeks = weekKeys();
+  if (kind === "default") savePeriodState(defaultPeriodState());
   if (kind === "all") savePeriodState({start:0, end:Math.max(0, weeks.length - 1)});
   if (kind === "last2") savePeriodState({start:Math.max(0, weeks.length - 2), end:Math.max(0, weeks.length - 1)});
   if (kind === "last3") savePeriodState({start:Math.max(0, weeks.length - 3), end:Math.max(0, weeks.length - 1)});
   renderPage();
 }
-function selectedRangeText(){
-  const weeks = currentWeeks();
+function rangeText(weeks){
   if (!weeks.length) return "-";
   return `${DATA.week_labels[weeks[0]]} 〜 ${DATA.week_labels[weeks[weeks.length - 1]]}`;
+}
+function selectedRangeText(){
+  return rangeText(currentWeeks());
+}
+function trendRangeText(){
+  return rangeText(trendWeeks());
 }
 function unstableSelectedWeeks(){
   return currentWeeks().filter(week => !weekEntry(week).totals.stable);
@@ -4353,8 +4396,8 @@ function weekSeriesCard(name){
     };
   });
 }
-function scopedSeries(series){
-  const allowed = new Set(currentWeeks());
+function scopedSeries(series, weeks=trendWeeks()){
+  const allowed = new Set(weeks);
   return series.filter(row => allowed.has(row.week));
 }
 function stableSeries(series){
@@ -4368,8 +4411,8 @@ function deltaAcrossSelected(series, key){
   return Number(rows[rows.length - 1][key] || 0) - Number(rows[0][key] || 0);
 }
 function adjacentTrendWeeks(){
-  const allWeeks = weekKeys();
-  const selectedWeeks = currentWeeks();
+  const allWeeks = trendWeeks();
+  const selectedWeeks = trendWeeks();
   const current = selectedWeeks[selectedWeeks.length - 1] || allWeeks[allWeeks.length - 1] || "";
   const currentIndex = allWeeks.indexOf(current);
   const previous = currentIndex > 0 ? allWeeks[currentIndex - 1] : "";
@@ -4962,7 +5005,7 @@ function tableHeadWithTip(label, description, sortKey=""){
 function buildTierTable(tiers){
   const rows = tiers.flatMap(bucket => bucket.items.map(item => ({...item, tier:bucket.tier})));
   const sortedRows = sortedTierRows(rows);
-  return `<table class="table table-tier"><thead><tr><th>Tier</th><th>デッキ</th><th>${tableHeadWithTip("使用率", "選択期間内の全デッキに対する比率です。見出しを押すと使用率順で並べ替えできます。", "usage")}</th><th>${tableHeadWithTip("TOP4進出率", "そのデッキの出場数に対して、TOP4に入った比率です。色は TOP4シェア率 / 使用率 の倍率で変わります。1.1以上なら高評価、0.9以上1.1未満なら中立、0.9未満なら低評価です。見出しを押すとTOP4進出率順で並べ替えできます。", "top4_rate")}</th><th>${tableHeadWithTip("優勝率", "そのデッキの出場数に対して、優勝した比率です。試合単位の勝率ではありません。色は 優勝シェア率 / 使用率 の倍率で変わります。1.1以上なら高評価、0.9以上1.1未満なら中立、0.9未満なら低評価です。見出しを押すと優勝率順で並べ替えできます。", "win_rate")}</th></tr></thead><tbody>${sortedRows.map(item => {
+  return `<table class="table table-tier"><thead><tr><th>Tier</th><th>デッキ</th><th>${tableHeadWithTip("使用率", "集計期間内の全デッキに対する比率です。見出しを押すと使用率順で並べ替えできます。", "usage")}</th><th>${tableHeadWithTip("TOP4進出率", "そのデッキの出場数に対して、TOP4に入った比率です。色は TOP4シェア率 / 使用率 の倍率で変わります。1.1以上なら高評価、0.9以上1.1未満なら中立、0.9未満なら低評価です。見出しを押すとTOP4進出率順で並べ替えできます。", "top4_rate")}</th><th>${tableHeadWithTip("優勝率", "そのデッキの出場数に対して、優勝した比率です。試合単位の勝率ではありません。色は 優勝シェア率 / 使用率 の倍率で変わります。1.1以上なら高評価、0.9以上1.1未満なら中立、0.9未満なら低評価です。見出しを押すと優勝率順で並べ替えできます。", "win_rate")}</th></tr></thead><tbody>${sortedRows.map(item => {
     return `<tr class="tier-row"><td>${item.tier ? `<span class="pill ${tierClass(item.tier)}">${item.tier}</span>` : ""}</td><td><div class="tier-deck-name">${renderTierDeckName(item.name)}</div></td><td>${tierMetricCard(item.usage, "usage")}</td><td>${tierMetricCard(item.top4_rate, "top4", "", metricRatioState(item.b4, item.usage))}</td><td>${tierMetricCard(item.win_rate, "win", "", metricRatioState(item.win, item.usage))}</td></tr>`;
   }).join("")}</tbody></table>`;
 }
@@ -5279,14 +5322,21 @@ function sidebarMarkup(){
       </div>
     </details>
     <details class="side-accordion" open>
-      <summary>期間</summary>
+      <summary>集計期間</summary>
       <div class="side-accordion-body">
         <div class="range-box">
           <div class="range-head">
-            <div class="range-title">選択期間</div>
-            <div class="range-value" id="periodLabel">-</div>
+            <div>
+              <div class="range-title">集計期間</div>
+              <div class="range-value" id="periodLabel">-</div>
+            </div>
+            <div>
+              <div class="range-title">推移期間</div>
+              <div class="range-value" id="trendPeriodLabel">-</div>
+            </div>
           </div>
           <div class="tabs">
+            <button class="tab" data-preset="default">デフォルト</button>
             <button class="tab" data-preset="all">全期間</button>
             <button class="tab" data-preset="last2">直近2週</button>
             <button class="tab" data-preset="last3">直近3週</button>
@@ -5346,14 +5396,16 @@ function updatePeriodVisuals(){
   const heroPeriod = qs("#heroPeriod");
   const heroHelpText = qs("#heroHelpText");
   const periodWeeks = qs("#periodWeeks");
+  const trendPeriodLabel = qs("#trendPeriodLabel");
   if (heroPeriod){
     heroPeriod.textContent = PAGE === "decklists"
       ? `${DATA.period_start} 〜 ${DATA.period_end}`
-      : `${DATA.period_start} 〜 ${DATA.period_end} / 選択: ${selectedRangeText()}`;
+      : `${DATA.period_start} 〜 ${DATA.period_end} / 集計: ${selectedRangeText()} / 推移: ${trendRangeText()}`;
   }
   if (heroHelpText) heroHelpText.textContent = PAGE_DESCRIPTIONS[PAGE] || "";
   if (!periodLabel || !periodWeeks) return;
   periodLabel.textContent = selectedRangeText();
+  if (trendPeriodLabel) trendPeriodLabel.textContent = trendRangeText();
   periodWeeks.innerHTML = currentWeeks().map(week => {
     const warn = !weekEntry(week).totals.stable;
     const count = DATA.week_event_counts[week] || 0;
@@ -5361,7 +5413,9 @@ function updatePeriodVisuals(){
   }).join("");
   const state = periodState();
   const weeks = weekKeys();
+  const defaultState = defaultPeriodState();
   qsa("[data-preset]").forEach(button => button.classList.remove("active"));
+  if (state.start === defaultState.start && state.end === defaultState.end) qs('[data-preset="default"]')?.classList.add("active");
   if (state.start === 0 && state.end === weeks.length - 1) qs('[data-preset="all"]')?.classList.add("active");
   if (state.start === Math.max(0, weeks.length - 2) && state.end === weeks.length - 1) qs('[data-preset="last2"]')?.classList.add("active");
   if (state.start === Math.max(0, weeks.length - 3) && state.end === weeks.length - 1) qs('[data-preset="last3"]')?.classList.add("active");
@@ -5418,7 +5472,7 @@ function renderIndex(){
   const metaLeader = metaCards[0];
   const metaSwing = metaLeader ? deltaAcrossSelected(weekSeriesCard(metaLeader.name), "rate") : 0;
   const top3Share = decks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
-  const seasonFlow = currentWeeks().map(week => {
+  const seasonFlow = trendWeeks().map(week => {
     const weeklyDecks = aggregateDeckStats([week]);
     const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
     const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
@@ -5467,7 +5521,7 @@ function renderIndex(){
           <div class="panel panel-scroll chart-panel trend-panel">
             <div class="panel-head">
               <div class="section-title">週次使用率グラフ</div>
-              ${tooltipIcon("選択した期間に含まれる週だけを重ねています。参考週には * が付きます。", "left")}
+              ${tooltipIcon("推移は最新シーズンの全週を重ねています。参考週には * が付きます。", "left")}
             </div>
             <div class="trend-chart-wrap">
               <svg id="metaUsageTrend" viewBox="0 0 760 260" width="100%" height="260"></svg>
@@ -5620,7 +5674,7 @@ function renderIndexV2(){
   const metaLeader = metaCards[0] || null;
   const metaSwing = metaLeader ? deltaAcrossSelected(weekSeriesCard(metaLeader.name), "rate") : 0;
   const top3Share = decks.slice(0, 3).reduce((sum, deck) => sum + deck.usage, 0);
-  const seasonFlow = currentWeeks().map(week => {
+  const seasonFlow = trendWeeks().map(week => {
     const weeklyDecks = aggregateDeckStats([week]);
     const weeklyLeader = weeklyDecks[0] || {name:"-", usage:0};
     const weeklyGap = weeklyDecks.length > 1 ? weeklyLeader.usage - weeklyDecks[1].usage : Number(weeklyLeader.usage || 0);
@@ -5887,7 +5941,7 @@ function renderArchetypes(){
                     <span class="tier-stat-icon usage">${metricIconSvg("usage")}</span>
                     <div class="deck-summary-metric-value-row">
                       <div class="deck-summary-metric-value">${fmtPct(summary.usage)}</div>
-                      ${tooltipIcon("選択期間内の全デッキに対する、このアーキタイプの使用比率です。", "left")}
+                      ${tooltipIcon("集計期間内の全デッキに対する、このアーキタイプの使用比率です。", "left")}
                     </div>
                   </div>
                 </div>
@@ -6113,7 +6167,7 @@ function renderDecks(){
                     <span class="tier-stat-icon usage">${metricIconSvg("usage")}</span>
                     <div class="deck-summary-metric-value-row">
                       <div class="deck-summary-metric-value">${fmtPct(deck.usage)}</div>
-                      ${tooltipIcon("選択期間内の全デッキに対する使用比率です。", "left")}
+                      ${tooltipIcon("集計期間内の全デッキに対する使用比率です。", "left")}
                     </div>
                   </div>
                 </div>
