@@ -90,6 +90,14 @@
       ]
     },
     {
+      "name": "ミミロップ系",
+      "required": [
+	{"card": "メガミミロップ", "min_count": 2},
+        {"card": "ノココッチ", "min_count": 2},
+        {"card": "ふうせん", "min_count": 1}
+      ]
+    },
+    {
       "name": "超系",
       "required": [{"card": "テレパス超エネルギー", "min_count": 3}]
     }
@@ -387,6 +395,25 @@
       "required": [
 	{"card": "お祭り会場", "min_count": 3},
         {"card": "バチンキー", "min_count": 2}
+      ]
+    },
+    {
+      "name": "メガユキメノコミミロップ",
+      "archetype": "ミミロップ系",
+      "required": [
+        {"card": "メガユキメノコ", "min_count": 1},
+	{"card": "メガミミロップ", "min_count": 2},
+        {"card": "ノココッチ", "min_count": 2},
+        {"card": "ふうせん", "min_count": 1}
+      ]
+    },
+    {
+      "name": "ミミロップその他",
+      "archetype": "ミミロップ系",
+      "required": [
+	{"card": "メガミミロップ", "min_count": 2},
+        {"card": "ノココッチ", "min_count": 2},
+        {"card": "ふうせん", "min_count": 1}
       ]
     },
     {

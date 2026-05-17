@@ -31,6 +31,8 @@ for %%F in (
 ) do (
   git diff --quiet -- "%%F"
   if errorlevel 1 set "CHANGED_FILES=!CHANGED_FILES! %%F"
+  git diff --cached --quiet -- "%%F"
+  if errorlevel 1 set "CHANGED_FILES=!CHANGED_FILES! %%F"
 )
 
 if not defined CHANGED_FILES (
@@ -91,8 +93,6 @@ if errorlevel 1 (
 
 git diff --cached --quiet
 if not errorlevel 1 (
-  rem there are staged changes
-) else (
   echo No source/config changes to publish.
   pause
   exit /b 0
