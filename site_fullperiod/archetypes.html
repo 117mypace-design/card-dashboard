@@ -2836,7 +2836,7 @@ function aggregateDeckStatsForRows(rows){
   let totalTop4 = 0;
   let totalWins = 0;
   rows.forEach(row => {
-    const name = row.deck_name || "その他";
+    const name = String(row.deck_name || "").trim() || "その他";
     if (!map[name]) map[name] = {name, count:0, top4:0, wins:0};
     map[name].count += 1;
     if (Number(row.placing || 999) <= 4){
@@ -2849,7 +2849,6 @@ function aggregateDeckStatsForRows(rows){
     }
   });
   return Object.values(map)
-    .filter(item => !strictOther(item.name))
     .map(item => ({
       ...item,
       usage: rows.length ? item.count / rows.length * 100 : 0,
@@ -2861,7 +2860,8 @@ function aggregateDeckStatsForRows(rows){
     .sort((a, b) => b.usage - a.usage || b.wins - a.wins || b.top4 - a.top4 || a.name.localeCompare(b.name, "ja"));
 }
 function renderEventUsageTable(rows){
-  const decks = aggregateDeckStatsForRows(rows);
+  const topRows = rows.slice(0, 16);
+  const decks = aggregateDeckStatsForRows(topRows);
   if (!decks.length) return `<div class="note-box">表示できるデッキがありません。</div>`;
   return `<table class="table event-usage-table"><thead><tr><th>#</th><th>デッキ</th><th>使用率</th><th>数</th><th>TOP4</th><th>優勝</th></tr></thead><tbody>${decks.map((item, index) => `
     <tr>
