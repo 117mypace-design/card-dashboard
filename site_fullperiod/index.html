@@ -1716,8 +1716,9 @@ select option:checked{
 .copy-btn{justify-self:start;padding:7px 10px;background:rgba(124,199,255,.12);color:var(--text);border:1px solid rgba(124,199,255,.24);font-size:12px;border-radius:10px;white-space:nowrap;flex:0 0 auto;margin-left:auto}
 .copy-btn[disabled]{cursor:not-allowed;opacity:.56;transform:none}
 .decklist-results-count-inline{display:inline-flex;align-items:baseline;margin-left:10px;font-size:13px;font-weight:600;color:var(--muted)}
-.event-detail-panel{gap:10px;overflow:hidden}
+.event-detail-panel{gap:10px;overflow:hidden;flex:1;height:auto}
 .event-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.champions-event-controls{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
 .champions-view-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .champions-view-tab{display:flex;align-items:center;justify-content:center;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:800;text-align:center}
 .champions-view-tab.active{background:rgba(124,199,255,.16);border-color:rgba(124,199,255,.42);color:var(--text)}
@@ -2874,6 +2875,20 @@ function championsViewTabs(active){
     <a class="champions-view-tab ${active === tab.id ? "active" : ""}" role="tab" aria-selected="${active === tab.id ? "true" : "false"}" href="#${tab.id}" data-section-link="${tab.id}">${tab.label}</a>
   `).join("")}</div>`;
 }
+function championsEventControls(groups, selectedId, active){
+  if (!groups.length) return "";
+  const selected = groups.find(event => event.id === selectedId) || groups[0];
+  return `
+    <div class="champions-event-controls">
+      <div class="event-toolbar">
+        <div class="field">
+          <label class="field-label">大会</label>
+          <select data-event-select>${groups.map(event => `<option value="${escapeHtml(event.id)}" ${event.id === selected.id ? "selected" : ""}>${escapeHtml(eventOptionLabel(event))}</option>`).join("")}</select>
+        </div>
+      </div>
+      ${championsViewTabs(active)}
+    </div>`;
+}
 function renderEventDetailPanel(groups, selectedId, mode="usage"){
   if (!groups.length) return `<div class="note-box">表示できる大会データがありません。</div>`;
   const selected = groups.find(event => event.id === selectedId) || groups[0];
@@ -2895,12 +2910,6 @@ function renderEventDetailPanel(groups, selectedId, mode="usage"){
       </div>`;
   return `
     <div class="panel panel-scroll event-detail-panel">
-      <div class="event-toolbar">
-        <div class="field">
-          <label class="field-label">大会</label>
-          <select data-event-select>${groups.map(event => `<option value="${escapeHtml(event.id)}" ${event.id === selected.id ? "selected" : ""}>${escapeHtml(eventOptionLabel(event))}</option>`).join("")}</select>
-        </div>
-      </div>
       ${content}
     </div>`;
 }
@@ -4615,14 +4624,14 @@ function renderChampions(){
       "",
       "使用率",
       "大会ごとのデッキ使用率を確認します。",
-      `${championsViewTabs("champions-usage")}${renderEventDetailPanel(groups, selectedEventId, "usage")}`
+      `${championsEventControls(groups, selectedEventId, "champions-usage")}${renderEventDetailPanel(groups, selectedEventId, "usage")}`
     ),
     screenSection(
       "champions-decklists",
       "",
       "デッキリスト",
       "大会ごとの公開デッキリストを確認します。",
-      `${championsViewTabs("champions-decklists")}${renderEventDetailPanel(groups, selectedEventId, "decklists")}`
+      `${championsEventControls(groups, selectedEventId, "champions-decklists")}${renderEventDetailPanel(groups, selectedEventId, "decklists")}`
     ),
   ];
   qs("#pageBody").innerHTML = sections.join("");
