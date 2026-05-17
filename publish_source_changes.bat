@@ -13,6 +13,7 @@ for %%F in (
   seasons.json
   season_utils.py
   update_expansion_seasons.py
+  update_card_image_cache.py
   find_events_v2.py
   fetch_results_s4.py
   generate_report_local_alltrend.py
@@ -69,6 +70,7 @@ git add -- ^
   seasons.json ^
   season_utils.py ^
   update_expansion_seasons.py ^
+  update_card_image_cache.py ^
   find_events_v2.py ^
   fetch_results_s4.py ^
   generate_report_local_alltrend.py ^

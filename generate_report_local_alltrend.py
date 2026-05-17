@@ -851,6 +851,7 @@ def build_decklist_search_payload(records: list[dict[str, Any]]) -> dict[str, An
         cards = [
             {
                 "card_name": str(card.get("name", "")),
+                "card_id": str(card.get("card_id", "")).strip(),
                 "count": int(card.get("count", 0)),
             }
             for card in record.get("cards", [])

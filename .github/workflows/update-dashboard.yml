@@ -13,6 +13,7 @@ on:
       - update_expansion_seasons.py
       - find_events_v2.py
       - fetch_results_s4.py
+      - update_card_image_cache.py
       - generate_report_local_alltrend.py
       - build_dashboard_multipage_fullperiod_styled.py
   workflow_dispatch:
@@ -65,6 +66,9 @@ jobs:
           python find_events_v2.py
           python fetch_results_s4.py
 
+      - name: Update card image cache
+        run: python update_card_image_cache.py
+
       - name: Generate report
         run: python generate_report_local_alltrend.py
 
@@ -93,6 +97,7 @@ jobs:
 
           git add \
             seasons.json \
+            card_image_cache.json \
             deck_lists \
             event_results \
             reports \

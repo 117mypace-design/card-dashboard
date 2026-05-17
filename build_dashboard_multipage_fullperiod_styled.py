@@ -4103,6 +4103,12 @@ function decklistImageSrc(item){
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7cc7ff"/><stop offset="1" stop-color="#8cf0b2"/></linearGradient></defs><rect width="480" height="600" rx="28" fill="#101a31"/><rect x="18" y="18" width="444" height="564" rx="24" fill="url(#g)" opacity=".16"/><rect x="42" y="54" width="396" height="492" rx="20" fill="#0f1830" opacity=".96"/><text x="240" y="250" fill="#edf3ff" font-size="30" font-family="sans-serif" text-anchor="middle">Deck List</text><text x="240" y="300" fill="#aab7d3" font-size="20" font-family="sans-serif" text-anchor="middle">${title}</text></svg>`;
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
+function placeholderImageSrc(label, kind="Card"){
+  const safeLabel = escapeHtml(String(label || kind).slice(0, 28));
+  const safeKind = escapeHtml(kind);
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7cc7ff"/><stop offset="1" stop-color="#8cf0b2"/></linearGradient><pattern id="p" width="38" height="38" patternUnits="userSpaceOnUse"><circle cx="19" cy="19" r="6" fill="#edf3ff" opacity=".08"/></pattern></defs><rect width="480" height="600" rx="28" fill="#101a31"/><rect width="480" height="600" fill="url(#p)"/><rect x="42" y="54" width="396" height="492" rx="20" fill="#0f1830" opacity=".94" stroke="#2a3a67" stroke-width="3"/><rect x="86" y="92" width="308" height="210" rx="18" fill="url(#g)" opacity=".18"/><text x="240" y="382" fill="#edf3ff" font-size="34" font-weight="700" font-family="sans-serif" text-anchor="middle">${safeKind}</text><text x="240" y="430" fill="#aab7d3" font-size="22" font-family="sans-serif" text-anchor="middle">${safeLabel}</text></svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
 let tierDeckVisualCache = null;
 function tierDeckVisualMap(){
   if (tierDeckVisualCache) return tierDeckVisualCache;
@@ -4144,10 +4150,12 @@ function tierDeckImages(name){
   if (mainCards.length) return mainCards;
   const visualRow = tierDeckVisualRow(name);
   const fallback = String(deckVisual?.main_card_image || "").trim() || (visualRow ? decklistImageSrc(visualRow) : "");
-  return fallback ? [{src:fallback, name:String(deckVisual?.main_card_name || "").trim()}] : [];
+  return fallback ? [{src:fallback, name:String(deckVisual?.main_card_name || "").trim()}] : [{src:placeholderImageSrc(name || "デッキ", "Deck"), name:String(name || "").trim()}];
 }
 function cardImageSrcByName(name){
-  return String(CARD_IMAGE_LOOKUP[String(name || "").trim()] || "").trim();
+  const label = String(name || "").trim();
+  const normalizedLabel = label.replace(/\(ACE SPEC\)$/u, "").trim();
+  return String(CARD_IMAGE_LOOKUP[label] || CARD_IMAGE_LOOKUP[normalizedLabel] || "").trim() || placeholderImageSrc(label || "カード", "Card");
 }
 function tierDeckVisualRow(name){
   return tierDeckVisualMap().get(String(name || "").trim()) || null;
@@ -6360,7 +6368,7 @@ function archetypeSummaryMediaHtml(name){
   if (primaryImage?.src){
     return `<div class="card-summary-media deck-summary-media arch-summary-media"><img src="${escapeHtml(primaryImage.src)}" alt="" loading="lazy"></div>`;
   }
-  return `<div class="card-summary-media deck-summary-media arch-summary-media"><div class="deck-summary-fallback">画像なし</div></div>`;
+  return `<div class="card-summary-media deck-summary-media arch-summary-media"><img src="${escapeHtml(placeholderImageSrc(name || "アーキタイプ", "Deck"))}" alt="" loading="lazy"></div>`;
 }
 function weekSeriesArchetypeDeckShare(archetypeName, deckName){
   return weekKeys().map(week => {
@@ -6389,7 +6397,7 @@ function archetypeBreakdownItemHtml(item, index, active){
   return `
     <button type="button" class="arch-breakdown-item ${stateClass}" data-arch-breakdown-deck="${escapeHtml(item.name)}">
       <span class="arch-breakdown-thumb tier-stack-media${images.length > 1 ? " split" : ""}">
-        ${images.length ? images.map(image => `<img src="${escapeHtml(image.src)}" alt="" loading="lazy">`).join("") : `<span class="arch-breakdown-fallback">画像なし</span>`}
+        ${images.map(image => `<img src="${escapeHtml(image.src)}" alt="" loading="lazy">`).join("")}
       </span>
       <span class="arch-breakdown-copy">
         <span class="arch-breakdown-name">${formatTierDeckNameHtmlV2(item.name)}</span>
@@ -6403,7 +6411,7 @@ function deckSummaryMediaHtml(name){
   if (images.length){
     return `<div class="card-summary-media deck-summary-media${images.length > 1 ? " split" : ""}">${images.map(image => `<img src="${escapeHtml(image.src)}" alt="" loading="lazy">`).join("")}</div>`;
   }
-  return `<div class="card-summary-media deck-summary-media"><div class="deck-summary-fallback">画像なし</div></div>`;
+  return `<div class="card-summary-media deck-summary-media"><img src="${escapeHtml(placeholderImageSrc(name || "デッキ", "Deck"))}" alt="" loading="lazy"></div>`;
 }
 function renderDecks(){
   const decks = aggregateDeckStats();
@@ -6594,9 +6602,7 @@ function renderCards(){
         <div class="panel panel-scroll">
           <div class="card-summary-hero">
             <div class="card-summary-media">
-              ${selectedCardImage
-                ? `<img src="${escapeHtml(selectedCardImage)}" alt="${escapeHtml(selected)}" loading="lazy">`
-                : `<div class="card-summary-fallback"><span class="card-summary-fallback-text">画像なし</span></div>`}
+              <img src="${escapeHtml(selectedCardImage)}" alt="${escapeHtml(selected)}" loading="lazy">
             </div>
             <div class="card-summary-right">
               <div class="card-summary-metrics">
