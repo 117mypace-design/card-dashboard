@@ -224,6 +224,13 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .sub{color:var(--muted);font-size:14px;line-height:1.6}
 .breadcrumbs{display:flex;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:4px 0 8px}
 .sep{opacity:.5}
+.page-fixed-controls{
+  flex:0 0 auto;
+  display:grid;
+  gap:10px;
+  margin:0 0 10px;
+}
+.page-fixed-controls:empty{display:none}
 .page-scroller{
   flex:1;
   min-height:0;
@@ -6156,23 +6163,25 @@ function renderIndexV2(){
 function renderChampions(){
   const groups = eventGroups();
   const selectedEventId = eventSelectionState(groups);
+  const activeSection = normalizedSectionHash() === "champions-decklists" ? "champions-decklists" : "champions-usage";
 
   qs("#pageTitle").textContent = PAGE_TITLES.champions;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile("champions")}">${PAGE_TITLES.champions}</a>`;
+  qs("#pageFixedControls").innerHTML = championsEventControls(groups, selectedEventId, activeSection);
   const sections = [
     screenSection(
       "champions-usage",
       "",
       "使用率",
       "大会ごとのデッキ使用率を確認します。",
-      `${championsEventControls(groups, selectedEventId, "champions-usage")}${renderEventDetailPanel(groups, selectedEventId, "usage")}`
+      renderEventDetailPanel(groups, selectedEventId, "usage")
     ),
     screenSection(
       "champions-decklists",
       "",
       "デッキリスト",
       "大会ごとの公開デッキリストを確認します。",
-      `${championsEventControls(groups, selectedEventId, "champions-decklists")}${renderEventDetailPanel(groups, selectedEventId, "decklists")}`
+      renderEventDetailPanel(groups, selectedEventId, "decklists")
     ),
   ];
   qs("#pageBody").innerHTML = sections.join("");
@@ -6662,6 +6671,7 @@ function renderPage(options={}){
     ? {top: pageBody.scrollTop}
     : null;
   updatePeriodVisuals();
+  if (PAGE !== "champions") qs("#pageFixedControls").innerHTML = "";
   if (PAGE === "index") renderIndexV2();
   if (PAGE === "champions") renderChampions();
   if (PAGE === "archetypes") renderArchetypes();
@@ -6724,6 +6734,7 @@ HTML_TEMPLATE_V2 = """<!DOCTYPE html>
         <div class="hero-period" id="heroPeriod"></div>
       </div>
       <div class="breadcrumbs" id="breadcrumbs"></div>
+      <div class="page-fixed-controls" id="pageFixedControls"></div>
       <div class="page-scroller" id="pageBody"></div>
     </main>
   </div>
