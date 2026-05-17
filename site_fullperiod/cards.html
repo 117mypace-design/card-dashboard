@@ -1718,9 +1718,9 @@ select option:checked{
 .decklist-results-count-inline{display:inline-flex;align-items:baseline;margin-left:10px;font-size:13px;font-weight:600;color:var(--muted)}
 .event-detail-panel{gap:10px;overflow:hidden}
 .event-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
-.event-detail-tabs{display:grid;grid-template-columns:1fr;gap:8px;max-width:220px}
-.event-detail-tab{width:100%;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:999px;padding:7px 14px;font:inherit;font-size:13px;font-weight:700;cursor:pointer;text-align:center}
-.event-detail-tab.active{background:rgba(124,199,255,.16);border-color:rgba(124,199,255,.42);color:var(--text)}
+.champions-view-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.champions-view-tab{display:flex;align-items:center;justify-content:center;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:800;text-align:center}
+.champions-view-tab.active{background:rgba(124,199,255,.16);border-color:rgba(124,199,255,.42);color:var(--text)}
 .event-detail-content{min-height:0;flex:1;display:flex;flex-direction:column}
 .event-detail-content .section-title{font-size:15px;margin:0 0 6px}
 .event-detail-content .table-wrap{height:calc(100% - 25px);max-height:none;overflow:auto}
@@ -1972,7 +1972,7 @@ const DEFAULT_TIER_THRESHOLDS = [
 const PAGE_FILES = {index:"index.html", archetypes:"archetypes.html", decks:"decks.html", cards:"cards.html", decklists:"decklists.html", champions:"champions.html"};
 const PAGE_DEFAULT_HASH = {
   index:"meta-tier",
-  champions:"champions-by-event",
+  champions:"champions-usage",
   archetypes:"arch-summary",
   decks:"deck-summary",
   cards:"card-summary",
@@ -1986,7 +1986,8 @@ const PAGE_SECTIONS = {
     {id:"meta-cards", label:"重要メタカードの推移"},
   ],
   champions: [
-    {id:"champions-by-event", label:"大会別"},
+    {id:"champions-usage", label:"使用率"},
+    {id:"champions-decklists", label:"デッキリスト"},
   ],
   archetypes: [
     {id:"arch-summary", label:"アーキタイプ要約"},
@@ -2819,15 +2820,6 @@ function eventSelectionState(groups){
 }
 function setEventSelection(value){
   localStorage.setItem(`${PAGE}_event_id`, value);
-  location.hash = `event=${encodeHashValue(value)}`;
-  renderPage({preserveScroll:true});
-}
-function eventDetailTabState(){
-  const saved = localStorage.getItem(`${PAGE}_event_detail_tab`) || "usage";
-  return saved === "decklists" ? "decklists" : "usage";
-}
-function setEventDetailTab(value){
-  localStorage.setItem(`${PAGE}_event_detail_tab`, value === "decklists" ? "decklists" : "usage");
   renderPage({preserveScroll:true});
 }
 function aggregateDeckStatsForRows(rows){
@@ -2873,16 +2865,24 @@ function renderEventUsageTable(rows){
     </tr>
   `).join("")}</tbody></table>`;
 }
-function renderEventDetailPanel(groups, selectedId){
+function championsViewTabs(active){
+  const tabs = [
+    {id:"champions-usage", label:"使用率"},
+    {id:"champions-decklists", label:"デッキリスト"},
+  ];
+  return `<div class="champions-view-tabs" role="tablist" aria-label="チャンピオンズリーグ表示">${tabs.map(tab => `
+    <a class="champions-view-tab ${active === tab.id ? "active" : ""}" role="tab" aria-selected="${active === tab.id ? "true" : "false"}" href="#${tab.id}" data-section-link="${tab.id}">${tab.label}</a>
+  `).join("")}</div>`;
+}
+function renderEventDetailPanel(groups, selectedId, mode="usage"){
   if (!groups.length) return `<div class="note-box">表示できる大会データがありません。</div>`;
   const selected = groups.find(event => event.id === selectedId) || groups[0];
-  const activeTab = eventDetailTabState();
   const rows = [...selected.rows].sort((a, b) =>
     Number(a.placing_score || 999999) - Number(b.placing_score || 999999) ||
     Number(a.placing || 999999) - Number(b.placing || 999999) ||
     a.deck_name.localeCompare(b.deck_name, "ja")
   );
-  const content = activeTab === "decklists"
+  const content = mode === "decklists"
     ? `
       <div class="event-detail-content">
         <div class="section-title">大会内デッキリスト</div>
@@ -2898,22 +2898,17 @@ function renderEventDetailPanel(groups, selectedId){
       <div class="event-toolbar">
         <div class="field">
           <label class="field-label">大会</label>
-          <select id="eventSelect">${groups.map(event => `<option value="${escapeHtml(event.id)}" ${event.id === selected.id ? "selected" : ""}>${escapeHtml(eventOptionLabel(event))}</option>`).join("")}</select>
+          <select data-event-select>${groups.map(event => `<option value="${escapeHtml(event.id)}" ${event.id === selected.id ? "selected" : ""}>${escapeHtml(eventOptionLabel(event))}</option>`).join("")}</select>
         </div>
-      </div>
-      <div class="event-detail-tabs" role="tablist" aria-label="大会内表示">
-        <button type="button" class="event-detail-tab ${activeTab === "usage" ? "active" : ""}" data-event-detail-tab="usage">使用率</button>
-        <button type="button" class="event-detail-tab ${activeTab === "decklists" ? "active" : ""}" data-event-detail-tab="decklists">デッキリスト</button>
       </div>
       ${content}
     </div>`;
 }
 function bindEventDetailControls(){
-  qs("#eventSelect")?.addEventListener("change", event => setEventSelection(event.currentTarget.value || ""));
-  qsa("[data-event-detail-tab]").forEach(button => {
-    if (button.dataset.bound === "1") return;
-    button.dataset.bound = "1";
-    button.addEventListener("click", () => setEventDetailTab(button.dataset.eventDetailTab || "usage"));
+  qsa("[data-event-select]").forEach(select => {
+    if (select.dataset.bound === "1") return;
+    select.dataset.bound = "1";
+    select.addEventListener("change", event => setEventSelection(event.currentTarget.value || ""));
   });
 }
 async function copyDeckCode(text, button){
@@ -4616,11 +4611,18 @@ function renderChampions(){
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile("champions")}">${PAGE_TITLES.champions}</a>`;
   const sections = [
     screenSection(
-      "champions-by-event",
+      "champions-usage",
       "",
-      "大会別",
-      "大会ごとに使用率と公開デッキリストを切り替えて確認します。",
-      renderEventDetailPanel(groups, selectedEventId)
+      "使用率",
+      "大会ごとのデッキ使用率を確認します。",
+      `${championsViewTabs("champions-usage")}${renderEventDetailPanel(groups, selectedEventId, "usage")}`
+    ),
+    screenSection(
+      "champions-decklists",
+      "",
+      "デッキリスト",
+      "大会ごとの公開デッキリストを確認します。",
+      `${championsViewTabs("champions-decklists")}${renderEventDetailPanel(groups, selectedEventId, "decklists")}`
     ),
   ];
   qs("#pageBody").innerHTML = sections.join("");
