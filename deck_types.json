@@ -92,7 +92,7 @@
     {
       "name": "ミミロップ系",
       "required": [
-	{"card": "メガミミロップ", "min_count": 2},
+	{"card": "メガミミロップex", "min_count": 2},
         {"card": "ノココッチ", "min_count": 2},
         {"card": "ふうせん", "min_count": 1}
       ]
@@ -401,8 +401,8 @@
       "name": "メガユキメノコミミロップ",
       "archetype": "ミミロップ系",
       "required": [
-        {"card": "メガユキメノコ", "min_count": 1},
-	{"card": "メガミミロップ", "min_count": 2},
+        {"card": "メガユキメノコex", "min_count": 1},
+	{"card": "メガミミロップex", "min_count": 2},
         {"card": "ノココッチ", "min_count": 2},
         {"card": "ふうせん", "min_count": 1}
       ]
