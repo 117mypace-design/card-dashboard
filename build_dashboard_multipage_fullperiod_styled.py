@@ -959,29 +959,29 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 }
 .featured-summary{
   display:grid;
-  grid-template-columns:minmax(0,1fr) 340px;
-  gap:16px;
+  grid-template-columns:minmax(0,1fr) 310px;
+  gap:12px;
   height:100%;
   min-height:0;
 }
 .featured-summary-main{
   display:grid;
   grid-template-rows:auto minmax(0,1fr);
-  gap:16px;
+  gap:12px;
   min-width:0;
   min-height:0;
 }
 .featured-summary-side{
   display:grid;
   grid-template-rows:auto minmax(0,1fr);
-  gap:16px;
+  gap:12px;
   min-width:0;
   min-height:0;
 }
 .featured-verdict{
   border:1px solid rgba(124,199,255,.22);
   border-radius:18px;
-  padding:16px;
+  padding:13px;
   background:
     radial-gradient(circle at top right, rgba(124,199,255,.18), transparent 42%),
     linear-gradient(135deg, rgba(124,199,255,.10), rgba(140,240,178,.04) 56%, rgba(255,209,102,.07));
@@ -989,8 +989,8 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .featured-verdict .tag{
   display:inline-flex;
   align-items:center;
-  margin-bottom:9px;
-  padding:5px 10px;
+  margin-bottom:7px;
+  padding:4px 9px;
   border-radius:999px;
   background:#ffd166;
   color:#08111f;
@@ -998,27 +998,27 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   font-weight:900;
 }
 .featured-verdict .headline{
-  font-size:24px;
-  line-height:1.28;
+  font-size:21px;
+  line-height:1.24;
   font-weight:900;
-  margin-bottom:8px;
+  margin-bottom:6px;
 }
 .featured-verdict .summary-copy{
   color:var(--muted);
-  font-size:13px;
-  line-height:1.6;
+  font-size:12px;
+  line-height:1.5;
   max-width:980px;
 }
 .featured-baseline{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:8px;
-  margin-top:12px;
+  gap:7px;
+  margin-top:9px;
 }
 .featured-baseline-card{
   border:1px solid rgba(255,255,255,.08);
-  border-radius:14px;
-  padding:10px;
+  border-radius:12px;
+  padding:8px;
   background:rgba(0,0,0,.14);
 }
 .featured-baseline-card .label{
@@ -1029,25 +1029,25 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   margin-bottom:5px;
 }
 .featured-baseline-card .value{
-  font-size:17px;
+  font-size:15px;
   font-weight:800;
   line-height:1.25;
 }
 .featured-cards{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:16px;
+  gap:12px;
   min-height:0;
 }
 .featured-card{
   display:grid;
   grid-template-rows:auto auto minmax(0,1fr) auto;
-  gap:12px;
+  gap:8px;
   min-width:0;
   min-height:0;
   border:1px solid rgba(255,255,255,.08);
-  border-radius:18px;
-  padding:16px;
+  border-radius:16px;
+  padding:12px;
   background:rgba(255,255,255,.03);
 }
 .featured-card.up{border-color:rgba(140,240,178,.28)}
@@ -1074,7 +1074,7 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .featured-card.down .featured-badge{color:#ff8d8d;border-color:rgba(255,107,107,.32);background:rgba(255,107,107,.10)}
 .featured-card.meta-feature .featured-badge{color:#ffd166;border-color:rgba(255,209,102,.35);background:rgba(255,209,102,.10)}
 .featured-diff{
-  font-size:25px;
+  font-size:22px;
   font-weight:900;
   font-variant-numeric:tabular-nums;
 }
@@ -1082,7 +1082,7 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .featured-card.down .featured-diff{color:#ff8d8d}
 .featured-card.meta-feature .featured-diff{color:#ffd166}
 .featured-card .feature-title{
-  font-size:23px;
+  font-size:19px;
   font-weight:900;
   line-height:1.18;
   word-break:keep-all;
@@ -1090,8 +1090,8 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 }
 .featured-card .feature-note{
   color:var(--muted);
-  font-size:13px;
-  line-height:1.55;
+  font-size:12px;
+  line-height:1.42;
 }
 .featured-card .feature-caption{
   display:grid;
@@ -1105,17 +1105,17 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 .featured-card .feature-caption strong{color:var(--text)}
 .featured-mini-chart{
   width:100%;
-  height:136px;
+  height:56px;
   display:block;
 }
 .featured-side-list{
   display:grid;
-  gap:10px;
+  gap:8px;
 }
 .featured-side-card{
   border:1px solid rgba(255,255,255,.08);
-  border-radius:16px;
-  padding:12px;
+  border-radius:14px;
+  padding:10px;
   background:rgba(255,255,255,.03);
 }
 .featured-side-card .label{
@@ -1126,7 +1126,7 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   margin-bottom:6px;
 }
 .featured-side-card .value{
-  font-size:18px;
+  font-size:16px;
   font-weight:800;
   line-height:1.25;
 }
@@ -1138,15 +1138,15 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
 }
 .featured-next{
   display:grid;
-  gap:10px;
+  gap:8px;
 }
 .featured-next-row{
   display:grid;
   grid-template-columns:24px minmax(0,1fr);
   gap:9px;
   color:var(--muted);
-  font-size:13px;
-  line-height:1.45;
+  font-size:12px;
+  line-height:1.38;
 }
 .featured-next-row .num{
   display:inline-flex;
@@ -3079,6 +3079,16 @@ function renderIndexV2(){
   const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
   const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
   const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
+  const featureUpLabel = Number(featureUp?.delta || 0) >= 3 ? "大きく上昇" : "上昇";
+  const featureDownLabel = Math.abs(Number(featureDown?.delta || 0)) >= 3 ? "大きく下降" : "下降";
+  const featureMetaLabel = Number(featureMeta?.delta || 0) >= 3
+    ? "採用が大きく増加"
+    : Number(featureMeta?.delta || 0) >= 1
+      ? "採用増"
+      : Number(featureMeta?.delta || 0) > 0
+        ? "小幅増加"
+        : "採用変化";
+  const featureMetaCaption = Number(featureMeta?.delta || 0) >= 1 ? "対策枠の変化" : "小幅な変化";
   const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
   const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
   const miniChartPoints = (series, key) => {
@@ -3378,6 +3388,16 @@ function renderIndexV2(){
   const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
   const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
   const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
+  const featureUpLabel = Number(featureUp?.delta || 0) >= 3 ? "大きく上昇" : "上昇";
+  const featureDownLabel = Math.abs(Number(featureDown?.delta || 0)) >= 3 ? "大きく下降" : "下降";
+  const featureMetaLabel = Number(featureMeta?.delta || 0) >= 3
+    ? "採用が大きく増加"
+    : Number(featureMeta?.delta || 0) >= 1
+      ? "採用増"
+      : Number(featureMeta?.delta || 0) > 0
+        ? "小幅増加"
+        : "採用変化";
+  const featureMetaCaption = Number(featureMeta?.delta || 0) >= 1 ? "対策枠の変化" : "小幅な変化";
   const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
   const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
   const miniChartPoints = (series, key) => {
@@ -3470,9 +3490,9 @@ function renderIndexV2(){
         <div class="featured-summary">
           <div class="featured-summary-main">
             <div class="featured-verdict">
-              <div class="tag">今週の結論: 中心は据え置き、変化は周辺に集中</div>
-              <div class="headline">見るべき変化は3つだけ。${renderName(featureUp?.name || "-")} 上昇、${renderName(featureDown?.name || "-")} 下降、${renderName(featureMeta?.name || "-")} 急増。</div>
-              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わっていないため、今週の特徴ではなく背景として扱います。環境読みとして重要なのは、中位デッキの入れ替わりと対策カードの採用増です。</div>
+              <div class="tag">最新週の注目点</div>
+              <div class="headline">${renderName(featureUp?.name || "-")} の${featureUpLabel}、${renderName(featureDown?.name || "-")} の${featureDownLabel}、${renderName(featureMeta?.name || "-")} の${featureMetaLabel}が目立ちます。</div>
+              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わらず、最新週は中位デッキの入れ替わりと対策カードの採用増が主な変化です。</div>
               <div class="featured-baseline">
                 <div class="featured-baseline-card">
                   <div class="label">中心デッキ</div>
@@ -3515,9 +3535,9 @@ function renderIndexV2(){
                 "meta-feature",
                 "対策札",
                 fmtSigned(featureMeta?.delta || 0),
-                `${renderLinked("card", featureMeta?.name || "-")} が急増`,
-                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。中心デッキが変わらない一方で、対策枠の中身は明確に動いています。`,
-                "構築の対策枠が変化",
+                `${renderLinked("card", featureMeta?.name || "-")} の${featureMetaLabel}`,
+                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。対策枠の変化として継続確認したいカードです。`,
+                featureMetaCaption,
                 featureMetaSeries,
                 "rate",
                 "#ffd166"
@@ -3526,17 +3546,17 @@ function renderIndexV2(){
           </div>
           <div class="featured-summary-side">
             <div class="panel panel-scroll">
-              <div class="section-title">背景として見るだけ</div>
+              <div class="section-title">環境の前提</div>
               <div class="featured-side-list">
                 <div class="featured-side-card">
                   <div class="label">中心デッキ</div>
                   <div class="value">${renderLinked("deck", summaryLatest.leader || "-")}</div>
-                  <div class="note">首位は継続。今週の特徴ではなく前提として扱います。</div>
+                  <div class="note">首位は継続。対策対象の基準になります。</div>
                 </div>
                 <div class="featured-side-card">
                   <div class="label">環境集中度</div>
                   <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.top3)} → ` : ""}${fmtPct(summaryLatest.top3)}</div>
-                  <div class="note">TOP3合計は大きく変わらず、極端な構造変化はありません。</div>
+                  <div class="note">TOP3合計は大きく変わらず、上位構造は安定しています。</div>
                 </div>
               </div>
             </div>
@@ -6510,6 +6530,16 @@ function renderIndexV2(){
   const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
   const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
   const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
+  const featureUpLabel = Number(featureUp?.delta || 0) >= 3 ? "大きく上昇" : "上昇";
+  const featureDownLabel = Math.abs(Number(featureDown?.delta || 0)) >= 3 ? "大きく下降" : "下降";
+  const featureMetaLabel = Number(featureMeta?.delta || 0) >= 3
+    ? "採用が大きく増加"
+    : Number(featureMeta?.delta || 0) >= 1
+      ? "採用増"
+      : Number(featureMeta?.delta || 0) > 0
+        ? "小幅増加"
+        : "採用変化";
+  const featureMetaCaption = Number(featureMeta?.delta || 0) >= 1 ? "対策枠の変化" : "小幅な変化";
   const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
   const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
   const miniChartPoints = (series, key) => {
@@ -6602,9 +6632,9 @@ function renderIndexV2(){
         <div class="featured-summary">
           <div class="featured-summary-main">
             <div class="featured-verdict">
-              <div class="tag">今週の結論: 中心は据え置き、変化は周辺に集中</div>
-              <div class="headline">見るべき変化は3つだけ。${renderName(featureUp?.name || "-")} 上昇、${renderName(featureDown?.name || "-")} 下降、${renderName(featureMeta?.name || "-")} 急増。</div>
-              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わっていないため、今週の特徴ではなく背景として扱います。環境読みとして重要なのは、中位デッキの入れ替わりと対策カードの採用増です。</div>
+              <div class="tag">最新週の注目点</div>
+              <div class="headline">${renderName(featureUp?.name || "-")} の${featureUpLabel}、${renderName(featureDown?.name || "-")} の${featureDownLabel}、${renderName(featureMeta?.name || "-")} の${featureMetaLabel}が目立ちます。</div>
+              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わらず、最新週は中位デッキの入れ替わりと対策カードの採用増が主な変化です。</div>
               <div class="featured-baseline">
                 <div class="featured-baseline-card">
                   <div class="label">中心デッキ</div>
@@ -6647,9 +6677,9 @@ function renderIndexV2(){
                 "meta-feature",
                 "対策札",
                 fmtSigned(featureMeta?.delta || 0),
-                `${renderLinked("card", featureMeta?.name || "-")} が急増`,
-                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。中心デッキが変わらない一方で、対策枠の中身は明確に動いています。`,
-                "構築の対策枠が変化",
+                `${renderLinked("card", featureMeta?.name || "-")} の${featureMetaLabel}`,
+                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。対策枠の変化として継続確認したいカードです。`,
+                featureMetaCaption,
                 featureMetaSeries,
                 "rate",
                 "#ffd166"
@@ -6658,17 +6688,17 @@ function renderIndexV2(){
           </div>
           <div class="featured-summary-side">
             <div class="panel panel-scroll">
-              <div class="section-title">背景として見るだけ</div>
+              <div class="section-title">環境の前提</div>
               <div class="featured-side-list">
                 <div class="featured-side-card">
                   <div class="label">中心デッキ</div>
                   <div class="value">${renderLinked("deck", summaryLatest.leader || "-")}</div>
-                  <div class="note">首位は継続。今週の特徴ではなく前提として扱います。</div>
+                  <div class="note">首位は継続。対策対象の基準になります。</div>
                 </div>
                 <div class="featured-side-card">
                   <div class="label">環境集中度</div>
                   <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.top3)} → ` : ""}${fmtPct(summaryLatest.top3)}</div>
-                  <div class="note">TOP3合計は大きく変わらず、極端な構造変化はありません。</div>
+                  <div class="note">TOP3合計は大きく変わらず、上位構造は安定しています。</div>
                 </div>
               </div>
             </div>
@@ -7667,4 +7697,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
 
