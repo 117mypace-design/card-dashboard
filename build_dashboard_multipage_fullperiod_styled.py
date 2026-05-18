@@ -2425,7 +2425,41 @@ function weekSeriesCardDeck(card, deckName){
     };
   });
 }
-function breakdownWithinArchetype(name, weeks=currentWeeks()){
+function breakdownWithinArchetypeFromDecklists(name, weeks=currentWeeks(), rankFilter="all"){
+  const rows = rowsForAnalysis(weeks, rankFilter)
+    .filter(row => row.archetype === name && !strictOther(row.deck_name));
+  if (!rows.length) return null;
+  const map = {};
+  let total = 0;
+  let totalTop4 = 0;
+  let totalWins = 0;
+  rows.forEach(row => {
+    const deckName = row.deck_name;
+    const rank = Number(row.placing || 9999);
+    if (!map[deckName]) map[deckName] = {name:deckName, count:0, top4:0, wins:0};
+    map[deckName].count += 1;
+    total += 1;
+    if (rank <= 4){
+      map[deckName].top4 += 1;
+      totalTop4 += 1;
+    }
+    if (rank === 1){
+      map[deckName].wins += 1;
+      totalWins += 1;
+    }
+  });
+  return Object.values(map)
+    .map(item => ({
+      ...item,
+      share: total ? item.count / total * 100 : 0,
+      b4share: totalTop4 ? item.top4 / totalTop4 * 100 : 0,
+      winshare: totalWins ? item.wins / totalWins * 100 : 0,
+    }))
+    .sort((a, b) => b.share - a.share || b.winshare - a.winshare || b.count - a.count);
+}
+function breakdownWithinArchetype(name, weeks=currentWeeks(), rankFilter="all"){
+  const decklistRows = breakdownWithinArchetypeFromDecklists(name, weeks, rankFilter);
+  if (decklistRows) return decklistRows;
   const map = {};
   let total = 0;
   let totalTop4 = 0;
@@ -4093,7 +4127,6 @@ function weekKeyForDate(value){
 function rankFilterOptions(){
   return [
     {key:"all", label:"すべて", threshold:null},
-    {key:"top16", label:"TOP16以上", threshold:16},
     {key:"top4", label:"TOP4以上", threshold:4},
     {key:"win", label:"優勝", threshold:1},
   ];
@@ -6372,7 +6405,8 @@ function renderArchetypes(){
   const selected = currentSelection("arch", names);
   const summary = archetypes.find(item => item.name === selected) || {usage:0, b4:0, win:0, top4_rate:0, win_rate:0, count:0};
   const series = weekSeriesArchetype(selected);
-  const breakdown = archetypeBreakdownRows(selected);
+  const archBreakdownRankFilter = rankFilterState("archBreakdown");
+  const breakdown = archetypeBreakdownRows(selected, currentWeeks(), archBreakdownRankFilter);
   const leadDeckName = breakdown[0]?.name || "-";
   const trendLines = archetypeTrendLines(series);
   const recentDelta = adjacentWeekDelta(series, "usage");
@@ -6382,7 +6416,7 @@ function renderArchetypes(){
     .map((item, index) => ({
       name: item.name,
       color: usageTrendPalette(index),
-      series: weekSeriesArchetypeDeckShare(selected, item.name).map(row => ({...row, value:Number(row.share || 0)})),
+      series: weekSeriesArchetypeDeckShare(selected, item.name, archBreakdownRankFilter).map(row => ({...row, value:Number(row.share || 0)})),
     }))
     .filter(line => selectedDeckTypes.includes(line.name));
   qs("#pageTitle").textContent = PAGE_TITLES.archetypes;
@@ -6466,6 +6500,7 @@ function renderArchetypes(){
       "デッキタイプ比較",
       "アーキタイプ内の各デッキタイプが、週ごとにどう入れ替わっているかを比較します。",
       `
+        ${rankFilterControls("archBreakdown", archBreakdownRankFilter)}
         <div class="arch-breakdown-layout">
           <div class="panel panel-scroll arch-breakdown-side">
             <div class="panel-head">
@@ -6496,6 +6531,7 @@ function renderArchetypes(){
   ];
   qs("#pageBody").innerHTML = sections.join("");
   qs("#archSelect")?.addEventListener("change", event => setSelection("arch", event.target.value));
+  bindRankFilterControls();
   qsa("[data-arch-breakdown-deck]").forEach(button => {
     button.addEventListener("click", event => {
       const name = event.currentTarget.getAttribute("data-arch-breakdown-deck") || "";
@@ -6538,7 +6574,23 @@ function archetypeSummaryMediaHtml(name){
   }
   return `<div class="card-summary-media deck-summary-media arch-summary-media"><img src="${escapeHtml(placeholderImageSrc(name || "アーキタイプ", "Deck"))}" alt="" loading="lazy"></div>`;
 }
-function weekSeriesArchetypeDeckShare(archetypeName, deckName){
+function weekSeriesArchetypeDeckShareFromDecklists(archetypeName, deckName, rankFilter="all"){
+  const rows = analysisDecklistRows();
+  if (!rows.length) return null;
+  return weekKeys().map(week => {
+    const weekRows = rowsForAnalysis([week], rankFilter).filter(row => row.archetype === archetypeName && !strictOther(row.deck_name));
+    const deckCount = weekRows.filter(row => row.deck_name === deckName).length;
+    return {
+      week,
+      label: DATA.week_labels[week],
+      stable: !!weekEntry(week).totals.stable,
+      share: weekRows.length ? deckCount / weekRows.length * 100 : 0,
+    };
+  });
+}
+function weekSeriesArchetypeDeckShare(archetypeName, deckName, rankFilter="all"){
+  const decklistRows = weekSeriesArchetypeDeckShareFromDecklists(archetypeName, deckName, rankFilter);
+  if (decklistRows) return decklistRows;
   return weekKeys().map(week => {
     const entry = weekEntry(week);
     const archetypeRaw = entry.archetypes[archetypeName] || [0, 0, 0];
@@ -6553,10 +6605,10 @@ function weekSeriesArchetypeDeckShare(archetypeName, deckName){
     };
   });
 }
-function archetypeBreakdownRows(name, weeks=currentWeeks()){
-  return breakdownWithinArchetype(name, weeks).map(item => ({
+function archetypeBreakdownRows(name, weeks=currentWeeks(), rankFilter="all"){
+  return breakdownWithinArchetype(name, weeks, rankFilter).map(item => ({
     ...item,
-    delta: adjacentWeekDelta(weekSeriesArchetypeDeckShare(name, item.name), "share"),
+    delta: adjacentWeekDelta(weekSeriesArchetypeDeckShare(name, item.name, rankFilter), "share"),
   }));
 }
 function archetypeBreakdownItemHtml(item, index, active){
