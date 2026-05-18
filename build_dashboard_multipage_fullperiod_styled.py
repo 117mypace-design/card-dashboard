@@ -1764,6 +1764,11 @@ select option:checked{
 .champions-view-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .champions-view-tab{display:flex;align-items:center;justify-content:center;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:800;text-align:center}
 .champions-view-tab.active{background:rgba(124,199,255,.16);border-color:rgba(124,199,255,.42);color:var(--text)}
+.rank-filter-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px;flex-wrap:wrap}
+.rank-filter-label{font-size:12px;color:var(--muted);font-weight:700}
+.rank-filter-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.rank-filter-tab{border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:999px;padding:7px 12px;font-size:12px;font-weight:800;cursor:pointer}
+.rank-filter-tab.active{background:rgba(124,199,255,.16);border-color:rgba(124,199,255,.42);color:var(--text)}
 .event-detail-content{min-height:0;flex:1;display:flex;flex-direction:column}
 .event-detail-content .section-title{font-size:15px;margin:0 0 6px}
 .event-detail-content .table-wrap{height:calc(100% - 25px);max-height:none;overflow:auto}
@@ -4057,6 +4062,92 @@ function decklistSourceRows(){
   const rawRows = hasRealDecklistRows() ? decklistSearchPayload().items : DECKLIST_SEARCH_MOCK;
   return rawRows.map(normalizeDecklistRow).filter(row => row.deck_name);
 }
+function isCityLeagueDecklistRow(row){
+  return `${row.event_type || ""} ${row.event_name || ""}`.includes("シティリーグ");
+}
+function isChampionsLeagueDecklistRow(row){
+  const value = `${row.event_type || ""} ${row.event_name || ""}`;
+  return value.includes("チャンピオンズリーグ") || value.includes("大型大会");
+}
+let analysisDecklistRowCache = null;
+function analysisDecklistRows(){
+  if (analysisDecklistRowCache) return analysisDecklistRowCache;
+  const rawRows = Array.isArray(RAW_DATA?.decklist_search?.items) && RAW_DATA.decklist_search.items.length
+    ? RAW_DATA.decklist_search.items
+    : (hasRealDecklistRows() ? decklistSearchPayload().items : []);
+  const rows = rawRows.map(normalizeDecklistRow).filter(row => row.deck_name);
+  if (PAGE === "champions") analysisDecklistRowCache = rows.filter(isChampionsLeagueDecklistRow);
+  else if (["index", "archetypes", "decks", "cards"].includes(PAGE)) analysisDecklistRowCache = rows.filter(isCityLeagueDecklistRow);
+  else analysisDecklistRowCache = rows;
+  return analysisDecklistRowCache;
+}
+function weekKeyForDate(value){
+  const match = String(value || "").match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!match) return "";
+  const dt = new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])));
+  if (Number.isNaN(dt.getTime())) return "";
+  const daysSinceSaturday = (dt.getUTCDay() + 1) % 7;
+  dt.setUTCDate(dt.getUTCDate() - daysSinceSaturday);
+  return dt.toISOString().slice(0, 10);
+}
+function rankFilterOptions(){
+  return [
+    {key:"all", label:"すべて", threshold:null},
+    {key:"top16", label:"TOP16以上", threshold:16},
+    {key:"top4", label:"TOP4以上", threshold:4},
+    {key:"win", label:"優勝", threshold:1},
+  ];
+}
+function normalizeRankFilter(value){
+  const keys = new Set(rankFilterOptions().map(item => item.key));
+  return keys.has(value) ? value : "all";
+}
+function rankFilterStorageKey(scope){
+  return `${PAGE}_${scope}_rank_filter`;
+}
+function rankFilterState(scope){
+  return normalizeRankFilter(localStorage.getItem(rankFilterStorageKey(scope)) || "all");
+}
+function saveRankFilterState(scope, value){
+  localStorage.setItem(rankFilterStorageKey(scope), normalizeRankFilter(value));
+}
+function rankFilterThreshold(value){
+  return rankFilterOptions().find(item => item.key === normalizeRankFilter(value))?.threshold ?? null;
+}
+function rowMatchesRankFilter(row, filter){
+  const threshold = rankFilterThreshold(filter);
+  if (!threshold) return true;
+  const placing = Number(row.placing || 9999);
+  return placing <= threshold;
+}
+function rowsForAnalysis(weeks=currentWeeks(), rankFilter="all"){
+  const allowedWeeks = new Set(weeks);
+  return analysisDecklistRows()
+    .filter(row => allowedWeeks.has(weekKeyForDate(row.event_date)))
+    .filter(row => rowMatchesRankFilter(row, rankFilter));
+}
+function rankFilterControls(scope, active){
+  return `
+    <div class="rank-filter-bar" data-rank-filter-scope="${escapeHtml(scope)}">
+      <div class="rank-filter-label">表示対象</div>
+      <div class="rank-filter-tabs" role="tablist" aria-label="表示対象">
+        ${rankFilterOptions().map(option => `<button type="button" class="rank-filter-tab ${normalizeRankFilter(active) === option.key ? "active" : ""}" data-rank-filter="${option.key}" aria-selected="${normalizeRankFilter(active) === option.key ? "true" : "false"}">${escapeHtml(option.label)}</button>`).join("")}
+      </div>
+    </div>`;
+}
+function bindRankFilterControls(){
+  qsa("[data-rank-filter-scope]").forEach(group => {
+    const scope = group.getAttribute("data-rank-filter-scope") || "";
+    qsa("[data-rank-filter]", group).forEach(button => {
+      if (button.dataset.bound === "1") return;
+      button.dataset.bound = "1";
+      button.addEventListener("click", () => {
+        saveRankFilterState(scope, button.getAttribute("data-rank-filter") || "all");
+        renderPage({preserveScroll:true});
+      });
+    });
+  });
+}
 function decklistArchetypeOptions(){
   const payload = decklistSearchPayload();
   if (Array.isArray(payload?.filter_options?.archetype_names)) return payload.filter_options.archetype_names;
@@ -4751,7 +4842,32 @@ function deckCardGroupLabel(group){
   if (group === "energy") return "エネルギー";
   return "トレーナーズ";
 }
-function topCardsForDeck(name, weeks=currentWeeks()){
+function topCardsForDeckFromDecklists(name, weeks=currentWeeks(), rankFilter="all"){
+  const rows = rowsForAnalysis(weeks, rankFilter).filter(row => row.deck_name === name);
+  if (!rows.length) return null;
+  const totals = {};
+  rows.forEach(row => {
+    Object.entries(row.card_counts || {}).forEach(([card, count]) => {
+      const copies = Number(count || 0);
+      if (!card || copies <= 0) return;
+      if (!totals[card]) totals[card] = {name:card, used:0, copies:0};
+      totals[card].used += 1;
+      totals[card].copies += copies;
+    });
+  });
+  return Object.values(totals)
+    .map(item => ({
+      ...item,
+      category: String(cardCategoryMap()[item.name] || ""),
+      group: deckCardGroup(cardCategoryMap()[item.name] || "", item.name),
+      rate: rows.length ? item.used / rows.length * 100 : 0,
+      avgCopies: item.used ? item.copies / item.used : 0,
+    }))
+    .sort((a, b) => b.rate - a.rate || b.avgCopies - a.avgCopies || a.name.localeCompare(b.name, "ja"));
+}
+function topCardsForDeck(name, weeks=currentWeeks(), rankFilter="all"){
+  const decklistRows = topCardsForDeckFromDecklists(name, weeks, rankFilter);
+  if (decklistRows) return decklistRows;
   const totals = {};
   let deckTotal = 0;
   weeks.forEach(week => {
@@ -4842,7 +4958,59 @@ function weekSeriesCardDeck(card, deckName){
     };
   });
 }
-function decksUsingCard(card, weeks=currentWeeks()){
+function decksUsingCardFromDecklists(card, weeks=currentWeeks(), rankFilter="all"){
+  const rows = rowsForAnalysis(weeks, rankFilter);
+  if (!rows.length) return null;
+  const map = {};
+  let totalCardDecks = 0;
+  rows.forEach(row => {
+    const deckName = row.deck_name;
+    const count = Number(row.card_counts?.[card] || 0);
+    if (!map[deckName]) map[deckName] = {name:deckName, used:0, copies:0, deckCount:0};
+    map[deckName].deckCount += 1;
+    if (count > 0){
+      map[deckName].used += 1;
+      map[deckName].copies += count;
+      totalCardDecks += 1;
+    }
+  });
+  const weekMetrics = (deckName, week) => {
+    const weekRows = rowsForAnalysis([week], rankFilter).filter(row => row.deck_name === deckName);
+    let used = 0;
+    let copies = 0;
+    weekRows.forEach(row => {
+      const count = Number(row.card_counts?.[card] || 0);
+      if (count > 0){
+        used += 1;
+        copies += count;
+      }
+    });
+    return {
+      rate: weekRows.length ? used / weekRows.length * 100 : 0,
+      avgCopies: used ? copies / used : 0,
+    };
+  };
+  return Object.values(map)
+    .filter(item => !strictOther(item.name) && item.used > 0)
+    .map(item => {
+      const {previous, current} = adjacentTrendWeeks();
+      const previousValues = previous ? weekMetrics(item.name, previous) : {rate:0, avgCopies:0};
+      const currentValues = current ? weekMetrics(item.name, current) : {rate:0, avgCopies:0};
+      return {
+        ...item,
+        cardRate: totalCardDecks ? item.used / totalCardDecks * 100 : 0,
+        deckUsageRate: rows.length ? item.deckCount / rows.length * 100 : 0,
+        adoptionRate: item.deckCount ? item.used / item.deckCount * 100 : 0,
+        avgCopies: item.used ? item.copies / item.used : 0,
+        recentDelta: currentValues.rate - previousValues.rate,
+        avgCopiesDelta: currentValues.avgCopies - previousValues.avgCopies,
+      };
+    })
+    .sort((a, b) => b.cardRate - a.cardRate || b.adoptionRate - a.adoptionRate || b.used - a.used || a.name.localeCompare(b.name, "ja"));
+}
+function decksUsingCard(card, weeks=currentWeeks(), rankFilter="all"){
+  const decklistRows = decksUsingCardFromDecklists(card, weeks, rankFilter);
+  if (decklistRows) return decklistRows;
   const map = {};
   let totalCardDecks = 0;
   let totalDecks = 0;
@@ -6424,7 +6592,8 @@ function renderDecks(){
   const activeDeckName = deckOptions.includes(selected) ? selected : (deckOptions[0] || names[0] || "");
   const deck = decks.find(item => item.name === activeDeckName) || {name:activeDeckName, usage:0, b4:0, win:0, top4_rate:0, win_rate:0, archetype:selectedArchetype || "-"};
   const series = weekSeriesDeck(activeDeckName);
-  const cards = topCardsForDeck(activeDeckName)
+  const deckCardsRankFilter = rankFilterState("deckCards");
+  const cards = topCardsForDeck(activeDeckName, currentWeeks(), deckCardsRankFilter)
     .map((item, index) => ({...item, rank:index + 1}));
   const cardGroups = ["pokemon", "trainer", "acespec", "energy"].map(group => ({
     key: group,
@@ -6532,7 +6701,7 @@ function renderDecks(){
   const deckCardsWrap = qs("#deck-cards .table-wrap");
   if (deckCardsWrap){
     deckCardsWrap.classList.add("deck-cards-wrap");
-    deckCardsWrap.innerHTML = deckCardsPanelsHtml;
+    deckCardsWrap.innerHTML = `${rankFilterControls("deckCards", deckCardsRankFilter)}${deckCardsPanelsHtml}`;
   }
   qs("#deckSummaryArchetype")?.addEventListener("change", event => {
     const nextArchetype = String(event.currentTarget.value || "").trim();
@@ -6543,6 +6712,7 @@ function renderDecks(){
     const nextDeck = String(event.currentTarget.value || "").trim();
     if (nextDeck) setSelection("deck", nextDeck);
   });
+  bindRankFilterControls();
   drawMultiLine("deckTrend", trendLines, "value");
 }
 function renderDecklists(){
@@ -6579,7 +6749,8 @@ function renderCards(){
   const names = cards.map(item => item.name);
   const selected = currentSelection("card", names);
   const summary = cards.find(item => item.name === selected) || {rate:0, decks:0, avgCopiesWhenUsed:0};
-  const deckRows = decksUsingCard(selected).map((item, index) => ({...item, rank:index + 1}));
+  const cardUsageRankFilter = rankFilterState("cardUsage");
+  const deckRows = decksUsingCard(selected, currentWeeks(), cardUsageRankFilter).map((item, index) => ({...item, rank:index + 1}));
   const sortedDeckRows = sortedCardUsageRows(deckRows);
   const series = weekSeriesCard(selected);
   const recentDelta = adjacentWeekDelta(series, "rate");
@@ -6639,7 +6810,8 @@ function renderCards(){
       "採用先分析",
       "どのデッキで使われているかを詳しく確認します。",
       `
-        ${tablePanel("", "", `<table class="table"><thead><tr><th>${cardUsageSortHead("#", "rank")}</th><th>${cardUsageSortHead("デッキ", "name")}</th><th>${cardUsageSortHead("構成比", "cardRate", "構成比は、このカードを採用した全デッキのうち各デッキが占める比率です。")}</th><th>${cardUsageSortHead("採用率", "adoptionRate")}</th><th>${cardUsageSortHead("直近変化", "recentDelta")}</th><th>${cardUsageSortHead("平均枚数", "avgCopies")}</th><th>${cardUsageSortHead("平均枚数変化", "avgCopiesDelta")}</th></tr></thead><tbody>${sortedDeckRows.map(item => `<tr><td>${item.rank}</td><td>${renderLinked("deck", item.name)}</td><td>${fmtPct(item.cardRate)}</td><td>${fmtPct(item.adoptionRate)}</td><td>${fmtSigned(item.recentDelta)}</td><td>${item.avgCopies.toFixed(2)}</td><td>${fmtSigned(item.avgCopiesDelta)}</td></tr>`).join("")}</tbody></table>`)}
+        ${rankFilterControls("cardUsage", cardUsageRankFilter)}
+        ${tablePanel("", "", `<table class="table"><thead><tr><th>${cardUsageSortHead("#", "rank")}</th><th>${cardUsageSortHead("デッキ", "name")}</th><th>${cardUsageSortHead("構成比", "cardRate", "構成比は、このカードを採用した全デッキのうち各デッキが占める比率です。")}</th><th>${cardUsageSortHead("採用率", "adoptionRate")}</th><th>${cardUsageSortHead("直近変化", "recentDelta")}</th><th>${cardUsageSortHead("平均枚数", "avgCopies")}</th><th>${cardUsageSortHead("平均枚数変化", "avgCopiesDelta")}</th></tr></thead><tbody>${sortedDeckRows.length ? sortedDeckRows.map(item => `<tr><td>${item.rank}</td><td>${renderLinked("deck", item.name)}</td><td>${fmtPct(item.cardRate)}</td><td>${fmtPct(item.adoptionRate)}</td><td>${fmtSigned(item.recentDelta)}</td><td>${item.avgCopies.toFixed(2)}</td><td>${fmtSigned(item.avgCopiesDelta)}</td></tr>`).join("") : `<tr><td colspan="7" class="muted">該当なし</td></tr>`}</tbody></table>`)}
       `
     ),
   ];
@@ -6668,6 +6840,7 @@ function renderCards(){
     syncCardSelection();
   });
   bindCardUsageSortControls();
+  bindRankFilterControls();
   drawLine("cardTrend", series, "rate", "#7cc7ff", selected);
 }
 function renderPage(options={}){
