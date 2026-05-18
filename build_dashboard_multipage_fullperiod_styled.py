@@ -957,6 +957,210 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   grid-template-columns:1fr 1fr;
   gap:10px;
 }
+.featured-summary{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 340px;
+  gap:16px;
+  height:100%;
+  min-height:0;
+}
+.featured-summary-main{
+  display:grid;
+  grid-template-rows:auto minmax(0,1fr);
+  gap:16px;
+  min-width:0;
+  min-height:0;
+}
+.featured-summary-side{
+  display:grid;
+  grid-template-rows:auto minmax(0,1fr);
+  gap:16px;
+  min-width:0;
+  min-height:0;
+}
+.featured-verdict{
+  border:1px solid rgba(124,199,255,.22);
+  border-radius:18px;
+  padding:16px;
+  background:
+    radial-gradient(circle at top right, rgba(124,199,255,.18), transparent 42%),
+    linear-gradient(135deg, rgba(124,199,255,.10), rgba(140,240,178,.04) 56%, rgba(255,209,102,.07));
+}
+.featured-verdict .tag{
+  display:inline-flex;
+  align-items:center;
+  margin-bottom:9px;
+  padding:5px 10px;
+  border-radius:999px;
+  background:#ffd166;
+  color:#08111f;
+  font-size:12px;
+  font-weight:900;
+}
+.featured-verdict .headline{
+  font-size:24px;
+  line-height:1.28;
+  font-weight:900;
+  margin-bottom:8px;
+}
+.featured-verdict .summary-copy{
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.6;
+  max-width:980px;
+}
+.featured-baseline{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px;
+  margin-top:12px;
+}
+.featured-baseline-card{
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;
+  padding:10px;
+  background:rgba(0,0,0,.14);
+}
+.featured-baseline-card .label{
+  font-size:11px;
+  color:var(--muted);
+  font-weight:700;
+  letter-spacing:.04em;
+  margin-bottom:5px;
+}
+.featured-baseline-card .value{
+  font-size:17px;
+  font-weight:800;
+  line-height:1.25;
+}
+.featured-cards{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  min-height:0;
+}
+.featured-card{
+  display:grid;
+  grid-template-rows:auto auto minmax(0,1fr) auto;
+  gap:12px;
+  min-width:0;
+  min-height:0;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:18px;
+  padding:16px;
+  background:rgba(255,255,255,.03);
+}
+.featured-card.up{border-color:rgba(140,240,178,.28)}
+.featured-card.down{border-color:rgba(255,107,107,.30)}
+.featured-card.meta-feature{border-color:rgba(255,209,102,.34)}
+.featured-card-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+.featured-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:4px 8px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.14);
+  background:rgba(255,255,255,.05);
+  font-size:11px;
+  font-weight:900;
+}
+.featured-card.up .featured-badge{color:#8cf0b2;border-color:rgba(140,240,178,.32);background:rgba(140,240,178,.10)}
+.featured-card.down .featured-badge{color:#ff8d8d;border-color:rgba(255,107,107,.32);background:rgba(255,107,107,.10)}
+.featured-card.meta-feature .featured-badge{color:#ffd166;border-color:rgba(255,209,102,.35);background:rgba(255,209,102,.10)}
+.featured-diff{
+  font-size:25px;
+  font-weight:900;
+  font-variant-numeric:tabular-nums;
+}
+.featured-card.up .featured-diff{color:#8cf0b2}
+.featured-card.down .featured-diff{color:#ff8d8d}
+.featured-card.meta-feature .featured-diff{color:#ffd166}
+.featured-card .feature-title{
+  font-size:23px;
+  font-weight:900;
+  line-height:1.18;
+  word-break:keep-all;
+  overflow-wrap:anywhere;
+}
+.featured-card .feature-note{
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.55;
+}
+.featured-card .feature-caption{
+  display:grid;
+  grid-template-columns:1fr auto;
+  align-items:center;
+  gap:8px;
+  color:var(--muted);
+  font-size:12px;
+  font-weight:700;
+}
+.featured-card .feature-caption strong{color:var(--text)}
+.featured-mini-chart{
+  width:100%;
+  height:136px;
+  display:block;
+}
+.featured-side-list{
+  display:grid;
+  gap:10px;
+}
+.featured-side-card{
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:16px;
+  padding:12px;
+  background:rgba(255,255,255,.03);
+}
+.featured-side-card .label{
+  font-size:11px;
+  color:var(--muted);
+  font-weight:700;
+  letter-spacing:.04em;
+  margin-bottom:6px;
+}
+.featured-side-card .value{
+  font-size:18px;
+  font-weight:800;
+  line-height:1.25;
+}
+.featured-side-card .note{
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.45;
+  margin-top:6px;
+}
+.featured-next{
+  display:grid;
+  gap:10px;
+}
+.featured-next-row{
+  display:grid;
+  grid-template-columns:24px minmax(0,1fr);
+  gap:9px;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.45;
+}
+.featured-next-row .num{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:24px;
+  height:24px;
+  border-radius:999px;
+  background:rgba(124,199,255,.14);
+  color:var(--accent);
+  font-size:12px;
+  font-weight:900;
+}
+.featured-next-row b{color:var(--text)}
 .mini-card,.kpi{
   background:rgba(255,255,255,.03);
   border:1px solid rgba(255,255,255,.07);
@@ -1852,7 +2056,7 @@ select option:checked{
 .chart-panel .svg-wrap{flex:1;min-height:0;display:flex}
 .chart-panel svg{width:100%;height:100%}
 @media (max-width:1100px){
-  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.arch-breakdown-layout,.arch-breakdown-legend{grid-template-columns:1fr}
+  .grid.two,.grid.three,.grid.four,.hero-stage,.rank-grid,.range-grid,.field-grid.two,.trend-layout,.movers-side,.season-summary-grid,.summary-glance-grid,.summary-insight-grid,.featured-summary,.featured-cards,.featured-baseline,.arch-breakdown-layout,.arch-breakdown-legend{grid-template-columns:1fr}
   .trend-legend{grid-template-columns:repeat(2,minmax(0,1fr))}
   .card-summary-hero{grid-template-columns:1fr}
   .card-summary-right{grid-template-rows:auto auto}
@@ -2870,6 +3074,40 @@ function renderIndexV2(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
+  const featureUp = risingRows[0] || [...movementRows].sort((a, b) => b.delta - a.delta)[0] || null;
+  const featureDown = fallingRows[0] || [...movementRows].sort((a, b) => a.delta - b.delta)[0] || null;
+  const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
+  const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
+  const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
+  const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
+  const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
+  const miniChartPoints = (series, key) => {
+    const values = (series || []).map(row => Number(row[key] || 0)).filter(value => Number.isFinite(value));
+    if (!values.length) return "26,124 298,124";
+    const max = Math.max(...values, 1);
+    const min = Math.min(0, ...values);
+    const span = Math.max(max - min, 1);
+    const step = values.length > 1 ? 272 / (values.length - 1) : 272;
+    return values.map((value, index) => {
+      const x = 26 + (step * index);
+      const y = 124 - ((value - min) / span * 92);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(" ");
+  };
+  const featureCard = (type, badge, diff, title, note, caption, series, key, color) => `
+    <article class="featured-card ${type}">
+      <div class="featured-card-head">
+        <span class="featured-badge">${escapeHtml(badge)}</span>
+        <span class="featured-diff">${diff}</span>
+      </div>
+      <div class="feature-title">${title}</div>
+      <div class="feature-note">${note}</div>
+      <svg class="featured-mini-chart" viewBox="0 0 320 150" role="img" aria-label="${escapeHtml(badge)}の推移">
+        <line x1="26" y1="124" x2="298" y2="124" stroke="#304050"/>
+        <polyline fill="none" stroke="${color}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="${miniChartPoints(series, key)}"/>
+      </svg>
+      <div class="feature-caption"><span>読み</span><strong>${escapeHtml(caption)}</strong></div>
+    </article>`;
 
   qs("#pageTitle").textContent = PAGE_TITLES[PAGE] || PAGE_TITLES.index;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile(PAGE)}">${escapeHtml(PAGE_TITLES[PAGE] || PAGE_TITLES.index)}</a>`;
@@ -3135,6 +3373,40 @@ function renderIndexV2(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
+  const featureUp = risingRows[0] || [...movementRows].sort((a, b) => b.delta - a.delta)[0] || null;
+  const featureDown = fallingRows[0] || [...movementRows].sort((a, b) => a.delta - b.delta)[0] || null;
+  const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
+  const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
+  const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
+  const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
+  const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
+  const miniChartPoints = (series, key) => {
+    const values = (series || []).map(row => Number(row[key] || 0)).filter(value => Number.isFinite(value));
+    if (!values.length) return "26,124 298,124";
+    const max = Math.max(...values, 1);
+    const min = Math.min(0, ...values);
+    const span = Math.max(max - min, 1);
+    const step = values.length > 1 ? 272 / (values.length - 1) : 272;
+    return values.map((value, index) => {
+      const x = 26 + (step * index);
+      const y = 124 - ((value - min) / span * 92);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(" ");
+  };
+  const featureCard = (type, badge, diff, title, note, caption, series, key, color) => `
+    <article class="featured-card ${type}">
+      <div class="featured-card-head">
+        <span class="featured-badge">${escapeHtml(badge)}</span>
+        <span class="featured-diff">${diff}</span>
+      </div>
+      <div class="feature-title">${title}</div>
+      <div class="feature-note">${note}</div>
+      <svg class="featured-mini-chart" viewBox="0 0 320 150" role="img" aria-label="${escapeHtml(badge)}の推移">
+        <line x1="26" y1="124" x2="298" y2="124" stroke="#304050"/>
+        <polyline fill="none" stroke="${color}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="${miniChartPoints(series, key)}"/>
+      </svg>
+      <div class="feature-caption"><span>読み</span><strong>${escapeHtml(caption)}</strong></div>
+    </article>`;
 
   qs("#pageTitle").textContent = PAGE_TITLES[PAGE] || PAGE_TITLES.index;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile(PAGE)}">${escapeHtml(PAGE_TITLES[PAGE] || PAGE_TITLES.index)}</a>`;
@@ -3193,64 +3465,88 @@ function renderIndexV2(){
       "meta-overview",
       "",
       "環境サマリー",
-      "シーズン全体の流れから、最新週で何が起きているかをまとめて確認します。",
+      "最新週で特徴的だった変化だけを抽出して確認します。",
       `
-        <div class="season-summary-grid">
-          <div class="panel panel-scroll">
-            <div class="title-line">
-              <div class="section-title">シーズンの流れ</div>
-              ${tooltipIcon("各週の中心デッキと上位集中度を並べて、シーズン全体の流れを見ます。末尾の * は参考値週です。", "left")}
-            </div>
-            <div class="summary-glance-grid">
-              <div class="summary-glance-card">
-                <div class="label">通期の主役</div>
-                <div class="value">${renderLinked("deck", leader?.name || "-")}</div>
-                <div class="note">使用率 ${fmtPct(leader?.usage)} / TOP3合計 ${fmtPct(top3Share)}</div>
-              </div>
-              <div class="summary-glance-card">
-                <div class="label">序盤の中心</div>
-                <div class="value">${renderLinked("deck", seasonOpen.leader || "-")}</div>
-                <div class="note">${weekDisplay(seasonOpen)} / 使用率 ${fmtPct(seasonOpen.usage)} / 1位差 ${fmtSigned(seasonOpen.gap)}</div>
-              </div>
-              <div class="summary-glance-card">
-                <div class="label">最新週の中心</div>
-                <div class="value">${renderLinked("deck", seasonLatest.leader || "-")}</div>
-                <div class="note">${weekDisplay(seasonLatest)} / 使用率 ${fmtPct(seasonLatest.usage)} / TOP3合計 ${fmtPct(seasonLatest.top3)}</div>
-              </div>
-            </div>
-            <div class="summary-week-rail">
-              <div class="summary-week-head">
-                <div>週</div>
-                <div>中心デッキ</div>
-                <div style="text-align:right">使用率</div>
-                <div style="text-align:right">TOP3合計</div>
-              </div>
-              ${seasonFlow.map((item, index) => `
-                <div class="summary-week-row ${index === seasonFlow.length - 1 ? "latest" : ""}">
-                  <div class="summary-week-week">${escapeHtml(weekDisplay(item))}</div>
-                  <div class="summary-week-deck">${renderLinked("deck", item.leader || "-")}</div>
-                  <div class="summary-week-metric">${fmtPct(item.usage)}</div>
-                  <div class="summary-week-metric top3">${fmtPct(item.top3)}</div>
+        <div class="featured-summary">
+          <div class="featured-summary-main">
+            <div class="featured-verdict">
+              <div class="tag">今週の結論: 中心は据え置き、変化は周辺に集中</div>
+              <div class="headline">見るべき変化は3つだけ。${renderName(featureUp?.name || "-")} 上昇、${renderName(featureDown?.name || "-")} 下降、${renderName(featureMeta?.name || "-")} 急増。</div>
+              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わっていないため、今週の特徴ではなく背景として扱います。環境読みとして重要なのは、中位デッキの入れ替わりと対策カードの採用増です。</div>
+              <div class="featured-baseline">
+                <div class="featured-baseline-card">
+                  <div class="label">中心デッキ</div>
+                  <div class="value">${renderLinked("deck", summaryLatest.leader || "-")}</div>
                 </div>
-              `).join("")}
+                <div class="featured-baseline-card">
+                  <div class="label">首位使用率</div>
+                  <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.usage)} → ` : ""}${fmtPct(summaryLatest.usage)}</div>
+                </div>
+                <div class="featured-baseline-card">
+                  <div class="label">TOP3集中度</div>
+                  <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.top3)} → ` : ""}${fmtPct(summaryLatest.top3)}</div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-cards">
+              ${featureCard(
+                "up",
+                "上昇",
+                fmtSigned(featureUp?.delta || 0),
+                `${renderLinked("deck", featureUp?.name || "-")} が浮上`,
+                `使用率が ${fmtPct(featureUp?.previous_usage || 0)} から ${fmtPct(featureUp?.current_usage || 0)} へ上昇。次週は「数が増えただけ」か「上位入賞まで伸びた」かを確認したい枠です。`,
+                "新しい警戒対象",
+                featureUp?.series || [],
+                "usage",
+                "#8cf0b2"
+              )}
+              ${featureCard(
+                "down",
+                "下降",
+                fmtSigned(featureDown?.delta || 0),
+                `${renderLinked("deck", featureDown?.name || "-")} が後退`,
+                `使用率が ${fmtPct(featureDown?.previous_usage || 0)} から ${fmtPct(featureDown?.current_usage || 0)} へ低下。立ち位置の悪化、対策増、他デッキへの流出のどれが主因かを掘りたい枠です。`,
+                "優先度を下げて再評価",
+                featureDown?.series || [],
+                "usage",
+                "#ff8d8d"
+              )}
+              ${featureCard(
+                "meta-feature",
+                "対策札",
+                fmtSigned(featureMeta?.delta || 0),
+                `${renderLinked("card", featureMeta?.name || "-")} が急増`,
+                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。中心デッキが変わらない一方で、対策枠の中身は明確に動いています。`,
+                "構築の対策枠が変化",
+                featureMetaSeries,
+                "rate",
+                "#ffd166"
+              )}
             </div>
           </div>
-          <div class="summary-side-stack">
-            <div class="summary-latest-card">
-              <div class="cap">最新週のトレンド ${escapeHtml(weekDisplay(seasonLatest))}</div>
-              <div class="big">${renderLinked("deck", latestLeader?.name || "-")}</div>
-              <div class="meta">
-                <span class="stat-chip">使用率 ${fmtPct(latestLeader?.usage)}</span>
-                <span class="stat-chip">1位差 ${fmtSigned(latestLeaderGap)}</span>
-                <span class="stat-chip">TOP3合計 ${fmtPct(latestTop3Share)}</span>
+          <div class="featured-summary-side">
+            <div class="panel panel-scroll">
+              <div class="section-title">背景として見るだけ</div>
+              <div class="featured-side-list">
+                <div class="featured-side-card">
+                  <div class="label">中心デッキ</div>
+                  <div class="value">${renderLinked("deck", summaryLatest.leader || "-")}</div>
+                  <div class="note">首位は継続。今週の特徴ではなく前提として扱います。</div>
+                </div>
+                <div class="featured-side-card">
+                  <div class="label">環境集中度</div>
+                  <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.top3)} → ` : ""}${fmtPct(summaryLatest.top3)}</div>
+                  <div class="note">TOP3合計は大きく変わらず、極端な構造変化はありません。</div>
+                </div>
               </div>
-              <div class="note">TOP3合計は序盤比 ${fmtSigned(seasonLatest.top3 - seasonOpen.top3)} / ${escapeHtml(leaderTurnover)}</div>
             </div>
-            <div class="summary-insight-grid">
-              <div class="mini-card"><div class="cap">前週比 上昇</div><div class="big">${renderLinked("deck", rising?.name || "-")}</div><div class="subnote"><span class="delta-up">${fmtSigned(rising?.delta || 0)}</span></div></div>
-              <div class="mini-card"><div class="cap">前週比 下降</div><div class="big">${renderLinked("deck", fallingRows[0]?.name || "-")}</div><div class="subnote"><span class="delta-down">${fmtSigned(fallingRows[0]?.delta || 0)}</span></div></div>
-              <div class="mini-card"><div class="cap">勝ち切り性能</div><div class="big">${renderLinked("deck", latestHighEff?.name || "-")}</div><div class="subnote">優勝率 ${fmtPct(latestHighEff?.win_rate)}</div></div>
-              <div class="mini-card"><div class="cap">主軸メタカード</div><div class="big">${renderLinked("card", latestMetaLeader?.name || "-")}</div><div class="subnote">採用率 ${fmtPct(latestMetaLeader?.rate || 0)} / 前週比 ${fmtSigned(latestMetaDelta)}</div></div>
+            <div class="panel panel-scroll">
+              <div class="section-title">次週の確認ポイント</div>
+              <div class="featured-next">
+                <div class="featured-next-row"><span class="num">1</span><div><b>${renderName(featureUp?.name || "-")} は定着するか。</b> TOP4シェアも伸びるなら本物の上昇です。</div></div>
+                <div class="featured-next-row"><span class="num">2</span><div><b>${renderName(featureDown?.name || "-")} は戻るか。</b> 戻らなければTier内の優先度を下げます。</div></div>
+                <div class="featured-next-row"><span class="num">3</span><div><b>${renderName(featureMeta?.name || "-")} 増加が続くか。</b> 続くなら主要デッキの構築差分を見ます。</div></div>
+              </div>
             </div>
           </div>
         </div>`
@@ -6209,6 +6505,40 @@ function renderIndexV2(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
+  const featureUp = risingRows[0] || [...movementRows].sort((a, b) => b.delta - a.delta)[0] || null;
+  const featureDown = fallingRows[0] || [...movementRows].sort((a, b) => a.delta - b.delta)[0] || null;
+  const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
+  const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
+  const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
+  const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
+  const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
+  const miniChartPoints = (series, key) => {
+    const values = (series || []).map(row => Number(row[key] || 0)).filter(value => Number.isFinite(value));
+    if (!values.length) return "26,124 298,124";
+    const max = Math.max(...values, 1);
+    const min = Math.min(0, ...values);
+    const span = Math.max(max - min, 1);
+    const step = values.length > 1 ? 272 / (values.length - 1) : 272;
+    return values.map((value, index) => {
+      const x = 26 + (step * index);
+      const y = 124 - ((value - min) / span * 92);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(" ");
+  };
+  const featureCard = (type, badge, diff, title, note, caption, series, key, color) => `
+    <article class="featured-card ${type}">
+      <div class="featured-card-head">
+        <span class="featured-badge">${escapeHtml(badge)}</span>
+        <span class="featured-diff">${diff}</span>
+      </div>
+      <div class="feature-title">${title}</div>
+      <div class="feature-note">${note}</div>
+      <svg class="featured-mini-chart" viewBox="0 0 320 150" role="img" aria-label="${escapeHtml(badge)}の推移">
+        <line x1="26" y1="124" x2="298" y2="124" stroke="#304050"/>
+        <polyline fill="none" stroke="${color}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="${miniChartPoints(series, key)}"/>
+      </svg>
+      <div class="feature-caption"><span>読み</span><strong>${escapeHtml(caption)}</strong></div>
+    </article>`;
 
   qs("#pageTitle").textContent = PAGE_TITLES[PAGE] || PAGE_TITLES.index;
   qs("#breadcrumbs").innerHTML = `<a href="${pageFile(PAGE)}">${escapeHtml(PAGE_TITLES[PAGE] || PAGE_TITLES.index)}</a>`;
@@ -6267,64 +6597,88 @@ function renderIndexV2(){
       "meta-overview",
       "",
       "環境サマリー",
-      "シーズン全体の流れから、最新週で何が起きているかをまとめて確認します。",
+      "最新週で特徴的だった変化だけを抽出して確認します。",
       `
-        <div class="season-summary-grid">
-          <div class="panel panel-scroll">
-            <div class="title-line">
-              <div class="section-title">シーズンの流れ</div>
-              ${tooltipIcon("各週の中心デッキと上位集中度を並べて、シーズン全体の流れを見ます。末尾の * は参考値週です。", "left")}
-            </div>
-            <div class="summary-glance-grid">
-              <div class="summary-glance-card">
-                <div class="label">通期の主役</div>
-                <div class="value">${renderLinked("deck", leader?.name || "-")}</div>
-                <div class="note">使用率 ${fmtPct(leader?.usage)} / TOP3合計 ${fmtPct(top3Share)}</div>
-              </div>
-              <div class="summary-glance-card">
-                <div class="label">序盤の中心</div>
-                <div class="value">${renderLinked("deck", seasonOpen.leader || "-")}</div>
-                <div class="note">${weekDisplay(seasonOpen)} / 使用率 ${fmtPct(seasonOpen.usage)} / 1位差 ${fmtSigned(seasonOpen.gap)}</div>
-              </div>
-              <div class="summary-glance-card">
-                <div class="label">最新週の中心</div>
-                <div class="value">${renderLinked("deck", seasonLatest.leader || "-")}</div>
-                <div class="note">${weekDisplay(seasonLatest)} / 使用率 ${fmtPct(seasonLatest.usage)} / TOP3合計 ${fmtPct(seasonLatest.top3)}</div>
-              </div>
-            </div>
-            <div class="summary-week-rail">
-              <div class="summary-week-head">
-                <div>週</div>
-                <div>中心デッキ</div>
-                <div style="text-align:right">使用率</div>
-                <div style="text-align:right">TOP3合計</div>
-              </div>
-              ${seasonFlow.map((item, index) => `
-                <div class="summary-week-row ${index === seasonFlow.length - 1 ? "latest" : ""}">
-                  <div class="summary-week-week">${escapeHtml(weekDisplay(item))}</div>
-                  <div class="summary-week-deck">${renderLinked("deck", item.leader || "-")}</div>
-                  <div class="summary-week-metric">${fmtPct(item.usage)}</div>
-                  <div class="summary-week-metric top3">${fmtPct(item.top3)}</div>
+        <div class="featured-summary">
+          <div class="featured-summary-main">
+            <div class="featured-verdict">
+              <div class="tag">今週の結論: 中心は据え置き、変化は周辺に集中</div>
+              <div class="headline">見るべき変化は3つだけ。${renderName(featureUp?.name || "-")} 上昇、${renderName(featureDown?.name || "-")} 下降、${renderName(featureMeta?.name || "-")} 急増。</div>
+              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わっていないため、今週の特徴ではなく背景として扱います。環境読みとして重要なのは、中位デッキの入れ替わりと対策カードの採用増です。</div>
+              <div class="featured-baseline">
+                <div class="featured-baseline-card">
+                  <div class="label">中心デッキ</div>
+                  <div class="value">${renderLinked("deck", summaryLatest.leader || "-")}</div>
                 </div>
-              `).join("")}
+                <div class="featured-baseline-card">
+                  <div class="label">首位使用率</div>
+                  <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.usage)} → ` : ""}${fmtPct(summaryLatest.usage)}</div>
+                </div>
+                <div class="featured-baseline-card">
+                  <div class="label">TOP3集中度</div>
+                  <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.top3)} → ` : ""}${fmtPct(summaryLatest.top3)}</div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-cards">
+              ${featureCard(
+                "up",
+                "上昇",
+                fmtSigned(featureUp?.delta || 0),
+                `${renderLinked("deck", featureUp?.name || "-")} が浮上`,
+                `使用率が ${fmtPct(featureUp?.previous_usage || 0)} から ${fmtPct(featureUp?.current_usage || 0)} へ上昇。次週は「数が増えただけ」か「上位入賞まで伸びた」かを確認したい枠です。`,
+                "新しい警戒対象",
+                featureUp?.series || [],
+                "usage",
+                "#8cf0b2"
+              )}
+              ${featureCard(
+                "down",
+                "下降",
+                fmtSigned(featureDown?.delta || 0),
+                `${renderLinked("deck", featureDown?.name || "-")} が後退`,
+                `使用率が ${fmtPct(featureDown?.previous_usage || 0)} から ${fmtPct(featureDown?.current_usage || 0)} へ低下。立ち位置の悪化、対策増、他デッキへの流出のどれが主因かを掘りたい枠です。`,
+                "優先度を下げて再評価",
+                featureDown?.series || [],
+                "usage",
+                "#ff8d8d"
+              )}
+              ${featureCard(
+                "meta-feature",
+                "対策札",
+                fmtSigned(featureMeta?.delta || 0),
+                `${renderLinked("card", featureMeta?.name || "-")} が急増`,
+                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。中心デッキが変わらない一方で、対策枠の中身は明確に動いています。`,
+                "構築の対策枠が変化",
+                featureMetaSeries,
+                "rate",
+                "#ffd166"
+              )}
             </div>
           </div>
-          <div class="summary-side-stack">
-            <div class="summary-latest-card">
-              <div class="cap">最新週のトレンド ${escapeHtml(weekDisplay(seasonLatest))}</div>
-              <div class="big">${renderLinked("deck", latestLeader?.name || "-")}</div>
-              <div class="meta">
-                <span class="stat-chip">使用率 ${fmtPct(latestLeader?.usage)}</span>
-                <span class="stat-chip">1位差 ${fmtSigned(latestLeaderGap)}</span>
-                <span class="stat-chip">TOP3合計 ${fmtPct(latestTop3Share)}</span>
+          <div class="featured-summary-side">
+            <div class="panel panel-scroll">
+              <div class="section-title">背景として見るだけ</div>
+              <div class="featured-side-list">
+                <div class="featured-side-card">
+                  <div class="label">中心デッキ</div>
+                  <div class="value">${renderLinked("deck", summaryLatest.leader || "-")}</div>
+                  <div class="note">首位は継続。今週の特徴ではなく前提として扱います。</div>
+                </div>
+                <div class="featured-side-card">
+                  <div class="label">環境集中度</div>
+                  <div class="value">${summaryPrevious ? `${fmtPct(summaryPrevious.top3)} → ` : ""}${fmtPct(summaryLatest.top3)}</div>
+                  <div class="note">TOP3合計は大きく変わらず、極端な構造変化はありません。</div>
+                </div>
               </div>
-              <div class="note">TOP3合計は序盤比 ${fmtSigned(seasonLatest.top3 - seasonOpen.top3)} / ${escapeHtml(leaderTurnover)}</div>
             </div>
-            <div class="summary-insight-grid">
-              <div class="mini-card"><div class="cap">前週比 上昇</div><div class="big">${renderLinked("deck", rising?.name || "-")}</div><div class="subnote"><span class="delta-up">${fmtSigned(rising?.delta || 0)}</span></div></div>
-              <div class="mini-card"><div class="cap">前週比 下降</div><div class="big">${renderLinked("deck", fallingRows[0]?.name || "-")}</div><div class="subnote"><span class="delta-down">${fmtSigned(fallingRows[0]?.delta || 0)}</span></div></div>
-              <div class="mini-card"><div class="cap">勝ち切り性能</div><div class="big">${renderLinked("deck", latestHighEff?.name || "-")}</div><div class="subnote">優勝率 ${fmtPct(latestHighEff?.win_rate)}</div></div>
-              <div class="mini-card"><div class="cap">主軸メタカード</div><div class="big">${renderLinked("card", latestMetaLeader?.name || "-")}</div><div class="subnote">採用率 ${fmtPct(latestMetaLeader?.rate || 0)} / 前週比 ${fmtSigned(latestMetaDelta)}</div></div>
+            <div class="panel panel-scroll">
+              <div class="section-title">次週の確認ポイント</div>
+              <div class="featured-next">
+                <div class="featured-next-row"><span class="num">1</span><div><b>${renderName(featureUp?.name || "-")} は定着するか。</b> TOP4シェアも伸びるなら本物の上昇です。</div></div>
+                <div class="featured-next-row"><span class="num">2</span><div><b>${renderName(featureDown?.name || "-")} は戻るか。</b> 戻らなければTier内の優先度を下げます。</div></div>
+                <div class="featured-next-row"><span class="num">3</span><div><b>${renderName(featureMeta?.name || "-")} 増加が続くか。</b> 続くなら主要デッキの構築差分を見ます。</div></div>
+              </div>
             </div>
           </div>
         </div>`
