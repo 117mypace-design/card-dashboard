@@ -1742,6 +1742,9 @@ select option:checked{
 .action-btn{padding:10px 12px;background:rgba(255,255,255,.04);color:var(--text);border:1px solid rgba(255,255,255,.10)}
 .action-btn.primary{background:rgba(124,199,255,.18);border-color:rgba(124,199,255,.34)}
 .action-btn.secondary{background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.10);color:var(--muted)}
+.decklist-toggle-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.decklist-toggle-tab{border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:999px;padding:9px 10px;font-size:12px;font-weight:800;cursor:pointer;text-align:center}
+.decklist-toggle-tab.active{background:rgba(124,199,255,.16);border-color:rgba(124,199,255,.42);color:var(--text)}
 .search-actions{display:grid;gap:10px}
 .sort-note{font-size:12px;color:var(--muted);line-height:1.6}
 .decklist-results-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:14px;flex-wrap:wrap}
@@ -3549,8 +3552,8 @@ function reportDataForPage(page){
   return RAW_DATA;
 }
 const DATA = reportDataForPage(PAGE);
-const PAGE_TITLES = {index:"環境全体", archetypes:"アーキタイプ分析", decks:"デッキ分析", cards:"カード分析", decklists:"デッキリスト検索", champions:"チャンピオンズリーグ"};
-const PAGE_DESCRIPTIONS = {index:"シティリーグの環境推移と主要デッキを確認できます。", archetypes:"シティリーグ内で選択したアーキタイプの立ち位置、派生内訳、採用カードを確認できます。", decks:"シティリーグ内で選択したデッキの要約と推移、採用カードを確認できます。", cards:"シティリーグ内で選択したカードの採用率、週次推移、採用先を確認できます。", decklists:"個別デッキリストを条件検索して一覧で確認できます。", champions:"チャンピオンズリーグの公開デッキだけを集計したページです。"};
+const PAGE_TITLES = {index:"環境全体", archetypes:"アーキタイプ分析", decks:"デッキ分析", cards:"カード分析", decklists:"デッキリスト検索", champions:"CL"};
+const PAGE_DESCRIPTIONS = {index:"シティリーグの環境推移と主要デッキを確認できます。", archetypes:"シティリーグ内で選択したアーキタイプの立ち位置、派生内訳、採用カードを確認できます。", decks:"シティリーグ内で選択したデッキの要約と推移、採用カードを確認できます。", cards:"シティリーグ内で選択したカードの採用率、週次推移、採用先を確認できます。", decklists:"個別デッキリストを条件検索して一覧で確認できます。", champions:"CLの公開デッキだけを集計したページです。"};
 const DEFAULT_TIER_THRESHOLDS = [
   {tier:"Tier1", min_usage:12, max_usage:null, description:"使用率12%以上の最上位帯"},
   {tier:"Tier2", min_usage:6, max_usage:12, description:"使用率6%以上12%未満の上位帯"},
@@ -4018,8 +4021,12 @@ function decklistSearchFallback(){
     date_start:"",
     date_end:"",
     rank:"",
+    include_champions:false,
     card_filters:[{card_name:"", min:"1", max:""}],
   };
+}
+function normalizeBoolean(value){
+  return value === true || value === "true" || value === "1" || value === 1;
 }
 function normalizeDecklistCardFilter(raw){
   const minValue = String(raw?.min ?? "1").trim();
@@ -4039,6 +4046,7 @@ function normalizeDecklistSearchState(raw){
     date_start:String(raw?.date_start ?? "").trim(),
     date_end:String(raw?.date_end ?? "").trim(),
     rank:String(raw?.rank ?? "").trim(),
+    include_champions:normalizeBoolean(raw?.include_champions),
     card_filters:cardFilters.length ? cardFilters : fallback.card_filters,
   };
 }
@@ -4102,6 +4110,11 @@ function isCityLeagueDecklistRow(row){
 function isChampionsLeagueDecklistRow(row){
   const value = `${row.event_type || ""} ${row.event_name || ""}`;
   return value.includes("チャンピオンズリーグ") || value.includes("大型大会");
+}
+function decklistRowsForSearchScope(state=decklistSearchState()){
+  const normalized = normalizeDecklistSearchState(state);
+  return decklistSourceRows()
+    .filter(row => normalized.include_champions || !isChampionsLeagueDecklistRow(row));
 }
 let analysisDecklistRowCache = null;
 function analysisDecklistRows(){
@@ -4181,27 +4194,18 @@ function bindRankFilterControls(){
     });
   });
 }
-function decklistArchetypeOptions(){
-  const payload = decklistSearchPayload();
-  if (Array.isArray(payload?.filter_options?.archetype_names)) return payload.filter_options.archetype_names;
-  return [...new Set(decklistSourceRows().map(row => row.archetype).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
+function decklistArchetypeOptions(state=decklistSearchState()){
+  return [...new Set(decklistRowsForSearchScope(state).map(row => row.archetype).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
 }
-function decklistDeckOptions(archetype=""){
-  const payload = decklistSearchPayload();
-  if (archetype && Array.isArray(payload?.filter_options?.deck_names_by_archetype?.[archetype])) return payload.filter_options.deck_names_by_archetype[archetype];
-  if (!archetype && Array.isArray(payload?.filter_options?.deck_names)) return payload.filter_options.deck_names;
-  return [...new Set(decklistSourceRows().filter(row => !archetype || row.archetype === archetype).map(row => row.deck_name).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
+function decklistDeckOptions(archetype="", state=decklistSearchState()){
+  return [...new Set(decklistRowsForSearchScope(state).filter(row => !archetype || row.archetype === archetype).map(row => row.deck_name).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
 }
-function decklistRankOptions(){
-  const payload = decklistSearchPayload();
-  if (Array.isArray(payload?.filter_options?.placing_values)) return payload.filter_options.placing_values;
-  return [...new Set(decklistSourceRows().map(row => Number(row.placing || 0)).filter(Boolean))].sort((a, b) => a - b);
+function decklistRankOptions(state=decklistSearchState()){
+  return [...new Set(decklistRowsForSearchScope(state).map(row => Number(row.placing || 0)).filter(Boolean))].sort((a, b) => a - b);
 }
-function decklistCardOptions(){
-  const payload = decklistSearchPayload();
-  if (Array.isArray(payload?.filter_options?.card_names)) return payload.filter_options.card_names;
+function decklistCardOptions(state=decklistSearchState()){
   const names = new Set(DATA.meta_card_names || []);
-  decklistSourceRows().forEach(row => Object.keys(row.card_counts || {}).forEach(name => names.add(name)));
+  decklistRowsForSearchScope(state).forEach(row => Object.keys(row.card_counts || {}).forEach(name => names.add(name)));
   return [...names].filter(Boolean).sort((a, b) => a.localeCompare(b, "ja"));
 }
 function decklistRankLabel(rank){
@@ -4320,11 +4324,13 @@ function decklistCardConditionRowsHtml(filters){
 }
 function decklistSidebarHtml(){
   const state = ensureDecklistDraftState();
-  const deckOptions = decklistDeckOptions(state.archetype);
+  const archetypeOptions = decklistArchetypeOptions(state);
+  if (state.archetype && !archetypeOptions.includes(state.archetype)) state.archetype = "";
+  const deckOptions = decklistDeckOptions(state.archetype, state);
   if (state.deck && !deckOptions.includes(state.deck)) state.deck = "";
-  const archetypeOptions = decklistArchetypeOptions();
-  const rankOptions = decklistRankOptions();
-  const cardOptions = decklistCardOptions();
+  const rankOptions = decklistRankOptions(state);
+  if (state.rank && !rankOptions.map(rank => String(rank)).includes(String(state.rank))) state.rank = "";
+  const cardOptions = decklistCardOptions(state);
   return `
     <div class="decklist-filter-panel">
       <div class="filter-block">
@@ -4358,6 +4364,13 @@ function decklistSidebarHtml(){
               <option value="">すべて</option>
               ${rankOptions.map(rank => `<option value="${rank}" ${String(rank) === state.rank ? "selected" : ""}>${decklistRankLabel(rank)}</option>`).join("")}
             </select>
+          </div>
+          <div class="field">
+            <label class="field-label">CLデッキ</label>
+            <div class="decklist-toggle-tabs" role="group" aria-label="CLデッキ">
+              <button type="button" class="decklist-toggle-tab ${state.include_champions ? "" : "active"}" data-decklist-include-cl="false" aria-pressed="${state.include_champions ? "false" : "true"}">含めない</button>
+              <button type="button" class="decklist-toggle-tab ${state.include_champions ? "active" : ""}" data-decklist-include-cl="true" aria-pressed="${state.include_champions ? "true" : "false"}">含める</button>
+            </div>
           </div>
         </div>
       </div>
@@ -4394,6 +4407,7 @@ function readDecklistSidebarInputs(){
     date_start:qs("#decklistFilterDateStart")?.value || "",
     date_end:qs("#decklistFilterDateEnd")?.value || "",
     rank:qs("#decklistFilterRank")?.value || "",
+    include_champions:qs("[data-decklist-include-cl].active")?.getAttribute("data-decklist-include-cl") === "true",
     card_filters:rows,
   });
 }
@@ -4404,7 +4418,7 @@ function syncDecklistDraftState(){
 function filteredDecklistRows(state=decklistSearchState()){
   const normalized = normalizeDecklistSearchState(state);
   const rankThreshold = Number(normalized.rank || 0);
-  return decklistSourceRows()
+  return decklistRowsForSearchScope(normalized)
     .filter(row => !normalized.archetype || row.archetype === normalized.archetype)
     .filter(row => !normalized.deck || row.deck_name === normalized.deck)
     .filter(row => !normalized.date_start || (row.event_date && row.event_date >= normalized.date_start))
@@ -4446,12 +4460,15 @@ function eventRegulationLabel(event){
   if (String(event.name || "").includes("チャンピオンズリーグ")) return "スタンダード";
   return "";
 }
+function displayLeagueText(value){
+  return String(value ?? "").replaceAll("チャンピオンズリーグ", "CL");
+}
 function eventDisplayName(event){
   const type = String(event.type || "").trim();
   const name = String(event.name || "").trim();
   const shop = String(event.shop || "").trim();
   if (type.includes("シティリーグ") && shop) return shop;
-  return name || shop || event.id;
+  return displayLeagueText(name || shop || event.id);
 }
 function eventOptionLabel(event){
   const parts = [event.date, eventDisplayName(event)];
@@ -4551,7 +4568,7 @@ function championsViewTabs(active){
     {id:"champions-usage", label:"使用率"},
     {id:"champions-decklists", label:"デッキリスト"},
   ];
-  return `<div class="champions-view-tabs" role="tablist" aria-label="チャンピオンズリーグ表示">${tabs.map(tab => `
+  return `<div class="champions-view-tabs" role="tablist" aria-label="CL表示">${tabs.map(tab => `
     <a class="champions-view-tab ${active === tab.id ? "active" : ""}" role="tab" aria-selected="${active === tab.id ? "true" : "false"}" href="#${tab.id}" data-section-link="${tab.id}">${tab.label}</a>
   `).join("")}</div>`;
 }
@@ -4626,6 +4643,16 @@ function bindDecklistSidebarControls(){
     decklistDraftState = next;
     renderDecklistSidebarControls();
     bindDecklistSidebarControls();
+  });
+  qsa("[data-decklist-include-cl]").forEach(button => {
+    button.addEventListener("click", () => {
+      const next = readDecklistSidebarInputs();
+      next.include_champions = button.getAttribute("data-decklist-include-cl") === "true";
+      next.deck = "";
+      decklistDraftState = next;
+      renderDecklistSidebarControls();
+      bindDecklistSidebarControls();
+    });
   });
   qs("#decklistAddCardCondition")?.addEventListener("click", () => {
     const next = readDecklistSidebarInputs();
@@ -7214,7 +7241,7 @@ def add_event_type_views(data: dict) -> dict:
         "champions": aggregate_decklist_rows(
             data,
             [row for row in rows if is_champions_league_row(row)],
-            label="チャンピオンズリーグ",
+            label="CL",
             stable_week_min_events=1,
             include_decklist_items=True,
         ),
@@ -7243,7 +7270,7 @@ def build_site(data_path: Path, out_dir: Path) -> None:
         "decks": "デッキ分析",
         "cards": "カード分析",
         "decklists": "デッキリスト検索",
-        "champions": "チャンピオンズリーグ",
+        "champions": "CL",
     }
     page_titles = {
         "index": "環境全体",
@@ -7251,7 +7278,7 @@ def build_site(data_path: Path, out_dir: Path) -> None:
         "decks": "デッキ分析",
         "cards": "カード分析",
         "decklists": "デッキリスト検索",
-        "champions": "チャンピオンズリーグ",
+        "champions": "CL",
     }
     for page, filename in (
         ("index", "index.html"),
