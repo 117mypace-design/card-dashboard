@@ -2920,7 +2920,7 @@ function meowToneText(raw){
     ["説明", "説明だニャ"],
     ["検索する", "探すニャ"],
     ["初期表示に戻す", "最初に戻すニャ"],
-    ["ページ先頭", "ページ先頭へニャ"],
+    ["ページ先頭", "ページ先頭"],
     ["該当なし", "該当なしニャ"],
     ["表示", "表示ニャ"],
     ["選択", "選ぶニャ"],
@@ -2972,6 +2972,7 @@ function applyMeowTone(root=document.body){
     ".decklist-code",
     ".copy-code",
     "[data-deck-code]",
+    ".jump-link",
   ].join(",");
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
     acceptNode(node){
@@ -3157,21 +3158,109 @@ function renderIndexV2(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
-  const featureUp = risingRows[0] || [...movementRows].sort((a, b) => b.delta - a.delta)[0] || null;
-  const featureDown = fallingRows[0] || [...movementRows].sort((a, b) => a.delta - b.delta)[0] || null;
-  const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
-  const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
-  const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
-  const featureUpLabel = Number(featureUp?.delta || 0) >= 3 ? "大きく上昇" : "上昇";
-  const featureDownLabel = Math.abs(Number(featureDown?.delta || 0)) >= 3 ? "大きく下降" : "下降";
-  const featureMetaLabel = Number(featureMeta?.delta || 0) >= 3
-    ? "採用が大きく増加"
-    : Number(featureMeta?.delta || 0) >= 1
-      ? "採用増"
-      : Number(featureMeta?.delta || 0) > 0
-        ? "小幅増加"
-        : "採用変化";
-  const featureMetaCaption = Number(featureMeta?.delta || 0) >= 1 ? "対策枠の変化" : "小幅な変化";
+  const trendStatsFor = (series, key) => {
+    const rows = (series || []).filter(row => Number.isFinite(Number(row?.[key])));
+    const values = rows.map(row => Number(row[key] || 0));
+    if (values.length < 2) return {first:values[0] || 0, last:values[0] || 0, totalDelta:0, consistency:0};
+    const first = values[0];
+    const last = values[values.length - 1];
+    const totalDelta = last - first;
+    const direction = Math.sign(totalDelta);
+    const steps = values.slice(1).map((value, index) => value - values[index]);
+    const usefulSteps = steps.filter(step => Math.abs(step) >= 0.2);
+    const aligned = usefulSteps.filter(step => Math.sign(step) === direction).length;
+    const consistency = usefulSteps.length ? aligned / usefulSteps.length : 0;
+    return {first, last, totalDelta, consistency};
+  };
+  const candidateByKey = new Map();
+  const addFeatureCandidate = candidate => {
+    if (!candidate || !candidate.name || candidate.name === "-") return;
+    const key = `${candidate.kind}:${candidate.name}`;
+    const current = candidateByKey.get(key);
+    if (!current || candidate.score > current.score) candidateByKey.set(key, candidate);
+  };
+  const deckFeatureCandidate = (item, direction, mode="latest") => {
+    if (!item) return null;
+    const stats = trendStatsFor(item.series || [], "usage");
+    const isUp = direction === "up";
+    const delta = mode === "trend" ? stats.totalDelta : Number(item.delta || 0);
+    const absDelta = Math.abs(delta);
+    const titleSuffix = mode === "trend"
+      ? (isUp ? "が継続上昇" : "が継続低下")
+      : (isUp ? "が上昇" : "が後退");
+    const note = mode === "trend"
+      ? `使用率が ${fmtPct(stats.first)} から ${fmtPct(stats.last)} へ${isUp ? "じわじわ上昇" : "じわじわ低下"}。前週比だけでなく、数週続く流れとして見たい枠です。`
+      : `使用率が ${fmtPct(item.previous_usage || 0)} から ${fmtPct(item.current_usage || 0)} へ${isUp ? "上昇" : "低下"}。${isUp ? "TOP4シェアも伸びるかを確認したい枠です。" : "立ち位置の悪化、対策増、他デッキへの流出のどれが主因かを確認したい枠です。"}`;
+    return {
+      kind:"deck",
+      name:item.name,
+      type:isUp ? "up" : "down",
+      badge:mode === "trend" ? (isUp ? "継続上昇" : "継続低下") : (isUp ? "上昇" : "下降"),
+      diff:fmtSigned(delta),
+      title:`${renderLinked("deck", item.name)} ${titleSuffix}`,
+      note,
+      caption:mode === "trend" ? (isUp ? "数週続く伸び" : "数週続く低下") : (isUp ? "直近の伸び" : "直近の後退"),
+      series:item.series || [],
+      key:"usage",
+      color:isUp ? "#8cf0b2" : "#ff8d8d",
+      headline:`${item.name} ${mode === "trend" ? (isUp ? "継続上昇" : "継続低下") : (isUp ? "上昇" : "後退")}`,
+      next:`${renderName(item.name)} は${isUp ? "定着するか" : "戻るか"}。${isUp ? "上位入賞まで伸びるなら評価を上げます。" : "戻らなければTier内の優先度を下げます。"}`,
+      score:absDelta * (mode === "trend" ? 1.35 : 1.7) + Number(item.current_usage || item.usage || 0) * 0.08 + (mode === "trend" ? stats.consistency * 1.2 : 0),
+    };
+  };
+  const metaFeatureCandidate = item => {
+    if (!item) return null;
+    const series = item.series || weekSeriesCard(item.name);
+    const pair = adjacentWeekValues(series, "rate");
+    const stats = trendStatsFor(series, "rate");
+    const latestDelta = Number(item.delta || 0);
+    const importantLatest = Math.abs(latestDelta) >= 1.5;
+    const importantTrend = Math.abs(stats.totalDelta) >= 2.5 && stats.consistency >= 0.5;
+    if (!importantLatest && !importantTrend) return null;
+    const useTrend = importantTrend && Math.abs(stats.totalDelta) > Math.abs(latestDelta);
+    const delta = useTrend ? stats.totalDelta : latestDelta;
+    const isUp = delta >= 0;
+    return {
+      kind:"card",
+      name:item.name,
+      type:"meta-feature",
+      badge:useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減"),
+      diff:fmtSigned(delta),
+      title:`${renderLinked("card", item.name)} の${useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減")}`,
+      note:useTrend
+        ? `採用率が ${fmtPct(stats.first)} から ${fmtPct(stats.last)} へ${isUp ? "上昇" : "低下"}。数週続く構築差分として確認したいカードです。`
+        : `採用率が ${fmtPct(pair.previousValue || 0)} から ${fmtPct(pair.currentValue || 0)} へ${isUp ? "上昇" : "低下"}。デッキ変化と合わせて見たい対策札です。`,
+      caption:useTrend ? "継続的な構築差分" : "直近の対策変化",
+      series,
+      key:"rate",
+      color:"#ffd166",
+      headline:`${item.name} ${useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減")}`,
+      next:`${renderName(item.name)} の採用が続くか。続くなら主要デッキの構築差分を見ます。`,
+      score:Math.abs(delta) * 0.25 + Number(item.rate || 0) * 0.01 + (useTrend ? stats.consistency * 0.6 : 0),
+    };
+  };
+  [...movementRows]
+    .filter(item => Number(item.delta || 0) > 0)
+    .forEach(item => addFeatureCandidate(deckFeatureCandidate(item, "up", "latest")));
+  [...movementRows]
+    .filter(item => Number(item.delta || 0) < 0)
+    .forEach(item => addFeatureCandidate(deckFeatureCandidate(item, "down", "latest")));
+  movementRows.forEach(item => {
+    const stats = trendStatsFor(item.series || [], "usage");
+    if (Math.abs(stats.totalDelta) >= 2 && stats.consistency >= 0.5){
+      addFeatureCandidate(deckFeatureCandidate({...item, totalDelta:stats.totalDelta}, stats.totalDelta >= 0 ? "up" : "down", "trend"));
+    }
+  });
+  metaMovementRows.forEach(item => addFeatureCandidate(metaFeatureCandidate(item)));
+  const featureItems = [...candidateByKey.values()]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3);
+  while (featureItems.length < 3){
+    const fallback = [deckFeatureCandidate(risingRows[0], "up", "latest"), deckFeatureCandidate(fallingRows[0], "down", "latest"), metaFeatureCandidate(metaMovementRows[0])]
+      .find(item => item && !featureItems.some(existing => existing.kind === item.kind && existing.name === item.name));
+    if (!fallback) break;
+    featureItems.push(fallback);
+  }
   const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
   const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
   const miniChartPoints = (series, key) => {
@@ -3467,21 +3556,109 @@ function renderIndexV2(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
-  const featureUp = risingRows[0] || [...movementRows].sort((a, b) => b.delta - a.delta)[0] || null;
-  const featureDown = fallingRows[0] || [...movementRows].sort((a, b) => a.delta - b.delta)[0] || null;
-  const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
-  const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
-  const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
-  const featureUpLabel = Number(featureUp?.delta || 0) >= 3 ? "大きく上昇" : "上昇";
-  const featureDownLabel = Math.abs(Number(featureDown?.delta || 0)) >= 3 ? "大きく下降" : "下降";
-  const featureMetaLabel = Number(featureMeta?.delta || 0) >= 3
-    ? "採用が大きく増加"
-    : Number(featureMeta?.delta || 0) >= 1
-      ? "採用増"
-      : Number(featureMeta?.delta || 0) > 0
-        ? "小幅増加"
-        : "採用変化";
-  const featureMetaCaption = Number(featureMeta?.delta || 0) >= 1 ? "対策枠の変化" : "小幅な変化";
+  const trendStatsFor = (series, key) => {
+    const rows = (series || []).filter(row => Number.isFinite(Number(row?.[key])));
+    const values = rows.map(row => Number(row[key] || 0));
+    if (values.length < 2) return {first:values[0] || 0, last:values[0] || 0, totalDelta:0, consistency:0};
+    const first = values[0];
+    const last = values[values.length - 1];
+    const totalDelta = last - first;
+    const direction = Math.sign(totalDelta);
+    const steps = values.slice(1).map((value, index) => value - values[index]);
+    const usefulSteps = steps.filter(step => Math.abs(step) >= 0.2);
+    const aligned = usefulSteps.filter(step => Math.sign(step) === direction).length;
+    const consistency = usefulSteps.length ? aligned / usefulSteps.length : 0;
+    return {first, last, totalDelta, consistency};
+  };
+  const candidateByKey = new Map();
+  const addFeatureCandidate = candidate => {
+    if (!candidate || !candidate.name || candidate.name === "-") return;
+    const key = `${candidate.kind}:${candidate.name}`;
+    const current = candidateByKey.get(key);
+    if (!current || candidate.score > current.score) candidateByKey.set(key, candidate);
+  };
+  const deckFeatureCandidate = (item, direction, mode="latest") => {
+    if (!item) return null;
+    const stats = trendStatsFor(item.series || [], "usage");
+    const isUp = direction === "up";
+    const delta = mode === "trend" ? stats.totalDelta : Number(item.delta || 0);
+    const absDelta = Math.abs(delta);
+    const titleSuffix = mode === "trend"
+      ? (isUp ? "が継続上昇" : "が継続低下")
+      : (isUp ? "が上昇" : "が後退");
+    const note = mode === "trend"
+      ? `使用率が ${fmtPct(stats.first)} から ${fmtPct(stats.last)} へ${isUp ? "じわじわ上昇" : "じわじわ低下"}。前週比だけでなく、数週続く流れとして見たい枠です。`
+      : `使用率が ${fmtPct(item.previous_usage || 0)} から ${fmtPct(item.current_usage || 0)} へ${isUp ? "上昇" : "低下"}。${isUp ? "TOP4シェアも伸びるかを確認したい枠です。" : "立ち位置の悪化、対策増、他デッキへの流出のどれが主因かを確認したい枠です。"}`;
+    return {
+      kind:"deck",
+      name:item.name,
+      type:isUp ? "up" : "down",
+      badge:mode === "trend" ? (isUp ? "継続上昇" : "継続低下") : (isUp ? "上昇" : "下降"),
+      diff:fmtSigned(delta),
+      title:`${renderLinked("deck", item.name)} ${titleSuffix}`,
+      note,
+      caption:mode === "trend" ? (isUp ? "数週続く伸び" : "数週続く低下") : (isUp ? "直近の伸び" : "直近の後退"),
+      series:item.series || [],
+      key:"usage",
+      color:isUp ? "#8cf0b2" : "#ff8d8d",
+      headline:`${item.name} ${mode === "trend" ? (isUp ? "継続上昇" : "継続低下") : (isUp ? "上昇" : "後退")}`,
+      next:`${renderName(item.name)} は${isUp ? "定着するか" : "戻るか"}。${isUp ? "上位入賞まで伸びるなら評価を上げます。" : "戻らなければTier内の優先度を下げます。"}`,
+      score:absDelta * (mode === "trend" ? 1.35 : 1.7) + Number(item.current_usage || item.usage || 0) * 0.08 + (mode === "trend" ? stats.consistency * 1.2 : 0),
+    };
+  };
+  const metaFeatureCandidate = item => {
+    if (!item) return null;
+    const series = item.series || weekSeriesCard(item.name);
+    const pair = adjacentWeekValues(series, "rate");
+    const stats = trendStatsFor(series, "rate");
+    const latestDelta = Number(item.delta || 0);
+    const importantLatest = Math.abs(latestDelta) >= 1.5;
+    const importantTrend = Math.abs(stats.totalDelta) >= 2.5 && stats.consistency >= 0.5;
+    if (!importantLatest && !importantTrend) return null;
+    const useTrend = importantTrend && Math.abs(stats.totalDelta) > Math.abs(latestDelta);
+    const delta = useTrend ? stats.totalDelta : latestDelta;
+    const isUp = delta >= 0;
+    return {
+      kind:"card",
+      name:item.name,
+      type:"meta-feature",
+      badge:useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減"),
+      diff:fmtSigned(delta),
+      title:`${renderLinked("card", item.name)} の${useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減")}`,
+      note:useTrend
+        ? `採用率が ${fmtPct(stats.first)} から ${fmtPct(stats.last)} へ${isUp ? "上昇" : "低下"}。数週続く構築差分として確認したいカードです。`
+        : `採用率が ${fmtPct(pair.previousValue || 0)} から ${fmtPct(pair.currentValue || 0)} へ${isUp ? "上昇" : "低下"}。デッキ変化と合わせて見たい対策札です。`,
+      caption:useTrend ? "継続的な構築差分" : "直近の対策変化",
+      series,
+      key:"rate",
+      color:"#ffd166",
+      headline:`${item.name} ${useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減")}`,
+      next:`${renderName(item.name)} の採用が続くか。続くなら主要デッキの構築差分を見ます。`,
+      score:Math.abs(delta) * 0.25 + Number(item.rate || 0) * 0.01 + (useTrend ? stats.consistency * 0.6 : 0),
+    };
+  };
+  [...movementRows]
+    .filter(item => Number(item.delta || 0) > 0)
+    .forEach(item => addFeatureCandidate(deckFeatureCandidate(item, "up", "latest")));
+  [...movementRows]
+    .filter(item => Number(item.delta || 0) < 0)
+    .forEach(item => addFeatureCandidate(deckFeatureCandidate(item, "down", "latest")));
+  movementRows.forEach(item => {
+    const stats = trendStatsFor(item.series || [], "usage");
+    if (Math.abs(stats.totalDelta) >= 2 && stats.consistency >= 0.5){
+      addFeatureCandidate(deckFeatureCandidate({...item, totalDelta:stats.totalDelta}, stats.totalDelta >= 0 ? "up" : "down", "trend"));
+    }
+  });
+  metaMovementRows.forEach(item => addFeatureCandidate(metaFeatureCandidate(item)));
+  const featureItems = [...candidateByKey.values()]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3);
+  while (featureItems.length < 3){
+    const fallback = [deckFeatureCandidate(risingRows[0], "up", "latest"), deckFeatureCandidate(fallingRows[0], "down", "latest"), metaFeatureCandidate(metaMovementRows[0])]
+      .find(item => item && !featureItems.some(existing => existing.kind === item.kind && existing.name === item.name));
+    if (!fallback) break;
+    featureItems.push(fallback);
+  }
   const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
   const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
   const miniChartPoints = (series, key) => {
@@ -3575,8 +3752,8 @@ function renderIndexV2(){
           <div class="featured-summary-main">
             <div class="featured-verdict">
               <div class="tag">最新週の注目点</div>
-              <div class="headline">${renderName(featureUp?.name || "-")} の${featureUpLabel}、${renderName(featureDown?.name || "-")} の${featureDownLabel}、${renderName(featureMeta?.name || "-")} の${featureMetaLabel}が目立ちます。</div>
-              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わらず、最新週は中位デッキの入れ替わりと対策カードの採用増が主な変化です。</div>
+              <div class="headline">${featureItems.length ? `${featureItems.map(item => escapeHtml(item.headline)).join("、")}に注目です。` : "大きな変化は限定的です。"}</div>
+              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わらず、前週比の大きさと数週続く変化を合わせて見ると、注目点は周辺デッキの入れ替わりに寄っています。</div>
               <div class="featured-baseline">
                 <div class="featured-baseline-card">
                   <div class="label">中心デッキ</div>
@@ -3593,39 +3770,17 @@ function renderIndexV2(){
               </div>
             </div>
             <div class="featured-cards">
-              ${featureCard(
-                "up",
-                "上昇",
-                fmtSigned(featureUp?.delta || 0),
-                `${renderLinked("deck", featureUp?.name || "-")} が浮上`,
-                `使用率が ${fmtPct(featureUp?.previous_usage || 0)} から ${fmtPct(featureUp?.current_usage || 0)} へ上昇。次週は「数が増えただけ」か「上位入賞まで伸びた」かを確認したい枠です。`,
-                "新しい警戒対象",
-                featureUp?.series || [],
-                "usage",
-                "#8cf0b2"
-              )}
-              ${featureCard(
-                "down",
-                "下降",
-                fmtSigned(featureDown?.delta || 0),
-                `${renderLinked("deck", featureDown?.name || "-")} が後退`,
-                `使用率が ${fmtPct(featureDown?.previous_usage || 0)} から ${fmtPct(featureDown?.current_usage || 0)} へ低下。立ち位置の悪化、対策増、他デッキへの流出のどれが主因かを掘りたい枠です。`,
-                "優先度を下げて再評価",
-                featureDown?.series || [],
-                "usage",
-                "#ff8d8d"
-              )}
-              ${featureCard(
-                "meta-feature",
-                "対策札",
-                fmtSigned(featureMeta?.delta || 0),
-                `${renderLinked("card", featureMeta?.name || "-")} の${featureMetaLabel}`,
-                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。対策枠の変化として継続確認したいカードです。`,
-                featureMetaCaption,
-                featureMetaSeries,
-                "rate",
-                "#ffd166"
-              )}
+              ${featureItems.map(item => featureCard(
+                item.type,
+                item.badge,
+                item.diff,
+                item.title,
+                item.note,
+                item.caption,
+                item.series,
+                item.key,
+                item.color
+              )).join("")}
             </div>
           </div>
           <div class="featured-summary-side">
@@ -3647,9 +3802,7 @@ function renderIndexV2(){
             <div class="panel panel-scroll">
               <div class="section-title">次週の確認ポイント</div>
               <div class="featured-next">
-                <div class="featured-next-row"><span class="num">1</span><div><b>${renderName(featureUp?.name || "-")} は定着するか。</b> TOP4シェアも伸びるなら本物の上昇です。</div></div>
-                <div class="featured-next-row"><span class="num">2</span><div><b>${renderName(featureDown?.name || "-")} は戻るか。</b> 戻らなければTier内の優先度を下げます。</div></div>
-                <div class="featured-next-row"><span class="num">3</span><div><b>${renderName(featureMeta?.name || "-")} 増加が続くか。</b> 続くなら主要デッキの構築差分を見ます。</div></div>
+                ${featureItems.map((item, index) => `<div class="featured-next-row"><span class="num">${index + 1}</span><div>${item.next}</div></div>`).join("")}
               </div>
             </div>
           </div>
@@ -5805,7 +5958,7 @@ function meowToneText(raw){
     ["説明", "説明だニャ"],
     ["検索する", "探すニャ"],
     ["初期表示に戻す", "最初に戻すニャ"],
-    ["ページ先頭", "ページ先頭へニャ"],
+    ["ページ先頭", "ページ先頭"],
     ["該当なし", "該当なしニャ"],
     ["表示", "表示ニャ"],
     ["選択", "選ぶニャ"],
@@ -5857,6 +6010,7 @@ function applyMeowTone(root=document.body){
     ".decklist-code",
     ".copy-code",
     "[data-deck-code]",
+    ".jump-link",
   ].join(",");
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
     acceptNode(node){
@@ -6264,6 +6418,19 @@ function bindSectionNavigation(options={}){
       history.replaceState({}, "", `${location.pathname}${location.search}#${link.dataset.sectionLink}`);
       activateSectionLink(link.dataset.sectionLink);
       if (window.innerWidth <= 1100) closeSidebar();
+    });
+  });
+  qsa(".jump-link").forEach(link => {
+    if (link.dataset.bound === "1") return;
+    link.dataset.bound = "1";
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      const pageBody = qs("#pageBody");
+      if (pageBody) pageBody.scrollTo({top:0, left:0, behavior:"smooth"});
+      else window.scrollTo({top:0, left:0, behavior:"smooth"});
+      history.replaceState({}, "", `${location.pathname}${location.search}`);
+      const firstSection = qsa(".view-section")[0];
+      if (firstSection) activateSectionLink(firstSection.id);
     });
   });
   if (sectionObserver) sectionObserver.disconnect();
@@ -6693,21 +6860,109 @@ function renderIndexV2(){
   const leaderKinds = new Set(seasonFlow.map(item => item.leader).filter(Boolean)).size;
   const leaderTurnover = leaderKinds > 1 ? "主役交代あり" : "主役維持";
   const weekDisplay = item => item ? `${item.label}${item.stable ? "" : "*"}` : "-";
-  const featureUp = risingRows[0] || [...movementRows].sort((a, b) => b.delta - a.delta)[0] || null;
-  const featureDown = fallingRows[0] || [...movementRows].sort((a, b) => a.delta - b.delta)[0] || null;
-  const featureMeta = metaRisingRows[0] || metaMovementRows[0] || null;
-  const featureMetaSeries = featureMeta ? weekSeriesCard(featureMeta.name) : [];
-  const featureMetaPair = adjacentWeekValues(featureMetaSeries, "rate");
-  const featureUpLabel = Number(featureUp?.delta || 0) >= 3 ? "大きく上昇" : "上昇";
-  const featureDownLabel = Math.abs(Number(featureDown?.delta || 0)) >= 3 ? "大きく下降" : "下降";
-  const featureMetaLabel = Number(featureMeta?.delta || 0) >= 3
-    ? "採用が大きく増加"
-    : Number(featureMeta?.delta || 0) >= 1
-      ? "採用増"
-      : Number(featureMeta?.delta || 0) > 0
-        ? "小幅増加"
-        : "採用変化";
-  const featureMetaCaption = Number(featureMeta?.delta || 0) >= 1 ? "対策枠の変化" : "小幅な変化";
+  const trendStatsFor = (series, key) => {
+    const rows = (series || []).filter(row => Number.isFinite(Number(row?.[key])));
+    const values = rows.map(row => Number(row[key] || 0));
+    if (values.length < 2) return {first:values[0] || 0, last:values[0] || 0, totalDelta:0, consistency:0};
+    const first = values[0];
+    const last = values[values.length - 1];
+    const totalDelta = last - first;
+    const direction = Math.sign(totalDelta);
+    const steps = values.slice(1).map((value, index) => value - values[index]);
+    const usefulSteps = steps.filter(step => Math.abs(step) >= 0.2);
+    const aligned = usefulSteps.filter(step => Math.sign(step) === direction).length;
+    const consistency = usefulSteps.length ? aligned / usefulSteps.length : 0;
+    return {first, last, totalDelta, consistency};
+  };
+  const candidateByKey = new Map();
+  const addFeatureCandidate = candidate => {
+    if (!candidate || !candidate.name || candidate.name === "-") return;
+    const key = `${candidate.kind}:${candidate.name}`;
+    const current = candidateByKey.get(key);
+    if (!current || candidate.score > current.score) candidateByKey.set(key, candidate);
+  };
+  const deckFeatureCandidate = (item, direction, mode="latest") => {
+    if (!item) return null;
+    const stats = trendStatsFor(item.series || [], "usage");
+    const isUp = direction === "up";
+    const delta = mode === "trend" ? stats.totalDelta : Number(item.delta || 0);
+    const absDelta = Math.abs(delta);
+    const titleSuffix = mode === "trend"
+      ? (isUp ? "が継続上昇" : "が継続低下")
+      : (isUp ? "が上昇" : "が後退");
+    const note = mode === "trend"
+      ? `使用率が ${fmtPct(stats.first)} から ${fmtPct(stats.last)} へ${isUp ? "じわじわ上昇" : "じわじわ低下"}。前週比だけでなく、数週続く流れとして見たい枠です。`
+      : `使用率が ${fmtPct(item.previous_usage || 0)} から ${fmtPct(item.current_usage || 0)} へ${isUp ? "上昇" : "低下"}。${isUp ? "TOP4シェアも伸びるかを確認したい枠です。" : "立ち位置の悪化、対策増、他デッキへの流出のどれが主因かを確認したい枠です。"}`;
+    return {
+      kind:"deck",
+      name:item.name,
+      type:isUp ? "up" : "down",
+      badge:mode === "trend" ? (isUp ? "継続上昇" : "継続低下") : (isUp ? "上昇" : "下降"),
+      diff:fmtSigned(delta),
+      title:`${renderLinked("deck", item.name)} ${titleSuffix}`,
+      note,
+      caption:mode === "trend" ? (isUp ? "数週続く伸び" : "数週続く低下") : (isUp ? "直近の伸び" : "直近の後退"),
+      series:item.series || [],
+      key:"usage",
+      color:isUp ? "#8cf0b2" : "#ff8d8d",
+      headline:`${item.name} ${mode === "trend" ? (isUp ? "継続上昇" : "継続低下") : (isUp ? "上昇" : "後退")}`,
+      next:`${renderName(item.name)} は${isUp ? "定着するか" : "戻るか"}。${isUp ? "上位入賞まで伸びるなら評価を上げます。" : "戻らなければTier内の優先度を下げます。"}`,
+      score:absDelta * (mode === "trend" ? 1.35 : 1.7) + Number(item.current_usage || item.usage || 0) * 0.08 + (mode === "trend" ? stats.consistency * 1.2 : 0),
+    };
+  };
+  const metaFeatureCandidate = item => {
+    if (!item) return null;
+    const series = item.series || weekSeriesCard(item.name);
+    const pair = adjacentWeekValues(series, "rate");
+    const stats = trendStatsFor(series, "rate");
+    const latestDelta = Number(item.delta || 0);
+    const importantLatest = Math.abs(latestDelta) >= 1.5;
+    const importantTrend = Math.abs(stats.totalDelta) >= 2.5 && stats.consistency >= 0.5;
+    if (!importantLatest && !importantTrend) return null;
+    const useTrend = importantTrend && Math.abs(stats.totalDelta) > Math.abs(latestDelta);
+    const delta = useTrend ? stats.totalDelta : latestDelta;
+    const isUp = delta >= 0;
+    return {
+      kind:"card",
+      name:item.name,
+      type:"meta-feature",
+      badge:useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減"),
+      diff:fmtSigned(delta),
+      title:`${renderLinked("card", item.name)} の${useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減")}`,
+      note:useTrend
+        ? `採用率が ${fmtPct(stats.first)} から ${fmtPct(stats.last)} へ${isUp ? "上昇" : "低下"}。数週続く構築差分として確認したいカードです。`
+        : `採用率が ${fmtPct(pair.previousValue || 0)} から ${fmtPct(pair.currentValue || 0)} へ${isUp ? "上昇" : "低下"}。デッキ変化と合わせて見たい対策札です。`,
+      caption:useTrend ? "継続的な構築差分" : "直近の対策変化",
+      series,
+      key:"rate",
+      color:"#ffd166",
+      headline:`${item.name} ${useTrend ? (isUp ? "継続採用増" : "継続採用減") : (isUp ? "採用増" : "採用減")}`,
+      next:`${renderName(item.name)} の採用が続くか。続くなら主要デッキの構築差分を見ます。`,
+      score:Math.abs(delta) * 0.25 + Number(item.rate || 0) * 0.01 + (useTrend ? stats.consistency * 0.6 : 0),
+    };
+  };
+  [...movementRows]
+    .filter(item => Number(item.delta || 0) > 0)
+    .forEach(item => addFeatureCandidate(deckFeatureCandidate(item, "up", "latest")));
+  [...movementRows]
+    .filter(item => Number(item.delta || 0) < 0)
+    .forEach(item => addFeatureCandidate(deckFeatureCandidate(item, "down", "latest")));
+  movementRows.forEach(item => {
+    const stats = trendStatsFor(item.series || [], "usage");
+    if (Math.abs(stats.totalDelta) >= 2 && stats.consistency >= 0.5){
+      addFeatureCandidate(deckFeatureCandidate({...item, totalDelta:stats.totalDelta}, stats.totalDelta >= 0 ? "up" : "down", "trend"));
+    }
+  });
+  metaMovementRows.forEach(item => addFeatureCandidate(metaFeatureCandidate(item)));
+  const featureItems = [...candidateByKey.values()]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3);
+  while (featureItems.length < 3){
+    const fallback = [deckFeatureCandidate(risingRows[0], "up", "latest"), deckFeatureCandidate(fallingRows[0], "down", "latest"), metaFeatureCandidate(metaMovementRows[0])]
+      .find(item => item && !featureItems.some(existing => existing.kind === item.kind && existing.name === item.name));
+    if (!fallback) break;
+    featureItems.push(fallback);
+  }
   const summaryLatest = seasonLatest || {leader:"-", usage:0, top3:0};
   const summaryPrevious = seasonFlow.length > 1 ? seasonFlow[seasonFlow.length - 2] : null;
   const miniChartPoints = (series, key) => {
@@ -6801,8 +7056,8 @@ function renderIndexV2(){
           <div class="featured-summary-main">
             <div class="featured-verdict">
               <div class="tag">最新週の注目点</div>
-              <div class="headline">${renderName(featureUp?.name || "-")} の${featureUpLabel}、${renderName(featureDown?.name || "-")} の${featureDownLabel}、${renderName(featureMeta?.name || "-")} の${featureMetaLabel}が目立ちます。</div>
-              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わらず、最新週は中位デッキの入れ替わりと対策カードの採用増が主な変化です。</div>
+              <div class="headline">${featureItems.length ? `${featureItems.map(item => escapeHtml(item.headline)).join("、")}に注目です。` : "大きな変化は限定的です。"}</div>
+              <div class="summary-copy">${renderName(summaryLatest.leader || "-")} の首位とTOP3集中度は大きく変わらず、前週比の大きさと数週続く変化を合わせて見ると、注目点は周辺デッキの入れ替わりに寄っています。</div>
               <div class="featured-baseline">
                 <div class="featured-baseline-card">
                   <div class="label">中心デッキ</div>
@@ -6819,39 +7074,17 @@ function renderIndexV2(){
               </div>
             </div>
             <div class="featured-cards">
-              ${featureCard(
-                "up",
-                "上昇",
-                fmtSigned(featureUp?.delta || 0),
-                `${renderLinked("deck", featureUp?.name || "-")} が浮上`,
-                `使用率が ${fmtPct(featureUp?.previous_usage || 0)} から ${fmtPct(featureUp?.current_usage || 0)} へ上昇。次週は「数が増えただけ」か「上位入賞まで伸びた」かを確認したい枠です。`,
-                "新しい警戒対象",
-                featureUp?.series || [],
-                "usage",
-                "#8cf0b2"
-              )}
-              ${featureCard(
-                "down",
-                "下降",
-                fmtSigned(featureDown?.delta || 0),
-                `${renderLinked("deck", featureDown?.name || "-")} が後退`,
-                `使用率が ${fmtPct(featureDown?.previous_usage || 0)} から ${fmtPct(featureDown?.current_usage || 0)} へ低下。立ち位置の悪化、対策増、他デッキへの流出のどれが主因かを掘りたい枠です。`,
-                "優先度を下げて再評価",
-                featureDown?.series || [],
-                "usage",
-                "#ff8d8d"
-              )}
-              ${featureCard(
-                "meta-feature",
-                "対策札",
-                fmtSigned(featureMeta?.delta || 0),
-                `${renderLinked("card", featureMeta?.name || "-")} の${featureMetaLabel}`,
-                `採用率が ${fmtPct(featureMetaPair.previousValue || 0)} から ${fmtPct(featureMetaPair.currentValue || 0)} へ上昇。対策枠の変化として継続確認したいカードです。`,
-                featureMetaCaption,
-                featureMetaSeries,
-                "rate",
-                "#ffd166"
-              )}
+              ${featureItems.map(item => featureCard(
+                item.type,
+                item.badge,
+                item.diff,
+                item.title,
+                item.note,
+                item.caption,
+                item.series,
+                item.key,
+                item.color
+              )).join("")}
             </div>
           </div>
           <div class="featured-summary-side">
@@ -6873,9 +7106,7 @@ function renderIndexV2(){
             <div class="panel panel-scroll">
               <div class="section-title">次週の確認ポイント</div>
               <div class="featured-next">
-                <div class="featured-next-row"><span class="num">1</span><div><b>${renderName(featureUp?.name || "-")} は定着するか。</b> TOP4シェアも伸びるなら本物の上昇です。</div></div>
-                <div class="featured-next-row"><span class="num">2</span><div><b>${renderName(featureDown?.name || "-")} は戻るか。</b> 戻らなければTier内の優先度を下げます。</div></div>
-                <div class="featured-next-row"><span class="num">3</span><div><b>${renderName(featureMeta?.name || "-")} 増加が続くか。</b> 続くなら主要デッキの構築差分を見ます。</div></div>
+                ${featureItems.map((item, index) => `<div class="featured-next-row"><span class="num">${index + 1}</span><div>${item.next}</div></div>`).join("")}
               </div>
             </div>
           </div>
