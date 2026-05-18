@@ -267,7 +267,7 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   align-items:flex-start;
   gap:10px;
   padding:2px 2px 0;
-  overflow:hidden;
+  overflow:visible;
   overscroll-behavior:none;
   touch-action:manipulation;
 }
@@ -287,7 +287,7 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   flex-wrap:wrap;
 }
 .view-head .title-line{
-  overflow:hidden;
+  overflow:visible;
   overscroll-behavior:none;
   touch-action:manipulation;
 }
@@ -368,6 +368,8 @@ h1{font-size:27px;line-height:1.05;margin:0 0 2px}
   display:inline-flex;
   align-items:center;
   flex:0 0 auto;
+  overflow:visible;
+  z-index:20;
 }
 .help-tip{
   width:22px;
@@ -2904,8 +2906,9 @@ function updatePeriodVisuals(){
 }
 function tierClass(name){ return ({Tier1:"tier1", Tier2:"tier2", Tier3:"tier3", Tier4:"tier4"}[name] || "tier4"); }
 function tooltipIcon(text, align="right"){
-  if (!text) return "";
-  return `<span class="tooltip-wrap ${align === "left" ? "align-left" : "align-right"}"><button type="button" class="help-tip" aria-label="説明" title="説明">?</button><span class="tooltip-bubble">${escapeHtml(text)}</span></span>`;
+  const safe = String(text || "").trim();
+  if (!safe) return "";
+  return `<span class="tooltip-wrap ${align === "left" ? "align-left" : "align-right"}"><button type="button" class="help-tip" aria-label="説明" title="説明">?</button><span class="tooltip-bubble">${escapeHtml(safe)}</span></span>`;
 }
 function kpiCard(label, valueHtml, noteText=""){
   return `<div class="kpi"><div class="metric-head"><div class="label">${label}</div>${tooltipIcon(noteText, "left")}</div><div class="value">${valueHtml}</div></div>`;
@@ -3245,7 +3248,8 @@ function renderIndexV2(){
     ),
   ];
 
-  qs("#pageBody").innerHTML = sections.join("");
+  const orderedSections = [sections[0], sections[1], sections[3], sections[2]].filter(Boolean);
+  qs("#pageBody").innerHTML = orderedSections.join("");
 
   qsa("[data-trend-deck]").forEach(button => {
     button.addEventListener("click", event => {
@@ -3274,7 +3278,7 @@ function renderIndexV2(){
   const tiers = tiersFromUsage(decks);
   const tierRows = tiers.flatMap(bucket => bucket.items);
   const trendDeckStats = aggregateDeckStats(trendWeeks());
-  const trendTierRows = tiersFromUsage(trendDeckStats).flatMap(bucket => bucket.items);
+  const trendTierRows = trendDeckStats.filter(item => !strictOther(item.name) && Number(item.usage || 0) > 0);
   const trendDeckNames = trendTierRows.map(item => item.name);
   const selectedTrendDecks = trendDeckSelection(trendDeckNames);
   const movementRows = trendTierRows.map(deck => {
@@ -3615,7 +3619,8 @@ function renderIndexV2(){
     ),
   ];
 
-  qs("#pageBody").innerHTML = sections.join("");
+  const orderedSections = [sections[0], sections[1], sections[3], sections[2]].filter(Boolean);
+  qs("#pageBody").innerHTML = orderedSections.join("");
 
   qsa("[data-trend-deck]").forEach(button => {
     button.addEventListener("click", event => {
@@ -3889,8 +3894,8 @@ const PAGE_SECTIONS = {
   index: [
     {id:"meta-tier", label:"Tier表"},
     {id:"meta-movers", label:"使用率推移"},
-    {id:"meta-overview", label:"環境サマリー"},
     {id:"meta-cards", label:"重要メタカードの推移"},
+    {id:"meta-overview", label:"環境サマリー"},
   ],
   champions: [
     {id:"champions-usage", label:"使用率"},
@@ -5705,8 +5710,9 @@ function drawStackedArea(svgId, lines, key){
 }
 function tierClass(name){ return ({Tier1:"tier1", Tier2:"tier2", Tier3:"tier3", Tier4:"tier4"}[name] || "tier4"); }
 function tooltipIcon(text, align="right"){
-  if (!text) return "";
-  return `<span class="tooltip-wrap ${align === "left" ? "align-left" : "align-right"}"><button type="button" class="help-tip" aria-label="説明" title="説明">?</button><span class="tooltip-bubble">${escapeHtml(text)}</span></span>`;
+  const safe = String(text || "").trim();
+  if (!safe) return "";
+  return `<span class="tooltip-wrap ${align === "left" ? "align-left" : "align-right"}"><button type="button" class="help-tip" aria-label="説明" title="説明">?</button><span class="tooltip-bubble">${escapeHtml(safe)}</span></span>`;
 }
 function kpiCard(label, valueHtml, noteText=""){
   return `<div class="kpi"><div class="metric-head"><div class="label">${label}</div>${tooltipIcon(noteText, "left")}</div><div class="value">${valueHtml}</div></div>`;
@@ -6425,7 +6431,8 @@ function renderIndex(){
         </div>`
     ),
   ];
-  qs("#pageBody").innerHTML = sections.join("");
+  const orderedSections = [sections[0], sections[1], sections[3], sections[2]].filter(Boolean);
+  qs("#pageBody").innerHTML = orderedSections.join("");
   qs("#metaCardSelect")?.addEventListener("change", event => setSelection("meta_card", event.target.value));
   qsa("[data-trend-deck]").forEach(button => {
     button.addEventListener("click", event => {
@@ -6444,7 +6451,7 @@ function renderIndexV2(){
   const tiers = tiersFromUsage(decks);
   const tierRows = tiers.flatMap(bucket => bucket.items);
   const trendDeckStats = aggregateDeckStats(trendWeeks());
-  const trendTierRows = tiersFromUsage(trendDeckStats).flatMap(bucket => bucket.items);
+  const trendTierRows = trendDeckStats.filter(item => !strictOther(item.name) && Number(item.usage || 0) > 0);
   const trendDeckNames = trendTierRows.map(item => item.name);
   const selectedTrendDecks = trendDeckSelection(trendDeckNames);
   const movementRows = trendTierRows.map(deck => {
@@ -6757,7 +6764,8 @@ function renderIndexV2(){
     ),
   ];
 
-  qs("#pageBody").innerHTML = sections.join("");
+  const orderedSections = [sections[0], sections[1], sections[3], sections[2]].filter(Boolean);
+  qs("#pageBody").innerHTML = orderedSections.join("");
 
   qsa("[data-trend-deck]").forEach(button => {
     button.addEventListener("click", event => {
@@ -7697,6 +7705,10 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+
+
 
 
 
