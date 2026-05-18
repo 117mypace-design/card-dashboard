@@ -2530,7 +2530,7 @@ function linkFor(type, name){
   const hash = defaultHashFor(targetPage);
   return `${pageFile(targetPage)}?${paramName}=${encodeHashValue(name)}${hash ? `#${hash}` : ""}`;
 }
-function renderLinked(type, name){ return `<a href="${linkFor(type, name)}">${renderName(name)}</a>`; }
+function renderLinked(type, name){ return `<a class="entity-link" href="${linkFor(type, name)}">${renderName(name)}</a>`; }
 function currentSelection(type, list){
   const fromQuery = queryParam(type);
   if (fromQuery && list.includes(fromQuery)) return fromQuery;
@@ -3255,7 +3255,7 @@ async function copyDeckCode(text, button){
   try {
     if (!window.navigator?.clipboard?.writeText) throw new Error("clipboard unavailable");
     await window.navigator.clipboard.writeText(text);
-    button.textContent = "コピーしました";
+    button.textContent = "コピーしたニャ";
   } catch {
     button.textContent = "コピー失敗";
   }
@@ -4024,6 +4024,86 @@ function tooltipIcon(text, align="right"){
   const safe = String(text || "").trim();
   if (!safe) return "";
   return `<span class="tooltip-wrap ${align === "left" ? "align-left" : "align-right"}"><button type="button" class="help-tip" aria-label="説明" title="説明">?</button><span class="tooltip-bubble">${escapeHtml(safe)}</span></span>`;
+}
+function meowToneText(raw){
+  let text = String(raw || "");
+  if (!text.trim()) return text;
+  const leading = text.match(/^\s*/)?.[0] || "";
+  const trailing = text.match(/\s*$/)?.[0] || "";
+  let core = text.trim();
+  const exact = new Map([
+    ["説明", "説明だニャ"],
+    ["検索する", "探すニャ"],
+    ["初期表示に戻す", "最初に戻すニャ"],
+    ["ページ先頭", "ページ先頭へニャ"],
+    ["該当なし", "該当なしニャ"],
+    ["表示", "表示ニャ"],
+    ["選択", "選ぶニャ"],
+    ["検索", "探すニャ"],
+    ["集計", "集計ニャ"],
+    ["推移", "推移ニャ"],
+  ]);
+  if (exact.has(core)) return leading + exact.get(core) + trailing;
+  core = core
+    .replace(/固定分析を軽量な週次集計データで再計算する4ページ版です。/g, "固定分析を軽い週次データで再計算する4ページ版だニャ。")
+    .replace(/期間を切り替えても、4ページすべて同じ集計条件で再計算されます。/g, "期間を切り替えても、4ページまとめて同じ条件で再計算するニャ。")
+    .replace(/表示できる([^。]+?)がありません。/g, "表示できる$1がないニャ。")
+    .replace(/前週比で上昇した([^。]+?)はありません。/g, "前週比で上昇した$1はないニャ。")
+    .replace(/前週比で下降した([^。]+?)はありません。/g, "前週比で下降した$1はないニャ。")
+    .replace(/条件に合うデッキリストがありません/g, "条件に合うデッキリストはないニャ")
+    .replace(/してください/g, "してくれニャ")
+    .replace(/見ます/g, "見るニャ")
+    .replace(/付きます/g, "付くニャ")
+    .replace(/伸びます/g, "伸びるニャ")
+    .replace(/下げます/g, "下げるニャ")
+    .replace(/戻ります/g, "戻るニャ")
+    .replace(/続きます/g, "続くニャ")
+    .replace(/変わります/g, "変わるニャ")
+    .replace(/なります/g, "なるニャ")
+    .replace(/できます/g, "できるニャ")
+    .replace(/ありません/g, "ないニャ")
+    .replace(/います/g, "いるニャ")
+    .replace(/します/g, "するニャ")
+    .replace(/されます/g, "されるニャ")
+    .replace(/です/g, "だニャ")
+    .replace(/ます/g, "ニャ");
+  return leading + core + trailing;
+}
+function applyMeowTone(root=document.body){
+  if (!root) return;
+  const skipSelector = [
+    "script",
+    "style",
+    "svg",
+    "input",
+    "select",
+    "option",
+    "textarea",
+    "datalist",
+    ".label-text",
+    ".entity-link",
+    ".trend-label",
+    ".arch-breakdown-name",
+    ".decklist-code",
+    ".copy-code",
+    "[data-deck-code]",
+  ].join(",");
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node){
+      const parent = node.parentElement;
+      if (!parent || parent.closest(skipSelector)) return NodeFilter.FILTER_REJECT;
+      if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(node => { node.nodeValue = meowToneText(node.nodeValue); });
+  qsa("[aria-label], [title]").forEach(el => {
+    if (el.closest(skipSelector)) return;
+    if (el.hasAttribute("aria-label")) el.setAttribute("aria-label", meowToneText(el.getAttribute("aria-label")));
+    if (el.hasAttribute("title")) el.setAttribute("title", meowToneText(el.getAttribute("title")));
+  });
 }
 function kpiCard(label, valueHtml, noteText=""){
   return `<div class="kpi"><div class="metric-head"><div class="label">${label}</div>${tooltipIcon(noteText, "left")}</div><div class="value">${valueHtml}</div></div>`;
@@ -5639,6 +5719,7 @@ function renderPage(options={}){
   if (PAGE === "decks") renderDecks();
   if (PAGE === "cards") renderCards();
   if (PAGE === "decklists") renderDecklists();
+  applyMeowTone(document.body);
   bindSectionNavigation({preserveScroll});
   requestAnimationFrame(clampHorizontalLayout);
   requestAnimationFrame(bindStaticHeaderTouchGuards);
