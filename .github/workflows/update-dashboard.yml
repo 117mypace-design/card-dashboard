@@ -78,7 +78,11 @@ jobs:
         run: |
           from pathlib import Path
           import os
-          reports = sorted(Path("reports").glob("*_fullperiod.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+          reports = sorted(
+              (p for p in Path("reports").glob("*_fullperiod.json") if not p.name.startswith("__local_")),
+              key=lambda p: p.stat().st_mtime,
+              reverse=True,
+          )
           if not reports:
               raise SystemExit("No reports/*_fullperiod.json found")
           latest = reports[0].as_posix()

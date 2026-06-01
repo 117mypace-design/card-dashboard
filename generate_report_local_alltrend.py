@@ -1179,7 +1179,19 @@ def main() -> None:
     total_events = len(included_event_ids)
     print(f"  {total_decks} records from {total_events} events", flush=True)
     if total_decks == 0:
-        print("No records found. Exiting.", flush=True)
+        existing_reports = sorted(
+            (path for path in REPORT_DIR.glob("*_fullperiod.json") if not path.name.startswith("__local_")),
+            key=lambda path: path.stat().st_mtime,
+        )
+        if existing_reports:
+            latest = existing_reports[-1]
+            print(
+                "No records found for the current season. "
+                f"Keeping existing full-period data: {latest}",
+                flush=True,
+            )
+            return
+        print("No records found and no existing full-period data is available. Exiting.", flush=True)
         sys.exit(1)
 
     card_image_cache = load_card_image_cache()
