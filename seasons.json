@@ -100,6 +100,15 @@
         "拡張パック「アビスアイ」"
       ],
       "date_from": "20260522",
+      "date_to": "20260915"
+    },
+    {
+      "name": "30thCELEBRATION環境",
+      "release_date": "20260916",
+      "products": [
+        "拡張パック「30thCELEBRATION」"
+      ],
+      "date_from": "20260916",
       "date_to": "20991231"
     }
   ]
